@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RxAtlas — Anatomy & pharmacology</title>
+<meta name="description" content="Interactive anatomy and pharmacology atlas">
+<style>
+:root{font-family:Inter,system-ui,sans-serif;color:#17202a;background:#eef2f3}*{box-sizing:border-box}body{margin:0}button,input{font:inherit}a{color:inherit}.top{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;padding:17px 5vw;background:#f7fbfb;border-bottom:1px solid #c9d4d7}.brand{font-family:Georgia,serif;font-size:1.45rem;font-weight:700}.nav{display:flex;gap:18px}.nav a{text-decoration:none;font-weight:700}.hero{display:grid;grid-template-columns:1.4fr .8fr;gap:30px;padding:72px 5vw 48px;background:#d9e7e8;border-bottom:1px solid #b8c9cc}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-weight:800;font-size:.72rem;color:#52676b}.hero h1{font-family:Georgia,serif;font-size:clamp(2.7rem,6vw,5.7rem);line-height:.96;margin:.2em 0;max-width:13ch}.hero p{max-width:62ch;line-height:1.6}.search{background:#fff;border:1px solid #b8c9cc;border-radius:16px;padding:20px;align-self:end}.search input{width:100%;padding:12px;border:1px solid #91a7ab;border-radius:9px;margin:9px 0}.atlas{display:grid;grid-template-columns:250px minmax(360px,1fr) minmax(320px,1fr);min-height:720px}.regions,.viewer,.info{padding:26px}.regions{background:#f7fbfb;border-right:1px solid #c7d4d6}.regionBtn{display:grid;grid-template-columns:36px 1fr;width:100%;border:0;background:transparent;text-align:left;padding:10px;border-radius:8px;cursor:pointer}.regionBtn.active{background:#173b40;color:#fff}.viewer{background:#dfe8e9;border-right:1px solid #c7d4d6;display:grid;grid-template-rows:auto 1fr}.note{background:#ffffffbb;border:1px solid #bdcbcd;border-radius:12px;padding:12px;font-size:.85rem}.viewer svg{width:100%;height:100%;min-height:560px;color:#214e54}.hit{cursor:pointer}.dot{fill:#8cb7b9;stroke:#fff;stroke-width:1.1}.dot.active{fill:#ef8f70}.hit text{font-size:3.8px;fill:#173b40;font-weight:700}.info{background:#fff;overflow:auto}.info h2{font-family:Georgia,serif;font-size:2.6rem;margin:.2em 0}.subs,.chips{display:flex;flex-wrap:wrap;gap:8px}.subs span,.chips span{background:#e4eff0;padding:7px 9px;border-radius:999px}.geometry{margin:18px 0;padding:12px 14px;border-left:4px solid #d67c61;background:#fff2ed}.entry{border:1px solid #c6d2d4;border-radius:12px;padding:15px;margin:10px 0;background:#fbfdfd}.entry h4{margin:.4em 0}.meta{display:flex;justify-content:space-between;text-transform:uppercase;letter-spacing:.08em;font-size:.67rem;font-weight:800;color:#5b7074}.entry p{line-height:1.5}.coverage,.sources{padding:60px 5vw}.coverage{background:#173b40;color:#eff8f8}.coverage .eyebrow{color:#acd3d4}.coverage h2,.sources h2{font-family:Georgia,serif;font-size:clamp(2.3rem,5vw,4.5rem);margin:.2em 0;max-width:14ch}.coverage p,.sources p{max-width:78ch;line-height:1.65}.sources{background:#eff5f5}footer{padding:28px 5vw;background:#eff5f5;color:#5f7478}@media(max-width:980px){.hero,.atlas{grid-template-columns:1fr}.regions,.viewer{border-right:0;border-bottom:1px solid #c7d4d6}.viewer svg{min-height:450px}}@media(max-width:620px){.nav{font-size:.85rem;gap:8px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand">Rx Atlas <span style="color:#0b7178">β</span></div><nav class="nav"><a href="#body">Body</a><a href="#browse">Browse regions</a><a href="#sources">Sources</a></nav></header>
+<section class="hero"><div><div class="eyebrow">Human anatomy · pharmacology</div><h1>A new way to see the connections</h1><p>Explore a body region, understand a condition, and see how treatments connect back to anatomy.</p></div><div class="search"><b>Search conditions or drugs</b><input id="search" placeholder="Try asthma, metformin, thyroid…"><small>Educational reference only — not medical advice.</small></div></section>
+<section id="body" class="atlas">
+<aside id="browse" class="regions"><div class="eyebrow">Browse regions</div><div id="regionList"></div></aside>
+<div class="viewer"><div class="note"><b>Navigation schematic</b><br>Verified BodyParts3D geometry is intentionally not approximated in this public reconstruction.</div>
+<svg viewBox="0 0 100 110" role="img" aria-label="Schematic body-region navigation map">
+<g fill="none" stroke="currentColor" stroke-width="1.5" opacity=".75"><circle cx="50" cy="10" r="6"/><path d="M50 16 L50 58 M37 28 L63 28 M37 28 L28 55 M63 28 L72 55 M50 58 L40 96 M50 58 L60 96"/><path d="M42 22 Q50 18 58 22 L61 49 Q50 56 39 49 Z"/><path d="M42 97 L38 104 M58 97 L62 104"/></g><g id="svgHits"></g></svg></div>
+<article class="info"><div class="eyebrow">Selected region</div><h2 id="regionName"></h2><div id="subregions" class="subs"></div><div id="geometry"></div><h3 id="resultsTitle">Related conditions & drugs</h3><div id="results"></div></article>
+</section>
+<section class="coverage"><div class="eyebrow">Model coverage note</div><h2>Geometry should be verified, not invented</h2><p>The original project used BodyParts3D geometry. This public reconstruction deliberately ships without fabricated anatomy meshes. Verified GLB exports can be added later after checking source release, object identity, orientation, scale, and attribution.</p></section>
+<section id="sources" class="sources"><div class="eyebrow">Sources & content review</div><h2>Educational use only</h2><p>BodyParts3D data is produced by DBCLS and distributed under its applicable licensing terms. Verify the exact release and object IDs before publishing bundled geometry. This application is not medical advice and does not replace a licensed healthcare professional.</p></section>
+<footer>RxAtlas / reconstructed public build</footer>
+<script>
+const regions=[['Head',['Brain','Eye','Ear']],['Neck',['Thyroid','Pharynx']],['Chest',['Heart','Lung','Breast']],['Abdomen',['Liver','Stomach','Kidney']],['Pelvis',['Bladder','Reproductive organs']],['Back',['Spine','Paraspinal muscles']],['Arm',['Shoulder','Upper arm','Forearm']],['Hand',['Wrist','Palm','Digits']],['Leg',['Hip','Thigh','Knee','Lower leg']],['Foot',['Ankle','Midfoot','Toes']],['Whole body / Systemic',['Blood','Immune system']]];
+const entries=[
+['Migraine','Condition','Head','A recurrent neurologic disorder that can cause severe headache and sensory symptoms.','Treatment approaches can include trigger management, acute therapies, and preventive medications.'],
+['Hypertension','Condition','Whole body / Systemic','Persistently elevated blood pressure that increases cardiovascular and kidney risk.','Treatment often combines lifestyle changes with evidence-based antihypertensive medication.'],
+['Asthma','Condition','Chest','Chronic inflammatory airway disease with variable airflow obstruction.','Controller therapy commonly centers on inhaled corticosteroids with bronchodilators added based on control.'],
+['Type 2 diabetes','Condition','Whole body / Systemic','A metabolic disorder involving insulin resistance and elevated blood glucose.','Management can combine nutrition, activity, weight treatment, and glucose-lowering medications.'],
+['Levothyroxine','Drug','Neck','Synthetic thyroxine used to replace deficient thyroid hormone.','Dosing is individualized using thyroid function testing and patient factors.'],
+['Albuterol','Drug','Chest','A short-acting beta2 agonist bronchodilator.','Used for rapid relief of bronchospasm; frequent reliance can signal inadequate asthma control.'],
+['Lisinopril','Drug','Whole body / Systemic','An ACE inhibitor used for hypertension and selected cardiac or kidney indications.','Monitoring can include blood pressure, kidney function, and potassium.'],
+['Metformin','Drug','Whole body / Systemic','A common glucose-lowering medication used in type 2 diabetes.','It reduces hepatic glucose production and improves insulin sensitivity.']
+];
+const coords=[['Head',50,10],['Neck',50,20],['Chest',50,31],['Abdomen',50,44],['Pelvis',50,56],['Arm',21,37],['Hand',14,56],['Leg',41,72],['Foot',41,94],['Back',78,43]];
+let selected='Chest',q='';
+function render(){
+ document.getElementById('regionList').innerHTML=regions.map((r,i)=>'<button class="regionBtn '+(r[0]===selected?'active':'')+'" onclick="choose(\''+r[0]+'\')"><span>'+String(i+1).padStart(2,'0')+'</span><b>'+r[0]+'</b></button>').join('');
+ document.getElementById('svgHits').innerHTML=coords.map(c=>'<g class="hit" onclick="choose(\''+c[0]+'\')"><circle class="dot '+(c[0]===selected?'active':'')+'" cx="'+c[1]+'" cy="'+c[2]+'" r="'+(c[0]===selected?5:4)+'"/><text x="'+(c[1]+5)+'" y="'+(c[2]+1.5)+'">'+c[0]+'</text></g>').join('');
+ const r=regions.find(x=>x[0]===selected);document.getElementById('regionName').textContent=selected;document.getElementById('subregions').innerHTML=r[1].map(x=>'<span>'+x+'</span>').join('');
+ document.getElementById('geometry').innerHTML=selected==='Chest'?'<div class="geometry">Breast — no separate 3D geometry in this model. Region navigation remains available.</div>':selected==='Neck'?'<div class="geometry">Thyroid geometry must come from a verified BodyParts3D thyroid-gland asset before 3D rendering is enabled.</div>':'';
+ const filtered=entries.filter(e=>q?e.join(' ').toLowerCase().includes(q.toLowerCase()):e[2]===selected||e[2]==='Whole body / Systemic');
+ document.getElementById('resultsTitle').textContent=q?'Search results':'Related conditions & drugs';
+ document.getElementById('results').innerHTML=filtered.length?filtered.map(e=>'<article class="entry"><div class="meta"><span>'+e[1]+'</span><span>'+e[2]+'</span></div><h4>'+e[0]+'</h4><p>'+e[3]+'</p><details><summary>How it connects</summary><p>'+e[4]+'</p></details></article>').join(''):'<p>No matching starter entries yet.</p>';
+}
+function choose(r){selected=r;q='';document.getElementById('search').value='';render()}
+document.getElementById('search').addEventListener('input',e=>{q=e.target.value.trim();render()});render();
+</script>
+</body></html>
