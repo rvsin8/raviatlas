@@ -4,21 +4,27 @@ RxAtlas is an interactive anatomy and pharmacology atlas connecting body regions
 
 ## Live site
 
-GitHub Pages: https://rvsin8.github.io/raviatlas/
+https://rvsin8.github.io/raviatlas/
 
-## Local development
+## What is in this repo
 
-```bash
-npm install
-npm run dev
-```
+- Deployable static site in `index.html`
+- Browse-by-region navigation
+- Search across starter condition and drug entries
+- Region-specific subregions
+- Explicit geometry-coverage notices
+- GitHub Pages deployment workflow
 
-## Build
+Every push to `main` deploys through `.github/workflows/deploy.yml`.
 
-```bash
-npm run build
-```
+## Anatomy assets
 
-The `main` branch deploys automatically to GitHub Pages through GitHub Actions.
+The original project used BodyParts3D. This reconstruction deliberately does not invent or approximate missing anatomy meshes. Verified assets can be added later after checking object identity, release, orientation, scale, and attribution.
 
-> Educational use only. Not medical advice.
+## Medical disclaimer
+
+For educational purposes only. Not medical advice.
+
+## Source note
+
+This is a reconstructed, deployable source version based on the RxAtlas project specification and deployed prototype. The original generated source archive was not available for direct export, so this is not represented as a byte-for-byte copy.
