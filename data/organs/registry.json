@@ -1,0 +1,2299 @@
+{
+  "heart": {
+    "id": "heart",
+    "name": "Heart",
+    "classification": "Cardiovascular system · muscular organ",
+    "asset": "/models/organs/heart.glb",
+    "assetVersion": "bp3d-4.0-extracted-v1",
+    "referenceBody": "male",
+    "referenceNote": "Shared BodyParts3D adult-male organ reference, opened from either body. This is not a sex-specific organ reconstruction.",
+    "structures": [
+      {
+        "id": "right-atrium",
+        "name": "Right atrium",
+        "layer": "outer",
+        "description": "Receives oxygen-poor blood returning from the body.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2424",
+          "FJ2439"
+        ],
+        "fmaIds": [
+          "FMA11359",
+          "FMA13237",
+          "FMA9464",
+          "FMA24034",
+          "FMA7096",
+          "FMA67552",
+          "FMA5897",
+          "FMA67112",
+          "FMA7165",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA45626",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA61775",
+          "FMA62955",
+          "FMA9457",
+          "FMA13883",
+          "FMA13256",
+          "FMA86212",
+          "FMA73703",
+          "FMA86103",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165"
+        ],
+        "bounds": {
+          "min": [
+            -0.0362573005259037,
+            1.1830775737762451,
+            0.09243863821029663
+          ],
+          "max": [
+            0.006713423877954483,
+            1.2794978618621826,
+            0.16261768341064453
+          ]
+        }
+      },
+      {
+        "id": "left-atrium",
+        "name": "Left atrium",
+        "layer": "outer",
+        "description": "Receives oxygen-rich blood returning from the lungs.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2425",
+          "FJ2438"
+        ],
+        "fmaIds": [
+          "FMA9465",
+          "FMA13237",
+          "FMA9464",
+          "FMA24034",
+          "FMA67552",
+          "FMA7097",
+          "FMA5897",
+          "FMA67112",
+          "FMA7166",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA45623",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA61775",
+          "FMA62955",
+          "FMA9531",
+          "FMA13883",
+          "FMA13256",
+          "FMA86212",
+          "FMA73704",
+          "FMA86103",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165"
+        ],
+        "bounds": {
+          "min": [
+            -0.022880788892507553,
+            1.1994293928146362,
+            0.07017327100038528
+          ],
+          "max": [
+            0.06323889642953873,
+            1.2724037170410156,
+            0.1511523574590683
+          ]
+        }
+      },
+      {
+        "id": "right-ventricle",
+        "name": "Right ventricular cavity",
+        "layer": "chambers",
+        "description": "The right ventricle pumps blood toward the lungs. This mesh represents its cavity boundary, not its muscular wall.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2423"
+        ],
+        "fmaIds": [
+          "FMA9291",
+          "FMA13238",
+          "FMA9464",
+          "FMA24034",
+          "FMA67552",
+          "FMA5897",
+          "FMA7098",
+          "FMA67112",
+          "FMA7165",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA45626",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.018848422914743423,
+            1.1794774532318115,
+            0.11519282311201096
+          ],
+          "max": [
+            0.05266474559903145,
+            1.2600277662277222,
+            0.17341947555541992
+          ]
+        }
+      },
+      {
+        "id": "left-ventricle",
+        "name": "Left ventricular cavity",
+        "layer": "chambers",
+        "description": "The left ventricle pumps blood into the aorta. This mesh represents its cavity boundary, not its muscular wall.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2422"
+        ],
+        "fmaIds": [
+          "FMA9466",
+          "FMA13238",
+          "FMA9464",
+          "FMA24034",
+          "FMA67552",
+          "FMA7101",
+          "FMA5897",
+          "FMA67112",
+          "FMA7166",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA45623",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            0.006466364953666925,
+            1.1840674877166748,
+            0.08640331774950027
+          ],
+          "max": [
+            0.07025009393692017,
+            1.2515482902526855,
+            0.1585235446691513
+          ]
+        }
+      },
+      {
+        "id": "ventricular-wall",
+        "name": "Ventricular wall",
+        "layer": "outer",
+        "description": "Muscle surrounding the ventricles contracts to pump blood.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2428"
+        ],
+        "fmaIds": [
+          "FMA13884",
+          "FMA13256",
+          "FMA86212",
+          "FMA86103",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.023053839802742004,
+            1.1741935014724731,
+            0.08315058052539825
+          ],
+          "max": [
+            0.07913541793823242,
+            1.2658849954605103,
+            0.17660480737686157
+          ]
+        }
+      },
+      {
+        "id": "septum",
+        "name": "Interventricular septum",
+        "layer": "inner",
+        "description": "The muscular partition separates the ventricles. No independent source mesh is available here.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": false,
+        "sourceIds": [],
+        "fmaIds": []
+      },
+      {
+        "id": "tricuspid",
+        "name": "Tricuspid valve",
+        "layer": "valves",
+        "description": "Between right atrium and right ventricle; helps prevent backward flow.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2421",
+          "FJ2433",
+          "FJ2436"
+        ],
+        "fmaIds": [
+          "FMA7238",
+          "FMA7237",
+          "FMA7234",
+          "FMA9550",
+          "FMA67598",
+          "FMA7096",
+          "FMA9552",
+          "FMA7098",
+          "FMA7165",
+          "FMA14065",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA45626",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA7239",
+          "FMA7240"
+        ],
+        "bounds": {
+          "min": [
+            -0.021079018712043762,
+            1.1886416673660278,
+            0.11357635259628296
+          ],
+          "max": [
+            0.029501141980290413,
+            1.236475944519043,
+            0.15630707144737244
+          ]
+        }
+      },
+      {
+        "id": "mitral",
+        "name": "Mitral valve",
+        "layer": "valves",
+        "description": "Between left atrium and left ventricle; helps prevent backward flow.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2420",
+          "FJ2432"
+        ],
+        "fmaIds": [
+          "FMA7242",
+          "FMA7241",
+          "FMA9348",
+          "FMA9496",
+          "FMA9498",
+          "FMA7235",
+          "FMA9473",
+          "FMA9551",
+          "FMA67598",
+          "FMA7097",
+          "FMA9564",
+          "FMA7101",
+          "FMA7166",
+          "FMA14065",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA45623",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA7243",
+          "FMA9561",
+          "FMA86056",
+          "FMA87179",
+          "FMA9556",
+          "FMA9558",
+          "FMA83448",
+          "FMA84850",
+          "FMA84932",
+          "FMA73704"
+        ],
+        "bounds": {
+          "min": [
+            0.011719909496605396,
+            1.199598789215088,
+            0.08544331789016724
+          ],
+          "max": [
+            0.06285066157579422,
+            1.2359182834625244,
+            0.14160878956317902
+          ]
+        }
+      },
+      {
+        "id": "pulmonary",
+        "name": "Pulmonary valve",
+        "layer": "valves",
+        "description": "Between right ventricle and pulmonary trunk.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2417",
+          "FJ2427",
+          "FJ2434"
+        ],
+        "fmaIds": [
+          "FMA7247",
+          "FMA7248",
+          "FMA7216",
+          "FMA7246",
+          "FMA7232",
+          "FMA7098",
+          "FMA7165",
+          "FMA14065",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA45626",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA7250",
+          "FMA7249"
+        ],
+        "bounds": {
+          "min": [
+            0.008769312873482704,
+            1.2448989152908325,
+            0.12760227918624878
+          ],
+          "max": [
+            0.04092412069439888,
+            1.2652724981307983,
+            0.15958237648010254
+          ]
+        }
+      },
+      {
+        "id": "aortic",
+        "name": "Aortic valve",
+        "layer": "valves",
+        "description": "Between left ventricle and aorta.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2426",
+          "FJ2431",
+          "FJ2435"
+        ],
+        "fmaIds": [
+          "FMA7254",
+          "FMA7251",
+          "FMA7236",
+          "FMA9348",
+          "FMA9496",
+          "FMA9498",
+          "FMA7235",
+          "FMA9473",
+          "FMA9551",
+          "FMA7232",
+          "FMA7097",
+          "FMA9564",
+          "FMA7101",
+          "FMA7166",
+          "FMA14065",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA45623",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA7161",
+          "FMA20394",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA7252",
+          "FMA7253"
+        ],
+        "bounds": {
+          "min": [
+            0.005668713711202145,
+            1.2334123849868774,
+            0.10482867807149887
+          ],
+          "max": [
+            0.03238821029663086,
+            1.2550777196884155,
+            0.1324375867843628
+          ]
+        }
+      },
+      {
+        "id": "aorta",
+        "name": "Aorta",
+        "layer": "vessels",
+        "description": "Carries oxygen-rich blood into the systemic circulation.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ3411",
+          "FJ3413"
+        ],
+        "fmaIds": [
+          "FMA3768",
+          "FMA68045",
+          "FMA13087",
+          "FMA3734",
+          "FMA86256",
+          "FMA49894",
+          "FMA45623",
+          "FMA86187",
+          "FMA228642",
+          "FMA7161",
+          "FMA50722",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA3736"
+        ],
+        "bounds": {
+          "min": [
+            -0.006853239610791206,
+            1.2340748310089111,
+            0.04985148459672928
+          ],
+          "max": [
+            0.034842416644096375,
+            1.317086935043335,
+            0.13745151460170746
+          ]
+        }
+      },
+      {
+        "id": "svc",
+        "name": "Superior vena cava",
+        "layer": "vessels",
+        "description": "Returns blood from the upper body to the right atrium.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ3645"
+        ],
+        "fmaIds": [
+          "FMA4720",
+          "FMA62512",
+          "FMA82672",
+          "FMA30314",
+          "FMA45626",
+          "FMA86188",
+          "FMA228642",
+          "FMA7161",
+          "FMA50722",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.026624422520399094,
+            1.2747917175292969,
+            0.10358603298664093
+          ],
+          "max": [
+            -0.004112679976969957,
+            1.3097950220108032,
+            0.12727229297161102
+          ]
+        }
+      },
+      {
+        "id": "ivc",
+        "name": "Inferior vena cava",
+        "layer": "vessels",
+        "description": "Returns blood from the lower body to the right atrium.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ3441"
+        ],
+        "fmaIds": [
+          "FMA10951",
+          "FMA62512",
+          "FMA82673",
+          "FMA30314",
+          "FMA45626",
+          "FMA86188",
+          "FMA228642",
+          "FMA7161",
+          "FMA50722",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.02682017721235752,
+            1.171531319618225,
+            0.10353709012269974
+          ],
+          "max": [
+            -0.004014805890619755,
+            1.1905194520950317,
+            0.1265382170677185
+          ]
+        }
+      },
+      {
+        "id": "pulmonary-arteries",
+        "name": "Pulmonary trunk and arteries",
+        "layer": "vessels",
+        "description": "Carry oxygen-poor blood from the right ventricle toward the lungs.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2966",
+          "FJ2924",
+          "FJ3019"
+        ],
+        "fmaIds": [
+          "FMA8612",
+          "FMA8615",
+          "FMA30313",
+          "FMA9839",
+          "FMA79278",
+          "FMA9828",
+          "FMA79275",
+          "FMA45842",
+          "FMA24816",
+          "FMA45621",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA86187",
+          "FMA228642",
+          "FMA7161",
+          "FMA50722",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA50873",
+          "FMA66326",
+          "FMA50720",
+          "FMA50872"
+        ],
+        "bounds": {
+          "min": [
+            -0.05893819034099579,
+            1.2244045734405518,
+            0.05809521675109863
+          ],
+          "max": [
+            0.07905562222003937,
+            1.294040560722351,
+            0.1588376760482788
+          ]
+        }
+      },
+      {
+        "id": "pulmonary-veins",
+        "name": "Pulmonary veins",
+        "layer": "vessels",
+        "description": "Return oxygen-rich blood from the lungs to the left atrium.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2925",
+          "FJ2933",
+          "FJ2944",
+          "FJ2950",
+          "FJ2955",
+          "FJ3020",
+          "FJ3040"
+        ],
+        "fmaIds": [
+          "FMA49908",
+          "FMA3710",
+          "FMA14284",
+          "FMA49907",
+          "FMA55677",
+          "FMA49916",
+          "FMA55672",
+          "FMA45621",
+          "FMA55671",
+          "FMA228642",
+          "FMA7161",
+          "FMA67498",
+          "FMA20394",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA49910",
+          "FMA49913",
+          "FMA49914",
+          "FMA49911"
+        ],
+        "bounds": {
+          "min": [
+            -0.03713226318359375,
+            1.2015353441238403,
+            0.053516726940870285
+          ],
+          "max": [
+            0.08182130753993988,
+            1.2732166051864624,
+            0.1108524277806282
+          ]
+        }
+      },
+      {
+        "id": "coronary",
+        "name": "Coronary arteries",
+        "layer": "vessels",
+        "description": "Supply the heart muscle itself.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ2631",
+          "FJ2723",
+          "FJ2737",
+          "FJ2632",
+          "FJ2633",
+          "FJ2634",
+          "FJ2635",
+          "FJ2636",
+          "FJ2637",
+          "FJ2638",
+          "FJ2639",
+          "FJ2640",
+          "FJ2641",
+          "FJ2642",
+          "FJ2643",
+          "FJ2644",
+          "FJ2645",
+          "FJ2646",
+          "FJ2647",
+          "FJ2648",
+          "FJ2649",
+          "FJ2650",
+          "FJ2651",
+          "FJ2652",
+          "FJ2653",
+          "FJ2654",
+          "FJ2667",
+          "FJ2668",
+          "FJ2671",
+          "FJ2672",
+          "FJ2673",
+          "FJ2674",
+          "FJ2675",
+          "FJ2677",
+          "FJ2692",
+          "FJ2693",
+          "FJ2694",
+          "FJ2695",
+          "FJ2696",
+          "FJ2697",
+          "FJ2698",
+          "FJ2699",
+          "FJ2700",
+          "FJ2714",
+          "FJ2715",
+          "FJ2716",
+          "FJ2717",
+          "FJ2718",
+          "FJ2719",
+          "FJ2720",
+          "FJ2721",
+          "FJ2722"
+        ],
+        "fmaIds": [
+          "FMA4677",
+          "FMA74912",
+          "FMA3862",
+          "FMA49918",
+          "FMA50040",
+          "FMA30313",
+          "FMA7166",
+          "FMA7088",
+          "FMA9839",
+          "FMA79278",
+          "FMA9828",
+          "FMA79275",
+          "FMA24816",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA49894",
+          "FMA45623",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA86187",
+          "FMA228642",
+          "FMA7161",
+          "FMA50722",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA3802",
+          "FMA87218",
+          "FMA50039",
+          "FMA7165",
+          "FMA45626",
+          "FMA3855",
+          "FMA3872",
+          "FMA3870",
+          "FMA13914",
+          "FMA13921",
+          "FMA66328",
+          "FMA49893",
+          "FMA66464",
+          "FMA50720",
+          "FMA3860",
+          "FMA3876",
+          "FMA3868",
+          "FMA3874",
+          "FMA3895",
+          "FMA3818",
+          "FMA3813",
+          "FMA13912",
+          "FMA66327",
+          "FMA3815",
+          "FMA3840",
+          "FMA3835",
+          "FMA3837"
+        ],
+        "bounds": {
+          "min": [
+            -0.021714312955737114,
+            1.174917459487915,
+            0.08700332790613174
+          ],
+          "max": [
+            0.07939130067825317,
+            1.2610725164413452,
+            0.1765183061361313
+          ]
+        }
+      }
+    ],
+    "layers": [
+      "all",
+      "outer",
+      "chambers",
+      "valves",
+      "vessels"
+    ],
+    "availableAnimations": [
+      "cycle",
+      "flow"
+    ],
+    "conditions": [
+      {
+        "id": "aortic-dissection",
+        "name": "Aortic dissection",
+        "anatomy": [
+          "aorta"
+        ],
+        "summary": "Blood enters the wall of the aorta and separates its layers. Location, extent and treatment differ between cases.",
+        "symptoms": [
+          "Sudden severe chest or back pain",
+          "Symptoms vary"
+        ],
+        "treatment": "The existing exhibit shows true and false lumens. Repair may replace an affected segment or exclude an entry tear in selected cases; no universal repair is implied.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9860464/"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "coronary-artery-disease",
+        "name": "Coronary artery disease",
+        "anatomy": [
+          "coronary"
+        ],
+        "summary": "Plaque can narrow coronary arteries and limit blood supply to heart muscle.",
+        "symptoms": [
+          "Chest discomfort",
+          "Shortness of breath"
+        ],
+        "treatment": "Risk-factor care, medicines and selected procedures address different aspects of disease.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/coronary-heart-disease"
+        ],
+        "catalogRefs": [
+          "stable-angina"
+        ],
+        "drugRefs": [
+          "atorvastatin",
+          "nitroglycerin"
+        ],
+        "_review": "pending"
+      },
+      {
+        "id": "myocardial-infarction",
+        "name": "Myocardial infarction",
+        "anatomy": [
+          "coronary",
+          "ventricular-wall"
+        ],
+        "summary": "A sudden loss of blood supply can damage heart muscle. The highlighted wall is context, not an individual infarct map.",
+        "symptoms": [
+          "Chest discomfort",
+          "Breathlessness",
+          "Symptoms may be atypical"
+        ],
+        "treatment": "Emergency treatment aims to restore blood supply and limit injury.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart-attack"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "heart-failure",
+        "name": "Heart failure",
+        "anatomy": [
+          "ventricular-wall"
+        ],
+        "summary": "The heart cannot fill or pump adequately for the body’s needs. Different forms have different mechanisms.",
+        "symptoms": [
+          "Breathlessness",
+          "Fatigue",
+          "Swelling"
+        ],
+        "treatment": "Medicines, lifestyle support and selected devices or procedures depend on the type of heart failure.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart-failure"
+        ],
+        "catalogRefs": [
+          "heart-failure"
+        ],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "aortic-stenosis",
+        "name": "Aortic stenosis",
+        "anatomy": [
+          "aortic",
+          "left-ventricle"
+        ],
+        "summary": "A narrowed aortic valve obstructs outflow from the left ventricle.",
+        "symptoms": [
+          "Breathlessness",
+          "Chest discomfort",
+          "Fainting"
+        ],
+        "treatment": "Severe symptomatic disease may require valve replacement; medicines do not remove the valve obstruction.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart-valve-diseases"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "mitral-regurgitation",
+        "name": "Mitral regurgitation",
+        "anatomy": [
+          "mitral",
+          "left-atrium"
+        ],
+        "summary": "Incomplete mitral valve closure allows blood to leak backward during ventricular contraction.",
+        "symptoms": [
+          "Breathlessness",
+          "Fatigue"
+        ],
+        "treatment": "Management depends on the cause and severity and may include valve repair or replacement.",
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/heart-valve-diseases"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      }
+    ],
+    "sources": [
+      "https://www.nhlbi.nih.gov/health/heart/blood-flow"
+    ],
+    "validation": {
+      "geometry": "Retained registered source surfaces",
+      "medicalReview": "pending",
+      "animation": "Educational schematic, not measured motion"
+    },
+    "attribution": {
+      "text": "BodyParts3D © DBCLS · CC BY 4.0",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+    },
+    "disabledCapabilities": [
+      {
+        "name": "Valve leaflet motion",
+        "reason": "No validated hinge rig or motion data."
+      },
+      {
+        "name": "True sectional geometry",
+        "reason": "Internal view hides surfaces; it does not invent a cut section."
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.05893819034099579,
+        1.171531319618225,
+        0.04985148459672928
+      ],
+      "max": [
+        0.08182130753993988,
+        1.317086935043335,
+        0.17660480737686157
+      ]
+    },
+    "metrics": {
+      "bytes": 585072,
+      "triangles": 90276
+    }
+  },
+  "brain": {
+    "id": "brain",
+    "name": "Brain",
+    "classification": "Central nervous system · encephalon",
+    "asset": "/models/organs/brain.glb",
+    "assetVersion": "bp3d-4.0-extracted-v1",
+    "referenceBody": "male",
+    "referenceNote": "Shared BodyParts3D adult-male organ reference, opened from either body. This is not a sex-specific organ reconstruction.",
+    "structures": [
+      {
+        "id": "frontal",
+        "name": "Frontal lobe",
+        "layer": "outer",
+        "description": "Participates in planning, movement and other functions within distributed networks.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1744",
+          "FJ1745",
+          "FJ1787",
+          "FJ1788",
+          "FJ1800",
+          "FJ1801",
+          "FJ1833",
+          "FJ1834"
+        ],
+        "fmaIds": [
+          "FMA72658",
+          "FMA61860",
+          "FMA242182",
+          "FMA242209",
+          "FMA242627",
+          "FMA72970",
+          "FMA46448",
+          "FMA61819",
+          "FMA83874",
+          "FMA61820",
+          "FMA61996",
+          "FMA62374",
+          "FMA62000",
+          "FMA55676",
+          "FMA61992",
+          "FMA256237",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72657",
+          "FMA242180",
+          "FMA242207",
+          "FMA242625",
+          "FMA72969",
+          "FMA67292",
+          "FMA72656",
+          "FMA61859",
+          "FMA72655",
+          "FMA72662",
+          "FMA61894",
+          "FMA72661",
+          "FMA72654",
+          "FMA61857",
+          "FMA72653"
+        ],
+        "bounds": {
+          "min": [
+            -0.06415499001741409,
+            1.5464801788330078,
+            0.039271727204322815
+          ],
+          "max": [
+            0.0628882497549057,
+            1.630462408065796,
+            0.1696770042181015
+          ]
+        }
+      },
+      {
+        "id": "parietal",
+        "name": "Parietal lobe",
+        "layer": "outer",
+        "description": "Participates in body sensation and spatial processing.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1732",
+          "FJ1733",
+          "FJ1797",
+          "FJ1798",
+          "FJ1835",
+          "FJ1836",
+          "FJ1841",
+          "FJ1842"
+        ],
+        "fmaIds": [
+          "FMA72670",
+          "FMA61898",
+          "FMA72974",
+          "FMA61733",
+          "FMA61819",
+          "FMA83874",
+          "FMA61820",
+          "FMA61996",
+          "FMA62374",
+          "FMA62000",
+          "FMA55676",
+          "FMA61992",
+          "FMA256237",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72669",
+          "FMA72973",
+          "FMA61732",
+          "FMA67292",
+          "FMA72666",
+          "FMA61896",
+          "FMA72665",
+          "FMA72672",
+          "FMA61899",
+          "FMA81150",
+          "FMA72671",
+          "FMA72668",
+          "FMA61897",
+          "FMA72667"
+        ],
+        "bounds": {
+          "min": [
+            -0.06970620155334473,
+            1.5392946004867554,
+            -0.0064618587493896484
+          ],
+          "max": [
+            0.06879103928804398,
+            1.6236944198608398,
+            0.08791413903236389
+          ]
+        }
+      },
+      {
+        "id": "temporal",
+        "name": "Temporal lobe",
+        "layer": "outer",
+        "description": "Participates in hearing, memory and language-related networks.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1837",
+          "FJ1838",
+          "FJ1839",
+          "FJ1840",
+          "FJ1746",
+          "FJ1747",
+          "FJ1783",
+          "FJ1784",
+          "FJ1785",
+          "FJ1786",
+          "FJ1789",
+          "FJ1790"
+        ],
+        "fmaIds": [
+          "FMA72801",
+          "FMA70701",
+          "FMA67957",
+          "FMA70676",
+          "FMA61820",
+          "FMA61996",
+          "FMA62374",
+          "FMA55676",
+          "FMA256237",
+          "FMA86140",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72800",
+          "FMA72805",
+          "FMA70703",
+          "FMA72804",
+          "FMA72688",
+          "FMA61907",
+          "FMA72972",
+          "FMA61819",
+          "FMA83874",
+          "FMA62000",
+          "FMA61992",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA20394",
+          "FMA72687",
+          "FMA72971",
+          "FMA67292",
+          "FMA72690",
+          "FMA61908",
+          "FMA72689",
+          "FMA72706",
+          "FMA61918",
+          "FMA72705",
+          "FMA72980",
+          "FMA72686",
+          "FMA61906",
+          "FMA72685"
+        ],
+        "bounds": {
+          "min": [
+            -0.07115163654088974,
+            1.5135053396224976,
+            0.013998770155012608
+          ],
+          "max": [
+            0.06970355659723282,
+            1.5729899406433105,
+            0.1280899941921234
+          ]
+        }
+      },
+      {
+        "id": "occipital",
+        "name": "Occipital lobe",
+        "layer": "outer",
+        "description": "Contains important visual-processing regions.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1791",
+          "FJ1792"
+        ],
+        "fmaIds": [
+          "FMA72976",
+          "FMA67325",
+          "FMA61823",
+          "FMA61819",
+          "FMA61820",
+          "FMA61996",
+          "FMA62374",
+          "FMA62000",
+          "FMA55676",
+          "FMA61992",
+          "FMA256237",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72975",
+          "FMA67292"
+        ],
+        "bounds": {
+          "min": [
+            -0.044826023280620575,
+            1.517735242843628,
+            -0.010329299606382847
+          ],
+          "max": [
+            0.04352632164955139,
+            1.5715553760528564,
+            0.05295060575008392
+          ]
+        }
+      },
+      {
+        "id": "cerebellum",
+        "name": "Cerebellum",
+        "layer": "outer",
+        "description": "Contributes to motor coordination and learning.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1781",
+          "FJ1830"
+        ],
+        "fmaIds": [
+          "FMA67944",
+          "FMA62003",
+          "FMA67687",
+          "FMA270201",
+          "FMA256237",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.053926050662994385,
+            1.4872435331344604,
+            0.012207881547510624
+          ],
+          "max": [
+            0.05261535570025444,
+            1.5405142307281494,
+            0.06846706569194794
+          ]
+        }
+      },
+      {
+        "id": "brainstem",
+        "name": "Brainstem",
+        "layer": "inner",
+        "description": "Connects brain and spinal cord and supports vital autonomic functions.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1774",
+          "FJ1821",
+          "FJ1769",
+          "FJ1770",
+          "FJ1775",
+          "FJ1817",
+          "FJ1822",
+          "FJ1831"
+        ],
+        "fmaIds": [
+          "FMA62394",
+          "FMA83860",
+          "FMA83465",
+          "FMA83929",
+          "FMA83115",
+          "FMA83143",
+          "FMA49443",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA61998",
+          "FMA62004",
+          "FMA67687",
+          "FMA79876",
+          "FMA270201",
+          "FMA55676",
+          "FMA256237",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA86140",
+          "FMA20394",
+          "FMA67619",
+          "FMA82472",
+          "FMA61815",
+          "FMA61993",
+          "FMA67942",
+          "FMA67943",
+          "FMA62003"
+        ],
+        "bounds": {
+          "min": [
+            -0.021896185353398323,
+            1.4644975662231445,
+            0.05124761164188385
+          ],
+          "max": [
+            0.02062128111720085,
+            1.5457477569580078,
+            0.09925249218940735
+          ]
+        }
+      },
+      {
+        "id": "thalamus",
+        "name": "Thalamus",
+        "layer": "inner",
+        "description": "Participates in relaying and integrating information across brain networks.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1782",
+          "FJ1827"
+        ],
+        "fmaIds": [
+          "FMA258716",
+          "FMA62007",
+          "FMA83153",
+          "FMA14065",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA258714"
+        ],
+        "bounds": {
+          "min": [
+            -0.02460985630750656,
+            1.5420743227005005,
+            0.061808910220861435
+          ],
+          "max": [
+            0.02337607741355896,
+            1.5657514333724976,
+            0.09839577972888947
+          ]
+        }
+      },
+      {
+        "id": "hypothalamus",
+        "name": "Hypothalamus",
+        "layer": "inner",
+        "description": "Helps regulate internal balance, hormones and autonomic functions.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1760",
+          "FJ1808"
+        ],
+        "fmaIds": [
+          "FMA62008",
+          "FMA83153",
+          "FMA62001",
+          "FMA61992",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA14065",
+          "FMA54545",
+          "FMA7154",
+          "FMA20394",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.00826936960220337,
+            1.532230019569397,
+            0.09223204851150513
+          ],
+          "max": [
+            0.006958679761737585,
+            1.552094578742981,
+            0.11017664521932602
+          ]
+        }
+      },
+      {
+        "id": "hippocampus",
+        "name": "Hippocampus",
+        "layer": "inner",
+        "description": "Participates in learning and memory formation alongside connected regions.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1759",
+          "FJ1807"
+        ],
+        "fmaIds": [
+          "FMA72714",
+          "FMA242611",
+          "FMA261141",
+          "FMA62493",
+          "FMA242193",
+          "FMA72981",
+          "FMA61819",
+          "FMA86103",
+          "FMA62000",
+          "FMA61992",
+          "FMA50801",
+          "FMA7157",
+          "FMA55675",
+          "FMA54545",
+          "FMA7154",
+          "FMA20394",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72713",
+          "FMA242609",
+          "FMA261139",
+          "FMA72980",
+          "FMA67292"
+        ],
+        "bounds": {
+          "min": [
+            -0.03790418431162834,
+            1.529252529144287,
+            0.05944669619202614
+          ],
+          "max": [
+            0.03660448268055916,
+            1.5512375831604004,
+            0.10236485302448273
+          ]
+        }
+      },
+      {
+        "id": "amygdala",
+        "name": "Amygdala",
+        "layer": "inner",
+        "description": "Participates in emotion-related learning and processing, within broader networks.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1753",
+          "FJ1829"
+        ],
+        "fmaIds": [
+          "FMA72833",
+          "FMA61841",
+          "FMA62514",
+          "FMA84059",
+          "FMA223151",
+          "FMA67242",
+          "FMA83115",
+          "FMA83143",
+          "FMA49443",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72832"
+        ],
+        "bounds": {
+          "min": [
+            -0.03463037684559822,
+            1.53196120262146,
+            0.08914933353662491
+          ],
+          "max": [
+            0.0333554707467556,
+            1.5448006391525269,
+            0.10756655037403107
+          ]
+        }
+      },
+      {
+        "id": "basal-ganglia",
+        "name": "Basal ganglia",
+        "layer": "inner",
+        "description": "Contribute to movement and learning through interconnected circuits.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1754",
+          "FJ1757",
+          "FJ1776",
+          "FJ1802",
+          "FJ1805",
+          "FJ1823"
+        ],
+        "fmaIds": [
+          "FMA72827",
+          "FMA61833",
+          "FMA83686",
+          "FMA83840",
+          "FMA223151",
+          "FMA67242",
+          "FMA83115",
+          "FMA83143",
+          "FMA49443",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA72831",
+          "FMA61835",
+          "FMA72829",
+          "FMA61834",
+          "FMA72826",
+          "FMA72830",
+          "FMA72828"
+        ],
+        "bounds": {
+          "min": [
+            -0.035682789981365204,
+            1.5402752161026,
+            0.06031322851777077
+          ],
+          "max": [
+            0.03440788388252258,
+            1.5773200988769531,
+            0.1239841878414154
+          ]
+        }
+      },
+      {
+        "id": "corpus-callosum",
+        "name": "Corpus callosum",
+        "layer": "inner",
+        "description": "A major white-matter connection between the cerebral hemispheres.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1742"
+        ],
+        "fmaIds": [
+          "FMA86464",
+          "FMA83930",
+          "FMA83929",
+          "FMA83115",
+          "FMA83143",
+          "FMA49443",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955"
+        ],
+        "bounds": {
+          "min": [
+            -0.0265268012881279,
+            1.5443795919418335,
+            0.0394754558801651
+          ],
+          "max": [
+            0.02514665387570858,
+            1.5833189487457275,
+            0.13103534281253815
+          ]
+        }
+      },
+      {
+        "id": "cerebral-arteries",
+        "name": "Cerebral arteries",
+        "layer": "vessels",
+        "description": "Major arteries supply brain tissue. This surface model is not a verified flow network.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain"
+        ],
+        "parentId": null,
+        "_review": "pending",
+        "available": true,
+        "sourceIds": [
+          "FJ1693",
+          "FJ1693M",
+          "FJ1717",
+          "FJ1717M",
+          "FJ1654",
+          "FJ1654M",
+          "FJ1655",
+          "FJ1662",
+          "FJ1663",
+          "FJ1672",
+          "FJ1692",
+          "FJ1713",
+          "FJ1713M",
+          "FJ1723",
+          "FJ1723M",
+          "FJ1844",
+          "FJ1660",
+          "FJ1660M",
+          "FJ1692M",
+          "FJ1694",
+          "FJ1694M",
+          "FJ1714",
+          "FJ1714M",
+          "FJ1718",
+          "FJ1718M",
+          "FJ1662M",
+          "FJ1663M",
+          "FJ1673",
+          "FJ1673M",
+          "FJ1679",
+          "FJ1679M",
+          "FJ1721",
+          "FJ1721M",
+          "FJ1729",
+          "FJ1729M"
+        ],
+        "fmaIds": [
+          "FMA50467",
+          "FMA50466",
+          "FMA50439",
+          "FMA50081",
+          "FMA70506",
+          "FMA70523",
+          "FMA70504",
+          "FMA66464",
+          "FMA50720",
+          "FMA86187",
+          "FMA50722",
+          "FMA86140",
+          "FMA67619",
+          "FMA82472",
+          "FMA67135",
+          "FMA67165",
+          "FMA61775",
+          "FMA62955",
+          "FMA50468",
+          "FMA50470",
+          "FMA50469",
+          "FMA50471",
+          "FMA50029",
+          "FMA50028",
+          "FMA3949",
+          "FMA3941",
+          "FMA3932",
+          "FMA9827",
+          "FMA79274",
+          "FMA9826",
+          "FMA79273",
+          "FMA79269",
+          "FMA260456",
+          "FMA49894",
+          "FMA45623",
+          "FMA85008",
+          "FMA7563",
+          "FMA9576",
+          "FMA259209",
+          "FMA7181",
+          "FMA231424",
+          "FMA228642",
+          "FMA7161",
+          "FMA20394",
+          "FMA50030",
+          "FMA4062",
+          "FMA4058",
+          "FMA50169",
+          "FMA50454",
+          "FMA50031",
+          "FMA50377",
+          "FMA50082",
+          "FMA50376",
+          "FMA79631",
+          "FMA50542",
+          "FMA3958",
+          "FMA4066",
+          "FMA3953",
+          "FMA4694",
+          "FMA70345",
+          "FMA50366",
+          "FMA61991",
+          "FMA50365",
+          "FMA50080",
+          "FMA66332",
+          "FMA55268",
+          "FMA50085",
+          "FMA50084",
+          "FMA50086",
+          "FMA50639",
+          "FMA50590",
+          "FMA50589",
+          "FMA50640",
+          "FMA50369",
+          "FMA50368",
+          "FMA50370",
+          "FMA50367",
+          "FMA50641",
+          "FMA50591",
+          "FMA50642",
+          "FMA76128",
+          "FMA75865",
+          "FMA76107",
+          "FMA76127",
+          "FMA49918",
+          "FMA30313",
+          "FMA76129",
+          "FMA50378",
+          "FMA50476",
+          "FMA50475",
+          "FMA50477",
+          "FMA50428",
+          "FMA50168",
+          "FMA50427",
+          "FMA50429",
+          "FMA50660",
+          "FMA50587",
+          "FMA51886",
+          "FMA50661",
+          "FMA50473",
+          "FMA50472",
+          "FMA50474"
+        ],
+        "bounds": {
+          "min": [
+            -0.07092436403036118,
+            1.502637505531311,
+            -0.009757974185049534
+          ],
+          "max": [
+            0.0709308534860611,
+            1.5904310941696167,
+            0.12120391428470612
+          ]
+        }
+      }
+    ],
+    "layers": [
+      "all",
+      "outer",
+      "inner",
+      "vessels"
+    ],
+    "availableAnimations": [
+      "signal"
+    ],
+    "conditions": [
+      {
+        "id": "alzheimers",
+        "name": "Alzheimer’s disease",
+        "anatomy": [
+          "hippocampus",
+          "temporal",
+          "parietal"
+        ],
+        "summary": "Alzheimer’s involves changes in proteins, synapses and neurons across networks. Its course varies between individuals.",
+        "symptoms": [
+          "Memory difficulties",
+          "Changes in thinking and daily function"
+        ],
+        "treatment": "Symptom-directed medicines and selected early-disease amyloid therapies address different mechanisms. Eligibility and monitoring require specialist assessment.",
+        "sources": [
+          "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease",
+          "https://www.nia.nih.gov/health/how-alzheimers-disease-treated"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "parkinsons",
+        "name": "Parkinson’s disease",
+        "anatomy": [
+          "basal-ganglia",
+          "brainstem"
+        ],
+        "summary": "Loss of dopamine-producing neurons disrupts movement circuits. Highlighted structures are circuit context, not an exact lesion map.",
+        "symptoms": [
+          "Slowness",
+          "Stiffness",
+          "Tremor"
+        ],
+        "treatment": "Dopamine-related medicines, rehabilitation and selected procedures can help symptoms. Dedicated medicines are not yet in this catalog.",
+        "sources": [
+          "https://www.ninds.nih.gov/current-research/focus-disorders/parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "ischemic-stroke",
+        "name": "Ischemic stroke",
+        "anatomy": [
+          "cerebral-arteries"
+        ],
+        "summary": "An arterial blockage reduces blood supply to part of the brain. Effects depend on the territory and duration.",
+        "symptoms": [
+          "Sudden weakness",
+          "Speech or vision changes"
+        ],
+        "treatment": "Emergency assessment identifies candidates for clot-dissolving medicine or clot retrieval. Alteplase is a catalog example, not appropriate for every stroke.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/stroke/stroke-overview"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [
+          "alteplase"
+        ],
+        "_review": "pending"
+      },
+      {
+        "id": "hemorrhagic-stroke",
+        "name": "Hemorrhagic stroke",
+        "anatomy": [
+          "cerebral-arteries"
+        ],
+        "summary": "Bleeding in or around the brain can injure tissue and raise pressure. This model does not show an individual hemorrhage.",
+        "symptoms": [
+          "Sudden neurological symptoms",
+          "Severe headache may occur"
+        ],
+        "treatment": "Emergency care differs from ischemic stroke; clot-dissolving drugs do not treat brain bleeding.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/stroke/stroke-overview"
+        ],
+        "catalogRefs": [],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "epilepsy",
+        "name": "Epilepsy",
+        "anatomy": [
+          "frontal",
+          "temporal"
+        ],
+        "summary": "Recurrent seizures arise from abnormal electrical activity in brain networks. Many different regions and causes can be involved.",
+        "symptoms": [
+          "Seizures",
+          "Altered awareness in some seizures"
+        ],
+        "treatment": "Antiseizure medicines and selected non-drug approaches can help. Highlighted lobes are examples, not exclusive origins.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/disorders/epilepsy-and-seizures"
+        ],
+        "catalogRefs": [
+          "epilepsy"
+        ],
+        "drugRefs": [],
+        "_review": "pending"
+      },
+      {
+        "id": "multiple-sclerosis",
+        "name": "Multiple sclerosis",
+        "anatomy": [
+          "corpus-callosum",
+          "brainstem"
+        ],
+        "summary": "Immune-mediated injury affects myelin and nerve fibers in the central nervous system. Brain and spinal cord involvement varies.",
+        "symptoms": [
+          "Sensory changes",
+          "Weakness",
+          "Visual symptoms"
+        ],
+        "treatment": "Disease-modifying therapy differs from symptom relief. Baclofen in this catalog addresses spasticity; it does not modify the disease.",
+        "sources": [
+          "https://www.ninds.nih.gov/health-information/disorders/multiple-sclerosis"
+        ],
+        "catalogRefs": [
+          "multiple-sclerosis"
+        ],
+        "drugRefs": [],
+        "_review": "pending"
+      }
+    ],
+    "sources": [
+      "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain",
+      "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+    ],
+    "validation": {
+      "geometry": "Retained registered source surfaces",
+      "medicalReview": "pending",
+      "animation": "Educational schematic, not measured motion"
+    },
+    "attribution": {
+      "text": "BodyParts3D © DBCLS · CC BY 4.0",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+    },
+    "disabledCapabilities": [
+      {
+        "name": "Sagittal section",
+        "reason": "No validated sectional asset."
+      },
+      {
+        "name": "Cerebral perfusion animation",
+        "reason": "No verified connected centerlines and flow directions."
+      }
+    ],
+    "exhibit": [
+      {
+        "title": "Healthy anatomy",
+        "text": "Explore a reference brain. This teaching model is not a diagnostic scan.",
+        "structure": null,
+        "view": "macro",
+        "sources": [
+          "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+        ],
+        "_review": "pending"
+      },
+      {
+        "title": "Memory networks",
+        "text": "The hippocampus participates in memory alongside connected regions. Complex functions belong to networks.",
+        "structure": "hippocampus",
+        "view": "macro",
+        "sources": [
+          "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+        ],
+        "_review": "pending"
+      },
+      {
+        "title": "Amyloid and tau",
+        "text": "At microscopic scale, amyloid can accumulate between neurons and abnormal tau within them. This diagram is symbolic, not to scale.",
+        "structure": null,
+        "view": "micro",
+        "sources": [
+          "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+        ],
+        "_review": "pending"
+      },
+      {
+        "title": "Synapses and neurons",
+        "text": "Disrupted communication and neuronal dysfunction affect networks. Moving markers represent a concept, not measured activity.",
+        "structure": null,
+        "view": "network",
+        "sources": [
+          "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+        ],
+        "_review": "pending"
+      },
+      {
+        "title": "Regional vulnerability",
+        "text": "Memory-related regions may be affected early, with broader involvement over time. Highlights do not predict an individual’s progression.",
+        "structure": "temporal",
+        "view": "macro",
+        "sources": [
+          "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+        ],
+        "_review": "pending"
+      },
+      {
+        "title": "Treatment mechanisms",
+        "text": "Cholinesterase inhibitors and an NMDA-receptor antagonist address symptoms. Amyloid-targeting antibodies can slow decline in selected early disease, with risks and monitoring needs.",
+        "structure": null,
+        "view": "treatments",
+        "sources": [
+          "https://www.nia.nih.gov/health/how-alzheimers-disease-treated"
+        ],
+        "_review": "pending"
+      }
+    ],
+    "bounds": {
+      "min": [
+        -0.07115163654088974,
+        1.4644975662231445,
+        -0.010329299606382847
+      ],
+      "max": [
+        0.0709308534860611,
+        1.630462408065796,
+        0.1696770042181015
+      ]
+    },
+    "metrics": {
+      "bytes": 1068060,
+      "triangles": 194024
+    }
+  }
+}
