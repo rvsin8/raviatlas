@@ -2,7 +2,7 @@
   "heart": {
     "id": "heart",
     "name": "Heart",
-    "classification": "Cardiovascular system · muscular organ",
+    "classification": "Cardiovascular system \u00b7 muscular organ",
     "asset": "/models/organs/heart.glb",
     "assetVersion": "bp3d-4.0-extracted-v1",
     "referenceBody": "male",
@@ -1090,7 +1090,7 @@
         "anatomy": [
           "ventricular-wall"
         ],
-        "summary": "The heart cannot fill or pump adequately for the body’s needs. Different forms have different mechanisms.",
+        "summary": "The heart cannot fill or pump adequately for the body\u2019s needs. Different forms have different mechanisms.",
         "symptoms": [
           "Breathlessness",
           "Fatigue",
@@ -1157,7 +1157,7 @@
       "animation": "Educational schematic, not measured motion"
     },
     "attribution": {
-      "text": "BodyParts3D © DBCLS · CC BY 4.0",
+      "text": "BodyParts3D \u00a9 DBCLS \u00b7 CC BY 4.0",
       "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
     },
     "disabledCapabilities": [
@@ -1190,7 +1190,7 @@
   "brain": {
     "id": "brain",
     "name": "Brain",
-    "classification": "Central nervous system · encephalon",
+    "classification": "Central nervous system \u00b7 encephalon",
     "asset": "/models/organs/brain.glb",
     "assetVersion": "bp3d-4.0-extracted-v1",
     "referenceBody": "male",
@@ -2066,14 +2066,32 @@
     ],
     "conditions": [
       {
+        "id": "brain-tumor",
+        "name": "Brain tumors",
+        "anatomy": [],
+        "summary": "Brain tumors are abnormal growths of cells, with many different types and locations. The linked MRI example is a glioma research case; it does not represent all brain tumors.",
+        "symptoms": [
+          "Symptoms depend on location",
+          "Headaches or seizures can occur",
+          "Changes in movement, vision or thinking can occur"
+        ],
+        "treatment": "Treatment depends on tumor type, location and individual clinical information. Surgery, radiation and systemic drug therapy are different categories; an MRI label alone cannot select among them. No tumor-specific drug record is currently in this catalog.",
+        "catalogRefs": [],
+        "drugRefs": [],
+        "sources": [
+          "https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"
+        ],
+        "_review": "pending"
+      },
+      {
         "id": "alzheimers",
-        "name": "Alzheimer’s disease",
+        "name": "Alzheimer\u2019s disease",
         "anatomy": [
           "hippocampus",
           "temporal",
           "parietal"
         ],
-        "summary": "Alzheimer’s involves changes in proteins, synapses and neurons across networks. Its course varies between individuals.",
+        "summary": "Alzheimer\u2019s involves changes in proteins, synapses and neurons across networks. Its course varies between individuals.",
         "symptoms": [
           "Memory difficulties",
           "Changes in thinking and daily function"
@@ -2089,7 +2107,7 @@
       },
       {
         "id": "parkinsons",
-        "name": "Parkinson’s disease",
+        "name": "Parkinson\u2019s disease",
         "anatomy": [
           "basal-ganglia",
           "brainstem"
@@ -2204,7 +2222,7 @@
       "animation": "Educational schematic, not measured motion"
     },
     "attribution": {
-      "text": "BodyParts3D © DBCLS · CC BY 4.0",
+      "text": "BodyParts3D \u00a9 DBCLS \u00b7 CC BY 4.0",
       "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
     },
     "disabledCapabilities": [
@@ -2260,7 +2278,7 @@
       },
       {
         "title": "Regional vulnerability",
-        "text": "Memory-related regions may be affected early, with broader involvement over time. Highlights do not predict an individual’s progression.",
+        "text": "Memory-related regions may be affected early, with broader involvement over time. Highlights do not predict an individual\u2019s progression.",
         "structure": "temporal",
         "view": "macro",
         "sources": [
