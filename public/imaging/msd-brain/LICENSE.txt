@@ -1,0 +1,9 @@
+Medical Segmentation Decathlon / BraTS contributors.
+Task01 BrainTumour, release 2.0 04/05/2018, case BRATS_457.
+CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+https://medicaldecathlon.com/
+https://registry.opendata.aws/msd/
+https://doi.org/10.1038/s41467-022-30695-9
+https://www.med.upenn.edu/sbia/brats2017/data.html
+Adaptations: RAS reorientation; 16-bit MRI signal quantization; lossless mask compression; mask-derived marching-cubes surfaces and image-support context.
+All derived imaging assets in this directory are distributed under CC BY-SA 4.0. They have not been clinically validated by RxAtlas.

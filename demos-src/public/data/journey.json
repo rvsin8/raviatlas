@@ -1,0 +1,205 @@
+{
+  "_review": "pending",
+  "drug": "Carvedilol",
+  "strength": "25 mg",
+  "package": "100 tablets",
+  "sourceNote": "Product-label reconstruction; not a tracked physical bottle. Every arc is illustrative. Strength identifies the package, not an instruction to take it.",
+  "bottles": [
+    {
+      "id": "aurobindo",
+      "name": "Aurobindo",
+      "ndc": "65862-145-01",
+      "sources": [
+        "label"
+      ],
+      "stops": [
+        {
+          "role": "Active ingredient",
+          "company": null,
+          "city": null,
+          "country": null,
+          "lat": null,
+          "lng": null,
+          "evidence": "illustrative",
+          "note": "API supplier and synthesis site are not identified by these bottle labels. No pin is invented.",
+          "what": "Chemical synthesis produces the active pharmaceutical ingredient. This is a typical manufacturing stage, not a verified supplier for this product.",
+          "risk": "Raw-material or quality problems can interrupt supply.",
+          "sources": [
+            "registration",
+            "fda"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Tablets made",
+          "company": "Aurobindo Pharma Limited",
+          "city": "Hyderabad",
+          "country": "India",
+          "lat": 17.38405,
+          "lng": 78.45636,
+          "evidence": "verified",
+          "note": "Verified manufacturer statement and city on label; exact plant and batch are unknown.",
+          "what": "The label names the manufacturer in Hyderabad. Formulation and tablet production turn active ingredient into a finished medicine.",
+          "risk": "Manufacturing or quality delays can reduce availability.",
+          "sources": [
+            "label",
+            "fda",
+            "coordinates"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Label & distribution",
+          "company": "Aurobindo Pharma USA, Inc.",
+          "city": "East Windsor",
+          "country": "United States",
+          "lat": 40.283872389057,
+          "lng": -74.560266367265,
+          "evidence": "verified",
+          "note": "Verified distributor address. It is not evidence that this bottle passed through the address.",
+          "what": "The US label identifies Aurobindo Pharma USA as distributor. The NDC identifies the product and package, not its shipping history.",
+          "risk": "Labeling or distribution problems can interrupt supply.",
+          "sources": [
+            "label",
+            "registration",
+            "fda",
+            "coordinates"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Wholesale",
+          "company": null,
+          "city": null,
+          "country": "United States",
+          "lat": null,
+          "lng": null,
+          "evidence": "illustrative",
+          "note": "No wholesaler or distribution center is confirmed for this bottle.",
+          "what": "A wholesaler may consolidate, store and deliver finished medicines. The route here is not documented.",
+          "risk": "Inventory or transport disruption can delay delivery.",
+          "sources": [
+            "registration",
+            "fda"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Pharmacy",
+          "company": "CVS Pharmacy",
+          "city": "Queens",
+          "country": "United States",
+          "lat": 40.712249875548,
+          "lng": -73.785243118142,
+          "evidence": "illustrative",
+          "note": "Real pharmacy, illustrative destination. Neither receipt nor stock of this NDC is verified.",
+          "what": "The pharmacy is on Hillside Avenue in Queens. This story ends at a real address, without claiming a tracked delivery.",
+          "risk": "Local stock may differ from a manufacturer\u2019s national supply.",
+          "sources": [
+            "pharmacy",
+            "fda",
+            "coordinates"
+          ],
+          "_review": "pending"
+        }
+      ]
+    },
+    {
+      "id": "zydus",
+      "name": "Zydus",
+      "ndc": "68382-095-01",
+      "sources": [
+        "zydus"
+      ],
+      "stops": [
+        {
+          "role": "Active ingredient",
+          "company": null,
+          "city": null,
+          "country": null,
+          "lat": null,
+          "lng": null,
+          "evidence": "illustrative",
+          "note": "API supplier and synthesis site are not identified by these bottle labels. No pin is invented.",
+          "what": "Chemical synthesis produces the active pharmaceutical ingredient. This is a typical manufacturing stage, not a verified supplier for this product.",
+          "risk": "Raw-material or quality problems can interrupt supply.",
+          "sources": [
+            "registration",
+            "fda"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Tablets made",
+          "company": "Zydus Lifesciences Limited",
+          "city": null,
+          "country": "India",
+          "lat": null,
+          "lng": null,
+          "evidence": "verified",
+          "note": "Label says made in India; the exact manufacturing facility is not located.",
+          "what": "The label and establishment table identify Indian manufacture. No city is inferred from a corporate headquarters.",
+          "risk": "Manufacturing or quality delays can reduce availability.",
+          "sources": [
+            "zydus",
+            "fda"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Label & distribution",
+          "company": "Zydus Pharmaceuticals (USA) Inc.",
+          "city": "Pennington",
+          "country": "United States",
+          "lat": 40.324924,
+          "lng": -74.78878,
+          "evidence": "verified",
+          "note": "Verified label distributor city. Pin is a city reference, not a warehouse.",
+          "what": "The US label identifies the distributor in Pennington. This second product shares an active ingredient but not an evidenced supply chain.",
+          "risk": "Distributor inventory and delivery patterns can differ.",
+          "sources": [
+            "zydus",
+            "fda",
+            "coordinates"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Wholesale",
+          "company": null,
+          "city": null,
+          "country": "United States",
+          "lat": null,
+          "lng": null,
+          "evidence": "illustrative",
+          "note": "No wholesaler or distribution center is confirmed for this bottle.",
+          "what": "A wholesaler may consolidate, store and deliver finished medicines. The route here is not documented.",
+          "risk": "Inventory or transport disruption can delay delivery.",
+          "sources": [
+            "registration",
+            "fda"
+          ],
+          "_review": "pending"
+        },
+        {
+          "role": "Pharmacy",
+          "company": "CVS Pharmacy",
+          "city": "Queens",
+          "country": "United States",
+          "lat": 40.712249875548,
+          "lng": -73.785243118142,
+          "evidence": "illustrative",
+          "note": "Real pharmacy, illustrative destination. Neither receipt nor stock of this NDC is verified.",
+          "what": "The pharmacy is on Hillside Avenue in Queens. This story ends at a real address, without claiming a tracked delivery.",
+          "risk": "Local stock may differ from a manufacturer\u2019s national supply.",
+          "sources": [
+            "pharmacy",
+            "fda",
+            "coordinates"
+          ],
+          "_review": "pending"
+        }
+      ]
+    }
+  ]
+}

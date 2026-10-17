@@ -1,0 +1,10 @@
+{
+  "id": "sofosbuvir-velpatasvir",
+  "kind": "combination",
+  "name": "Sofosbuvir and velpatasvir",
+  "components": [
+    "sofosbuvir",
+    "velpatasvir"
+  ],
+  "note": "Each active ingredient is shown separately; formulas and masses refer to the selected ingredient."
+}

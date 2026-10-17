@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "checks": [
+    "desktop placement preview and Escape",
+    "desktop actual surface tear and rupture",
+    "invalid rupture rejected",
+    "segment tear, reset icon and repeated active preset",
+    "pointer drag extent",
+    "pointer drag pulse-load",
+    "pointer drag pulse-load",
+    "pointer drag slice",
+    "pointer drag rupture-scrub",
+    "mobile placement preview and Escape",
+    "mobile actual surface tear and rupture",
+    "invalid rupture rejected",
+    "mobile sheet button and touch drag"
+  ],
+  "errors": []
+}

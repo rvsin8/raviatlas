@@ -1,0 +1,27 @@
+✔ normal (1.444802ms)
+✔ root confined (0.133191ms)
+✔ ascending confined (0.071528ms)
+✔ ascending to arch boundary (0.084798ms)
+✔ ascending to arch (0.071798ms)
+✔ ascending to thorax (0.09257ms)
+✔ ascending to iliacs (0.113581ms)
+✔ arch only (0.058218ms)
+✔ arch to thorax (0.089295ms)
+✔ arch to abdomen (0.161594ms)
+✔ distal to subclavian (0.078409ms)
+✔ thoracic at diaphragm (0.09247ms)
+✔ thoracic below diaphragm (0.044928ms)
+✔ thoracic to iliacs (0.033281ms)
+✔ isolated abdominal (0.05946ms)
+✔ retrograde ascending involvement overrides entry for Stanford, not DeBakey (0.144979ms)
+✔ retrograde arch pattern without ascending involvement (0.069605ms)
+✔ invalid intervals rejected (0.409238ms)
+✔ branch reach includes boundaries but does not imply occlusion (0.115445ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10.571477

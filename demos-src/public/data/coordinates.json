@@ -1,0 +1,24 @@
+{
+  "Hyderabad": {
+    "lat": 17.38405,
+    "lng": 78.45636,
+    "source": "https://www.geonames.org/1269843/hyderabad.html",
+    "accuracy": "city reference point, not factory"
+  },
+  "Pennington": {
+    "lat": 40.324924,
+    "lng": -74.78878,
+    "source": "https://www.latlong.net/place/pennington-nj-usa-28897.html",
+    "accuracy": "city reference point, not a facility"
+  },
+  "Queens": {
+    "lat": 40.712249875548,
+    "lng": -73.785243118142,
+    "source": "/data/queens-source.json"
+  },
+  "East Windsor": {
+    "lat": 40.283872389057,
+    "lng": -74.560266367265,
+    "source": "/data/east-windsor-source.json"
+  }
+}

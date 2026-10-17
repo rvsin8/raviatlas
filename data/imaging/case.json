@@ -1,0 +1,330 @@
+{
+  "id": "BRATS_457",
+  "title": "Annotated glioma MRI",
+  "_review": "pending",
+  "dataset": "Medical Segmentation Decathlon \u00b7 Task01 BrainTumour",
+  "release": "2.0 04/05/2018",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "Medical Segmentation Decathlon / BraTS contributors",
+  "sources": [
+    "https://medicaldecathlon.com/",
+    "https://registry.opendata.aws/msd/",
+    "https://doi.org/10.1038/s41467-022-30695-9",
+    "https://www.med.upenn.edu/sbia/brats2017.html",
+    "https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"
+  ],
+  "provenance": {
+    "url": "https://msd-for-monai.s3.amazonaws.com/Task01_BrainTumour.tar",
+    "case": "BRATS_457",
+    "files": [
+      {
+        "path": "image.nii.gz",
+        "bytes": 9893368,
+        "sha256": "9860667a745293f449e0885e95fc5627f4f65efd52597ff7d1c41801c9bc34fc",
+        "archiveMember": "Task01_BrainTumour/imagesTr/BRATS_457.nii.gz"
+      },
+      {
+        "path": "labels.nii.gz",
+        "bytes": 22339,
+        "sha256": "ab30e8774ef7a679531eb95dec3adb8aa9aef0e109c0207eb4d435da184c4249",
+        "archiveMember": "Task01_BrainTumour/labelsTr/BRATS_457.nii.gz"
+      }
+    ]
+  },
+  "dimensions": [
+    240,
+    240,
+    155
+  ],
+  "spacingMm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "nativeAffine": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "affineRAS": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "voxelToScene": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "voxelVolumeMm3": 1.0,
+  "orientation": "RAS+",
+  "layout": "x-fastest (Fortran order); little-endian uint16 signal, uint8 labels",
+  "maskUrl": "/imaging/msd-brain/labels.u8.gz",
+  "surfaceUrl": "/imaging/msd-brain/surfaces.glb",
+  "sequences": [
+    {
+      "id": "t1gd",
+      "name": "T1 post-contrast",
+      "channel": 2,
+      "url": "/imaging/msd-brain/sequence-2.u16.gz",
+      "intercept": 0.0,
+      "scale": 0.007248035400930801,
+      "window": 24973.0,
+      "level": 15659.5,
+      "unit": "relative MRI signal (not a standardized clinical unit)"
+    },
+    {
+      "id": "FLAIR",
+      "name": "FLAIR",
+      "channel": 0,
+      "url": "/imaging/msd-brain/sequence-0.u16.gz",
+      "intercept": 0.0,
+      "scale": 0.01432822156099794,
+      "window": 46202.0,
+      "level": 26940.0,
+      "unit": "relative MRI signal (not a standardized clinical unit)"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "edema",
+      "voxels": 70526,
+      "volumeMl": 70.526,
+      "focusVoxel": [
+        80,
+        128,
+        55
+      ],
+      "centroidRAS": [
+        80.45569010010493,
+        128.1007571675694,
+        54.55570995094008
+      ],
+      "boundsVoxel": [
+        [
+          52,
+          87,
+          25
+        ],
+        [
+          111,
+          161,
+          85
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "non-enhancing tumor",
+      "voxels": 47,
+      "volumeMl": 0.047,
+      "focusVoxel": [
+        73,
+        144,
+        46
+      ],
+      "centroidRAS": [
+        73.29787234042553,
+        143.85106382978722,
+        45.638297872340424
+      ],
+      "boundsVoxel": [
+        [
+          72,
+          141,
+          37
+        ],
+        [
+          88,
+          146,
+          62
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "enhancing tumor",
+      "voxels": 3218,
+      "volumeMl": 3.218,
+      "focusVoxel": [
+        78,
+        141,
+        49
+      ],
+      "centroidRAS": [
+        77.53511497824736,
+        141.31199502796767,
+        49.35239279055314
+      ],
+      "boundsVoxel": [
+        [
+          67,
+          130,
+          39
+        ],
+        [
+          94,
+          154,
+          64
+        ]
+      ]
+    }
+  ],
+  "surfaces": {
+    "class-1": {
+      "vertices": 29548,
+      "triangles": 59496,
+      "bounds": [
+        [
+          0.051500000059604645,
+          0.02449999935925007,
+          -0.1615000069141388
+        ],
+        [
+          0.11150000244379044,
+          0.08550000190734863,
+          -0.08649999648332596
+        ]
+      ],
+      "stepVoxels": 1
+    },
+    "class-2": {
+      "vertices": 96,
+      "triangles": 180,
+      "bounds": [
+        [
+          0.07150000333786011,
+          0.0364999994635582,
+          -0.14650000631809235
+        ],
+        [
+          0.0885000005364418,
+          0.0625,
+          -0.1404999941587448
+        ]
+      ],
+      "stepVoxels": 1
+    },
+    "class-3": {
+      "vertices": 2997,
+      "triangles": 6030,
+      "bounds": [
+        [
+          0.06650000065565109,
+          0.03849999979138374,
+          -0.15449999272823334
+        ],
+        [
+          0.09449999779462814,
+          0.06449999660253525,
+          -0.12950000166893005
+        ]
+      ],
+      "stepVoxels": 1
+    },
+    "context": {
+      "vertices": 28866,
+      "triangles": 57568,
+      "bounds": [
+        [
+          0.050999999046325684,
+          0.0,
+          -0.19699999690055847
+        ],
+        [
+          0.19099999964237213,
+          0.14100000262260437,
+          -0.027000000700354576
+        ]
+      ],
+      "stepVoxels": 2
+    }
+  },
+  "files": {
+    "labels.u8.gz": {
+      "bytes": 19277,
+      "sha256": "6341e9f2afad6881b11e8dfe439048fbd9a3c11b87b902a0a5af9dc35dd001ab"
+    },
+    "sequence-2.u16.gz": {
+      "bytes": 2059706,
+      "sha256": "807deb41a7b0a25e2265d8b855cdca7fb26fff95000c56f8cd834d02bb0e10fe"
+    },
+    "sequence-0.u16.gz": {
+      "bytes": 2691472,
+      "sha256": "728837c459f1c5ae8b470e2dfabc211d459dfe4d996d20b63c7c9916b1445cad"
+    },
+    "surfaces.glb": {
+      "bytes": 2958468,
+      "sha256": "51a8dafc4c60a64a24893e8b91276d895a02cbedcc6d9f23fb8447f4e6f371df"
+    }
+  },
+  "confidence": null,
+  "contextNote": "Context surface follows the nonzero support of the skull-stripped MRI. It is not a labeled cortical segmentation.",
+  "annotationNote": "Reference segmentation distributed with MSD/BraTS. This viewer does not run AI inference, establish a diagnosis, or assess segmentation confidence.",
+  "processingSeconds": 2.273
+}

@@ -1,0 +1,395 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "topic": "dvt-pe",
+      "control": "still",
+      "pixelFraction": 0.014892578125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "form-clot",
+      "pixelFraction": 0.446685791015625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "release-clot",
+      "pixelFraction": 0.4638519287109375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "large",
+      "pixelFraction": 0.21478271484375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "anticoagulant",
+      "pixelFraction": 0.0966796875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "thrombolytic",
+      "pixelFraction": 0.3194122314453125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "filter",
+      "pixelFraction": 0.3180084228515625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "compare",
+      "pixelFraction": 0.118255615234375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "compare",
+      "pixelFraction": 0.02764892578125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "normal",
+      "pixelFraction": 0.0035858154296875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "next",
+      "pixelFraction": 0.0112152099609375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "previous",
+      "pixelFraction": 0.0213623046875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "speed",
+      "value": 0.35,
+      "pixelFraction": 0.00103759765625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "speed",
+      "value": 2,
+      "pixelFraction": 0.002105712890625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "clot-site",
+      "value": 0.15,
+      "pixelFraction": 0.213226318359375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "release-clot",
+      "pixelFraction": 0.222198486328125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "timeline",
+      "value": 6,
+      "pixelFraction": 0.109405517578125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "depth-detailed",
+      "pixelFraction": 0.0057830810546875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "depth-clinical",
+      "pixelFraction": 0.096221923828125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "return-basics",
+      "pixelFraction": 0.0963134765625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "play",
+      "pixelFraction": 0.139312744140625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "play",
+      "pixelFraction": 0.1229705810546875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "theme",
+      "pixelFraction": 0.9992218017578125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "reset",
+      "pixelFraction": 0.1146697998046875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "sources",
+      "pixelFraction": 0.0222015380859375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "dvt-pe",
+      "control": "sources",
+      "pixelFraction": 0.29595947265625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "zoom-1",
+      "pixelFraction": 0.0063629150390625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "zoom-2",
+      "pixelFraction": 0.033477783203125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "zoom-3",
+      "pixelFraction": 0.2163238525390625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "trigger-pollen",
+      "pixelFraction": 0.1995849609375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "trigger-cold-air",
+      "pixelFraction": 0.0140228271484375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "trigger-exercise",
+      "pixelFraction": 0.0480804443359375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "trigger-smoke",
+      "pixelFraction": 0.036834716796875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "sound",
+      "pixelFraction": 0.1156005859375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "sound",
+      "pixelFraction": 0.0034637451171875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "rescue",
+      "pixelFraction": 0.1018829345703125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "controller",
+      "pixelFraction": 0.15167236328125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "montelukast",
+      "pixelFraction": 0.0093231201171875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "compare",
+      "pixelFraction": 0.2638397216796875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "compare",
+      "pixelFraction": 0.14215087890625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "normal",
+      "pixelFraction": 0.1522674560546875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "next",
+      "pixelFraction": 0.1456146240234375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "previous",
+      "pixelFraction": 0.139190673828125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "speed",
+      "value": 0.35,
+      "pixelFraction": 0.003570556640625,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "speed",
+      "value": 2,
+      "pixelFraction": 0.0121612548828125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "depth-detailed",
+      "pixelFraction": 0.0343475341796875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "depth-clinical",
+      "pixelFraction": 0.037139892578125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "return-basics",
+      "pixelFraction": 0.0261077880859375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "play",
+      "pixelFraction": 0.02227783203125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "play",
+      "pixelFraction": 0.025726318359375,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "theme",
+      "pixelFraction": 0.992218017578125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "reset",
+      "pixelFraction": 0.047821044921875,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "sources",
+      "pixelFraction": 0.0218048095703125,
+      "stateChanged": true,
+      "pass": true
+    },
+    {
+      "topic": "asthma",
+      "control": "sources",
+      "pixelFraction": 0.023345947265625,
+      "stateChanged": true,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "fps": {
+    "dvt-pe-journey": 53.90566508609933,
+    "asthma-attack": 10.237203495630462
+  },
+  "webgl2": true
+}

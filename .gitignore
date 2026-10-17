@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+.sites-runtime
+*.tsbuildinfo
+.env*
+
+.next-dev
+public/models/source/
+.model-build/
+/scripts/deep-dive/extracted-parts.json
+/scripts/clinical-deep-dives/extracted-parts.json
+
+demos-src/dist/
+public/demo-lab/

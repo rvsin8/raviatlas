@@ -1,0 +1,2 @@
+import {useAtlasStore} from '@/store/useAtlasStore';
+export default function BodyToggle(){const {body,setBody,bodyNote}=useAtlasStore();return <><div className="body-tabs" role="group" aria-label="Anatomy reference body">{(['female','male'] as const).map(b=><button key={b} aria-pressed={body===b} onClick={()=>setBody(b)}>{b==='female'?'Female':'Male'}</button>)}</div>{bodyNote&&<p className="body-switch-note" role="status">{bodyNote}</p>}</>}

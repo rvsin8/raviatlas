@@ -1,0 +1,468 @@
+{
+  "id": "nitrofurantoin",
+  "name": "Nitrofurantoin",
+  "kind": "small",
+  "cid": 6604200,
+  "formula": "C8H6N4O5",
+  "molecularWeight": "238.16",
+  "iupacName": "1-[(E)-(5-nitrofuran-2-yl)methylideneamino]imidazolidine-2,4-dione",
+  "canonicalSmiles": "C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-]",
+  "isomericSmiles": "C1C(=O)NC(=O)N1/N=C/C2=CC=C(O2)[N+](=O)[O-]",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/6604200",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nitrofurantoin/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 6604200,
+    "MolecularFormula": "C8H6N4O5",
+    "MolecularWeight": "238.16",
+    "SMILES": "C1C(=O)NC(=O)N1/N=C/C2=CC=C(O2)[N+](=O)[O-]",
+    "ConnectivitySMILES": "C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-]",
+    "IUPACName": "1-[(E)-(5-nitrofuran-2-yl)methylideneamino]imidazolidine-2,4-dione"
+  },
+  "note": "",
+  "dimension": 3,
+  "sdfUrl": "/molecules/nitrofurantoin.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 8,
+      "position": [
+        -2.1954,
+        -0.5341,
+        0
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        4.6583,
+        -2.2743,
+        0.0007
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 8,
+      "position": [
+        3.6417,
+        2.2009,
+        -0.0003
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        -5.6715,
+        -0.1748,
+        0.0007
+      ],
+      "implicitH": 0,
+      "charge": -1
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 8,
+      "position": [
+        -4.384,
+        -1.9581,
+        -0.0009
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 7,
+      "position": [
+        2.3186,
+        0.2604,
+        0
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 7,
+      "position": [
+        4.5207,
+        0.0464,
+        -0.0001
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 7,
+      "position": [
+        1.1101,
+        0.8415,
+        0.0003
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 7,
+      "position": [
+        -4.5196,
+        -0.6995,
+        0.0001
+      ],
+      "implicitH": 0,
+      "charge": 1
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        2.5006,
+        -1.1629,
+        -0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        4.016,
+        -1.2334,
+        -0.0004
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        3.5079,
+        0.985,
+        -0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        -1.2587,
+        0.431,
+        0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        0.1288,
+        -0.0022,
+        0.0004
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 6,
+      "position": [
+        -1.7922,
+        1.677,
+        0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 6,
+      "position": [
+        -3.3876,
+        0.1176,
+        -0.0003
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 6,
+      "position": [
+        -3.1936,
+        1.4794,
+        -0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 1,
+      "position": [
+        2.1213,
+        -1.6179,
+        -0.919
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 1,
+      "position": [
+        2.1216,
+        -1.618,
+        0.9187
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 1,
+      "position": [
+        5.5088,
+        0.272,
+        0
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 1,
+      "position": [
+        0.2205,
+        -1.1011,
+        0.0006
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 1,
+      "position": [
+        -1.2643,
+        2.6199,
+        0.0005
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 1,
+      "position": [
+        -3.9616,
+        2.2402,
+        -0.0003
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 12,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 0,
+      "b": 15,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 1,
+      "b": 10,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 11,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 8,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 8,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 13,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 17,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 14,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 13,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 14,
+      "b": 21,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 16,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 16,
+      "b": 22,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    9,
+    10,
+    1,
+    6,
+    11,
+    2,
+    5,
+    7,
+    13,
+    12,
+    14,
+    16,
+    15,
+    0,
+    8,
+    4,
+    3
+  ],
+  "depictionMolblock": "6604200\n     RDKit          2D\n\n 23 24  0  0  0  0  0  0  0  0999 V2000\n    1.2760    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3250    8.2322    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4287    3.9604    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3250   -2.9520    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1459   -3.7548    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7886    4.3786    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2152    6.3421    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3250    2.9520    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578   -2.6401    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9069    5.5921    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7886    6.8056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2152    4.8421    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7922    4.5884    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7922    6.5958    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4287    7.2238    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1459    3.7548    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2458    1.6317    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2458   -1.6317    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1 13  1  0\n  1 16  1  0\n  2 11  2  0\n  3 12  2  0\n  4  9  1  0\n  5  9  2  0\n  6  8  1  0\n  6 10  1  0\n  6 12  1  0\n  7 11  1  0\n  7 12  1  0\n  7 20  1  0\n  8 14  2  0\n  9 16  1  0\n 10 11  1  0\n 10 18  1  0\n 10 19  1  0\n 13 14  1  0\n 13 15  2  0\n 14 21  1  0\n 15 17  1  0\n 15 22  1  0\n 16 17  2  0\n 17 23  1  0\nM  CHG  2   4  -1   9   1\nM  END\n"
+}

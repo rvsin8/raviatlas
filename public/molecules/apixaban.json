@@ -1,0 +1,1151 @@
+{
+  "id": "apixaban",
+  "name": "Apixaban",
+  "kind": "small",
+  "cid": 10182969,
+  "formula": "C25H25N5O4",
+  "molecularWeight": "459.5",
+  "iupacName": "1-(4-methoxyphenyl)-7-oxo-6-[4-(2-oxopiperidin-1-yl)phenyl]-4,5-dihydropyrazolo[5,4-c]pyridine-3-carboxamide",
+  "canonicalSmiles": "COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N",
+  "isomericSmiles": "COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/10182969",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Apixaban/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 10182969,
+    "MolecularFormula": "C25H25N5O4",
+    "MolecularWeight": "459.5",
+    "SMILES": "COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N",
+    "ConnectivitySMILES": "COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N",
+    "IUPACName": "1-(4-methoxyphenyl)-7-oxo-6-[4-(2-oxopiperidin-1-yl)phenyl]-4,5-dihydropyrazolo[5,4-c]pyridine-3-carboxamide"
+  },
+  "note": "",
+  "dimension": 3,
+  "sdfUrl": "/molecules/apixaban.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 8,
+      "position": [
+        0.6539,
+        -0.7935,
+        -0.0443
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        -5.2901,
+        -2.3943,
+        0.0792
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 8,
+      "position": [
+        4.2415,
+        4.7044,
+        0.3809
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        4.2176,
+        -5.1098,
+        -0.4262
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 7,
+      "position": [
+        -0.2018,
+        1.4032,
+        -0.1468
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 7,
+      "position": [
+        -5.6743,
+        -0.0783,
+        0.0162
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 7,
+      "position": [
+        3.3615,
+        0.3416,
+        -0.0085
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 7,
+      "position": [
+        4.4199,
+        1.1707,
+        0.0724
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 7,
+      "position": [
+        6.0746,
+        3.3533,
+        0.2808
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        1.3993,
+        3.3431,
+        0.2047
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        0.1326,
+        2.8147,
+        -0.492
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        2.4574,
+        2.3219,
+        0.126
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        2.1584,
+        0.9858,
+        0.0121
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        -6.6672,
+        0.9607,
+        -0.3063
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 6,
+      "position": [
+        -8.0527,
+        0.6974,
+        0.2592
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 6,
+      "position": [
+        -8.4842,
+        -0.7032,
+        -0.1155
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 6,
+      "position": [
+        -7.5097,
+        -1.6904,
+        0.4887
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 6,
+      "position": [
+        0.83,
+        0.4224,
+        -0.0521
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 6,
+      "position": [
+        -1.5934,
+        1.0267,
+        -0.1047
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 6,
+      "position": [
+        -4.2785,
+        0.2995,
+        -0.0253
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 6,
+      "position": [
+        -6.0521,
+        -1.4263,
+        0.1524
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 6,
+      "position": [
+        3.8595,
+        2.3819,
+        0.1573
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 6,
+      "position": [
+        -1.9831,
+        -0.0981,
+        0.6158
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 23,
+      "sdfAtomIndex": 23,
+      "z": 6,
+      "position": [
+        -2.5362,
+        1.7907,
+        -0.7855
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 24,
+      "sdfAtomIndex": 24,
+      "z": 6,
+      "position": [
+        -3.3291,
+        -0.4626,
+        0.6557
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 25,
+      "sdfAtomIndex": 25,
+      "z": 6,
+      "position": [
+        -3.8821,
+        1.4261,
+        -0.7458
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 26,
+      "sdfAtomIndex": 26,
+      "z": 6,
+      "position": [
+        3.5777,
+        -1.0325,
+        -0.1138
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 27,
+      "sdfAtomIndex": 27,
+      "z": 6,
+      "position": [
+        4.6921,
+        3.5452,
+        0.2709
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 28,
+      "sdfAtomIndex": 28,
+      "z": 6,
+      "position": [
+        3.7155,
+        -1.6105,
+        -1.3692
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 29,
+      "sdfAtomIndex": 29,
+      "z": 6,
+      "position": [
+        3.6524,
+        -1.8051,
+        1.0382
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 30,
+      "sdfAtomIndex": 30,
+      "z": 6,
+      "position": [
+        3.9313,
+        -2.9848,
+        -1.4745
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 31,
+      "sdfAtomIndex": 31,
+      "z": 6,
+      "position": [
+        3.8679,
+        -3.1792,
+        0.9329
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 32,
+      "sdfAtomIndex": 32,
+      "z": 6,
+      "position": [
+        4.0073,
+        -3.769,
+        -0.3235
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 33,
+      "sdfAtomIndex": 33,
+      "z": 6,
+      "position": [
+        4.2845,
+        -5.8517,
+        0.7907
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 34,
+      "sdfAtomIndex": 34,
+      "z": 1,
+      "position": [
+        1.1795,
+        3.5465,
+        1.2597
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 35,
+      "sdfAtomIndex": 35,
+      "z": 1,
+      "position": [
+        1.7042,
+        4.2853,
+        -0.2614
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 36,
+      "sdfAtomIndex": 36,
+      "z": 1,
+      "position": [
+        -0.6857,
+        3.4855,
+        -0.2106
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 37,
+      "sdfAtomIndex": 37,
+      "z": 1,
+      "position": [
+        0.266,
+        2.8482,
+        -1.5808
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 38,
+      "sdfAtomIndex": 38,
+      "z": 1,
+      "position": [
+        -8.7624,
+        1.4336,
+        -0.1336
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 39,
+      "sdfAtomIndex": 39,
+      "z": 1,
+      "position": [
+        -8.0398,
+        0.8067,
+        1.3507
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 40,
+      "sdfAtomIndex": 40,
+      "z": 1,
+      "position": [
+        -6.7267,
+        1.0246,
+        -1.4
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 41,
+      "sdfAtomIndex": 41,
+      "z": 1,
+      "position": [
+        -6.3315,
+        1.9266,
+        0.0887
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 42,
+      "sdfAtomIndex": 42,
+      "z": 1,
+      "position": [
+        -8.5082,
+        -0.8123,
+        -1.2065
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 43,
+      "sdfAtomIndex": 43,
+      "z": 1,
+      "position": [
+        -9.4957,
+        -0.9001,
+        0.2562
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 44,
+      "sdfAtomIndex": 44,
+      "z": 1,
+      "position": [
+        -7.764,
+        -2.6998,
+        0.1448
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 45,
+      "sdfAtomIndex": 45,
+      "z": 1,
+      "position": [
+        -7.5945,
+        -1.6857,
+        1.5822
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 46,
+      "sdfAtomIndex": 46,
+      "z": 1,
+      "position": [
+        -1.2915,
+        -0.6805,
+        1.2154
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 47,
+      "sdfAtomIndex": 47,
+      "z": 1,
+      "position": [
+        -2.269,
+        2.6506,
+        -1.3919
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 48,
+      "sdfAtomIndex": 48,
+      "z": 1,
+      "position": [
+        -3.5993,
+        -1.3069,
+        1.2819
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 49,
+      "sdfAtomIndex": 49,
+      "z": 1,
+      "position": [
+        -4.5805,
+        2.0302,
+        -1.3169
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 50,
+      "sdfAtomIndex": 50,
+      "z": 1,
+      "position": [
+        3.6575,
+        -1.0103,
+        -2.2737
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 51,
+      "sdfAtomIndex": 51,
+      "z": 1,
+      "position": [
+        3.5447,
+        -1.3562,
+        2.0224
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 52,
+      "sdfAtomIndex": 52,
+      "z": 1,
+      "position": [
+        4.0391,
+        -3.4386,
+        -2.4558
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 53,
+      "sdfAtomIndex": 53,
+      "z": 1,
+      "position": [
+        3.9161,
+        -3.7286,
+        1.8669
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 54,
+      "sdfAtomIndex": 54,
+      "z": 1,
+      "position": [
+        6.4916,
+        2.431,
+        0.2037
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 55,
+      "sdfAtomIndex": 55,
+      "z": 1,
+      "position": [
+        6.7095,
+        4.14,
+        0.3668
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 56,
+      "sdfAtomIndex": 56,
+      "z": 1,
+      "position": [
+        5.133,
+        -5.5371,
+        1.4077
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 57,
+      "sdfAtomIndex": 57,
+      "z": 1,
+      "position": [
+        4.456,
+        -6.8992,
+        0.5216
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 58,
+      "sdfAtomIndex": 58,
+      "z": 1,
+      "position": [
+        3.3364,
+        -5.8134,
+        1.3379
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 17,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 20,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 27,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 32,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 33,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 17,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 6,
+      "b": 12,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 6,
+      "b": 26,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 21,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 8,
+      "b": 27,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 54,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 55,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 34,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 35,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 36,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 37,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 11,
+      "b": 21,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 12,
+      "b": 17,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 40,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 41,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 38,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 39,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 16,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 42,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 43,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 44,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 45,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 18,
+      "b": 22,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 18,
+      "b": 23,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 19,
+      "b": 24,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 19,
+      "b": 25,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 22,
+      "b": 24,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 22,
+      "b": 46,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 23,
+      "b": 25,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 23,
+      "b": 47,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 24,
+      "b": 48,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 25,
+      "b": 49,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 26,
+      "b": 28,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 26,
+      "b": 29,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 28,
+      "b": 30,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 28,
+      "b": 50,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 29,
+      "b": 31,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 29,
+      "b": 51,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 30,
+      "b": 32,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 30,
+      "b": 52,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 31,
+      "b": 32,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 31,
+      "b": 53,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 33,
+      "b": 56,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 33,
+      "b": 57,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 33,
+      "b": 58,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    33,
+    3,
+    32,
+    30,
+    28,
+    26,
+    29,
+    31,
+    6,
+    12,
+    11,
+    9,
+    10,
+    4,
+    17,
+    0,
+    18,
+    22,
+    24,
+    19,
+    25,
+    23,
+    5,
+    13,
+    14,
+    15,
+    16,
+    20,
+    1,
+    21,
+    7,
+    27,
+    2,
+    8
+  ],
+  "depictionMolblock": "10182969\n     RDKit          2D\n\n 59 63  0  0  0  0  0  0  0  0999 V2000\n   -2.5142    2.9888    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.1256    1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1459   -3.7548    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2484    6.9199    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6304    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.8265    3.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943    1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2760    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3250   -2.9520    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3313   -1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6304   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.8265    5.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.1256    6.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.4246    5.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.4246    3.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3313    1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.9294    1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.5275    3.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.1256    3.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.9294    3.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.2284    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.2284    3.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.5275    1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578   -2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3250    2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1459    3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7886    4.3786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3177    5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7849    5.4933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7156    7.2317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3671   -2.6491    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2955   -2.6491    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.1434   -2.1595    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1076   -0.4895    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.0897    7.1491    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.1614    7.1491    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.3135    6.6595    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.3493    4.9895    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -12.9018    4.9895    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.9376    6.6595    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.9376    2.3405    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -12.9018    4.0105    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6304    3.7500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.2284   -0.7500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.2284    5.2500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.8265    0.7500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3287    1.8373    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6402    3.6241    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2558    4.6904    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6860    6.2961    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7886   -4.3786    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3287   -1.8373    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4038    8.6990    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0275    5.7645    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1828    7.5436    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1 18  2  0\n  2 21  2  0\n  3 28  2  0\n  4 33  1  0\n  4 34  1  0\n  5 11  1  0\n  5 18  1  0\n  5 19  1  0\n  6 14  1  0\n  6 20  1  0\n  6 21  1  0\n  7  8  1  0\n  7 13  1  0\n  7 27  1  0\n  8 22  2  0\n  9 28  1  0\n  9 55  1  0\n  9 56  1  0\n 10 11  1  0\n 10 12  1  0\n 10 35  1  0\n 10 36  1  0\n 11 37  1  0\n 11 38  1  0\n 12 13  2  0\n 12 22  1  0\n 13 18  1  0\n 14 15  1  0\n 14 41  1  0\n 14 42  1  0\n 15 16  1  0\n 15 39  1  0\n 15 40  1  0\n 16 17  1  0\n 16 43  1  0\n 16 44  1  0\n 17 21  1  0\n 17 45  1  0\n 17 46  1  0\n 19 23  1  0\n 19 24  2  0\n 20 25  1  0\n 20 26  2  0\n 22 28  1  0\n 23 25  2  0\n 23 47  1  0\n 24 26  1  0\n 24 48  1  0\n 25 49  1  0\n 26 50  1  0\n 27 29  1  0\n 27 30  2  0\n 29 31  2  0\n 29 51  1  0\n 30 32  1  0\n 30 52  1  0\n 31 33  1  0\n 31 53  1  0\n 32 33  2  0\n 32 54  1  0\n 34 57  1  0\n 34 58  1  0\n 34 59  1  0\nM  END\n"
+}

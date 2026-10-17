@@ -1,0 +1,140 @@
+{
+  "case": "BRATS_457",
+  "checks": [
+    {
+      "check": "Asset SHA-256 and length: labels.u8.gz",
+      "pass": true
+    },
+    {
+      "check": "Asset SHA-256 and length: sequence-2.u16.gz",
+      "pass": true
+    },
+    {
+      "check": "Asset SHA-256 and length: sequence-0.u16.gz",
+      "pass": true
+    },
+    {
+      "check": "Asset SHA-256 and length: surfaces.glb",
+      "pass": true
+    },
+    {
+      "check": "Canonical positive RAS axes",
+      "pass": true
+    },
+    {
+      "check": "Isotropic millimeter calibration",
+      "pass": true
+    },
+    {
+      "check": "All 8 corners round-trip between voxel and 3D",
+      "pass": true
+    },
+    {
+      "check": "Render transform is a single uniform mm-to-m rotation",
+      "pass": true
+    },
+    {
+      "check": "Native-mask count and volume: edema",
+      "pass": true
+    },
+    {
+      "check": "Finding focus lands inside its own label: edema",
+      "pass": true
+    },
+    {
+      "check": "Native-mask count and volume: non-enhancing tumor",
+      "pass": true
+    },
+    {
+      "check": "Finding focus lands inside its own label: non-enhancing tumor",
+      "pass": true
+    },
+    {
+      "check": "Native-mask count and volume: enhancing tumor",
+      "pass": true
+    },
+    {
+      "check": "Finding focus lands inside its own label: enhancing tumor",
+      "pass": true
+    },
+    {
+      "check": "class-1 geometry finite and indices valid",
+      "pass": true
+    },
+    {
+      "check": "class-1 triangle count",
+      "pass": true
+    },
+    {
+      "check": "class-1 physical vertices invert onto native-mask surface",
+      "pass": true
+    },
+    {
+      "check": "class-2 geometry finite and indices valid",
+      "pass": true
+    },
+    {
+      "check": "class-2 triangle count",
+      "pass": true
+    },
+    {
+      "check": "class-2 physical vertices invert onto native-mask surface",
+      "pass": true
+    },
+    {
+      "check": "class-3 geometry finite and indices valid",
+      "pass": true
+    },
+    {
+      "check": "class-3 triangle count",
+      "pass": true
+    },
+    {
+      "check": "class-3 physical vertices invert onto native-mask surface",
+      "pass": true
+    },
+    {
+      "check": "context geometry finite and indices valid",
+      "pass": true
+    },
+    {
+      "check": "context triangle count",
+      "pass": true
+    },
+    {
+      "check": "Native MRI and label grid/affine agree",
+      "pass": true
+    },
+    {
+      "check": "Published mask exactly equals canonical source mask",
+      "pass": true
+    },
+    {
+      "check": "Source hash: image.nii.gz",
+      "pass": true
+    },
+    {
+      "check": "Source hash: labels.nii.gz",
+      "pass": true
+    },
+    {
+      "check": "Signal quantization error bounded: T1 post-contrast",
+      "pass": true
+    },
+    {
+      "check": "Signal quantization error bounded: FLAIR",
+      "pass": true
+    }
+  ],
+  "passed": 31,
+  "nativeSourceChecked": true,
+  "assetBytes": 7728923,
+  "triangles": 123274,
+  "hostValidationSeconds": 1.067,
+  "browserPerformance": {
+    "desktop": null,
+    "mobile": null,
+    "reason": "Browser QA unavailable in managed environment; no FPS or browser screenshots claimed"
+  },
+  "clinicalValidation": "pending qualified review"
+}

@@ -1,0 +1,347 @@
+{
+  "scope": "Condition source URL and page-title checks only; not clinical approval",
+  "results": [
+    {
+      "url": "https://medlineplus.gov/ankleinjuriesanddisorders.html",
+      "status": 200,
+      "title": "Ankle Injuries | Ankle Disorders | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/appendicitis.html",
+      "status": 200,
+      "title": "Appendicitis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/arminjuriesanddisorders.html",
+      "status": 200,
+      "title": "Arm Injuries | Arm Disorders | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/atrialfibrillation.html",
+      "status": 200,
+      "title": "Atrial Fibrillation | AFib | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/breastcancer.html",
+      "status": 200,
+      "title": "Breast Cancer | Breast Cancer Symptoms | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/breastdiseases.html",
+      "status": 200,
+      "title": "Breast Diseases | Fibroadenoma | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/bruises.html",
+      "status": 200,
+      "title": "Bruises | Contusion | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/bursitis.html",
+      "status": 200,
+      "title": "Bursitis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/carcinoidtumors.html",
+      "status": 200,
+      "title": "Carcinoid Tumors: MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/cataract.html",
+      "status": 200,
+      "title": "Cataracts | Cataract Surgery | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/cirrhosis.html",
+      "status": 200,
+      "title": "Cirrhosis | Cirrhosis of the Liver | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/concussion.html",
+      "status": 200,
+      "title": "Concussion |  MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/dryeye.html",
+      "error": "HTTP Error 404: Not Found",
+      "replacement": "https://medlineplus.gov/ency/article/000426.htm",
+      "resolution": "Replacement verified through MedlinePlus search; original broken URL removed from data."
+    },
+    {
+      "url": "https://medlineplus.gov/elbowinjuriesanddisorders.html",
+      "status": 200,
+      "title": "Elbow Injuries | Elbow Disorders | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000019.htm",
+      "status": 200,
+      "title": "Broken or dislocated jaw: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000164.htm",
+      "status": 200,
+      "title": "Costochondritis: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000206.htm",
+      "status": 200,
+      "title": "Peptic ulcer: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000267.htm",
+      "status": 200,
+      "title": "Achalasia: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000375.htm",
+      "status": 200,
+      "title": "Subacute thyroiditis: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000436.htm",
+      "status": 200,
+      "title": "Cervical spondylosis: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000443.htm",
+      "status": 200,
+      "title": "Compression fractures of the back: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000452.htm",
+      "status": 200,
+      "title": "Anterior knee pain: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000455.htm",
+      "status": 200,
+      "title": "Frozen shoulder: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000471.htm",
+      "status": 200,
+      "title": "Chronic kidney disease: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000622.htm",
+      "status": 200,
+      "title": "Swimmer's ear : MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/000626.htm",
+      "status": 200,
+      "title": "Thrush - children and adults: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001130.htm",
+      "status": 200,
+      "title": "Anal fissure: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001135.htm",
+      "status": 200,
+      "title": "Diaphragmatic hernia: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001150.htm",
+      "status": 200,
+      "title": "Gastritis: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001233.htm",
+      "status": 200,
+      "title": "Dupuytren contracture: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001237.htm",
+      "status": 200,
+      "title": "Ingrown toenail: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001385.htm",
+      "status": 200,
+      "title": "Laryngitis: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/001490.htm",
+      "status": 200,
+      "title": "Breast infection: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/002944.htm",
+      "status": 200,
+      "title": "Spleen removal: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/003106.htm",
+      "status": 200,
+      "title": "Nosebleed : MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/003276.htm",
+      "status": 200,
+      "title": "Splenomegaly: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/patientinstructions/000565.htm",
+      "status": 200,
+      "title": "Trigger finger: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/patientinstructions/000573.htm",
+      "status": 200,
+      "title": "Tailbone trauma - aftercare: MedlinePlus Medical Encyclopedia"
+    },
+    {
+      "url": "https://medlineplus.gov/epilepsy.html",
+      "status": 200,
+      "title": "Epilepsy | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/footinjuriesanddisorders.html",
+      "status": 200,
+      "title": "Foot Injuries | Foot Disorders | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/fractures.html",
+      "status": 200,
+      "title": "Fracture | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/gallstones.html",
+      "status": 200,
+      "title": "Gallstones | Cholelithiasis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/gout.html",
+      "status": 200,
+      "title": "Gout | Gouty Arthritis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/gumdisease.html",
+      "status": 200,
+      "title": "Gum Disease: MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "status": 200,
+      "title": "Heart Failure | Congestive Heart Failure | CHF | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/hemorrhoids.html",
+      "status": 200,
+      "title": "Hemorrhoids | Piles | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/hepatitisb.html",
+      "status": 200,
+      "title": "Hepatitis B | HBV\u00a0| MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/hepatitisc.html",
+      "status": 200,
+      "title": "Hepatitis C | HCV | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/herniateddisk.html",
+      "status": 200,
+      "title": "Slipped Disc | Herniated Disk | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/hiatalhernia.html",
+      "status": 200,
+      "title": "Hiatal Hernia | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/hipfractures.html",
+      "error": "HTTP Error 404: Not Found",
+      "replacement": "https://medlineplus.gov/ency/article/007386.htm",
+      "resolution": "Replacement verified through MedlinePlus search; original broken URL removed from data."
+    },
+    {
+      "url": "https://medlineplus.gov/hyperthyroidism.html",
+      "status": 200,
+      "title": "Hyperthyroidism | Graves&#x27; Disease | Overactive Thyroid | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/impetigo.html",
+      "status": 200,
+      "title": "Impetigo | Strep | Staph | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/kidneystones.html",
+      "status": 200,
+      "title": "Kidney Stones | Kidney Stone Symptoms | Nephrolithiasis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/multiplesclerosis.html",
+      "status": 200,
+      "title": "Multiple Sclerosis | MS | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/osteoarthritis.html",
+      "status": 200,
+      "title": "Osteoarthritis | OA | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/osteoporosis.html",
+      "status": 200,
+      "title": "Osteoporosis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/pancreatitis.html",
+      "status": 200,
+      "title": "Pancreatitis | Chronic Pancreatitis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/pneumonia.html",
+      "status": 200,
+      "title": "Pneumonia | Bronchopneumonia | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/psoriasis.html",
+      "status": 200,
+      "title": "Psoriasis | Psoriatic Arthritis | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/rosacea.html",
+      "status": 200,
+      "title": "Rosacea | Acne Rosacea | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/sinusitis.html",
+      "status": 200,
+      "title": "Sinus Infection | Sinusitis | Sinus infection Symptoms | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/sorethroat.html",
+      "status": 200,
+      "title": "Sore Throat | Pharyngitis |  Sore Throat Causes | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/spinalcordinjuries.html",
+      "status": 200,
+      "title": "Spinal Cord Injury | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/sprainsandstrains.html",
+      "status": 200,
+      "title": "Strains | Sprains | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/tendinitis.html",
+      "status": 200,
+      "title": "Tendinitis: MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/tinnitus.html",
+      "status": 200,
+      "title": "Tinnitus | Tinnitus Treatment | MedlinePlus"
+    },
+    {
+      "url": "https://medlineplus.gov/voicedisorders.html",
+      "status": 200,
+      "title": "Voice Disorders: MedlinePlus"
+    }
+  ]
+}

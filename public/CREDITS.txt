@@ -1,0 +1,38 @@
+# Credits
+
+## Anatomical geometry — releases 4.0 and 4.3
+
+BodyParts3D © DBCLS, CC BY 4.0 (license updated 2025-02-27).
+
+Required attribution: BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.
+
+- Author: The Database Center for Life Science (DBCLS), Japan.
+- Source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+- Archive: `isa_BP3D_4.0_obj_99.zip` (BodyParts3D 4.0), with official FMA composition and PART-OF/IS-A tables.
+- Current official license: Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
+- Official licensing statement: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+- The official README records the license update on February 27, 2025. Legacy OBJ headers in this 2013 archive still name CC BY-SA 2.1 Japan (https://creativecommons.org/licenses/by-sa/2.1/jp/). Both allow commercial use; current distribution is under the official CC BY 4.0 statement.
+- Changes by RxAtlas: selected structures, grouped regional nodes, coordinate normalization, matte colors, generated normals, mesh simplification and Meshopt compression. FMA classification and manual assignments need anatomical review. No replacement anatomy was generated from primitives.
+
+### Thyroid from release 4.3
+
+- Official source: https://lifesciencedb.jp/bp3d/
+- Version-stamped FMA mapping: https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list
+- Geometry downloaded directly from the official `download.cgi` endpoint by scripts/fetch-thyroid.py.
+- Thyroid gland **FMA9603** (PART-OF): FJ3670 isthmus (FMA49178), FJ3671 left lobe (FMA13369), FJ3672 right lobe (FMA13368). These are gland meshes, not thyroid cartilage.
+- Shared reference: FJ2808 thyroid cartilage (FMA55099) has exactly identical raw bounding coordinates in releases 4.0 and 4.3, with 0.0 mm difference. Both use the same source millimetres and Z-up coordinates. The same normalization is applied without translation, warping or approximate registration. Clinical/anatomical visual review remains pending.
+- License follows DBCLS's current BodyParts3D database-wide declaration linked above, updated 2025-02-27; older source headers retain the historical CC BY-SA 2.1 JP notice.
+
+### Coverage and adaptation
+
+Adult male model. Breast has no dedicated geometry: real pectoralis-major surfaces are highlighted solely as a regional locator. Female reproductive anatomy is absent; female-specific conditions use the corresponding pelvic view. Elbow navigation uses the real paired anconeus muscles (FMA37704 and its left/right parts), not an invented joint mesh. It does not represent every elbow ligament or articular surface.
+
+The revised pipeline uses simplification error 0.001, smooth recomputed normals, and Meshopt compression. Overrides and unresolved parts remain pending anatomical review. Spatial suggestions in the mapping report are review aids, not confirmed FMA assignments.
+
+## Studio environment
+
+Studio Small 03 by Greg Zaal / Poly Haven, CC0.
+https://polyhaven.com/a/studio_small_03
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The locally served HDR is the studio preset asset used by Drei, downloaded from its pinned drei-assets distribution. It avoids a runtime dependency on the CDN.

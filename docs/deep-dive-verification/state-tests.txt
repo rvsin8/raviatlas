@@ -1,0 +1,12 @@
+✔ all visible controls survive a URL round trip (1.77987ms)
+✔ untrusted URL values are bounded (0.244109ms)
+✔ no tear means no active dissection (0.186753ms)
+✔ normal defaults are reproducible (0.130197ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18.748186

@@ -1,0 +1,880 @@
+{
+  "id": "esmolol",
+  "name": "esmolol",
+  "kind": "small",
+  "cid": 59768,
+  "formula": "C16H25NO4",
+  "molecularWeight": "295.37",
+  "iupacName": "methyl 3-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]propanoate",
+  "canonicalSmiles": "CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O",
+  "isomericSmiles": "CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/59768",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/esmolol/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 59768,
+    "MolecularFormula": "C16H25NO4",
+    "MolecularWeight": "295.37",
+    "SMILES": "CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O",
+    "ConnectivitySMILES": "CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O",
+    "IUPACName": "methyl 3-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]propanoate"
+  },
+  "note": "Active molecule shown; hydrochloride salt omitted.",
+  "dimension": 3,
+  "sdfUrl": "/molecules/esmolol.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 8,
+      "position": [
+        -2.4051,
+        -1.6514,
+        -0.2187
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        -5.1788,
+        -1.7685,
+        -0.0636
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 8,
+      "position": [
+        5.5184,
+        1.6842,
+        0.412
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        5.9798,
+        -0.5026,
+        -0.1601
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 7,
+      "position": [
+        -3.6623,
+        1.5561,
+        0.5338
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 6,
+      "position": [
+        -4.4553,
+        -0.7868,
+        0.6838
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 6,
+      "position": [
+        -4.4163,
+        0.5051,
+        -0.1359
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 6,
+      "position": [
+        -3.593,
+        2.7543,
+        -0.2917
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 6,
+      "position": [
+        -3.0691,
+        -1.3426,
+        1.0028
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        -3.3087,
+        3.9644,
+        0.5924
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        -2.5203,
+        2.5956,
+        -1.3655
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        1.7383,
+        -1.2922,
+        -0.2347
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        3.2238,
+        -1.1629,
+        -0.241
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        -1.041,
+        -1.5334,
+        -0.2242
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 6,
+      "position": [
+        1.0719,
+        -1.63,
+        0.9432
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 6,
+      "position": [
+        1.0149,
+        -1.0749,
+        -1.4074
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 6,
+      "position": [
+        -0.3176,
+        -1.7507,
+        0.9486
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 6,
+      "position": [
+        -0.3746,
+        -1.1956,
+        -1.4022
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 6,
+      "position": [
+        3.6846,
+        0.2637,
+        0.0845
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 6,
+      "position": [
+        5.1903,
+        0.3981,
+        0.0883
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 6,
+      "position": [
+        6.9201,
+        1.9703,
+        0.4555
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 1,
+      "position": [
+        -5.0029,
+        -0.6192,
+        1.6182
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 1,
+      "position": [
+        -5.4498,
+        0.8305,
+        -0.315
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 23,
+      "sdfAtomIndex": 23,
+      "z": 1,
+      "position": [
+        -4.0009,
+        0.2792,
+        -1.1248
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 24,
+      "sdfAtomIndex": 24,
+      "z": 1,
+      "position": [
+        -4.5587,
+        2.9425,
+        -0.779
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 25,
+      "sdfAtomIndex": 25,
+      "z": 1,
+      "position": [
+        -4.1161,
+        1.7669,
+        1.4225
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 26,
+      "sdfAtomIndex": 26,
+      "z": 1,
+      "position": [
+        -2.5241,
+        -0.6099,
+        1.6102
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 27,
+      "sdfAtomIndex": 27,
+      "z": 1,
+      "position": [
+        -3.1744,
+        -2.2746,
+        1.5709
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 28,
+      "sdfAtomIndex": 28,
+      "z": 1,
+      "position": [
+        -3.2604,
+        4.8795,
+        -0.0079
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 29,
+      "sdfAtomIndex": 29,
+      "z": 1,
+      "position": [
+        -4.0974,
+        4.1024,
+        1.3406
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 30,
+      "sdfAtomIndex": 30,
+      "z": 1,
+      "position": [
+        -2.3544,
+        3.8605,
+        1.1213
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 31,
+      "sdfAtomIndex": 31,
+      "z": 1,
+      "position": [
+        -2.4141,
+        3.5225,
+        -1.9402
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 32,
+      "sdfAtomIndex": 32,
+      "z": 1,
+      "position": [
+        -2.7615,
+        1.8026,
+        -2.0796
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 33,
+      "sdfAtomIndex": 33,
+      "z": 1,
+      "position": [
+        -1.5432,
+        2.3677,
+        -0.924
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 34,
+      "sdfAtomIndex": 34,
+      "z": 1,
+      "position": [
+        3.62,
+        -1.4686,
+        -1.2185
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 35,
+      "sdfAtomIndex": 35,
+      "z": 1,
+      "position": [
+        3.6616,
+        -1.8691,
+        0.4771
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 36,
+      "sdfAtomIndex": 36,
+      "z": 1,
+      "position": [
+        -4.6717,
+        -1.9597,
+        -0.8713
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 37,
+      "sdfAtomIndex": 37,
+      "z": 1,
+      "position": [
+        1.6251,
+        -1.8065,
+        1.862
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 38,
+      "sdfAtomIndex": 38,
+      "z": 1,
+      "position": [
+        1.522,
+        -0.8088,
+        -2.3311
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 39,
+      "sdfAtomIndex": 39,
+      "z": 1,
+      "position": [
+        3.3149,
+        0.5556,
+        1.0748
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 40,
+      "sdfAtomIndex": 40,
+      "z": 1,
+      "position": [
+        3.2827,
+        0.9634,
+        -0.658
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 41,
+      "sdfAtomIndex": 41,
+      "z": 1,
+      "position": [
+        -0.7937,
+        -2.0454,
+        1.8791
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 42,
+      "sdfAtomIndex": 42,
+      "z": 1,
+      "position": [
+        -0.9336,
+        -1.0233,
+        -2.3178
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 43,
+      "sdfAtomIndex": 43,
+      "z": 1,
+      "position": [
+        7.0442,
+        3.0229,
+        0.7235
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 44,
+      "sdfAtomIndex": 44,
+      "z": 1,
+      "position": [
+        7.3715,
+        1.8024,
+        -0.527
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 45,
+      "sdfAtomIndex": 45,
+      "z": 1,
+      "position": [
+        7.4088,
+        1.3543,
+        1.2164
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 8,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 0,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 36,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 19,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 7,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 25,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 21,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 22,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 23,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 24,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 26,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 27,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 28,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 29,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 30,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 31,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 32,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 33,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 14,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 11,
+      "b": 15,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 12,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 34,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 35,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 16,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 13,
+      "b": 17,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 14,
+      "b": 37,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 17,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 15,
+      "b": 38,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 41,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 17,
+      "b": 42,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 18,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 18,
+      "b": 39,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 18,
+      "b": 40,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 43,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 44,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 45,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    9,
+    7,
+    10,
+    4,
+    6,
+    5,
+    8,
+    0,
+    13,
+    16,
+    14,
+    11,
+    15,
+    17,
+    12,
+    18,
+    19,
+    3,
+    2,
+    20,
+    1
+  ],
+  "depictionMolblock": "59768\n     RDKit          2D\n\n 46 46  0  0  1  0  0  0  0  0999 V2000\n   -3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.2500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7500   -1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.0981    1.0981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.7990    1.8481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.3971    1.8481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.6471    3.1471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.6962    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2010    3.3481    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.1105    2.5819    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.4530    1.0327    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.1471    0.5490    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.0981   -0.4019    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.4574    0.7660    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.4510    2.0490    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.8450    4.0499    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.8598    3.0225    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.8971    4.4462    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.4462    1.2990    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.1101    3.9788    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.9952    3.3481    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0000   -1.5000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0000    1.5000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.5000    5.1962    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5000   -2.5981    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5000    2.5981    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5000   -1.5000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5000    1.5000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000   -2.5981    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000    2.5981    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2500   -2.7990    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    8.2500    0.2010    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7500   -1.2990    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  9  1  0\n  1 14  1  0\n  2  6  1  0\n  2 37  1  0\n  3 20  1  0\n  3 21  1  0\n  4 20  2  0\n  5  7  1  0\n  5  8  1  0\n  5 26  1  0\n  6  7  1  0\n  6  9  1  0\n  6 22  1  6\n  7 23  1  0\n  7 24  1  0\n  8 10  1  0\n  8 11  1  0\n  8 25  1  0\n  9 27  1  0\n  9 28  1  0\n 10 29  1  0\n 10 30  1  0\n 10 31  1  0\n 11 32  1  0\n 11 33  1  0\n 11 34  1  0\n 12 13  1  0\n 12 15  1  0\n 12 16  2  0\n 13 19  1  0\n 13 35  1  0\n 13 36  1  0\n 14 17  1  0\n 14 18  2  0\n 15 17  2  0\n 15 38  1  0\n 16 18  1  0\n 16 39  1  0\n 17 42  1  0\n 18 43  1  0\n 19 20  1  0\n 19 40  1  0\n 19 41  1  0\n 21 44  1  0\n 21 45  1  0\n 21 46  1  0\nM  END\n"
+}

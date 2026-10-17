@@ -1,0 +1,7 @@
+{
+  "source": "public/models/rxatlas-anatomy.glb",
+  "purpose": "Ghost context only; the original body viewer is unchanged",
+  "transform": "Original registered node transforms preserved; no centering or rescaling",
+  "triangles": 498359,
+  "bytes": 2458260
+}

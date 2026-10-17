@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+node scripts/deep-dive/extract.mjs
+python3 scripts/deep-dive/centerline.py
+node scripts/deep-dive/ghost.mjs

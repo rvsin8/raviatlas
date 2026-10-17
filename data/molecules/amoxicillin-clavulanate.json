@@ -1,0 +1,10 @@
+{
+  "id": "amoxicillin-clavulanate",
+  "kind": "combination",
+  "name": "Amoxicillin and clavulanate",
+  "components": [
+    "amoxicillin",
+    "clavulanic-acid"
+  ],
+  "note": "Each active ingredient is shown separately; formulas and masses refer to the selected ingredient."
+}

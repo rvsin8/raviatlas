@@ -1,0 +1,18 @@
+{
+  "bytes": 11197332,
+  "megabytes": 11.197332,
+  "triangles": 2553967,
+  "originalTriangles": 6692578,
+  "keptParts": 2237,
+  "excludedParts": 0,
+  "unmappedParts": 506,
+  "regionNodes": 55,
+  "textures": 0,
+  "textureCompression": "WebP optimization stage executed; source OBJ meshes contain no texture images.",
+  "source": "BodyParts3D 4.0 + thyroid 4.3",
+  "license": "CC-BY-4.0",
+  "missingRegions": [
+    "breast"
+  ],
+  "sha256": "23eaaf546d68ffa26fc73aac7c8303a1e2e591642e9f98904b821e6b0f6b9d0a"
+}

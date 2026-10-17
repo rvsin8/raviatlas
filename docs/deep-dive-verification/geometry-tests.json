@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "contextTriangles": 498359,
+  "vascularTriangles": 35604,
+  "maximumContextBoundsDeviationM": 0.0006828755140304565,
+  "centerlineSamples": 321,
+  "realNamedBranchCount": 9,
+  "sourceRegistration": "Preserved; no per-part coordinate transform",
+  "limitation": "Centerline, root boundary, radii, wall layers and dissection require anatomical review; numeric continuity is not anatomical validation."
+}

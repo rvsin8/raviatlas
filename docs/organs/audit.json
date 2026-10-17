@@ -1,0 +1,23 @@
+{
+  "baselineLiveVersion": 10,
+  "baselineSourceCommit": "0e139f46319288686a507923a4c7dcb6cc5c82f4",
+  "githubMainIsOlder": true,
+  "catalog": {
+    "conditions": 123,
+    "drugs": 56,
+    "moleculeRecords": 64
+  },
+  "preservedBodyAssets": {
+    "public/models/rxatlas-anatomy.glb": {
+      "bytes": 11197332,
+      "sha256": "23eaaf546d68ffa26fc73aac7c8303a1e2e591642e9f98904b821e6b0f6b9d0a"
+    },
+    "public/models/female.glb": {
+      "bytes": 9693304,
+      "sha256": "d1078f65dd32f9adbeac819b6de623e057fe2ab3702cb7f1db598ecacc3b7994"
+    }
+  },
+  "browserQA": "unavailable",
+  "blender": "unavailable",
+  "paidScenarioCalls": 0
+}

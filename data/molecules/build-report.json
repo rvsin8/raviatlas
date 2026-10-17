@@ -1,0 +1,95 @@
+{
+  "missing": [
+    {
+      "id": "polyethylene-glycol",
+      "reason": "Polyethylene glycol 3350 is a distribution of polymer chain lengths, not a single molecule with one formula, mass, or conformer. No arbitrary oligomer is substituted."
+    },
+    {
+      "id": "enoxaparin",
+      "reason": "A mixture of sulfated polysaccharide chains with different lengths and compositions. No single molecular structure represents this medicine."
+    },
+    {
+      "id": "heparin",
+      "reason": "A mixture of sulfated polysaccharide chains with different lengths and compositions. No single molecular structure represents this medicine."
+    }
+  ],
+  "twoDimensional": [
+    "linaclotide",
+    "nystatin",
+    "mupirocin",
+    "tenofovir-disoproxil",
+    "nitroprusside"
+  ],
+  "proteins": [
+    "insulin-glargine",
+    "insulin-lispro",
+    "pancrelipase",
+    "alteplase"
+  ],
+  "ready": [
+    "ibuprofen",
+    "acetaminophen",
+    "naproxen",
+    "sumatriptan",
+    "latanoprost",
+    "cetirizine",
+    "fluticasone-nasal",
+    "amoxicillin",
+    "levothyroxine",
+    "albuterol",
+    "budesonide",
+    "tiotropium",
+    "omeprazole",
+    "famotidine",
+    "linaclotide",
+    "polyethylene-glycol",
+    "mesalamine",
+    "nitrofurantoin",
+    "mirabegron",
+    "tamsulosin",
+    "clotrimazole",
+    "hydrocortisone",
+    "benzoyl-peroxide",
+    "adapalene",
+    "metformin",
+    "insulin-glargine",
+    "insulin-lispro",
+    "lisinopril",
+    "amlodipine",
+    "atorvastatin",
+    "hydroxychloroquine",
+    "methotrexate",
+    "nitroglycerin",
+    "levetiracetam",
+    "ofloxacin-otic",
+    "amoxicillin-clavulanate",
+    "nystatin",
+    "metronidazole-topical",
+    "mupirocin",
+    "methimazole",
+    "apixaban",
+    "dicloxacillin",
+    "tamoxifen",
+    "tenofovir-disoproxil",
+    "sofosbuvir-velpatasvir",
+    "pancrelipase",
+    "alendronate",
+    "baclofen",
+    "colchicine",
+    "rivaroxaban",
+    "warfarin",
+    "enoxaparin",
+    "heparin",
+    "alteplase",
+    "fluticasone",
+    "montelukast",
+    "labetalol",
+    "esmolol",
+    "nitroprusside"
+  ],
+  "verificationOnly": [
+    "labetalol",
+    "esmolol",
+    "nitroprusside"
+  ]
+}

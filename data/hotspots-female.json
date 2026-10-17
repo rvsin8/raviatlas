@@ -1,0 +1,242 @@
+{
+  "head": [
+    "female-brain-organ",
+    "female-eyes-nerve",
+    "female-eyes-cartilage",
+    "female-eyes-muscle",
+    "female-eyes-vein",
+    "female-eyes-artery",
+    "female-mouth-teeth-organ"
+  ],
+  "brain": [
+    "female-brain-organ"
+  ],
+  "eyes": [
+    "female-eyes-nerve",
+    "female-eyes-cartilage",
+    "female-eyes-muscle",
+    "female-eyes-vein",
+    "female-eyes-artery"
+  ],
+  "ears": [],
+  "nose-sinuses": [],
+  "mouth-teeth": [
+    "female-mouth-teeth-organ"
+  ],
+  "jaw": [],
+  "face": [],
+  "neck": [
+    "female-throat-organ",
+    "female-throat-cartilage",
+    "female-larynx-cartilage",
+    "female-cervical-spine-bone"
+  ],
+  "throat": [
+    "female-throat-organ",
+    "female-throat-cartilage"
+  ],
+  "larynx": [
+    "female-larynx-cartilage"
+  ],
+  "thyroid": [],
+  "cervical-spine": [
+    "female-cervical-spine-bone"
+  ],
+  "chest": [
+    "female-heart-cartilage",
+    "female-heart-organ",
+    "female-heart-vein",
+    "female-heart-artery",
+    "female-lungs-organ",
+    "female-lungs-cartilage",
+    "female-breast-organ",
+    "female-breast-cartilage",
+    "female-ribs-sternum-bone"
+  ],
+  "heart": [
+    "female-heart-cartilage",
+    "female-heart-organ",
+    "female-heart-vein",
+    "female-heart-artery"
+  ],
+  "lungs": [
+    "female-lungs-organ",
+    "female-lungs-cartilage"
+  ],
+  "breast": [
+    "female-breast-organ",
+    "female-breast-cartilage"
+  ],
+  "ribs-sternum": [
+    "female-ribs-sternum-bone"
+  ],
+  "esophagus": [],
+  "diaphragm": [],
+  "abdomen": [
+    "female-liver-gallbladder-organ",
+    "female-liver-gallbladder-cartilage",
+    "female-liver-gallbladder-artery",
+    "female-liver-gallbladder-vein",
+    "female-pancreas-organ",
+    "female-pancreas-vein",
+    "female-intestines-organ",
+    "female-intestines-cartilage",
+    "female-intestines-vein",
+    "female-intestines-artery",
+    "female-kidneys-organ",
+    "female-kidneys-artery",
+    "female-kidneys-vein",
+    "female-spleen-organ",
+    "female-spleen-artery",
+    "female-spleen-vein",
+    "female-appendix-organ"
+  ],
+  "stomach": [],
+  "liver-gallbladder": [
+    "female-liver-gallbladder-organ",
+    "female-liver-gallbladder-cartilage",
+    "female-liver-gallbladder-artery",
+    "female-liver-gallbladder-vein"
+  ],
+  "pancreas": [
+    "female-pancreas-organ",
+    "female-pancreas-vein"
+  ],
+  "intestines": [
+    "female-intestines-organ",
+    "female-intestines-cartilage",
+    "female-intestines-vein",
+    "female-intestines-artery"
+  ],
+  "kidneys": [
+    "female-kidneys-organ",
+    "female-kidneys-artery",
+    "female-kidneys-vein"
+  ],
+  "spleen": [
+    "female-spleen-organ",
+    "female-spleen-artery",
+    "female-spleen-vein"
+  ],
+  "appendix": [
+    "female-appendix-organ"
+  ],
+  "pelvis": [
+    "female-bladder-organ",
+    "female-reproductive-organs-organ",
+    "female-reproductive-organs-cartilage",
+    "female-rectum-anus-nerve",
+    "female-rectum-anus-organ",
+    "female-rectum-anus-vein",
+    "female-rectum-anus-artery",
+    "female-uterus-cartilage",
+    "female-uterus-organ",
+    "female-uterus-artery",
+    "female-uterus-vein",
+    "female-ovaries-cartilage",
+    "female-ovaries-organ",
+    "female-fallopian-tubes-organ"
+  ],
+  "bladder": [
+    "female-bladder-organ"
+  ],
+  "reproductive-organs": [
+    "female-reproductive-organs-organ",
+    "female-reproductive-organs-cartilage",
+    "female-uterus-cartilage",
+    "female-uterus-organ",
+    "female-uterus-artery",
+    "female-uterus-vein",
+    "female-ovaries-cartilage",
+    "female-ovaries-organ",
+    "female-fallopian-tubes-organ"
+  ],
+  "rectum-anus": [
+    "female-rectum-anus-nerve",
+    "female-rectum-anus-organ",
+    "female-rectum-anus-vein",
+    "female-rectum-anus-artery"
+  ],
+  "back": [
+    "female-thoracic-spine-bone",
+    "female-lumbar-spine-bone",
+    "female-spinal-cord-nerve",
+    "female-sacrum-tailbone-cartilage",
+    "female-sacrum-tailbone-vein",
+    "female-sacrum-tailbone-bone"
+  ],
+  "thoracic-spine": [
+    "female-thoracic-spine-bone"
+  ],
+  "lumbar-spine": [
+    "female-lumbar-spine-bone"
+  ],
+  "spinal-cord": [
+    "female-spinal-cord-nerve"
+  ],
+  "sacrum-tailbone": [
+    "female-sacrum-tailbone-cartilage",
+    "female-sacrum-tailbone-vein",
+    "female-sacrum-tailbone-bone"
+  ],
+  "arm": [],
+  "shoulder": [],
+  "upper-arm": [],
+  "elbow": [],
+  "forearm": [],
+  "hand": [],
+  "wrist": [],
+  "palm": [],
+  "fingers-thumb": [],
+  "leg": [
+    "female-hip-bone",
+    "female-thigh-muscle",
+    "female-thigh-cartilage",
+    "female-thigh-organ",
+    "female-knee-cartilage",
+    "female-knee-organ",
+    "female-shin-cartilage",
+    "female-shin-organ"
+  ],
+  "hip": [
+    "female-hip-bone"
+  ],
+  "thigh": [
+    "female-thigh-muscle",
+    "female-thigh-cartilage",
+    "female-thigh-organ"
+  ],
+  "knee": [
+    "female-knee-cartilage",
+    "female-knee-organ"
+  ],
+  "shin": [
+    "female-shin-cartilage",
+    "female-shin-organ"
+  ],
+  "calf": [],
+  "foot": [],
+  "ankle": [],
+  "heel": [],
+  "arch": [],
+  "toes": [],
+  "skin": [
+    "female-skin-skin"
+  ],
+  "systemic": [],
+  "uterus": [
+    "female-uterus-cartilage",
+    "female-uterus-organ",
+    "female-uterus-artery",
+    "female-uterus-vein"
+  ],
+  "ovaries": [
+    "female-ovaries-cartilage",
+    "female-ovaries-organ"
+  ],
+  "fallopian-tubes": [
+    "female-fallopian-tubes-organ"
+  ],
+  "prostate": [],
+  "testes": []
+}

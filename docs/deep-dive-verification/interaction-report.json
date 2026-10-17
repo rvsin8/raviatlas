@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "desktop: five perfusion territories, normal/compromised states, three Type A overlays",
+    "desktop click: tear raycast updates URL",
+    "desktop: Detailed scaffold",
+    "mobile: five perfusion territories, normal/compromised states, three Type A overlays",
+    "mobile tap: tear raycast updates URL",
+    "mobile: Detailed scaffold",
+    "Heart entry link and search navigation; theme preserved"
+  ],
+  "errors": []
+}

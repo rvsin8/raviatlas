@@ -1,0 +1,301 @@
+{
+  "before": 46,
+  "after": 121,
+  "added": 75,
+  "byRegion": [
+    {
+      "region": "Brain",
+      "regionId": "brain",
+      "added": 3,
+      "total": 5
+    },
+    {
+      "region": "Eyes",
+      "regionId": "eyes",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Ears",
+      "regionId": "ears",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Nose & sinuses",
+      "regionId": "nose-sinuses",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Mouth & teeth",
+      "regionId": "mouth-teeth",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Jaw (TMJ)",
+      "regionId": "jaw",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Face",
+      "regionId": "face",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Throat",
+      "regionId": "throat",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Larynx",
+      "regionId": "larynx",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Thyroid",
+      "regionId": "thyroid",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Cervical spine",
+      "regionId": "cervical-spine",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Heart",
+      "regionId": "heart",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Lungs",
+      "regionId": "lungs",
+      "added": 1,
+      "total": 3
+    },
+    {
+      "region": "Breast",
+      "regionId": "breast",
+      "added": 3,
+      "total": 3
+    },
+    {
+      "region": "Ribs & sternum",
+      "regionId": "ribs-sternum",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Esophagus",
+      "regionId": "esophagus",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Diaphragm",
+      "regionId": "diaphragm",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Stomach",
+      "regionId": "stomach",
+      "added": 3,
+      "total": 4
+    },
+    {
+      "region": "Liver & gallbladder",
+      "regionId": "liver-gallbladder",
+      "added": 4,
+      "total": 4
+    },
+    {
+      "region": "Pancreas",
+      "regionId": "pancreas",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Intestines",
+      "regionId": "intestines",
+      "added": 0,
+      "total": 3
+    },
+    {
+      "region": "Kidneys",
+      "regionId": "kidneys",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Spleen",
+      "regionId": "spleen",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Appendix",
+      "regionId": "appendix",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Bladder",
+      "regionId": "bladder",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "region": "Reproductive organs",
+      "regionId": "reproductive-organs",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "region": "Rectum & anus",
+      "regionId": "rectum-anus",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Thoracic spine",
+      "regionId": "thoracic-spine",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Lumbar spine",
+      "regionId": "lumbar-spine",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Spinal cord",
+      "regionId": "spinal-cord",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Sacrum & tailbone",
+      "regionId": "sacrum-tailbone",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Shoulder",
+      "regionId": "shoulder",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Upper arm",
+      "regionId": "upper-arm",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Elbow",
+      "regionId": "elbow",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Forearm",
+      "regionId": "forearm",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Wrist",
+      "regionId": "wrist",
+      "added": 0,
+      "total": 2
+    },
+    {
+      "region": "Palm",
+      "regionId": "palm",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Fingers & thumb",
+      "regionId": "fingers-thumb",
+      "added": 1,
+      "total": 3
+    },
+    {
+      "region": "Hip",
+      "regionId": "hip",
+      "added": 3,
+      "total": 3
+    },
+    {
+      "region": "Thigh",
+      "regionId": "thigh",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Knee",
+      "regionId": "knee",
+      "added": 2,
+      "total": 4
+    },
+    {
+      "region": "Shin",
+      "regionId": "shin",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Calf",
+      "regionId": "calf",
+      "added": 2,
+      "total": 2
+    },
+    {
+      "region": "Ankle",
+      "regionId": "ankle",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Heel",
+      "regionId": "heel",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Arch",
+      "regionId": "arch",
+      "added": 1,
+      "total": 2
+    },
+    {
+      "region": "Toes",
+      "regionId": "toes",
+      "added": 2,
+      "total": 3
+    },
+    {
+      "region": "Skin",
+      "regionId": "skin",
+      "added": 2,
+      "total": 7
+    },
+    {
+      "region": "Whole body / Systemic",
+      "regionId": "systemic",
+      "added": 0,
+      "total": 6
+    }
+  ]
+}

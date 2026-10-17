@@ -1,0 +1,46 @@
+✔ normal (1.423465ms)
+✔ root confined (0.104037ms)
+✔ ascending confined (0.241814ms)
+✔ ascending to arch boundary (0.095293ms)
+✔ ascending to arch (0.076936ms)
+✔ ascending to thorax (0.091127ms)
+✔ ascending to iliacs (0.088794ms)
+✔ arch only (0.054823ms)
+✔ arch to thorax (0.088303ms)
+✔ arch to abdomen (0.275124ms)
+✔ distal to subclavian (0.078879ms)
+✔ thoracic at diaphragm (0.087161ms)
+✔ thoracic below diaphragm (0.044477ms)
+✔ thoracic to iliacs (0.038278ms)
+✔ isolated abdominal (0.058358ms)
+✔ retrograde ascending involvement overrides entry for Stanford, not DeBakey (0.347594ms)
+✔ retrograde arch pattern without ascending involvement (0.099269ms)
+✔ invalid intervals rejected (0.61102ms)
+✔ branch reach includes boundaries but does not imply occlusion (0.123777ms)
+✔ normal reset defaults (1.34079ms)
+✔ each segment selects shared camera focus idempotently (0.228915ms)
+✔ presets replay propagation (0.339141ms)
+✔ pause freezes all shared time (0.131198ms)
+✔ speed scales clock (0.180743ms)
+✔ rupture restricted to dissection interval (0.263558ms)
+✔ scrubbing restores shared clock and pauses (0.168013ms)
+✔ rupture ends paused (0.255035ms)
+✔ location routes use proximal and diaphragm boundaries (0.138839ms)
+✔ caption steps drive scene context (0.316266ms)
+✔ URL restores rupture, beat and paused state (0.734647ms)
+✔ preset camera targets tear and keeps mobile canvas open (0.100681ms)
+✔ play at end restarts rupture (0.155474ms)
+✔ shortening extent before rupture clears invalid rupture (0.124397ms)
+✔ all visible controls survive a URL round trip (1.532559ms)
+✔ untrusted URL values are bounded (0.27204ms)
+✔ no tear means no active dissection (0.110496ms)
+✔ normal defaults are reproducible (0.206431ms)
+✔ wall normals point out on the outside, and into the lumen on the inside (39.627485ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 488.240495

@@ -1,0 +1,60 @@
+{
+  "pass": true,
+  "stops": [
+    {
+      "view": "tear close-up",
+      "mobile": false,
+      "value": 0,
+      "frequency": 0.45,
+      "growthRate": 0,
+      "pixelFraction": null
+    },
+    {
+      "view": "tear close-up",
+      "mobile": false,
+      "value": 0.25,
+      "frequency": 0.8875,
+      "growthRate": 0,
+      "pixelFraction": 0.0534820556640625
+    },
+    {
+      "view": "tear close-up",
+      "mobile": false,
+      "value": 0.5,
+      "frequency": 1.325,
+      "growthRate": 0.0005,
+      "pixelFraction": 0.041412353515625
+    },
+    {
+      "view": "tear close-up",
+      "mobile": false,
+      "value": 0.75,
+      "frequency": 1.7625,
+      "growthRate": 0.021333333333333336,
+      "pixelFraction": 0.03826904296875
+    },
+    {
+      "view": "tear close-up",
+      "mobile": false,
+      "value": 1,
+      "frequency": 2.2,
+      "growthRate": 0.04,
+      "pixelFraction": 0.059417724609375
+    },
+    {
+      "view": "tear close-up",
+      "mobile": true,
+      "value": 1,
+      "frequency": 2.2,
+      "growthRate": 0.04,
+      "pixelFraction": null
+    }
+  ],
+  "errors": [],
+  "fps": {
+    "desktop": 1.6412069183183942,
+    "mobileEmulation": 1.5146925174189638
+  },
+  "promptRequiresClick": true,
+  "keyboardAndSound": true
+}

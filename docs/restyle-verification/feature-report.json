@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "checks": [
+    "Home redirect and full anatomy rendering",
+    "All mode tabs update URL and counts",
+    "Systemic drawer",
+    "Skin control retains URL state",
+    "Theme toggle",
+    "Keyboard search, instant result and drug selection",
+    "Drug deep link reload",
+    "2D atom hover updates tooltip; functional groups highlight",
+    "Molecule style controls and expand/close",
+    "Condition deep link, treatments, and Back",
+    "Browse regions and Breast fallback"
+  ]
+}

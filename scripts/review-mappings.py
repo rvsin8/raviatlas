@@ -1,0 +1,10 @@
+"""Conservative label-assisted override proposals. Null assignments stay omitted for human review."""
+import json,re
+p='data/mesh-overrides.json';o=json.load(open(p));r=json.load(open('data/model-reports/build-report.json'))
+rules=[('eyes',r'eyeball|retina|ciliar|oculomotor|ophthalmic|optic nerve|rectus.*eye|trochlear|lacrimal|supra.orbital|infra.trochlear|supra.trochlear|cornea|conjunctiva'),('ears',r'tympanic|cochlea|vestibul|auricul'),('nose-sinuses',r'ethmoid|nasociliary|nasal'),('mouth-teeth',r'gingiva|tooth|teeth|tongue|lingual|palatine|palatal|oral'),('larynx',r'laryngeal|cricothyroid|arytenoid'),('throat',r'pharyngeal'),('palm',r'palmar|lumbrical of.*hand|interosseous of.*hand'),('arch',r'plantar|lumbrical of.*foot|interosseous of.*foot'),('fingers-thumb',r'digital.*hand|pollicis'),('toes',r'hallucis|digital.*foot'),('face',r'facial|buccal|masseter|zygomatic'),('neck',r'cervical|jugular|carotid'),('chest',r'thorac|intercostal|pectoralis'),('forearm',r'forearm|ulnar|radial'),('upper-arm',r'brachial'),('thigh',r'femoral|thigh'),('calf',r'sural|peroneal'),('shin',r'tibial'),('hip',r'gluteal|gluteus'),('pelvis',r'iliac|pudendal|pelvic'),('abdomen',r'abdominal|mesenteric'),('heart',r'coronary|cardiac'),('lungs',r'pulmonary|bronchial'),('kidneys',r'renal'),('liver-gallbladder',r'hepatic|portal vein'),('intestines',r'colic|duodenal|jejunal|ileal'),('stomach',r'gastric'),('brain',r'cerebral|cerebellar|hypothalam|thalam|pituitary|pineal|choroid plexus')]
+for x in r['unmapped']:
+ label=x['labels'][0] if x['labels'] else ''
+ likely=next((rid for rid,pat in rules if re.search(pat,label,re.I)),None)
+ o['parts'].setdefault(x['fileId'],{'regionId':likely,'likelyRegion':likely or 'undetermined','_review':'pending','reason':'Anatomical label override: '+label if likely else 'No confident regional assignment; omitted pending human review','labels':x['labels']})
+json.dump(o,open(p,'w'),indent=2)
+print('Override records:',len(o['parts']),'pending unmapped:',sum(not x.get('regionId') for x in o['parts'].values()))

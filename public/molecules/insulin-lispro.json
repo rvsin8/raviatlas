@@ -1,0 +1,952 @@
+{
+  "id": "insulin-lispro",
+  "kind": "protein",
+  "name": "Insulin lispro",
+  "pdbId": "1LPH",
+  "proteinType": "Insulin analogue",
+  "pdbUrl": "/molecules/insulin-lispro.pdb",
+  "sourceUrl": "https://www.rcsb.org/structure/1LPH",
+  "note": "Representative experimental insulin lispro structure.",
+  "chains": [
+    {
+      "id": "A",
+      "residues": [
+        {
+          "residue": 1,
+          "position": [
+            -0.807,
+            19.506,
+            -12.048
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 2,
+          "position": [
+            0.987,
+            16.79,
+            -10.165
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 3,
+          "position": [
+            -0.428,
+            14.039,
+            -12.367
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 4,
+          "position": [
+            0.889,
+            15.505,
+            -15.629
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 5,
+          "position": [
+            4.396,
+            15.937,
+            -14.141
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 6,
+          "position": [
+            4.93,
+            12.933,
+            -11.914
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 7,
+          "position": [
+            2.34,
+            10.446,
+            -13.21
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 8,
+          "position": [
+            2.229,
+            11.216,
+            -16.906
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 9,
+          "position": [
+            5.946,
+            11.945,
+            -17.015
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 10,
+          "position": [
+            8.366,
+            11.401,
+            -14.121
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 11,
+          "position": [
+            9.551,
+            13.702,
+            -11.336
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 12,
+          "position": [
+            12.63,
+            14.65,
+            -9.385
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 13,
+          "position": [
+            12.027,
+            14.594,
+            -5.6
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 14,
+          "position": [
+            12.557,
+            18.31,
+            -6.033
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 15,
+          "position": [
+            9.589,
+            18.601,
+            -8.346
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 16,
+          "position": [
+            7.432,
+            16.575,
+            -5.908
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 17,
+          "position": [
+            8.462,
+            19.06,
+            -3.224
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 18,
+          "position": [
+            6.667,
+            21.865,
+            -5.13
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 19,
+          "position": [
+            3.551,
+            20.03,
+            -3.931
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 20,
+          "position": [
+            4.348,
+            20.235,
+            -0.194
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 21,
+          "position": [
+            3.071,
+            23.13,
+            2.024
+          ],
+          "type": "loop"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "residues": [
+        {
+          "residue": 1,
+          "position": [
+            14.868,
+            8.406,
+            -4.857
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 2,
+          "position": [
+            12.97,
+            6.519,
+            -7.565
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 3,
+          "position": [
+            13.15,
+            7.79,
+            -11.113
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 4,
+          "position": [
+            9.747,
+            6.209,
+            -11.818
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 5,
+          "position": [
+            6.249,
+            7.241,
+            -12.83
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 6,
+          "position": [
+            4.409,
+            7.659,
+            -9.507
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 7,
+          "position": [
+            0.687,
+            7.496,
+            -10.159
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 8,
+          "position": [
+            -2.608,
+            7.193,
+            -8.234
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 9,
+          "position": [
+            -2.086,
+            5.986,
+            -4.616
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 10,
+          "position": [
+            1.701,
+            5.657,
+            -5.083
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 11,
+          "position": [
+            1.74,
+            9.39,
+            -5.867
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 12,
+          "position": [
+            0.186,
+            10.41,
+            -2.541
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 13,
+          "position": [
+            2.302,
+            7.896,
+            -0.566
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 14,
+          "position": [
+            5.465,
+            9.479,
+            -2.08
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 15,
+          "position": [
+            4.276,
+            12.993,
+            -1.217
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 16,
+          "position": [
+            3.408,
+            11.981,
+            2.395
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 17,
+          "position": [
+            6.946,
+            10.512,
+            2.667
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 18,
+          "position": [
+            8.495,
+            13.57,
+            0.889
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 19,
+          "position": [
+            6.458,
+            16.362,
+            2.71
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 20,
+          "position": [
+            6.556,
+            14.984,
+            6.235
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 21,
+          "position": [
+            5.634,
+            17.393,
+            9.008
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 22,
+          "position": [
+            4.554,
+            20.121,
+            6.6
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 23,
+          "position": [
+            2.001,
+            18.014,
+            4.754
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 24,
+          "position": [
+            0.948,
+            18.465,
+            1.147
+          ],
+          "type": "sheet"
+        },
+        {
+          "residue": 25,
+          "position": [
+            -1.836,
+            19.376,
+            -1.244
+          ],
+          "type": "sheet"
+        },
+        {
+          "residue": 26,
+          "position": [
+            -3.374,
+            17.106,
+            -3.896
+          ],
+          "type": "sheet"
+        },
+        {
+          "residue": 27,
+          "position": [
+            -5.317,
+            18.863,
+            -6.682
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 28,
+          "position": [
+            -8.212,
+            18.061,
+            -9.015
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 29,
+          "position": [
+            -7.316,
+            16.473,
+            -12.347
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 30,
+          "position": [
+            -7.02,
+            18.891,
+            -15.256
+          ],
+          "type": "loop"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "residues": [
+        {
+          "residue": 1,
+          "position": [
+            -7.724,
+            16.925,
+            13.011
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 2,
+          "position": [
+            -8.071,
+            13.695,
+            10.96
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 3,
+          "position": [
+            -5.26,
+            12.069,
+            12.823
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 4,
+          "position": [
+            -6.877,
+            12.789,
+            16.203
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 5,
+          "position": [
+            -10.264,
+            11.586,
+            14.802
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 6,
+          "position": [
+            -9.406,
+            8.621,
+            12.465
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 7,
+          "position": [
+            -6.339,
+            7.101,
+            14.098
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 8,
+          "position": [
+            -8.155,
+            6.716,
+            17.499
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 9,
+          "position": [
+            -11.535,
+            5.644,
+            16.279
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 10,
+          "position": [
+            -12.252,
+            4.496,
+            12.74
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 11,
+          "position": [
+            -13.694,
+            6.619,
+            10.034
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 12,
+          "position": [
+            -15.973,
+            5.348,
+            7.309
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 13,
+          "position": [
+            -15.803,
+            6.815,
+            3.784
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 14,
+          "position": [
+            -18.672,
+            9.093,
+            4.868
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 15,
+          "position": [
+            -16.541,
+            10.842,
+            7.508
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 16,
+          "position": [
+            -13.486,
+            10.736,
+            5.28
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 17,
+          "position": [
+            -15.532,
+            12.8,
+            2.737
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 18,
+          "position": [
+            -15.685,
+            15.868,
+            5.014
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 19,
+          "position": [
+            -11.869,
+            16,
+            4.779
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 20,
+          "position": [
+            -11.978,
+            16.433,
+            0.966
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 21,
+          "position": [
+            -11.995,
+            19.795,
+            -0.907
+          ],
+          "type": "loop"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "residues": [
+        {
+          "residue": 1,
+          "position": [
+            -0.44,
+            4.068,
+            21.573
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 2,
+          "position": [
+            -0.995,
+            4.056,
+            17.801
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 3,
+          "position": [
+            1.71,
+            5.287,
+            15.519
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 4,
+          "position": [
+            0.264,
+            8.455,
+            14.064
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 5,
+          "position": [
+            2.896,
+            8.234,
+            11.324
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 6,
+          "position": [
+            1.867,
+            4.814,
+            9.994
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 7,
+          "position": [
+            -1.829,
+            5.566,
+            10.558
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 8,
+          "position": [
+            -1.422,
+            8.65,
+            8.436
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 9,
+          "position": [
+            -0.053,
+            6.786,
+            5.414
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 10,
+          "position": [
+            -3.364,
+            4.765,
+            5.519
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 11,
+          "position": [
+            -5.363,
+            7.941,
+            5.827
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 12,
+          "position": [
+            -3.586,
+            9.564,
+            2.747
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 13,
+          "position": [
+            -4.537,
+            6.494,
+            0.782
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 14,
+          "position": [
+            -8.163,
+            6.55,
+            1.946
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 15,
+          "position": [
+            -8.337,
+            10.278,
+            1.264
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 16,
+          "position": [
+            -6.966,
+            9.449,
+            -2.24
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 17,
+          "position": [
+            -9.948,
+            7.059,
+            -2.936
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 18,
+          "position": [
+            -12.679,
+            9.047,
+            -1.123
+          ],
+          "type": "helix"
+        },
+        {
+          "residue": 19,
+          "position": [
+            -11.684,
+            12.492,
+            -2.422
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 20,
+          "position": [
+            -9.543,
+            12.194,
+            -5.554
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 21,
+          "position": [
+            -11.919,
+            14.038,
+            -7.842
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 22,
+          "position": [
+            -12.31,
+            17.108,
+            -5.571
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 23,
+          "position": [
+            -8.911,
+            16.791,
+            -3.977
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 24,
+          "position": [
+            -7.729,
+            17.388,
+            -0.486
+          ],
+          "type": "sheet"
+        },
+        {
+          "residue": 25,
+          "position": [
+            -5.045,
+            18.892,
+            1.703
+          ],
+          "type": "sheet"
+        },
+        {
+          "residue": 26,
+          "position": [
+            -3.103,
+            16.787,
+            4.174
+          ],
+          "type": "sheet"
+        },
+        {
+          "residue": 27,
+          "position": [
+            -2.522,
+            19.14,
+            7.145
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 28,
+          "position": [
+            -1.452,
+            19.309,
+            10.805
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 29,
+          "position": [
+            -1.112,
+            21.665,
+            13.782
+          ],
+          "type": "loop"
+        },
+        {
+          "residue": 30,
+          "position": [
+            -0.68,
+            25.15,
+            12.378
+          ],
+          "type": "loop"
+        }
+      ]
+    }
+  ],
+  "chainCount": 4,
+  "residueCount": 102
+}

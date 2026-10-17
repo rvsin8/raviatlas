@@ -1,0 +1,23 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),ts=require('typescript'),Module=require('module');
+function load(file){const m=new Module(file,module);m.paths=module.paths;const src=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.CommonJS}}).outputText;const original=m.require.bind(m);m.require=id=>id==='@/lib/deep-dive/pulse'?load('lib/deep-dive/pulse.ts'):id==='@/lib/deep-dive/state'?load('lib/deep-dive/state.ts'):original(id);m._compile(src,file);return m.exports}
+const {useDeepDiveStore:store,sceneURL,ruptureLocation}=load('store/useDeepDiveStore.ts'),get=()=>store.getState();
+test('normal reset defaults',()=>{get().preset('A');get().reset();assert.equal(get().view.dissection,false);assert.equal(get().view.playing,true);assert.equal(get().view.rupture,null)});
+test('each segment selects shared camera focus idempotently',()=>{for(const segment of ['root','ascending','arch','descending','abdominal']){get().patch({segment});assert.equal(get().view.focus,'segment');get().patch({segment});assert.equal(get().view.segment,segment)}});
+test('presets replay propagation',()=>{for(const type of ['A','B']){get().preset(type);assert.equal(get().progress,0);for(let i=0;i<26;i++)get().tick(.1);assert.equal(get().progress,1);get().preset(type);assert.equal(get().progress,0)}});
+test('pause freezes all shared time',()=>{get().patch({playing:false});const a=get();get().tick(.1);assert.equal(get().clock,a.clock);assert.equal(get().progress,a.progress)});
+test('speed scales clock',()=>{get().reset();get().tick(.1);const a=get().clock;get().patch({speed:2});get().tick(.1);assert(Math.abs(get().clock-a-.2)<1e-9)});
+test('rupture restricted to dissection interval',()=>{get().preset('B');get().patch({tool:'rupture'});get().place(.05);assert.equal(get().view.rupture,null);assert.match(get().hint,/Choose a highlighted area/);get().place(.5);assert.equal(get().view.rupture,.5);assert.equal(get().view.focus,'rupture')});
+test('scrubbing restores shared clock and pauses',()=>{get().scrub(7.5);assert.equal(get().time,7.5);assert.equal(get().clock,7.5);assert.equal(get().view.playing,false)});
+test('rupture ends paused',()=>{get().scrub(11.9);get().patch({playing:true});get().tick(.1);assert.equal(get().time,12);assert.equal(get().view.playing,false)});
+test('location routes use proximal and diaphragm boundaries',()=>{assert.equal(ruptureLocation(.05),'Pericardial space');assert.equal(ruptureLocation(.4),'Left chest cavity');assert.equal(ruptureLocation(.8),'Retroperitoneal space')});
+test('caption steps drive scene context',()=>{get().reset();for(let i=0;i<5;i++){get().step(i);assert.equal(get().view.step,i);assert.equal(get().view.focus,['overview','tear','overview','cross','body'][i])}});
+test('URL restores rupture, beat and paused state',()=>{get().preset('A');get().patch({tool:'rupture'});get().place(.07);get().scrub(7.5);const u=sceneURL();get().reset();get().restore(u.split('?')[1]);assert.equal(get().time,7.5);assert.equal(get().view.rupture,.07);assert.equal(get().view.playing,false)});
+
+test('preset camera targets tear and keeps mobile canvas open',()=>{get().preset('A');assert.equal(get().view.focus,'tear');assert.equal(get().view.sheet,false)});
+test('play at end restarts rupture',()=>{get().patch({tool:'rupture'});get().place(.07);get().scrub(12);get().patch({playing:true});assert.equal(get().time,0);assert.equal(get().clock,0)});
+test('shortening extent before rupture clears invalid rupture',()=>{get().patch({extent:.06});assert.equal(get().view.rupture,null)});
+
+test('compare shares synchronized progress and exits to single scene',()=>{get().reset();get().patch({compare:true});assert(get().view.compare);assert(get().view.dissection);assert.equal(get().progress,0);get().tick(.5);assert(get().progress>0);get().patch({compare:false});assert(!get().view.compare)});
+test('normal mode retracts and frames whole aorta',()=>{get().preset('A');for(let i=0;i<6;i++)get().tick(.5);get().patch({dissection:false,playing:true});assert.equal(get().view.focus,'overview');assert.equal(get().progress,1);get().tick(.5);assert.equal(get().progress,.5);get().tick(.5);assert.equal(get().progress,0)});
+
+test('continuous pulse grows monotonically and low settings stop growth',()=>{let last=0;for(const load of [0,.25,.5,.75,1]){get().reset();get().preset('A');get().patch({load});for(let i=0;i<100;i++)get().tick(.05);const m=get();if(load<=.25)assert.equal(m.growth,0);assert(m.phase>last);last=m.phase;if(load===1){assert(m.growth>0);assert(m.stressSeconds>=3);assert.equal(m.view.rupture,null)}}});

@@ -1,0 +1,420 @@
+{
+  "glbBytes": 11197332,
+  "centroidDefinition": "Surface-area-weighted triangle centroid",
+  "pass": true,
+  "transform": "(x,y,z) mm -> (.001*x,.001*z,-.001*y) m; no translation",
+  "wholeModel": {
+    "min": [
+      -0.33338791131973267,
+      -0.07808320224285126,
+      -0.044699158519506454
+    ],
+    "max": [
+      0.3325939178466797,
+      1.6514099836349487,
+      0.24681545794010162
+    ]
+  },
+  "dimensionsM": {
+    "width": 0.6659818291664124,
+    "height": 1.7294931858778,
+    "depth": 0.2915146164596081
+  },
+  "centroidY": {
+    "head": 1.5481037274586718,
+    "neck": 1.4206482109566123,
+    "chest": 1.1918548779225742,
+    "abdomen": 1.0071692956878453,
+    "pelvis": 0.8587902044678584,
+    "thigh": 0.6094930318000279,
+    "knee": 0.39465191811715716,
+    "foot": -0.045563508964940935
+  },
+  "sourceParts": 2237,
+  "decodedRenderedParts": 2237,
+  "maximumSourceDimensionRatio": 1.0630097052063106,
+  "armHandCentroidXRange": [
+    -0.3170795142650604,
+    0.3173903524875641
+  ],
+  "leftRightPairs": 477,
+  "maxMirrorBoundsErrorM": 0.45185333490371704,
+  "asymmetricPairs": [
+    {
+      "left": [
+        "FJ1457M",
+        "FJ2545"
+      ],
+      "right": [
+        "FJ2550"
+      ],
+      "name": "pubococcygeus",
+      "mirrorBoundsErrorM": 0.030613195151090622,
+      "sourceMirrorBoundsErrorM": 0.03141661,
+      "introducedMirrorDeviationM": 0.0008034148489093756
+    },
+    {
+      "left": [
+        "FJ1893",
+        "FJ2404"
+      ],
+      "right": [
+        "FJ1913",
+        "FJ2405"
+      ],
+      "name": "portal vein",
+      "mirrorBoundsErrorM": 0.1085585467517376,
+      "sourceMirrorBoundsErrorM": 0.10857230000000001,
+      "introducedMirrorDeviationM": 0.000054062160491946676
+    },
+    {
+      "left": [
+        "FJ2184",
+        "FJ2187"
+      ],
+      "right": [
+        "FJ2190",
+        "FJ2194",
+        "FJ2200"
+      ],
+      "name": "fibular vein",
+      "mirrorBoundsErrorM": 0.45185333490371704,
+      "sourceMirrorBoundsErrorM": 0.4518169999999999,
+      "introducedMirrorDeviationM": 0.000036334903717127887
+    },
+    {
+      "left": [
+        "FJ2415"
+      ],
+      "right": [
+        "FJ2416"
+      ],
+      "name": "hepatic vein",
+      "mirrorBoundsErrorM": 0.05636945739388466,
+      "sourceMirrorBoundsErrorM": 0.0563691,
+      "introducedMirrorDeviationM": 0.000009509544372621193
+    },
+    {
+      "left": [
+        "FJ2417"
+      ],
+      "right": [
+        "FJ2434"
+      ],
+      "name": "anterior cusp of pulmonary valve",
+      "mirrorBoundsErrorM": 0.05066579021513462,
+      "sourceMirrorBoundsErrorM": 0.0506647,
+      "introducedMirrorDeviationM": 0.000004003567881584458
+    },
+    {
+      "left": [
+        "FJ2426"
+      ],
+      "right": [
+        "FJ2431"
+      ],
+      "name": "posterior cusp of aortic valve",
+      "mirrorBoundsErrorM": 0.03983751870691776,
+      "sourceMirrorBoundsErrorM": 0.0398365,
+      "introducedMirrorDeviationM": 0.000005239524841327281
+    },
+    {
+      "left": [
+        "FJ2442",
+        "FJ2537"
+      ],
+      "right": [
+        "FJ2456",
+        "FJ2488"
+      ],
+      "name": "medial basal segmental bronchial tree",
+      "mirrorBoundsErrorM": 0.08478568494319916,
+      "sourceMirrorBoundsErrorM": 0.084799,
+      "introducedMirrorDeviationM": 0.000013589746952050175
+    },
+    {
+      "left": [
+        "FJ2447",
+        "FJ2465",
+        "FJ2466"
+      ],
+      "right": [
+        "FJ2458",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519"
+      ],
+      "name": "posterior segmental bronchial tree",
+      "mirrorBoundsErrorM": 0.03337064944207668,
+      "sourceMirrorBoundsErrorM": 0.033371,
+      "introducedMirrorDeviationM": 0.00001170379929543025
+    },
+    {
+      "left": [
+        "FJ2535",
+        "FJ2536",
+        "FJ2538"
+      ],
+      "right": [
+        "FJ2452",
+        "FJ2493",
+        "FJ2494"
+      ],
+      "name": "anterior basal segmental bronchial tree",
+      "mirrorBoundsErrorM": 0.046807512640953064,
+      "sourceMirrorBoundsErrorM": 0.04682610000000002,
+      "introducedMirrorDeviationM": 0.000018587359046959295
+    },
+    {
+      "left": [
+        "FJ2703",
+        "FJ2704",
+        "FJ2705"
+      ],
+      "right": [
+        "FJ2727",
+        "FJ2728",
+        "FJ2729"
+      ],
+      "name": "marginal vein",
+      "mirrorBoundsErrorM": 0.0951332077383995,
+      "sourceMirrorBoundsErrorM": 0.0951168,
+      "introducedMirrorDeviationM": 0.00004284332275394931
+    },
+    {
+      "left": [
+        "FJ2902",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910"
+      ],
+      "right": [
+        "FJ2041",
+        "FJ2044"
+      ],
+      "name": "anterior segmental artery",
+      "mirrorBoundsErrorM": 0.24047529697418213,
+      "sourceMirrorBoundsErrorM": 0.24048999999999987,
+      "introducedMirrorDeviationM": 0.00001733370180130589
+    },
+    {
+      "left": [
+        "FJ2924"
+      ],
+      "right": [
+        "FJ3019"
+      ],
+      "name": "pulmonary artery",
+      "mirrorBoundsErrorM": 0.0517020421102643,
+      "sourceMirrorBoundsErrorM": 0.051689500000000006,
+      "introducedMirrorDeviationM": 0.00003427797069549543
+    },
+    {
+      "left": [
+        "FJ2925",
+        "FJ2933"
+      ],
+      "right": [
+        "FJ3020"
+      ],
+      "name": "superior pulmonary vein",
+      "mirrorBoundsErrorM": 0.04468904435634613,
+      "sourceMirrorBoundsErrorM": 0.0446753,
+      "introducedMirrorDeviationM": 0.000015696679687499798
+    },
+    {
+      "left": [
+        "FJ2944",
+        "FJ2950",
+        "FJ2955"
+      ],
+      "right": [
+        "FJ3040"
+      ],
+      "name": "inferior pulmonary vein",
+      "mirrorBoundsErrorM": 0.0391576774418354,
+      "sourceMirrorBoundsErrorM": 0.0391674,
+      "introducedMirrorDeviationM": 0.000018779863262180507
+    },
+    {
+      "left": [
+        "FJ2945",
+        "FJ2946",
+        "FJ2948",
+        "FJ2949"
+      ],
+      "right": [
+        "FJ3041",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3057",
+        "FJ3058"
+      ],
+      "name": "posterior basal segmental vein",
+      "mirrorBoundsErrorM": 0.0343189537525177,
+      "sourceMirrorBoundsErrorM": 0.03431620000000002,
+      "introducedMirrorDeviationM": 0.000013327025270459814
+    },
+    {
+      "left": [
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954"
+      ],
+      "right": [
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062"
+      ],
+      "name": "lateral basal segmental vein",
+      "mirrorBoundsErrorM": 0.03572726249694824,
+      "sourceMirrorBoundsErrorM": 0.035720000000000196,
+      "introducedMirrorDeviationM": 0.00006304996347426817
+    },
+    {
+      "left": [
+        "FJ2956",
+        "FJ2957",
+        "FJ2959",
+        "FJ2960"
+      ],
+      "right": [
+        "FJ3049",
+        "FJ3056"
+      ],
+      "name": "anterior basal segmental vein",
+      "mirrorBoundsErrorM": 0.051568396389484406,
+      "sourceMirrorBoundsErrorM": 0.051582400000000014,
+      "introducedMirrorDeviationM": 0.000014003610515608833
+    },
+    {
+      "left": [
+        "FJ3096"
+      ],
+      "right": [
+        "FJ3123"
+      ],
+      "name": "hepatic duct",
+      "mirrorBoundsErrorM": 0.047534411773085594,
+      "sourceMirrorBoundsErrorM": 0.047539200000000004,
+      "introducedMirrorDeviationM": 0.000008859214782663827
+    },
+    {
+      "left": [
+        "FJ3400",
+        "FJ3429",
+        "FJ3495"
+      ],
+      "right": [
+        "FJ3591"
+      ],
+      "name": "colic vein",
+      "mirrorBoundsErrorM": 0.04321277141571045,
+      "sourceMirrorBoundsErrorM": 0.04320500000000005,
+      "introducedMirrorDeviationM": 0.000012571067810052128
+    },
+    {
+      "left": [
+        "FJ3426"
+      ],
+      "right": [
+        "FJ3637"
+      ],
+      "name": "superficial dorsal vein of penis",
+      "mirrorBoundsErrorM": 0.04009692370891571,
+      "sourceMirrorBoundsErrorM": 0.040073000000000025,
+      "introducedMirrorDeviationM": 0.0000822021980285692
+    },
+    {
+      "left": [
+        "FJ3482"
+      ],
+      "right": [
+        "FJ3583"
+      ],
+      "name": "brachiocephalic vein",
+      "mirrorBoundsErrorM": 0.034110177308321,
+      "sourceMirrorBoundsErrorM": 0.0340857,
+      "introducedMirrorDeviationM": 0.00007165631198882694
+    },
+    {
+      "left": [
+        "FJ3494"
+      ],
+      "right": [
+        "FJ3590"
+      ],
+      "name": "colic artery",
+      "mirrorBoundsErrorM": 0.06004148721694946,
+      "sourceMirrorBoundsErrorM": 0.06004900000000002,
+      "introducedMirrorDeviationM": 0.000010906078338646097
+    },
+    {
+      "left": [
+        "FJ3499"
+      ],
+      "right": [
+        "FJ3594"
+      ],
+      "name": "gastric artery",
+      "mirrorBoundsErrorM": 0.03667736053466797,
+      "sourceMirrorBoundsErrorM": 0.036699999999999955,
+      "introducedMirrorDeviationM": 0.00002263946533198613
+    },
+    {
+      "left": [
+        "FJ3500"
+      ],
+      "right": [
+        "FJ3595"
+      ],
+      "name": "gastric vein",
+      "mirrorBoundsErrorM": 0.03772997856140137,
+      "sourceMirrorBoundsErrorM": 0.037739999999999885,
+      "introducedMirrorDeviationM": 0.000016837425232063552
+    },
+    {
+      "left": [
+        "FJ3501"
+      ],
+      "right": [
+        "FJ3596"
+      ],
+      "name": "gastro-epiploic artery",
+      "mirrorBoundsErrorM": 0.11596385762095451,
+      "sourceMirrorBoundsErrorM": 0.1159428,
+      "introducedMirrorDeviationM": 0.00008558010816574202
+    },
+    {
+      "left": [
+        "FJ3502"
+      ],
+      "right": [
+        "FJ3597"
+      ],
+      "name": "gastroepiploic vein",
+      "mirrorBoundsErrorM": 0.12069971114397049,
+      "sourceMirrorBoundsErrorM": 0.1207463,
+      "introducedMirrorDeviationM": 0.00009969142317772794
+    }
+  ],
+  "symmetryPolicy": {
+    "strictToleranceM": 0.03,
+    "approvedSourcePairs": 26,
+    "maximumIntroducedMirrorDeviationM": 0.001,
+    "sourceBoundsSha256": "8a9da37f49a71e7f86f42387ab599b948de1cf2145b7d7a60f253aa63425d4a4"
+  },
+  "failures": []
+}

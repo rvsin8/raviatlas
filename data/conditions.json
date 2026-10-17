@@ -1,0 +1,3269 @@
+{
+  "_review": "// REVIEW: Educational seed content. Human clinical verification required before public launch. Not exhaustive; no diagnosis or prescribing guidance.",
+  "conditions": [
+    {
+      "id": "migraine",
+      "name": "Migraine",
+      "mode": "disorder",
+      "regionIds": [
+        "brain"
+      ],
+      "summary": "Migraine is a neurological condition causing recurring attacks of headache and other symptoms. Treatment can relieve attacks or help prevent them.",
+      "commonSymptoms": [
+        "Throbbing headache",
+        "Sensitivity to light or sound",
+        "Nausea"
+      ],
+      "drugIds": [
+        "sumatriptan",
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Regular sleep and meals",
+        "Trigger management"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/migraine.html"
+      ],
+      "sex_differences": [
+        {
+          "summary": "Migraine occurs more often in women than in men. Hormonal changes can trigger attacks.",
+          "sources": [
+            "https://medlineplus.gov/ency/article/000709.htm"
+          ],
+          "_review": "pending"
+        }
+      ]
+    },
+    {
+      "id": "tension-headache",
+      "name": "Tension-type headache",
+      "mode": "disorder",
+      "regionIds": [
+        "brain"
+      ],
+      "summary": "This common headache causes pressure or tightness around the head. Stress and muscle tension can contribute.",
+      "commonSymptoms": [
+        "Band-like head pressure",
+        "Tender scalp muscles"
+      ],
+      "drugIds": [
+        "acetaminophen",
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Relaxation techniques",
+        "Sleep and posture habits"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    },
+    {
+      "id": "glaucoma",
+      "name": "Open-angle glaucoma",
+      "mode": "disease",
+      "regionIds": [
+        "eyes"
+      ],
+      "summary": "Damage to the optic nerve can gradually reduce vision. Lowering pressure inside the eye helps slow progression.",
+      "commonSymptoms": [
+        "Often no early symptoms",
+        "Gradual loss of peripheral vision"
+      ],
+      "drugIds": [
+        "latanoprost"
+      ],
+      "nonDrugTreatments": [
+        "Laser treatment",
+        "Eye surgery when indicated"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/glaucoma.html"
+      ]
+    },
+    {
+      "id": "allergic-rhinitis",
+      "name": "Allergic rhinitis",
+      "mode": "disease",
+      "regionIds": [
+        "nose-sinuses"
+      ],
+      "summary": "The immune system reacts to airborne allergens in the nose. Symptoms may be seasonal or year-round.",
+      "commonSymptoms": [
+        "Sneezing",
+        "Itchy nose",
+        "Runny or blocked nose"
+      ],
+      "drugIds": [
+        "cetirizine",
+        "fluticasone-nasal"
+      ],
+      "nonDrugTreatments": [
+        "Allergen avoidance",
+        "Saline nasal irrigation"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/allergy.html"
+      ]
+    },
+    {
+      "id": "otitis-media",
+      "name": "Acute otitis media",
+      "mode": "disease",
+      "regionIds": [
+        "ears"
+      ],
+      "summary": "Inflammation and infection affect the middle ear. Antibiotics are used for selected bacterial cases; some cases improve with observation.",
+      "commonSymptoms": [
+        "Ear pain",
+        "Fever",
+        "Muffled hearing"
+      ],
+      "drugIds": [
+        "amoxicillin",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Clinical observation when appropriate",
+        "Follow-up for persistent symptoms"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/earinfections.html"
+      ]
+    },
+    {
+      "id": "tmj-disorder",
+      "name": "Temporomandibular disorder",
+      "mode": "disorder",
+      "regionIds": [
+        "jaw"
+      ],
+      "summary": "Problems in the jaw joint or chewing muscles can cause pain and restricted movement. Conservative care is often the starting point.",
+      "commonSymptoms": [
+        "Jaw pain",
+        "Painful chewing",
+        "Jaw stiffness"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Jaw exercises and physical therapy",
+        "Temporary soft foods",
+        "Dental assessment"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/temporomandibulardisorders.html"
+      ]
+    },
+    {
+      "id": "dental-caries",
+      "name": "Dental caries",
+      "mode": "disease",
+      "regionIds": [
+        "mouth-teeth"
+      ],
+      "summary": "Acids made by bacteria damage the hard surface of a tooth. Pain medicines may ease symptoms but do not repair the decay.",
+      "commonSymptoms": [
+        "Tooth sensitivity",
+        "Toothache",
+        "Visible cavities"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Dental restoration",
+        "Fluoride treatment when appropriate"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/toothdecay.html"
+      ]
+    },
+    {
+      "id": "strep-throat",
+      "name": "Streptococcal pharyngitis",
+      "mode": "disease",
+      "regionIds": [
+        "throat"
+      ],
+      "summary": "Group A streptococcal bacteria cause an infection of the throat. Testing helps distinguish it from viral causes.",
+      "commonSymptoms": [
+        "Sore throat",
+        "Fever",
+        "Painful swallowing"
+      ],
+      "drugIds": [
+        "amoxicillin",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Fluids",
+        "Rest"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/streptococcalinfections.html"
+      ]
+    },
+    {
+      "id": "hypothyroidism",
+      "name": "Hypothyroidism",
+      "mode": "disease",
+      "regionIds": [
+        "thyroid"
+      ],
+      "summary": "The thyroid does not make enough thyroid hormone. Replacement treatment supports normal metabolism.",
+      "commonSymptoms": [
+        "Fatigue",
+        "Cold intolerance",
+        "Constipation"
+      ],
+      "drugIds": [
+        "levothyroxine"
+      ],
+      "nonDrugTreatments": [
+        "Regular thyroid-function monitoring"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hypothyroidism.html"
+      ]
+    },
+    {
+      "id": "neck-strain",
+      "name": "Neck strain",
+      "mode": "injury",
+      "regionIds": [
+        "cervical-spine"
+      ],
+      "summary": "Muscles or tendons in the neck are overstretched. Recovery usually involves gradual movement and rehabilitation.",
+      "commonSymptoms": [
+        "Neck pain",
+        "Stiffness",
+        "Muscle spasm"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Activity modification",
+        "Guided mobility and physical therapy"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/neckinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "asthma",
+      "name": "Asthma",
+      "mode": "disease",
+      "regionIds": [
+        "lungs"
+      ],
+      "summary": "Inflamed, sensitive airways narrow at times and make breathing difficult. Reliever medicines and long-term anti-inflammatory treatment have different roles.",
+      "commonSymptoms": [
+        "Wheezing",
+        "Breathlessness",
+        "Cough"
+      ],
+      "drugIds": [
+        "albuterol",
+        "budesonide",
+        "fluticasone",
+        "montelukast"
+      ],
+      "nonDrugTreatments": [
+        "Individual asthma action plan",
+        "Trigger management",
+        "Inhaler technique review"
+      ],
+      "_review": "pending",
+      "source": "https://ginasthma.org/2026-gina-strategy-report/",
+      "sex": "both",
+      "sources": [
+        "https://ginasthma.org/2026-gina-strategy-report/"
+      ]
+    },
+    {
+      "id": "copd",
+      "name": "Chronic obstructive pulmonary disease",
+      "mode": "disease",
+      "regionIds": [
+        "lungs"
+      ],
+      "summary": "Persistent airway obstruction makes it harder to move air out of the lungs. Treatment can improve symptoms and reduce exacerbations.",
+      "commonSymptoms": [
+        "Breathlessness",
+        "Chronic cough",
+        "Sputum"
+      ],
+      "drugIds": [
+        "tiotropium",
+        "albuterol"
+      ],
+      "nonDrugTreatments": [
+        "Smoking cessation",
+        "Pulmonary rehabilitation"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/copd.html"
+      ]
+    },
+    {
+      "id": "stable-angina",
+      "name": "Chronic stable angina",
+      "mode": "disease",
+      "regionIds": [
+        "heart"
+      ],
+      "summary": "Reduced blood flow to the heart can cause predictable chest discomfort with exertion. New, severe, or changing chest pain needs urgent medical assessment.",
+      "commonSymptoms": [
+        "Exertional chest pressure",
+        "Breathlessness"
+      ],
+      "drugIds": [
+        "nitroglycerin",
+        "amlodipine"
+      ],
+      "nonDrugTreatments": [
+        "Cardiac risk-factor management",
+        "Revascularization in selected cases"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/angina.html"
+      ]
+    },
+    {
+      "id": "gerd",
+      "name": "Gastroesophageal reflux (GERD)",
+      "mode": "disorder",
+      "regionIds": [
+        "esophagus",
+        "stomach"
+      ],
+      "summary": "Stomach contents repeatedly flow into the esophagus and cause troublesome symptoms. Acid-reducing medicines can help symptoms and healing.",
+      "commonSymptoms": [
+        "Heartburn",
+        "Regurgitation"
+      ],
+      "drugIds": [
+        "omeprazole",
+        "famotidine"
+      ],
+      "nonDrugTreatments": [
+        "Avoid lying down soon after meals",
+        "Individual trigger management"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/gerd.html"
+      ]
+    },
+    {
+      "id": "rib-fracture",
+      "name": "Rib fracture",
+      "mode": "injury",
+      "regionIds": [
+        "ribs-sternum"
+      ],
+      "summary": "A rib breaks after trauma or repeated stress. Pain relief supports breathing while the bone heals.",
+      "commonSymptoms": [
+        "Pain with breathing",
+        "Chest tenderness"
+      ],
+      "drugIds": [
+        "acetaminophen",
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Clinical injury assessment",
+        "Guided breathing exercises",
+        "Activity modification"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/chestinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "ibs-c",
+      "name": "Irritable bowel syndrome with constipation",
+      "mode": "disorder",
+      "regionIds": [
+        "intestines"
+      ],
+      "summary": "IBS involves recurring abdominal pain and changes in bowel habits. This subtype is mainly associated with constipation.",
+      "commonSymptoms": [
+        "Abdominal pain",
+        "Bloating",
+        "Constipation"
+      ],
+      "drugIds": [
+        "linaclotide"
+      ],
+      "nonDrugTreatments": [
+        "Dietitian-guided food changes",
+        "Gut-directed psychological therapies"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/irritablebowelsyndrome.html"
+      ]
+    },
+    {
+      "id": "constipation",
+      "name": "Occasional constipation",
+      "mode": "disorder",
+      "regionIds": [
+        "intestines"
+      ],
+      "summary": "Stools can become hard or difficult to pass. Fluid, dietary, and activity changes may help alongside short-term symptom treatment.",
+      "commonSymptoms": [
+        "Hard stools",
+        "Straining",
+        "Infrequent bowel movements"
+      ],
+      "drugIds": [
+        "polyethylene-glycol"
+      ],
+      "nonDrugTreatments": [
+        "Appropriate fiber and fluids",
+        "Regular physical activity"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/constipation.html"
+      ]
+    },
+    {
+      "id": "ulcerative-colitis",
+      "name": "Ulcerative colitis",
+      "mode": "disease",
+      "regionIds": [
+        "intestines",
+        "rectum-anus"
+      ],
+      "summary": "Immune-driven inflammation affects the lining of the colon. Treatment aims to control inflammation and maintain remission.",
+      "commonSymptoms": [
+        "Bloody diarrhea",
+        "Abdominal cramping",
+        "Urgency"
+      ],
+      "drugIds": [
+        "mesalamine"
+      ],
+      "nonDrugTreatments": [
+        "Nutrition support",
+        "Surgery in selected cases"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ulcerativecolitis.html"
+      ]
+    },
+    {
+      "id": "cystitis",
+      "name": "Uncomplicated bacterial cystitis",
+      "mode": "disease",
+      "regionIds": [
+        "bladder"
+      ],
+      "summary": "Bacteria cause an infection in the bladder. Antibiotic selection depends on the clinical situation; nitrofurantoin is not used for kidney infections.",
+      "commonSymptoms": [
+        "Burning urination",
+        "Frequent urination",
+        "Lower abdominal discomfort"
+      ],
+      "drugIds": [
+        "nitrofurantoin"
+      ],
+      "nonDrugTreatments": [
+        "Clinical evaluation",
+        "Adequate hydration"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/urinarytractinfections.html"
+      ]
+    },
+    {
+      "id": "overactive-bladder",
+      "name": "Overactive bladder",
+      "mode": "disorder",
+      "regionIds": [
+        "bladder"
+      ],
+      "summary": "The bladder signals a sudden need to urinate, sometimes with leakage. Behavioral approaches and medicines may help.",
+      "commonSymptoms": [
+        "Urinary urgency",
+        "Frequent urination",
+        "Urge leakage"
+      ],
+      "drugIds": [
+        "mirabegron"
+      ],
+      "nonDrugTreatments": [
+        "Bladder training",
+        "Pelvic-floor therapy"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/bladderdiseases.html"
+      ]
+    },
+    {
+      "id": "bph",
+      "name": "Benign prostatic hyperplasia",
+      "mode": "disease",
+      "regionIds": [
+        "prostate"
+      ],
+      "summary": "A noncancerous enlarged prostate can restrict urine flow. Treatment depends on symptom severity and complications.",
+      "commonSymptoms": [
+        "Weak urine stream",
+        "Difficulty starting urination",
+        "Nighttime urination"
+      ],
+      "drugIds": [
+        "tamsulosin"
+      ],
+      "nonDrugTreatments": [
+        "Monitoring for mild symptoms",
+        "Procedures for persistent obstruction"
+      ],
+      "sex": "male",
+      "sources": [
+        "https://medlineplus.gov/enlargedprostatebph.html"
+      ]
+    },
+    {
+      "id": "dysmenorrhea",
+      "name": "Primary dysmenorrhea",
+      "mode": "disorder",
+      "regionIds": [
+        "uterus"
+      ],
+      "summary": "Menstrual cramps occur without an underlying pelvic disease. Prostaglandins contribute to uterine cramping.",
+      "commonSymptoms": [
+        "Cramping lower abdominal pain",
+        "Backache with periods"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "naproxen"
+      ],
+      "nonDrugTreatments": [
+        "Local heat",
+        "Physical activity as tolerated"
+      ],
+      "anatomyContext": "female",
+      "sex": "female",
+      "sources": [
+        "https://medlineplus.gov/periodpain.html"
+      ]
+    },
+    {
+      "id": "low-back-strain",
+      "name": "Lower back strain",
+      "mode": "injury",
+      "regionIds": [
+        "lumbar-spine"
+      ],
+      "summary": "Muscles or tendons in the lower back are overstretched or torn. Gradual return to movement is commonly part of recovery.",
+      "commonSymptoms": [
+        "Lower back pain",
+        "Stiffness",
+        "Muscle tenderness"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "naproxen"
+      ],
+      "nonDrugTreatments": [
+        "Guided exercise",
+        "Physical therapy",
+        "Activity modification"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/backpain.html"
+      ]
+    },
+    {
+      "id": "rotator-cuff-tear",
+      "name": "Rotator cuff tear",
+      "mode": "injury",
+      "regionIds": [
+        "shoulder"
+      ],
+      "summary": "One or more shoulder tendons are partly or fully torn. Medicines can ease pain but do not repair the tear.",
+      "commonSymptoms": [
+        "Shoulder pain",
+        "Weakness raising the arm",
+        "Night pain"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Physical therapy",
+        "Surgical repair in selected cases"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/rotatorcuffinjuries.html"
+      ]
+    },
+    {
+      "id": "tennis-elbow",
+      "name": "Lateral elbow tendinopathy",
+      "mode": "injury",
+      "regionIds": [
+        "elbow"
+      ],
+      "summary": "Repeated loading can damage tendons on the outer elbow. Rehabilitation and load management are central to recovery.",
+      "commonSymptoms": [
+        "Outer elbow pain",
+        "Pain with gripping"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Activity modification",
+        "Progressive tendon-loading therapy"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/elbowinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "forearm-fracture",
+      "name": "Forearm fracture",
+      "mode": "injury",
+      "regionIds": [
+        "forearm"
+      ],
+      "summary": "One or both forearm bones break after injury. Pain relief is supportive while alignment and stability are addressed.",
+      "commonSymptoms": [
+        "Pain",
+        "Swelling",
+        "Reduced movement"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Immobilization",
+        "Reduction or surgery when needed"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/arminjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "carpal-tunnel",
+      "name": "Carpal tunnel syndrome",
+      "mode": "disorder",
+      "regionIds": [
+        "wrist",
+        "fingers-thumb"
+      ],
+      "summary": "Compression of the median nerve at the wrist affects sensation and sometimes hand strength. Medicines are not the primary treatment.",
+      "commonSymptoms": [
+        "Tingling in thumb and fingers",
+        "Nighttime numbness",
+        "Weak grip"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Wrist splinting",
+        "Clinician-administered injection in selected cases",
+        "Surgical decompression"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/carpaltunnelsyndrome.html"
+      ]
+    },
+    {
+      "id": "hand-osteoarthritis",
+      "name": "Hand osteoarthritis",
+      "mode": "disease",
+      "regionIds": [
+        "fingers-thumb"
+      ],
+      "summary": "Joint tissues gradually change and cartilage is lost in affected hand joints. Treatment focuses on pain, function, and daily activities.",
+      "commonSymptoms": [
+        "Joint pain",
+        "Stiffness",
+        "Bony swelling"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "naproxen"
+      ],
+      "nonDrugTreatments": [
+        "Hand exercises",
+        "Joint protection",
+        "Assistive devices"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/osteoarthritis.html"
+      ]
+    },
+    {
+      "id": "wrist-sprain",
+      "name": "Wrist sprain",
+      "mode": "injury",
+      "regionIds": [
+        "wrist"
+      ],
+      "summary": "Ligaments around the wrist are overstretched or torn. Assessment helps distinguish a sprain from a fracture.",
+      "commonSymptoms": [
+        "Wrist pain",
+        "Swelling",
+        "Pain with movement"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Protection or splinting",
+        "Rehabilitation"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/wristinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "knee-osteoarthritis",
+      "name": "Knee osteoarthritis",
+      "mode": "disease",
+      "regionIds": [
+        "knee"
+      ],
+      "summary": "Changes in cartilage and other joint tissues can cause knee pain and stiffness. Exercise and strength work are important parts of management.",
+      "commonSymptoms": [
+        "Activity-related knee pain",
+        "Stiffness",
+        "Reduced movement"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "naproxen"
+      ],
+      "nonDrugTreatments": [
+        "Strengthening and aerobic exercise",
+        "Weight management when appropriate",
+        "Joint replacement in advanced cases"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/osteoarthritis.html"
+      ]
+    },
+    {
+      "id": "acl-tear",
+      "name": "ACL tear",
+      "mode": "injury",
+      "regionIds": [
+        "knee"
+      ],
+      "summary": "The anterior cruciate ligament helps stabilize the knee. A tear can cause instability; pain medicines support comfort but cannot restore the ligament.",
+      "commonSymptoms": [
+        "Knee swelling",
+        "Giving-way sensation",
+        "Pain after a pivoting injury"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Physical therapy",
+        "Surgery (reconstruction) in selected cases"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/kneeinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "hamstring-strain",
+      "name": "Hamstring strain",
+      "mode": "injury",
+      "regionIds": [
+        "thigh"
+      ],
+      "summary": "Muscle fibers at the back of the thigh are overstretched or torn. Progressive rehabilitation helps restore strength and movement.",
+      "commonSymptoms": [
+        "Back-of-thigh pain",
+        "Tenderness",
+        "Weakness"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Activity modification",
+        "Progressive physical therapy"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sprainsandstrains.html"
+      ]
+    },
+    {
+      "id": "shin-splints",
+      "name": "Shin splints",
+      "mode": "injury",
+      "regionIds": [
+        "shin"
+      ],
+      "summary": "Repeated loading causes pain along the shinbone. Training changes and gradual rehabilitation are central to treatment.",
+      "commonSymptoms": [
+        "Pain along the inner shin",
+        "Tenderness after exercise"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Reduce aggravating activity",
+        "Gradual return to training"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/leginjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "ankle-sprain",
+      "name": "Ankle sprain",
+      "mode": "injury",
+      "regionIds": [
+        "ankle"
+      ],
+      "summary": "Ankle ligaments stretch or tear when the joint twists. Rehabilitation helps restore balance and stability.",
+      "commonSymptoms": [
+        "Ankle pain",
+        "Swelling",
+        "Bruising"
+      ],
+      "drugIds": [
+        "ibuprofen",
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Protection and support",
+        "Balance and strengthening exercises"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ankleinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "plantar-fasciitis",
+      "name": "Plantar fasciitis",
+      "mode": "disorder",
+      "regionIds": [
+        "heel",
+        "arch"
+      ],
+      "summary": "The tissue supporting the foot arch becomes painful, commonly near the heel. Loading changes and stretching are main treatments.",
+      "commonSymptoms": [
+        "Heel pain with first steps",
+        "Pain after prolonged standing"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Calf and plantar-fascia stretching",
+        "Footwear adjustment",
+        "Physical therapy"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/heelinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "athletes-foot",
+      "name": "Athlete\u2019s foot",
+      "mode": "disease",
+      "regionIds": [
+        "toes",
+        "skin"
+      ],
+      "summary": "A superficial fungal infection affects the skin of the feet. Keeping the area dry supports topical treatment.",
+      "commonSymptoms": [
+        "Itching",
+        "Scaling skin",
+        "Cracks between toes"
+      ],
+      "drugIds": [
+        "clotrimazole"
+      ],
+      "nonDrugTreatments": [
+        "Keep feet dry",
+        "Change socks regularly"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/athletesfoot.html"
+      ]
+    },
+    {
+      "id": "atopic-dermatitis",
+      "name": "Atopic dermatitis",
+      "mode": "disease",
+      "regionIds": [
+        "skin"
+      ],
+      "summary": "A disrupted skin barrier and immune inflammation cause recurring itchy patches. Treatment supports the skin barrier and controls flares.",
+      "commonSymptoms": [
+        "Itching",
+        "Dry skin",
+        "Inflamed patches"
+      ],
+      "drugIds": [
+        "hydrocortisone"
+      ],
+      "nonDrugTreatments": [
+        "Regular emollient use",
+        "Avoid individual irritants"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/eczema.html"
+      ]
+    },
+    {
+      "id": "acne",
+      "name": "Acne vulgaris",
+      "mode": "disease",
+      "regionIds": [
+        "face",
+        "skin"
+      ],
+      "summary": "Blocked follicles and inflammation cause pimples and other lesions. Treatment depends on the type and severity of acne.",
+      "commonSymptoms": [
+        "Blackheads or whiteheads",
+        "Inflamed pimples"
+      ],
+      "drugIds": [
+        "benzoyl-peroxide",
+        "adapalene"
+      ],
+      "nonDrugTreatments": [
+        "Gentle skin cleansing",
+        "Avoid picking lesions"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/acne.html"
+      ]
+    },
+    {
+      "id": "minor-burn",
+      "name": "Minor superficial burn",
+      "mode": "injury",
+      "regionIds": [
+        "skin"
+      ],
+      "summary": "Heat damages the outer layer of skin. Larger, deeper, chemical, electrical, or sensitive-area burns need prompt medical assessment.",
+      "commonSymptoms": [
+        "Red skin",
+        "Local pain",
+        "Tenderness"
+      ],
+      "drugIds": [
+        "acetaminophen",
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Cool running water first aid",
+        "Protective dressing when appropriate"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/burns.html"
+      ]
+    },
+    {
+      "id": "urticaria",
+      "name": "Urticaria",
+      "mode": "disorder",
+      "regionIds": [
+        "skin"
+      ],
+      "summary": "Histamine release causes raised, itchy welts. Breathing difficulty or throat swelling requires emergency care.",
+      "commonSymptoms": [
+        "Itchy raised welts",
+        "Transient swelling"
+      ],
+      "drugIds": [
+        "cetirizine"
+      ],
+      "nonDrugTreatments": [
+        "Identify and avoid triggers where possible"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hives.html"
+      ]
+    },
+    {
+      "id": "type-1-diabetes",
+      "name": "Type 1 diabetes",
+      "mode": "disease",
+      "regionIds": [
+        "systemic",
+        "pancreas"
+      ],
+      "summary": "The immune system destroys insulin-producing cells. Insulin replacement is essential and commonly includes basal and mealtime components.",
+      "commonSymptoms": [
+        "Thirst",
+        "Frequent urination",
+        "Unexplained weight loss"
+      ],
+      "drugIds": [
+        "insulin-glargine",
+        "insulin-lispro"
+      ],
+      "nonDrugTreatments": [
+        "Glucose monitoring",
+        "Diabetes self-management education"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/diabetestype1.html"
+      ]
+    },
+    {
+      "id": "type-2-diabetes",
+      "name": "Type 2 diabetes",
+      "mode": "disease",
+      "regionIds": [
+        "systemic"
+      ],
+      "summary": "The body becomes less responsive to insulin and may not make enough of it. Management is individualized to overall health and glucose levels.",
+      "commonSymptoms": [
+        "Often no early symptoms",
+        "Thirst",
+        "Frequent urination"
+      ],
+      "drugIds": [
+        "metformin"
+      ],
+      "nonDrugTreatments": [
+        "Nutrition and activity support",
+        "Glucose monitoring as appropriate"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/diabetestype2.html"
+      ]
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension",
+      "mode": "disease",
+      "regionIds": [
+        "systemic"
+      ],
+      "summary": "Blood pressure stays elevated over time. Management reduces the risk of damage to the heart, kidneys, brain, and blood vessels.",
+      "commonSymptoms": [
+        "Usually no symptoms"
+      ],
+      "drugIds": [
+        "lisinopril",
+        "amlodipine"
+      ],
+      "nonDrugTreatments": [
+        "Dietary sodium reduction",
+        "Physical activity",
+        "Blood-pressure monitoring"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/highbloodpressure.html"
+      ]
+    },
+    {
+      "id": "lupus",
+      "name": "Systemic lupus erythematosus",
+      "mode": "disease",
+      "regionIds": [
+        "systemic"
+      ],
+      "summary": "An autoimmune disease can inflame several organs and tissues. Treatment varies substantially with organ involvement and disease activity.",
+      "commonSymptoms": [
+        "Fatigue",
+        "Joint pain",
+        "Photosensitive rash"
+      ],
+      "drugIds": [
+        "hydroxychloroquine"
+      ],
+      "nonDrugTreatments": [
+        "Sun protection",
+        "Specialist monitoring"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/lupus.html"
+      ]
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "name": "Rheumatoid arthritis",
+      "mode": "disease",
+      "regionIds": [
+        "systemic"
+      ],
+      "summary": "The immune system attacks joint tissue and can affect other organs. Disease-modifying medicines help control inflammation and limit joint damage.",
+      "commonSymptoms": [
+        "Swollen joints",
+        "Prolonged morning stiffness",
+        "Fatigue"
+      ],
+      "drugIds": [
+        "methotrexate",
+        "hydroxychloroquine"
+      ],
+      "nonDrugTreatments": [
+        "Physical and occupational therapy",
+        "Regular specialist monitoring"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/rheumatoidarthritis.html"
+      ]
+    },
+    {
+      "id": "hyperlipidemia",
+      "name": "Hyperlipidemia",
+      "mode": "disease",
+      "regionIds": [
+        "systemic"
+      ],
+      "summary": "Elevated blood lipids can contribute to plaque in arteries. Treatment is guided by cardiovascular risk as well as lipid levels.",
+      "commonSymptoms": [
+        "Usually no symptoms"
+      ],
+      "drugIds": [
+        "atorvastatin"
+      ],
+      "nonDrugTreatments": [
+        "Heart-healthy dietary pattern",
+        "Physical activity"
+      ],
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/cholesterol.html"
+      ]
+    },
+    {
+      "id": "epilepsy",
+      "name": "Epilepsy",
+      "mode": "disease",
+      "regionIds": [
+        "brain"
+      ],
+      "summary": "Epilepsy causes recurrent unprovoked seizures from abnormal electrical activity in the brain. Antiseizure treatment is tailored to seizure type.",
+      "commonSymptoms": [
+        "Seizures",
+        "Periods of lost awareness"
+      ],
+      "drugIds": [
+        "levetiracetam"
+      ],
+      "nonDrugTreatments": [
+        "Seizure safety planning",
+        "Specialist assessment"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/epilepsy.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/epilepsy.html"
+      ]
+    },
+    {
+      "id": "concussion",
+      "name": "Concussion",
+      "mode": "injury",
+      "regionIds": [
+        "brain"
+      ],
+      "summary": "A concussion is a brain injury caused by a blow or sudden movement of the head. Recovery requires a gradual return to normal activity after assessment.",
+      "commonSymptoms": [
+        "Headache",
+        "Dizziness",
+        "Trouble concentrating"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Medical assessment",
+        "Brief relative rest followed by a guided return to activity"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/concussion.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/concussion.html"
+      ]
+    },
+    {
+      "id": "dry-eye",
+      "name": "Dry eye",
+      "mode": "disorder",
+      "regionIds": [
+        "eyes"
+      ],
+      "summary": "Dry eye occurs when tears do not adequately lubricate the eye. Treatment depends on tear production, eyelid health and environmental triggers.",
+      "commonSymptoms": [
+        "Grittiness",
+        "Burning",
+        "Fluctuating vision"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Eye-care assessment",
+        "Warm compresses",
+        "Environmental adjustments"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000426.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000426.htm"
+      ]
+    },
+    {
+      "id": "cataract",
+      "name": "Cataract",
+      "mode": "disease",
+      "regionIds": [
+        "eyes"
+      ],
+      "summary": "A cataract clouds the eye's natural lens. Surgery can replace the cloudy lens when vision loss affects daily life.",
+      "commonSymptoms": [
+        "Blurred vision",
+        "Glare",
+        "Faded colors"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Updated glasses when helpful",
+        "Cataract surgery"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/cataract.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/cataract.html"
+      ]
+    },
+    {
+      "id": "otitis-externa",
+      "name": "Otitis externa",
+      "mode": "disease",
+      "regionIds": [
+        "ears"
+      ],
+      "summary": "Otitis externa is inflammation or infection of the outer ear canal, often after water exposure. Appropriate ear drops are selected after examining the ear.",
+      "commonSymptoms": [
+        "Ear pain",
+        "Itching",
+        "Discharge"
+      ],
+      "drugIds": [
+        "ofloxacin-otic"
+      ],
+      "nonDrugTreatments": [
+        "Keep the ear dry during treatment",
+        "Clinician cleaning when needed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000622.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000622.htm"
+      ]
+    },
+    {
+      "id": "tinnitus",
+      "name": "Tinnitus",
+      "mode": "disorder",
+      "regionIds": [
+        "ears"
+      ],
+      "summary": "Tinnitus is the perception of sound without an external source. Management addresses contributing hearing problems and the impact on sleep or concentration.",
+      "commonSymptoms": [
+        "Ringing or buzzing",
+        "Sleep difficulty"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Hearing assessment",
+        "Sound therapy",
+        "Cognitive behavioral therapy when helpful"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/tinnitus.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/tinnitus.html"
+      ]
+    },
+    {
+      "id": "acute-bacterial-sinusitis",
+      "name": "Acute bacterial sinusitis",
+      "mode": "disease",
+      "regionIds": [
+        "nose-sinuses"
+      ],
+      "summary": "Bacterial sinusitis can follow a respiratory infection and cause persistent or worsening sinus symptoms. Antibiotics are reserved for cases meeting clinical criteria.",
+      "commonSymptoms": [
+        "Facial pressure",
+        "Nasal discharge",
+        "Nasal blockage"
+      ],
+      "drugIds": [
+        "amoxicillin-clavulanate"
+      ],
+      "nonDrugTreatments": [
+        "Clinical assessment",
+        "Saline nasal irrigation"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/sinusitis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sinusitis.html"
+      ]
+    },
+    {
+      "id": "nosebleed",
+      "name": "Nosebleed",
+      "mode": "injury",
+      "regionIds": [
+        "nose-sinuses"
+      ],
+      "summary": "Bleeding can occur when small vessels inside the nose are injured or irritated. Persistent or heavy bleeding needs medical assessment.",
+      "commonSymptoms": [
+        "Blood from the nose"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Firm pressure to the soft nose while leaning forward",
+        "Cautery or packing when needed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/003106.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/003106.htm"
+      ]
+    },
+    {
+      "id": "gingivitis",
+      "name": "Gingivitis",
+      "mode": "disease",
+      "regionIds": [
+        "mouth-teeth"
+      ],
+      "summary": "Gingivitis is inflammation of the gums, commonly caused by dental plaque. Professional cleaning and effective oral hygiene are the main treatments.",
+      "commonSymptoms": [
+        "Red swollen gums",
+        "Bleeding with brushing"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Dental cleaning",
+        "Brushing and interdental cleaning"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/gumdisease.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/gumdisease.html"
+      ]
+    },
+    {
+      "id": "oral-thrush",
+      "name": "Oral thrush",
+      "mode": "disease",
+      "regionIds": [
+        "mouth-teeth"
+      ],
+      "summary": "Oral thrush is an overgrowth of Candida yeast in the mouth. Antifungal treatment and addressing predisposing factors help clear infection.",
+      "commonSymptoms": [
+        "White patches",
+        "Mouth soreness"
+      ],
+      "drugIds": [
+        "nystatin"
+      ],
+      "nonDrugTreatments": [
+        "Oral hygiene",
+        "Review inhaler technique or other contributing factors"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000626.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000626.htm"
+      ]
+    },
+    {
+      "id": "jaw-fracture",
+      "name": "Jaw fracture",
+      "mode": "injury",
+      "regionIds": [
+        "jaw"
+      ],
+      "summary": "A jaw fracture is a break in the jawbone following trauma. Pain relief supports care but cannot restore bone alignment.",
+      "commonSymptoms": [
+        "Jaw pain",
+        "Swelling",
+        "Bite misalignment"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Urgent facial injury assessment",
+        "Stabilization or surgical repair"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000019.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000019.htm"
+      ]
+    },
+    {
+      "id": "jaw-dislocation",
+      "name": "Jaw dislocation",
+      "mode": "injury",
+      "regionIds": [
+        "jaw"
+      ],
+      "summary": "A dislocated jaw occurs when the jaw joint moves out of position. A trained clinician may need to return it to its normal position.",
+      "commonSymptoms": [
+        "Unable to close the mouth",
+        "Jaw pain"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Urgent clinician reduction",
+        "Temporary activity and diet modification"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000019.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000019.htm"
+      ]
+    },
+    {
+      "id": "rosacea",
+      "name": "Rosacea",
+      "mode": "disorder",
+      "regionIds": [
+        "face"
+      ],
+      "summary": "Rosacea causes recurring facial redness and sometimes acne-like bumps. Treatments control symptoms and are chosen for the pattern of disease.",
+      "commonSymptoms": [
+        "Facial flushing",
+        "Redness",
+        "Inflamed bumps"
+      ],
+      "drugIds": [
+        "metronidazole-topical"
+      ],
+      "nonDrugTreatments": [
+        "Gentle skin care",
+        "Sun protection",
+        "Avoid individual triggers"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/rosacea.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/rosacea.html"
+      ]
+    },
+    {
+      "id": "impetigo",
+      "name": "Impetigo",
+      "mode": "disease",
+      "regionIds": [
+        "face",
+        "skin"
+      ],
+      "summary": "Impetigo is a contagious superficial bacterial skin infection. Limited infections may be treated with a topical antibiotic, while more extensive disease needs clinical review.",
+      "commonSymptoms": [
+        "Crusted sores",
+        "Itching"
+      ],
+      "drugIds": [
+        "mupirocin"
+      ],
+      "nonDrugTreatments": [
+        "Gentle cleaning",
+        "Hand hygiene",
+        "Avoid sharing towels"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/impetigo.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/impetigo.html"
+      ]
+    },
+    {
+      "id": "viral-pharyngitis",
+      "name": "Viral pharyngitis",
+      "mode": "disease",
+      "regionIds": [
+        "throat"
+      ],
+      "summary": "Viral pharyngitis is a sore throat caused by a viral infection. Supportive care relieves symptoms; antibiotics do not treat the virus.",
+      "commonSymptoms": [
+        "Sore throat",
+        "Cough",
+        "Runny nose"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Fluids",
+        "Rest",
+        "Clinical assessment if severe or persistent"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/sorethroat.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sorethroat.html"
+      ]
+    },
+    {
+      "id": "acute-laryngitis",
+      "name": "Acute laryngitis",
+      "mode": "disease",
+      "regionIds": [
+        "larynx"
+      ],
+      "summary": "Laryngitis is inflammation of the voice box, often during a viral infection or after voice overuse. Persistent hoarseness needs evaluation.",
+      "commonSymptoms": [
+        "Hoarseness",
+        "Sore throat",
+        "Weak voice"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Voice rest without whispering",
+        "Hydration",
+        "Avoid smoke"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001385.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001385.htm"
+      ]
+    },
+    {
+      "id": "vocal-fold-nodules",
+      "name": "Vocal fold nodules",
+      "mode": "disorder",
+      "regionIds": [
+        "larynx"
+      ],
+      "summary": "Vocal fold nodules are benign growths associated with repeated voice strain. Voice therapy is usually central to management.",
+      "commonSymptoms": [
+        "Hoarseness",
+        "Vocal fatigue"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Voice assessment",
+        "Speech and voice therapy",
+        "Surgery in selected persistent cases"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/voicedisorders.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/voicedisorders.html"
+      ]
+    },
+    {
+      "id": "hyperthyroidism",
+      "name": "Hyperthyroidism",
+      "mode": "disease",
+      "regionIds": [
+        "thyroid"
+      ],
+      "summary": "Hyperthyroidism means the thyroid produces excessive thyroid hormone. Antithyroid medicines are one option for hormone overproduction, depending on its cause.",
+      "commonSymptoms": [
+        "Heat intolerance",
+        "Tremor",
+        "Rapid heartbeat"
+      ],
+      "drugIds": [
+        "methimazole"
+      ],
+      "nonDrugTreatments": [
+        "Endocrine assessment",
+        "Radioactive iodine or surgery in selected cases"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/hyperthyroidism.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hyperthyroidism.html"
+      ]
+    },
+    {
+      "id": "subacute-thyroiditis",
+      "name": "Subacute thyroiditis",
+      "mode": "disease",
+      "regionIds": [
+        "thyroid"
+      ],
+      "summary": "Subacute thyroiditis is painful inflammation of the thyroid that can temporarily alter hormone levels. Anti-inflammatory treatment can relieve pain while thyroid function is monitored.",
+      "commonSymptoms": [
+        "Neck tenderness",
+        "Fever",
+        "Fatigue"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Thyroid function monitoring",
+        "Specialist care for persistent symptoms"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000375.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000375.htm"
+      ]
+    },
+    {
+      "id": "cervical-spondylosis",
+      "name": "Cervical spondylosis",
+      "mode": "disease",
+      "regionIds": [
+        "cervical-spine"
+      ],
+      "summary": "Cervical spondylosis describes age-related changes in the neck's discs and joints. Treatment is guided by symptoms and any nerve or spinal cord involvement.",
+      "commonSymptoms": [
+        "Neck stiffness",
+        "Neck pain",
+        "Arm tingling"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Physical therapy",
+        "Posture and activity changes",
+        "Surgical assessment for significant nerve compression"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000436.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000436.htm"
+      ]
+    },
+    {
+      "id": "atrial-fibrillation",
+      "name": "Atrial fibrillation",
+      "mode": "disease",
+      "regionIds": [
+        "heart"
+      ],
+      "summary": "Atrial fibrillation is an irregular heart rhythm that can increase stroke risk. Apixaban is an example of stroke prevention for eligible patients with nonvalvular atrial fibrillation; it does not correct the rhythm.",
+      "commonSymptoms": [
+        "Palpitations",
+        "Fatigue",
+        "Shortness of breath"
+      ],
+      "drugIds": [
+        "apixaban"
+      ],
+      "nonDrugTreatments": [
+        "Stroke-risk assessment",
+        "Cardioversion or ablation when appropriate"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/atrialfibrillation.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/atrialfibrillation.html"
+      ]
+    },
+    {
+      "id": "heart-failure",
+      "name": "Heart failure",
+      "mode": "disease",
+      "regionIds": [
+        "heart"
+      ],
+      "summary": "Heart failure occurs when the heart cannot pump or fill effectively enough for the body's needs. Lisinopril is one component of care for selected patients with reduced pumping function.",
+      "commonSymptoms": [
+        "Breathlessness",
+        "Leg swelling",
+        "Fatigue"
+      ],
+      "drugIds": [
+        "lisinopril"
+      ],
+      "nonDrugTreatments": [
+        "Individualized comprehensive cardiac care",
+        "Activity and fluid management",
+        "Devices in selected cases"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/heartfailure.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/heartfailure.html"
+      ]
+    },
+    {
+      "id": "community-acquired-pneumonia",
+      "name": "Community-acquired pneumonia",
+      "mode": "disease",
+      "regionIds": [
+        "lungs"
+      ],
+      "summary": "Pneumonia is infection of lung tissue. Amoxicillin is one option for selected uncomplicated bacterial cases; treatment depends on severity and the likely organism.",
+      "commonSymptoms": [
+        "Cough",
+        "Fever",
+        "Shortness of breath"
+      ],
+      "drugIds": [
+        "amoxicillin"
+      ],
+      "nonDrugTreatments": [
+        "Clinical assessment",
+        "Rest and hydration",
+        "Hospital care when severe"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/pneumonia.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/pneumonia.html"
+      ]
+    },
+    {
+      "id": "lactational-mastitis",
+      "name": "Lactational mastitis",
+      "mode": "disease",
+      "regionIds": [
+        "breast"
+      ],
+      "summary": "Mastitis is breast inflammation during lactation that may become bacterial. Antibiotics are used when bacterial mastitis is suspected, alongside supportive lactation care.",
+      "commonSymptoms": [
+        "Breast tenderness",
+        "Redness",
+        "Fever"
+      ],
+      "drugIds": [
+        "dicloxacillin"
+      ],
+      "nonDrugTreatments": [
+        "Lactation support",
+        "Cold compresses",
+        "Drainage if an abscess develops"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001490.htm",
+      "sex": "female",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001490.htm"
+      ]
+    },
+    {
+      "id": "breast-cyst",
+      "name": "Breast cyst",
+      "mode": "disorder",
+      "regionIds": [
+        "breast"
+      ],
+      "summary": "A breast cyst is a fluid-filled sac within breast tissue. Many need no treatment, but new lumps require assessment and painful cysts may be drained.",
+      "commonSymptoms": [
+        "Breast lump",
+        "Tenderness"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Breast examination and imaging",
+        "Aspiration when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/breastdiseases.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/breastdiseases.html"
+      ]
+    },
+    {
+      "id": "hormone-receptor-positive-breast-cancer",
+      "name": "Hormone receptor-positive breast cancer",
+      "mode": "disease",
+      "regionIds": [
+        "breast"
+      ],
+      "summary": "This breast cancer subtype can respond to treatments that block estrogen signaling. Tamoxifen is an option for selected patients within a specialist treatment plan.",
+      "commonSymptoms": [
+        "Breast lump",
+        "Skin or nipple changes",
+        "Sometimes no symptoms"
+      ],
+      "drugIds": [
+        "tamoxifen"
+      ],
+      "nonDrugTreatments": [
+        "Oncology assessment",
+        "Surgery and radiation when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/breastcancer.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/breastcancer.html"
+      ]
+    },
+    {
+      "id": "costochondritis",
+      "name": "Costochondritis",
+      "mode": "disorder",
+      "regionIds": [
+        "ribs-sternum"
+      ],
+      "summary": "Costochondritis is pain and inflammation where ribs join the breastbone. Chest pain requires assessment to distinguish it from cardiac or other serious causes.",
+      "commonSymptoms": [
+        "Localized chest tenderness",
+        "Pain with movement or deep breathing"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Clinical assessment",
+        "Activity modification",
+        "Local heat when helpful"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000164.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000164.htm"
+      ]
+    },
+    {
+      "id": "achalasia",
+      "name": "Achalasia",
+      "mode": "disorder",
+      "regionIds": [
+        "esophagus"
+      ],
+      "summary": "Achalasia prevents normal relaxation of the lower esophageal sphincter and disrupts swallowing. Procedures that reduce resistance at the sphincter are common treatments.",
+      "commonSymptoms": [
+        "Difficulty swallowing",
+        "Regurgitation",
+        "Weight loss"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Endoscopic dilation",
+        "Myotomy or other specialist procedures"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000267.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000267.htm"
+      ]
+    },
+    {
+      "id": "hiatal-hernia",
+      "name": "Hiatal hernia",
+      "mode": "disorder",
+      "regionIds": [
+        "diaphragm",
+        "stomach",
+        "esophagus"
+      ],
+      "summary": "A hiatal hernia occurs when part of the stomach moves through the diaphragm into the chest. Acid suppression treats associated reflux symptoms, not the hernia itself.",
+      "commonSymptoms": [
+        "Heartburn",
+        "Regurgitation",
+        "Sometimes no symptoms"
+      ],
+      "drugIds": [
+        "omeprazole"
+      ],
+      "nonDrugTreatments": [
+        "Meal and positional adjustments",
+        "Surgery in selected cases"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/hiatalhernia.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hiatalhernia.html"
+      ]
+    },
+    {
+      "id": "congenital-diaphragmatic-hernia",
+      "name": "Congenital diaphragmatic hernia",
+      "mode": "disorder",
+      "regionIds": [
+        "diaphragm"
+      ],
+      "summary": "This birth defect leaves an opening in the diaphragm, allowing abdominal organs to enter the chest. It requires specialist stabilization and surgical care.",
+      "commonSymptoms": [
+        "Breathing difficulty at birth",
+        "Poor oxygenation"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Neonatal respiratory support",
+        "Surgical repair after stabilization"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001135.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001135.htm"
+      ]
+    },
+    {
+      "id": "peptic-ulcer-disease",
+      "name": "Peptic ulcer disease",
+      "mode": "disease",
+      "regionIds": [
+        "stomach"
+      ],
+      "summary": "Peptic ulcers are sores in the stomach or duodenal lining. Acid suppression helps healing; Helicobacter pylori infection requires a complete eradication regimen when present.",
+      "commonSymptoms": [
+        "Upper abdominal pain",
+        "Nausea",
+        "Possible bleeding"
+      ],
+      "drugIds": [
+        "omeprazole"
+      ],
+      "nonDrugTreatments": [
+        "Test and treat the underlying cause",
+        "Review ulcer-promoting medicines",
+        "Endoscopic care for complications"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000206.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000206.htm"
+      ]
+    },
+    {
+      "id": "gastritis",
+      "name": "Gastritis",
+      "mode": "disease",
+      "regionIds": [
+        "stomach"
+      ],
+      "summary": "Gastritis is inflammation of the stomach lining with several possible causes. Treatment addresses the cause, and acid suppression may help selected patients.",
+      "commonSymptoms": [
+        "Upper abdominal discomfort",
+        "Nausea",
+        "Early fullness"
+      ],
+      "drugIds": [
+        "omeprazole"
+      ],
+      "nonDrugTreatments": [
+        "Clinical evaluation",
+        "Avoid identified irritants",
+        "Treat Helicobacter pylori when confirmed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001150.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001150.htm"
+      ]
+    },
+    {
+      "id": "chronic-hepatitis-b",
+      "name": "Chronic hepatitis B",
+      "mode": "disease",
+      "regionIds": [
+        "liver-gallbladder"
+      ],
+      "summary": "Chronic hepatitis B is persistent infection of the liver with hepatitis B virus. Selected patients benefit from antiviral treatment to suppress the virus and reduce liver damage.",
+      "commonSymptoms": [
+        "Fatigue",
+        "Sometimes no symptoms",
+        "Jaundice in active disease"
+      ],
+      "drugIds": [
+        "tenofovir-disoproxil"
+      ],
+      "nonDrugTreatments": [
+        "Liver monitoring",
+        "Liver cancer surveillance when indicated",
+        "Avoid alcohol"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/hepatitisb.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hepatitisb.html"
+      ]
+    },
+    {
+      "id": "chronic-hepatitis-c",
+      "name": "Chronic hepatitis C",
+      "mode": "disease",
+      "regionIds": [
+        "liver-gallbladder"
+      ],
+      "summary": "Chronic hepatitis C is persistent hepatitis C virus infection that can damage the liver. Direct-acting antiviral combinations can cure many infections after appropriate assessment.",
+      "commonSymptoms": [
+        "Fatigue",
+        "Sometimes no symptoms",
+        "Signs of advanced liver disease"
+      ],
+      "drugIds": [
+        "sofosbuvir-velpatasvir"
+      ],
+      "nonDrugTreatments": [
+        "Assessment of liver scarring",
+        "Follow-up testing for cure",
+        "Avoid alcohol"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/hepatitisc.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hepatitisc.html"
+      ]
+    },
+    {
+      "id": "cirrhosis",
+      "name": "Cirrhosis",
+      "mode": "disease",
+      "regionIds": [
+        "liver-gallbladder"
+      ],
+      "summary": "Cirrhosis is advanced liver scarring caused by chronic injury. Treatment depends on the cause and complications rather than one medicine for every patient.",
+      "commonSymptoms": [
+        "Fatigue",
+        "Abdominal swelling",
+        "Easy bruising"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Treat the underlying cause",
+        "Nutrition support",
+        "Complication surveillance",
+        "Transplant evaluation when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/cirrhosis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/cirrhosis.html"
+      ]
+    },
+    {
+      "id": "gallstones",
+      "name": "Gallstones",
+      "mode": "disease",
+      "regionIds": [
+        "liver-gallbladder"
+      ],
+      "summary": "Gallstones are hardened deposits in the gallbladder. Symptomatic stones may require removal of the gallbladder or treatment of an obstructed bile duct.",
+      "commonSymptoms": [
+        "Upper right abdominal pain",
+        "Nausea",
+        "Sometimes no symptoms"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Surgical assessment for symptomatic stones",
+        "Endoscopic treatment of duct stones when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/gallstones.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/gallstones.html"
+      ]
+    },
+    {
+      "id": "acute-pancreatitis",
+      "name": "Acute pancreatitis",
+      "mode": "disease",
+      "regionIds": [
+        "pancreas"
+      ],
+      "summary": "Acute pancreatitis is sudden inflammation of the pancreas. Treatment often requires hospital care to support hydration, nutrition and pain control while treating the cause.",
+      "commonSymptoms": [
+        "Severe upper abdominal pain",
+        "Nausea",
+        "Vomiting"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Urgent assessment",
+        "Intravenous fluids and nutrition support as indicated",
+        "Treat gallstones or other causes"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/pancreatitis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/pancreatitis.html"
+      ]
+    },
+    {
+      "id": "chronic-pancreatitis",
+      "name": "Chronic pancreatitis",
+      "mode": "disease",
+      "regionIds": [
+        "pancreas"
+      ],
+      "summary": "Chronic pancreatitis causes lasting pancreatic damage and may reduce digestive enzyme production. Pancreatic enzyme replacement helps patients with resulting maldigestion.",
+      "commonSymptoms": [
+        "Abdominal pain",
+        "Greasy stools",
+        "Weight loss"
+      ],
+      "drugIds": [
+        "pancrelipase"
+      ],
+      "nonDrugTreatments": [
+        "Nutrition support",
+        "Avoid alcohol and smoking",
+        "Endoscopic or surgical care when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/pancreatitis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/pancreatitis.html"
+      ]
+    },
+    {
+      "id": "kidney-stones",
+      "name": "Kidney stones",
+      "mode": "disease",
+      "regionIds": [
+        "kidneys"
+      ],
+      "summary": "Kidney stones are hard deposits that can obstruct urine flow and cause severe pain. Pain relief is supportive; stone size, obstruction and infection determine further treatment.",
+      "commonSymptoms": [
+        "Flank pain",
+        "Blood in urine",
+        "Nausea"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Clinical assessment",
+        "Hydration as appropriate",
+        "Stone removal or lithotripsy when needed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/kidneystones.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/kidneystones.html"
+      ]
+    },
+    {
+      "id": "chronic-kidney-disease",
+      "name": "Chronic kidney disease",
+      "mode": "disease",
+      "regionIds": [
+        "kidneys"
+      ],
+      "summary": "Chronic kidney disease is persistent loss of kidney function or evidence of kidney damage. An ACE inhibitor may help selected patients with hypertension or albuminuria, with monitoring of kidney function and potassium.",
+      "commonSymptoms": [
+        "Often no early symptoms",
+        "Swelling",
+        "Fatigue"
+      ],
+      "drugIds": [
+        "lisinopril"
+      ],
+      "nonDrugTreatments": [
+        "Control underlying disease",
+        "Individualized nutrition advice",
+        "Dialysis or transplantation for kidney failure"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000471.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000471.htm"
+      ]
+    },
+    {
+      "id": "splenic-injury",
+      "name": "Splenic injury",
+      "mode": "injury",
+      "regionIds": [
+        "spleen"
+      ],
+      "summary": "Trauma can tear the spleen and cause internal bleeding. Management depends on stability and injury severity, and requires urgent medical assessment.",
+      "commonSymptoms": [
+        "Left upper abdominal pain",
+        "Dizziness",
+        "Shoulder-tip pain"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Emergency assessment",
+        "Monitored observation, embolization or surgery"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/002944.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/002944.htm"
+      ]
+    },
+    {
+      "id": "splenomegaly",
+      "name": "Splenomegaly",
+      "mode": "disorder",
+      "regionIds": [
+        "spleen"
+      ],
+      "summary": "Splenomegaly means an enlarged spleen and can result from infection, liver disease or blood disorders. Treatment targets the underlying cause.",
+      "commonSymptoms": [
+        "Left upper abdominal fullness",
+        "Early satiety",
+        "Sometimes no symptoms"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Identify and treat the cause",
+        "Avoid activities that risk abdominal trauma"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/003276.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/003276.htm"
+      ]
+    },
+    {
+      "id": "acute-appendicitis",
+      "name": "Acute appendicitis",
+      "mode": "disease",
+      "regionIds": [
+        "appendix"
+      ],
+      "summary": "Appendicitis is inflammation of the appendix that can progress to rupture. Urgent assessment determines surgical care or a selected antibiotic-based approach.",
+      "commonSymptoms": [
+        "Abdominal pain",
+        "Loss of appetite",
+        "Nausea",
+        "Fever"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Urgent surgical assessment",
+        "Appendectomy when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/appendicitis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/appendicitis.html"
+      ]
+    },
+    {
+      "id": "appendiceal-neuroendocrine-tumor",
+      "name": "Appendiceal neuroendocrine tumor",
+      "mode": "disease",
+      "regionIds": [
+        "appendix"
+      ],
+      "summary": "A neuroendocrine tumor can arise in the appendix and is sometimes found after appendectomy. Treatment depends on tumor size, location and spread.",
+      "commonSymptoms": [
+        "Often no symptoms",
+        "Sometimes appendicitis-like pain"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Surgical removal",
+        "Specialist staging and follow-up"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/carcinoidtumors.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/carcinoidtumors.html"
+      ]
+    },
+    {
+      "id": "hemorrhoids",
+      "name": "Hemorrhoids",
+      "mode": "disorder",
+      "regionIds": [
+        "rectum-anus"
+      ],
+      "summary": "Hemorrhoids are swollen vascular cushions in the anus or lower rectum. Treatment focuses on easier bowel movements and procedures for persistent symptoms.",
+      "commonSymptoms": [
+        "Rectal bleeding",
+        "Itching",
+        "Discomfort"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Dietary fiber and fluids",
+        "Avoid straining",
+        "Office procedures or surgery when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/hemorrhoids.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/hemorrhoids.html"
+      ]
+    },
+    {
+      "id": "anal-fissure",
+      "name": "Anal fissure",
+      "mode": "disorder",
+      "regionIds": [
+        "rectum-anus"
+      ],
+      "summary": "An anal fissure is a small tear in the anal lining, often after passage of hard stool. Reducing constipation helps healing, with specialist treatment for persistent fissures.",
+      "commonSymptoms": [
+        "Pain during bowel movements",
+        "Small amounts of bright red blood"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Fiber and stool-softening measures",
+        "Warm baths",
+        "Specialist treatment if persistent"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001130.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001130.htm"
+      ]
+    },
+    {
+      "id": "thoracic-vertebral-compression-fracture",
+      "name": "Thoracic vertebral compression fracture",
+      "mode": "injury",
+      "regionIds": [
+        "thoracic-spine"
+      ],
+      "summary": "A compression fracture collapses part of a vertebral body. Pain relief supports treatment while the cause, stability and nerve function are assessed.",
+      "commonSymptoms": [
+        "Mid-back pain",
+        "Loss of height",
+        "Reduced mobility"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Clinical and imaging assessment",
+        "Bracing or rehabilitation when indicated",
+        "Treat bone fragility"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000443.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000443.htm"
+      ]
+    },
+    {
+      "id": "osteoporosis",
+      "name": "Osteoporosis",
+      "mode": "disease",
+      "regionIds": [
+        "thoracic-spine",
+        "lumbar-spine",
+        "hip"
+      ],
+      "summary": "Osteoporosis weakens bone and increases fracture risk. Alendronate is one option for patients who meet treatment criteria.",
+      "commonSymptoms": [
+        "Often no symptoms before fracture",
+        "Height loss after spinal fractures"
+      ],
+      "drugIds": [
+        "alendronate"
+      ],
+      "nonDrugTreatments": [
+        "Weight-bearing activity as appropriate",
+        "Fall prevention",
+        "Adequate calcium and vitamin D intake"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/osteoporosis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/osteoporosis.html"
+      ]
+    },
+    {
+      "id": "lumbar-disc-herniation",
+      "name": "Lumbar disc herniation",
+      "mode": "disorder",
+      "regionIds": [
+        "lumbar-spine"
+      ],
+      "summary": "A herniated lumbar disc can irritate nearby nerve roots. Many cases improve with conservative care; progressive neurological symptoms need urgent assessment.",
+      "commonSymptoms": [
+        "Low back pain",
+        "Leg pain",
+        "Tingling"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Activity modification",
+        "Physical therapy",
+        "Surgical assessment when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/herniateddisk.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/herniateddisk.html"
+      ]
+    },
+    {
+      "id": "spinal-cord-injury",
+      "name": "Spinal cord injury",
+      "mode": "injury",
+      "regionIds": [
+        "spinal-cord"
+      ],
+      "summary": "Trauma to the spinal cord can disrupt movement, sensation and autonomic function. Emergency stabilization and rehabilitation are central to care.",
+      "commonSymptoms": [
+        "Weakness",
+        "Loss of sensation",
+        "Bladder or bowel dysfunction"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Emergency stabilization",
+        "Surgery when indicated",
+        "Specialist rehabilitation"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/spinalcordinjuries.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/spinalcordinjuries.html"
+      ]
+    },
+    {
+      "id": "multiple-sclerosis",
+      "name": "Multiple sclerosis",
+      "mode": "disease",
+      "regionIds": [
+        "spinal-cord",
+        "brain"
+      ],
+      "summary": "Multiple sclerosis damages myelin in the central nervous system. Baclofen can relieve spasticity; separate disease-modifying treatment is chosen by a specialist.",
+      "commonSymptoms": [
+        "Weakness",
+        "Sensory changes",
+        "Muscle stiffness"
+      ],
+      "drugIds": [
+        "baclofen"
+      ],
+      "nonDrugTreatments": [
+        "Neurology care and disease-modifying treatment planning",
+        "Rehabilitation"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/multiplesclerosis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/multiplesclerosis.html"
+      ]
+    },
+    {
+      "id": "coccydynia",
+      "name": "Coccydynia",
+      "mode": "disorder",
+      "regionIds": [
+        "sacrum-tailbone"
+      ],
+      "summary": "Coccydynia is pain around the tailbone, often after pressure or trauma. Care focuses on relieving pressure and improving function.",
+      "commonSymptoms": [
+        "Tailbone pain",
+        "Pain when sitting"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Seating adjustments",
+        "Physical therapy",
+        "Assessment for persistent pain"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/patientinstructions/000573.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/patientinstructions/000573.htm"
+      ]
+    },
+    {
+      "id": "sacral-fracture",
+      "name": "Sacral fracture",
+      "mode": "injury",
+      "regionIds": [
+        "sacrum-tailbone"
+      ],
+      "summary": "A sacral fracture is a break in the bone at the base of the spine. Management depends on stability, bone health and nerve involvement.",
+      "commonSymptoms": [
+        "Lower back or buttock pain",
+        "Pain with weight bearing"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Imaging and stability assessment",
+        "Protected activity",
+        "Surgery when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/fractures.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/fractures.html"
+      ]
+    },
+    {
+      "id": "shoulder-bursitis",
+      "name": "Shoulder bursitis",
+      "mode": "disorder",
+      "regionIds": [
+        "shoulder"
+      ],
+      "summary": "Shoulder bursitis is inflammation of a fluid-filled cushion around the joint. Treatment reduces irritation and restores comfortable movement.",
+      "commonSymptoms": [
+        "Shoulder pain",
+        "Pain with overhead movement"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Activity modification",
+        "Physical therapy"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/bursitis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/bursitis.html"
+      ]
+    },
+    {
+      "id": "adhesive-capsulitis",
+      "name": "Adhesive capsulitis",
+      "mode": "disorder",
+      "regionIds": [
+        "shoulder"
+      ],
+      "summary": "Adhesive capsulitis, or frozen shoulder, causes progressive pain and restricted shoulder motion. Recovery often requires sustained rehabilitation.",
+      "commonSymptoms": [
+        "Shoulder stiffness",
+        "Pain",
+        "Limited range of motion"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Guided stretching and physical therapy",
+        "Specialist procedures when needed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000455.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000455.htm"
+      ]
+    },
+    {
+      "id": "humeral-fracture",
+      "name": "Humeral fracture",
+      "mode": "injury",
+      "regionIds": [
+        "upper-arm"
+      ],
+      "summary": "A humeral fracture is a break in the upper-arm bone. Stabilization and sometimes surgery are needed for healing.",
+      "commonSymptoms": [
+        "Arm pain",
+        "Swelling",
+        "Reduced movement"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Immobilization",
+        "Orthopedic assessment",
+        "Surgery when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/arminjuriesanddisorders.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/arminjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "biceps-strain",
+      "name": "Biceps strain",
+      "mode": "injury",
+      "regionIds": [
+        "upper-arm"
+      ],
+      "summary": "A biceps strain stretches or tears muscle or tendon fibers in the upper arm. Rehabilitation restores strength after the initial injury is assessed.",
+      "commonSymptoms": [
+        "Upper-arm pain",
+        "Tenderness",
+        "Weakness"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Relative rest",
+        "Gradual rehabilitation",
+        "Assessment for a significant tear"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/sprainsandstrains.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sprainsandstrains.html"
+      ]
+    },
+    {
+      "id": "olecranon-bursitis",
+      "name": "Olecranon bursitis",
+      "mode": "disorder",
+      "regionIds": [
+        "elbow"
+      ],
+      "summary": "Olecranon bursitis affects the fluid-filled cushion over the elbow tip. Infection must be distinguished from pressure-related inflammation.",
+      "commonSymptoms": [
+        "Elbow-tip swelling",
+        "Tenderness",
+        "Redness"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Avoid pressure",
+        "Clinical assessment",
+        "Drainage or infection treatment when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/elbowinjuriesanddisorders.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/elbowinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "forearm-muscle-strain",
+      "name": "Forearm muscle strain",
+      "mode": "injury",
+      "regionIds": [
+        "forearm"
+      ],
+      "summary": "A forearm strain damages muscle or tendon fibers through overuse or sudden loading. Supportive treatment is followed by gradual restoration of function.",
+      "commonSymptoms": [
+        "Forearm pain",
+        "Tenderness",
+        "Pain with gripping"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Relative rest",
+        "Rehabilitation",
+        "Adjust repetitive activities"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/sprainsandstrains.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sprainsandstrains.html"
+      ]
+    },
+    {
+      "id": "dupuytren-contracture",
+      "name": "Dupuytren contracture",
+      "mode": "disorder",
+      "regionIds": [
+        "palm"
+      ],
+      "summary": "Dupuytren contracture thickens tissue beneath the palm and can pull fingers into a bent position. Treatment depends on how much hand function is affected.",
+      "commonSymptoms": [
+        "Palm nodules",
+        "Bent fingers",
+        "Difficulty straightening fingers"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Observation when mild",
+        "Needle or surgical release when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001233.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001233.htm"
+      ]
+    },
+    {
+      "id": "hand-contusion",
+      "name": "Hand contusion",
+      "mode": "injury",
+      "regionIds": [
+        "palm"
+      ],
+      "summary": "A hand contusion is bruising of soft tissue after a blow. Persistent pain or loss of function warrants assessment for fracture or other injury.",
+      "commonSymptoms": [
+        "Bruising",
+        "Swelling",
+        "Tenderness"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Protection and elevation",
+        "Cold packs with skin protection",
+        "Assessment if function is limited"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/bruises.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/bruises.html"
+      ]
+    },
+    {
+      "id": "trigger-finger",
+      "name": "Trigger finger",
+      "mode": "disorder",
+      "regionIds": [
+        "fingers-thumb"
+      ],
+      "summary": "Trigger finger occurs when a flexor tendon catches as it moves through its sheath. Splinting, injection or release may be considered depending on severity.",
+      "commonSymptoms": [
+        "Catching or locking",
+        "Finger stiffness",
+        "Palm tenderness"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Activity modification",
+        "Splinting",
+        "Specialist injection or surgical release"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/patientinstructions/000565.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/patientinstructions/000565.htm"
+      ]
+    },
+    {
+      "id": "hip-osteoarthritis",
+      "name": "Hip osteoarthritis",
+      "mode": "disease",
+      "regionIds": [
+        "hip"
+      ],
+      "summary": "Hip osteoarthritis causes progressive cartilage and joint changes. Medicines may relieve pain, while exercise and joint replacement can improve function in selected patients.",
+      "commonSymptoms": [
+        "Groin or hip pain",
+        "Stiffness",
+        "Reduced mobility"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Exercise and physical therapy",
+        "Walking aids",
+        "Joint replacement when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/osteoarthritis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/osteoarthritis.html"
+      ]
+    },
+    {
+      "id": "hip-fracture",
+      "name": "Hip fracture",
+      "mode": "injury",
+      "regionIds": [
+        "hip"
+      ],
+      "summary": "A hip fracture is a break near the upper end of the thigh bone. It usually needs urgent orthopedic care and frequently surgery.",
+      "commonSymptoms": [
+        "Severe hip pain",
+        "Inability to bear weight"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Urgent hospital assessment",
+        "Surgery and rehabilitation"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/007386.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/007386.htm"
+      ]
+    },
+    {
+      "id": "quadriceps-strain",
+      "name": "Quadriceps strain",
+      "mode": "injury",
+      "regionIds": [
+        "thigh"
+      ],
+      "summary": "A quadriceps strain damages fibers in the muscles at the front of the thigh. Recovery depends on severity and a gradual return to loading.",
+      "commonSymptoms": [
+        "Front-thigh pain",
+        "Swelling",
+        "Weakness"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Relative rest",
+        "Progressive rehabilitation",
+        "Assessment for major tears"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/sprainsandstrains.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sprainsandstrains.html"
+      ]
+    },
+    {
+      "id": "patellofemoral-pain-syndrome",
+      "name": "Patellofemoral pain syndrome",
+      "mode": "disorder",
+      "regionIds": [
+        "knee"
+      ],
+      "summary": "Patellofemoral pain causes pain around or behind the kneecap during loading. Exercise-based rehabilitation is the main treatment.",
+      "commonSymptoms": [
+        "Pain on stairs",
+        "Pain with squatting",
+        "Pain after prolonged sitting"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Hip and knee strengthening",
+        "Activity adjustment",
+        "Physical therapy"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/000452.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/000452.htm"
+      ]
+    },
+    {
+      "id": "tibial-stress-fracture",
+      "name": "Tibial stress fracture",
+      "mode": "injury",
+      "regionIds": [
+        "shin"
+      ],
+      "summary": "A tibial stress fracture is a small bone injury caused by repeated loading. Rest from impact activity allows healing and reduces risk of a larger fracture.",
+      "commonSymptoms": [
+        "Focal shin pain",
+        "Tenderness",
+        "Pain with impact"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Medical assessment",
+        "Protected weight bearing as indicated",
+        "Gradual return to activity"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/fractures.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/fractures.html"
+      ]
+    },
+    {
+      "id": "calf-strain",
+      "name": "Calf strain",
+      "mode": "injury",
+      "regionIds": [
+        "calf"
+      ],
+      "summary": "A calf strain injures muscle fibers at the back of the lower leg. Marked swelling or unexplained pain needs assessment for other causes.",
+      "commonSymptoms": [
+        "Calf pain",
+        "Tenderness",
+        "Weak push-off"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Relative rest",
+        "Progressive rehabilitation"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/sprainsandstrains.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/sprainsandstrains.html"
+      ]
+    },
+    {
+      "id": "achilles-tendinopathy",
+      "name": "Achilles tendinopathy",
+      "mode": "injury",
+      "regionIds": [
+        "calf",
+        "heel",
+        "ankle"
+      ],
+      "summary": "Achilles tendinopathy causes load-related pain in the tendon joining calf muscles to the heel. Pain medicines are supportive; progressive tendon loading is central to treatment.",
+      "commonSymptoms": [
+        "Pain near the heel",
+        "Morning stiffness",
+        "Pain with activity"
+      ],
+      "drugIds": [
+        "ibuprofen"
+      ],
+      "nonDrugTreatments": [
+        "Guided tendon-loading exercises",
+        "Activity modification",
+        "Physical therapy"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/tendinitis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/tendinitis.html"
+      ]
+    },
+    {
+      "id": "ankle-fracture",
+      "name": "Ankle fracture",
+      "mode": "injury",
+      "regionIds": [
+        "ankle"
+      ],
+      "summary": "An ankle fracture breaks one or more bones around the ankle joint. Alignment and stability guide treatment.",
+      "commonSymptoms": [
+        "Ankle pain",
+        "Swelling",
+        "Difficulty bearing weight"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Immobilization",
+        "Orthopedic assessment",
+        "Surgery when needed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ankleinjuriesanddisorders.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ankleinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "heel-contusion",
+      "name": "Heel contusion",
+      "mode": "injury",
+      "regionIds": [
+        "heel"
+      ],
+      "summary": "A heel contusion bruises the soft tissue cushion under the heel. Persistent focal pain requires assessment to exclude a bone injury.",
+      "commonSymptoms": [
+        "Heel tenderness",
+        "Pain with walking"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Reduce impact",
+        "Cushioned footwear",
+        "Gradual return to activity"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/bruises.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/bruises.html"
+      ]
+    },
+    {
+      "id": "metatarsal-stress-fracture",
+      "name": "Metatarsal stress fracture",
+      "mode": "injury",
+      "regionIds": [
+        "arch"
+      ],
+      "summary": "A metatarsal stress fracture is a small break caused by repeated loading of a forefoot bone. Healing requires reducing the load on the injured bone.",
+      "commonSymptoms": [
+        "Forefoot pain",
+        "Swelling",
+        "Focal tenderness"
+      ],
+      "drugIds": [
+        "acetaminophen"
+      ],
+      "nonDrugTreatments": [
+        "Assessment",
+        "Protected activity or immobilization",
+        "Gradual return to loading"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/footinjuriesanddisorders.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/footinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "id": "ingrown-toenail",
+      "name": "Ingrown toenail",
+      "mode": "disorder",
+      "regionIds": [
+        "toes"
+      ],
+      "summary": "An ingrown toenail occurs when a nail edge irritates or grows into nearby skin. Persistent or infected cases may need a nail procedure.",
+      "commonSymptoms": [
+        "Toe pain",
+        "Redness",
+        "Swelling"
+      ],
+      "drugIds": [],
+      "nonDrugTreatments": [
+        "Appropriate footwear and nail care",
+        "Clinician nail procedure when indicated"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/ency/article/001237.htm",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/ency/article/001237.htm"
+      ]
+    },
+    {
+      "id": "gout",
+      "name": "Gout",
+      "mode": "disease",
+      "regionIds": [
+        "toes",
+        "knee"
+      ],
+      "summary": "Gout is inflammatory arthritis caused by urate crystals in joints. Colchicine treats or helps prevent flares; long-term urate control is a separate treatment decision.",
+      "commonSymptoms": [
+        "Sudden severe joint pain",
+        "Redness",
+        "Swelling"
+      ],
+      "drugIds": [
+        "colchicine"
+      ],
+      "nonDrugTreatments": [
+        "Clinical assessment",
+        "Long-term urate management when indicated",
+        "Review contributing factors"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/gout.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/gout.html"
+      ]
+    },
+    {
+      "id": "psoriasis",
+      "name": "Psoriasis",
+      "mode": "disease",
+      "regionIds": [
+        "skin"
+      ],
+      "summary": "Psoriasis is an immune-mediated condition that produces inflamed scaly skin. Low-potency topical corticosteroids can help selected mild or sensitive-site disease under appropriate guidance.",
+      "commonSymptoms": [
+        "Scaly plaques",
+        "Itching",
+        "Skin soreness"
+      ],
+      "drugIds": [
+        "hydrocortisone"
+      ],
+      "nonDrugTreatments": [
+        "Moisturizers",
+        "Phototherapy or specialist treatment when needed"
+      ],
+      "_review": "pending",
+      "source": "https://medlineplus.gov/psoriasis.html",
+      "sex": "both",
+      "sources": [
+        "https://medlineplus.gov/psoriasis.html"
+      ]
+    },
+    {
+      "id": "deep-vein-thrombosis",
+      "name": "Deep vein thrombosis",
+      "mode": "disease",
+      "regionIds": [
+        "calf",
+        "thigh"
+      ],
+      "summary": "A blood clot forms in a deep vein, often in the leg. A piece can break off and travel to the lungs.",
+      "commonSymptoms": [
+        "Leg swelling",
+        "Calf pain",
+        "Warmth"
+      ],
+      "drugIds": [
+        "apixaban",
+        "rivaroxaban",
+        "warfarin",
+        "enoxaparin",
+        "heparin"
+      ],
+      "nonDrugTreatments": [
+        "Compression and activity guidance individualized by a clinician",
+        "IVC filter in selected circumstances"
+      ],
+      "_review": "pending",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/",
+      "sex": "both",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/"
+      ]
+    },
+    {
+      "id": "pulmonary-embolism",
+      "name": "Pulmonary embolism",
+      "mode": "disease",
+      "regionIds": [
+        "lungs"
+      ],
+      "summary": "A clot blocks a pulmonary artery, often after traveling from a deep vein in the leg. Large blockages can strain the right side of the heart.",
+      "commonSymptoms": [
+        "Sudden breathlessness",
+        "Chest pain",
+        "Fast heartbeat"
+      ],
+      "drugIds": [
+        "apixaban",
+        "rivaroxaban",
+        "warfarin",
+        "enoxaparin",
+        "heparin",
+        "alteplase"
+      ],
+      "nonDrugTreatments": [
+        "Urgent medical assessment",
+        "Catheter or surgical clot removal in selected severe cases"
+      ],
+      "_review": "pending",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/",
+      "sex": "both",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';import fs from'node:fs';import{execFileSync}from'node:child_process';
+for(const name of['demos','demos/ten-powers','demos/one-pill','explore','deep-dive/aortic-dissection','deep-dive/dvt-pe','deep-dive/asthma'])assert.ok(fs.existsSync(`out/${name}/index.html`),`Missing route ${name}`);
+for(const name of['index.html','one-pill/index.html']){const html=fs.readFileSync(`out/demo-lab/${name}`,'utf8');for(const m of html.matchAll(/(?:src|href)="(\/demo-lab\/[^"]+)"/g))assert.ok(fs.existsSync('out'+m[1]),`Missing entry asset ${m[1]}`)}
+const missing=[];for(const name of fs.readdirSync('demos-src/src')){const s=fs.readFileSync('demos-src/src/'+name,'utf8');for(const m of s.matchAll(/['"](\/demo-lab\/(?:assets|data)\/[^'"`$]+)['"]/g)){if(!fs.existsSync('out'+m[1]))missing.push(m[1])}}assert.deepEqual(missing,[]);
+execFileSync('git',['diff','--exit-code','1327f07213827f2db704cd1b287d4d32747ea539','--','demos-src','public/models/rxatlas-anatomy.glb','public/molecules','components/deep-dive','components/clinical-deep-dives','components/molecules','app/theme.css']);
+for(const file of ['conditions','drugs']){const before=JSON.parse(execFileSync('git',['show','1327f07213827f2db704cd1b287d4d32747ea539:data/'+file+'.json'],{encoding:'utf8'}))[file],after=JSON.parse(fs.readFileSync('data/'+file+'.json'))[file];assert.deepEqual(after.map(x=>x.id),before.map(x=>x.id));for(let i=0;i<before.length;i++)for(const key of ['summary','mechanism','drugIds','nonDrugTreatments','commonSymptoms'])assert.deepEqual(after[i][key],before[i][key])}
+assert.ok(fs.readFileSync('out/explore/index.html','utf8').includes('/demos/'));
+const atlasBody=fs.readFileSync('public/models/rxatlas-anatomy.glb');assert.ok(atlasBody.equals(fs.readFileSync('out/demo-lab/models/body.glb')));
+assert.ok(fs.readFileSync('components/demos/DemoExperience.tsx','utf8').includes("e.source!==frame.current?.contentWindow"));
+console.log('PASS: demo routes, assets, header entry, original catalog/model/viewer preservation, matching body geometry, and scoped URL-state integration. Browser verification not performed.');

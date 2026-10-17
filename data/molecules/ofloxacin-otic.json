@@ -1,0 +1,903 @@
+{
+  "id": "ofloxacin-otic",
+  "name": "ofloxacin",
+  "kind": "small",
+  "cid": 4583,
+  "formula": "C18H20FN3O4",
+  "molecularWeight": "361.4",
+  "iupacName": "7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid",
+  "canonicalSmiles": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+  "isomericSmiles": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/4583",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ofloxacin/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 4583,
+    "MolecularFormula": "C18H20FN3O4",
+    "MolecularWeight": "361.4",
+    "SMILES": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+    "ConnectivitySMILES": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+    "IUPACName": "7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid"
+  },
+  "note": "",
+  "dimension": 3,
+  "sdfUrl": "/molecules/ofloxacin-otic.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 9,
+      "position": [
+        -1.6951,
+        -2.9042,
+        0.0812
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        -1.0003,
+        1.7712,
+        -0.1345
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 8,
+      "position": [
+        3.331,
+        -2.4092,
+        -0.044
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        5.6229,
+        -1.2858,
+        0.5635
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 8,
+      "position": [
+        5.9711,
+        0.6585,
+        -0.5893
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 7,
+      "position": [
+        -2.7212,
+        -0.346,
+        0.0011
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 7,
+      "position": [
+        1.8461,
+        1.3819,
+        -0.0839
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 7,
+      "position": [
+        -5.57,
+        -0.1483,
+        -0.0651
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 6,
+      "position": [
+        -3.5162,
+        -0.8102,
+        1.1421
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        -3.4259,
+        -0.2962,
+        -1.2861
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        1.259,
+        2.7213,
+        0.0097
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        -1.3383,
+        -0.5598,
+        -0.0143
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        0.9383,
+        0.3039,
+        -0.0723
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        -0.4489,
+        0.5143,
+        -0.0823
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 6,
+      "position": [
+        -4.8482,
+        -0.059,
+        1.2101
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 6,
+      "position": [
+        -4.7601,
+        0.4392,
+        -1.1395
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 6,
+      "position": [
+        -0.0973,
+        2.7283,
+        -0.697
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 6,
+      "position": [
+        1.4126,
+        -1.0212,
+        -0.0426
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 6,
+      "position": [
+        -0.85,
+        -1.8647,
+        0.0263
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 6,
+      "position": [
+        3.2036,
+        1.1325,
+        -0.0844
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 6,
+      "position": [
+        0.5242,
+        -2.1007,
+        0.0052
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 6,
+      "position": [
+        1.146,
+        3.144,
+        1.4768
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 6,
+      "position": [
+        2.8785,
+        -1.2713,
+        -0.0543
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 23,
+      "sdfAtomIndex": 23,
+      "z": 6,
+      "position": [
+        -6.8639,
+        0.5268,
+        0.0294
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 24,
+      "sdfAtomIndex": 24,
+      "z": 6,
+      "position": [
+        3.7706,
+        -0.0805,
+        -0.0765
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 25,
+      "sdfAtomIndex": 25,
+      "z": 6,
+      "position": [
+        5.2313,
+        -0.1651,
+        -0.0794
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 26,
+      "sdfAtomIndex": 26,
+      "z": 1,
+      "position": [
+        -3.704,
+        -1.8875,
+        1.0546
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 27,
+      "sdfAtomIndex": 27,
+      "z": 1,
+      "position": [
+        -2.9702,
+        -0.6429,
+        2.0787
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 28,
+      "sdfAtomIndex": 28,
+      "z": 1,
+      "position": [
+        -2.8199,
+        0.225,
+        -2.0374
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 29,
+      "sdfAtomIndex": 29,
+      "z": 1,
+      "position": [
+        -3.5936,
+        -1.3179,
+        -1.6502
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 30,
+      "sdfAtomIndex": 30,
+      "z": 1,
+      "position": [
+        1.9078,
+        3.4427,
+        -0.504
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 31,
+      "sdfAtomIndex": 31,
+      "z": 1,
+      "position": [
+        -5.4497,
+        -0.5,
+        2.0142
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 32,
+      "sdfAtomIndex": 32,
+      "z": 1,
+      "position": [
+        -4.6637,
+        0.9902,
+        1.4783
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 33,
+      "sdfAtomIndex": 33,
+      "z": 1,
+      "position": [
+        -4.5722,
+        1.504,
+        -0.9458
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 34,
+      "sdfAtomIndex": 34,
+      "z": 1,
+      "position": [
+        -5.2957,
+        0.3706,
+        -2.0941
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 35,
+      "sdfAtomIndex": 35,
+      "z": 1,
+      "position": [
+        -0.5669,
+        3.714,
+        -0.6062
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 36,
+      "sdfAtomIndex": 36,
+      "z": 1,
+      "position": [
+        0.0124,
+        2.5231,
+        -1.7704
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 37,
+      "sdfAtomIndex": 37,
+      "z": 1,
+      "position": [
+        3.7951,
+        2.0425,
+        -0.0841
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 38,
+      "sdfAtomIndex": 38,
+      "z": 1,
+      "position": [
+        0.8817,
+        -3.1261,
+        0.0329
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 39,
+      "sdfAtomIndex": 39,
+      "z": 1,
+      "position": [
+        2.1341,
+        3.1737,
+        1.9488
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 40,
+      "sdfAtomIndex": 40,
+      "z": 1,
+      "position": [
+        0.7058,
+        4.1433,
+        1.5575
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 41,
+      "sdfAtomIndex": 41,
+      "z": 1,
+      "position": [
+        0.527,
+        2.453,
+        2.0591
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 42,
+      "sdfAtomIndex": 42,
+      "z": 1,
+      "position": [
+        -6.7604,
+        1.5935,
+        0.2594
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 43,
+      "sdfAtomIndex": 43,
+      "z": 1,
+      "position": [
+        -7.4822,
+        0.0649,
+        0.8071
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 44,
+      "sdfAtomIndex": 44,
+      "z": 1,
+      "position": [
+        -7.4177,
+        0.429,
+        -0.9108
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 45,
+      "sdfAtomIndex": 45,
+      "z": 1,
+      "position": [
+        6.5993,
+        -1.378,
+        0.582
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 16,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 22,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 25,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 45,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 25,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 12,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 6,
+      "b": 19,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 7,
+      "b": 14,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 23,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 26,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 27,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 28,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 29,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 21,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 30,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 13,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 11,
+      "b": 18,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 12,
+      "b": 17,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 14,
+      "b": 31,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 32,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 33,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 34,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 35,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 36,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 17,
+      "b": 20,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 17,
+      "b": 22,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 18,
+      "b": 20,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 19,
+      "b": 24,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 19,
+      "b": 37,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 38,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 21,
+      "b": 39,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 21,
+      "b": 40,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 21,
+      "b": 41,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 22,
+      "b": 24,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 23,
+      "b": 42,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 23,
+      "b": 43,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 23,
+      "b": 44,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 24,
+      "b": 25,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    21,
+    10,
+    16,
+    1,
+    13,
+    12,
+    6,
+    19,
+    24,
+    22,
+    2,
+    17,
+    20,
+    18,
+    11,
+    5,
+    8,
+    14,
+    7,
+    15,
+    9,
+    23,
+    0,
+    25,
+    4,
+    3
+  ],
+  "depictionMolblock": "4583\n     RDKit          2D\n\n 46 49  0  0  1  0  0  0  0  0999 V2000\n    1.5000   -5.1962    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7500   -3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.0000   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.0000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4895    2.7762    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0105   -5.3743    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3405   -4.4101    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3405   -0.7860    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0105    0.1782    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1595    1.8121    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5865   -4.5781    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9895   -5.3743    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9895    0.1782    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5865   -0.6180    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7083    2.0951    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1595    1.8121    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7500    1.2990    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000   -5.1962    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9667    3.0367    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3065    2.7346    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2291    4.2535    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.6828   -4.0869    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.6828   -1.1093    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    9.0000   -2.5981    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.5000   -0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1 19  1  0\n  2 14  1  0\n  2 17  1  0\n  3 23  2  0\n  4 26  1  0\n  4 46  1  0\n  5 26  2  0\n  6  9  1  0\n  6 10  1  0\n  6 12  1  0\n  7 11  1  0\n  7 13  1  0\n  7 20  1  0\n  8 15  1  0\n  8 16  1  0\n  8 24  1  0\n  9 15  1  0\n  9 27  1  0\n  9 28  1  0\n 10 16  1  0\n 10 29  1  0\n 10 30  1  0\n 11 17  1  0\n 11 22  1  0\n 11 31  1  1\n 12 14  1  0\n 12 19  2  0\n 13 14  2  0\n 13 18  1  0\n 15 32  1  0\n 15 33  1  0\n 16 34  1  0\n 16 35  1  0\n 17 36  1  0\n 17 37  1  0\n 18 21  2  0\n 18 23  1  0\n 19 21  1  0\n 20 25  2  0\n 20 38  1  0\n 21 39  1  0\n 22 40  1  0\n 22 41  1  0\n 22 42  1  0\n 23 25  1  0\n 24 43  1  0\n 24 44  1  0\n 24 45  1  0\n 25 26  1  0\nM  END\n"
+}

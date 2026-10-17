@@ -1,0 +1,51 @@
+# Canvas response checks
+
+| Control | Response (ms) | Changed pixels | Camera / geometry changed | Result |
+|---|---:|---:|---|---|
+| preset-a | 247.4 | 5.90% | true | PASS |
+| preset-a | 51.0 | 2.81% | true | PASS |
+| preset-b | 29.6 | 5.83% | true | PASS |
+| preset-b | 39.4 | 1.22% | true | PASS |
+| compare | 131.1 | 9.02% | true | PASS |
+| compare | 192.7 | 9.04% | true | PASS |
+| mode | 28.5 | 0.24% | true | PASS |
+| segment-root | 30.0 | 6.98% | true | PASS |
+| segment-ascending | 30.6 | 7.00% | true | PASS |
+| segment-arch | 30.2 | 6.99% | true | PASS |
+| segment-descending | 29.6 | 7.04% | true | PASS |
+| segment-abdominal | 28.9 | 7.02% | true | PASS |
+| place-tear | 30.0 | 0.40% | true | PASS |
+| cross | 29.8 | 5.42% | true | PASS |
+| journey | 30.6 | 9.17% | true | PASS |
+| reset | 30.5 | 39.95% | true | PASS |
+| depth-detailed | 29.7 | 5.42% | true | PASS |
+| depth-clinical | 30.6 | 9.17% | true | PASS |
+| theme | 29.8 | 99.07% | true | PASS |
+| mode | 29.2 | 5.86% | true | PASS |
+| place-rupture | 30.2 | 0.40% | true | PASS |
+| segment-tear | 29.7 | 14.40% | true | PASS |
+| reset-icon | 30.1 | 55.62% | true | PASS |
+| branches | 43.4 | 0.48% | true | PASS |
+| sources | 31.6 | 15.27% | true | PASS |
+| return-basics | 30.6 | 39.17% | true | PASS |
+| depth-basics | 29.7 | 0.91% | true | PASS |
+| clinical-link | 29.9 | 9.17% | true | PASS |
+| next | 32.5 | 5.86% | true | PASS |
+| previous | 29.7 | 5.65% | true | PASS |
+| play | 12.3 | 15.95% | true | PASS |
+| play | 30.0 | 0.10% | true | PASS |
+| tamponade | 11.3 | 5.36% | true | PASS |
+| regurgitation | 9.5 | 5.37% | true | PASS |
+| coronary | 8.8 | 5.38% | true | PASS |
+| timeline-play | 29.5 | 0.42% | true | PASS |
+| slow-motion | 13.9 | 8.15% | true | PASS |
+| beat-0 | 29.0 | 0.50% | true | PASS |
+| beat-1 | 29.4 | 0.71% | true | PASS |
+| beat-2 | 29.2 | 3.39% | true | PASS |
+| beat-3 | 29.6 | 42.60% | true | PASS |
+| extent | 21.0 | 0.40% | true | PASS |
+| slice | 26.1 | 2.30% | true | PASS |
+| pulse-load | 7.0 | 5.69% | true | PASS |
+| pulse-load | 12.1 | 0.38% | true | PASS |
+| rupture-scrub | 26.6 | 3.39% | true | PASS |
+| speed | 14.0 | 3.96% | true | PASS |

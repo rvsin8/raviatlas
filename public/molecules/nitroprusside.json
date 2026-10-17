@@ -1,0 +1,224 @@
+{
+  "id": "nitroprusside",
+  "name": "nitroprusside",
+  "kind": "small",
+  "cid": 11963622,
+  "formula": "C5FeN6O-2",
+  "molecularWeight": "215.94",
+  "iupacName": "iron(4+);nitroxyl anion;pentacyanide",
+  "canonicalSmiles": "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[N-]=O.[Fe+4]",
+  "isomericSmiles": "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[N-]=O.[Fe+4]",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/11963622",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11963622/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 11963622,
+    "MolecularFormula": "C5FeN6O-2",
+    "MolecularWeight": "215.94",
+    "SMILES": "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[N-]=O.[Fe+4]",
+    "ConnectivitySMILES": "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[N-]=O.[Fe+4]",
+    "IUPACName": "iron(4+);nitroxyl anion;pentacyanide"
+  },
+  "note": "Active nitroprusside composition shown without sodium. PubChem represents this coordination complex as disconnected ionic components.",
+  "dimension": 2,
+  "structureNote": "3D structure not available.",
+  "sdfUrl": "/molecules/nitroprusside.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 26,
+      "position": [
+        0,
+        3.5
+      ],
+      "implicitH": 0,
+      "charge": 4
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        5.299038105676659,
+        0.7499999999999998
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 7,
+      "position": [
+        4.000000000000001,
+        0
+      ],
+      "implicitH": 0,
+      "charge": -1
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 7,
+      "position": [
+        -2.755455298081545e-16,
+        -1.5
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 7,
+      "position": [
+        1,
+        -1.5
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 7,
+      "position": [
+        2,
+        -1.5
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 7,
+      "position": [
+        -2.755455298081545e-16,
+        1
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 7,
+      "position": [
+        3.0000000000000004,
+        -1.5
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 6,
+      "position": [
+        0,
+        0
+      ],
+      "implicitH": 0,
+      "charge": -1
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        1.0000000000000002,
+        0
+      ],
+      "implicitH": 0,
+      "charge": -1
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        2.0000000000000004,
+        0
+      ],
+      "implicitH": 0,
+      "charge": -1
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        0,
+        2.5
+      ],
+      "implicitH": 0,
+      "charge": -1
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        3.000000000000001,
+        0
+      ],
+      "implicitH": 0,
+      "charge": -1
+    }
+  ],
+  "bonds": [
+    {
+      "a": 1,
+      "b": 2,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 8,
+      "order": 3,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 9,
+      "order": 3,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 10,
+      "order": 3,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 11,
+      "order": 3,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 12,
+      "order": 3,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    8,
+    3,
+    9,
+    4,
+    10,
+    5,
+    11,
+    6,
+    12,
+    7,
+    2,
+    1,
+    0
+  ],
+  "depictionMolblock": "11963622\n     RDKit          2D\n\n 13  6  0  0  0  0  0  0  0  0999 V2000\n    0.0000    3.5000    0.0000 Fe  0  0  0  0  0 15  0  0  0  0  0  0\n    5.2990    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0000   -1.5000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0000   -1.5000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0000   -1.5000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0000    1.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0000   -1.5000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    2.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  2  0\n  4  9  3  0\n  5 10  3  0\n  6 11  3  0\n  7 12  3  0\n  8 13  3  0\nM  CHG  7   1   4   3  -1   9  -1  10  -1  11  -1  12  -1  13  -1\nM  END\n"
+}

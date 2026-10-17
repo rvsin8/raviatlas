@@ -1,0 +1,4 @@
+.clinical-breadcrumb{display:flex;gap:4px;flex-wrap:wrap}.clinical-breadcrumb button{border:0;background:transparent;color:var(--ink-muted);font-size:12px;padding:3px}.clinical-breadcrumb button:disabled{color:var(--ink);opacity:1}.clinical-indicators{display:grid;gap:12px;margin-block:20px}.clinical-indicators label{display:grid;font-size:12px}.clinical-indicators meter{width:100%;accent-color:var(--accent)}.clinical-drug{display:inline-block;margin:6px 12px 6px 0;color:var(--accent-ink);font-size:12px}.clinical-app .dive-stage-tools{top:150px}.clinical-app .dive-depth button{text-transform:capitalize}.clinical-app .dive-depth button[aria-selected=true]{background:var(--accent);color:var(--ink)}
+.clinical-breadcrumb{pointer-events:auto}
+
+@media(max-width:760px){.clinical-airway-label{transform:translateX(-100%)}}

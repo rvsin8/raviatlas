@@ -1,0 +1,272 @@
+{
+  "id": "methimazole",
+  "name": "Methimazole",
+  "kind": "small",
+  "cid": 1349907,
+  "formula": "C4H6N2S",
+  "molecularWeight": "114.17",
+  "iupacName": "3-methyl-1H-imidazole-2-thione",
+  "canonicalSmiles": "CN1C=CNC1=S",
+  "isomericSmiles": "CN1C=CNC1=S",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/1349907",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Methimazole/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 1349907,
+    "MolecularFormula": "C4H6N2S",
+    "MolecularWeight": "114.17",
+    "SMILES": "CN1C=CNC1=S",
+    "ConnectivitySMILES": "CN1C=CNC1=S",
+    "IUPACName": "3-methyl-1H-imidazole-2-thione"
+  },
+  "note": "",
+  "dimension": 3,
+  "sdfUrl": "/molecules/methimazole.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 16,
+      "position": [
+        -2.2486,
+        -0.8433,
+        0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 7,
+      "position": [
+        0.019,
+        0.7909,
+        -0.0003
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 7,
+      "position": [
+        0.4221,
+        -1.4165,
+        0
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 6,
+      "position": [
+        -0.6323,
+        -0.4711,
+        -0.0004
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 6,
+      "position": [
+        1.3831,
+        0.5701,
+        0.0001
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 6,
+      "position": [
+        -0.5619,
+        2.1175,
+        0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 6,
+      "position": [
+        1.6186,
+        -0.7476,
+        0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 1,
+      "position": [
+        2.0896,
+        1.3843,
+        0.0003
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 1,
+      "position": [
+        -0.2278,
+        2.6508,
+        0.895
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 1,
+      "position": [
+        -1.6528,
+        2.07,
+        -0.0013
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 1,
+      "position": [
+        -0.2254,
+        2.6526,
+        -0.8927
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 1,
+      "position": [
+        0.3265,
+        -2.4244,
+        0.0002
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 1,
+      "position": [
+        2.557,
+        -1.276,
+        0.0006
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 3,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 2,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 4,
+      "b": 7,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 12,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    5,
+    1,
+    4,
+    6,
+    2,
+    3,
+    0
+  ],
+  "depictionMolblock": "1349907\n     RDKit          2D\n\n 13 13  0  0  0  0  0  0  0  0999 V2000\n    0.8578    2.6401    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2760    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578   -2.6401    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7760   -1.5000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7760    1.5000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2760    0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2458    1.6317    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2458   -1.6317    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  4  2  0\n  2  4  1  0\n  2  5  1  0\n  2  6  1  0\n  3  4  1  0\n  3  7  1  0\n  3 12  1  0\n  5  7  2  0\n  5  8  1  0\n  6  9  1  0\n  6 10  1  0\n  6 11  1  0\n  7 13  1  0\nM  END\n"
+}
