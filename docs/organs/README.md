@@ -50,6 +50,8 @@ Install Python `nibabel`, `numpy`, `scipy`, `scikit-image` and optionally `matpl
 2. `python scripts/imaging/preprocess.py` verifies paired affines and shapes, reorients both to RAS+, exports two 16-bit signal volumes and the unchanged uint8 mask, and extracts real mask surfaces with marching cubes. Browser assets total **7,728,923 bytes**, **123,274 triangles** including MRI-support context. Initial T1 + mask + surfaces is **5,037,451 bytes**; FLAIR loads only on selection.
 3. `python scripts/imaging/verify.py` verifies hashes, counts, physical coordinates, native mask equality, quantization error and registration of all surface vertices. Results are in `data/imaging/verification.json`.
 
+Phase 2 adds reliable source-label picking and shareable camera focus; see `phase-2.md`.
+
 Browser storage is x-fastest, little-endian. All three slice planes, mesh coordinates and the linked cursor share one matrix: `scene = [R, S, -A] / 1000` after the NIfTI voxel-to-RAS affine. There is no per-part centering, mask stretching, registration to unrelated anatomy, or inferred lobe labeling. Radio­logical display puts patient right on the left; sagittal anterior is on the left. Window/level changes display contrast only. MRI values are relative signal, not Hounsfield units.
 
 Volumes use native labeled voxel counts multiplied by the absolute affine determinant, then mm³ → mL. They do not use a simplified surface estimate:
@@ -64,7 +66,7 @@ The faint context mesh is the nonzero image-support surface, not a validated cor
 
 ## Verification and limitations
 
-* **78 state/unit tests passed**: existing body, heatmap and clinical deep-dive state checks plus new organ and imaging tests.
+* **82 state/unit tests passed**: existing body, heatmap and clinical deep-dive state checks plus new organ and imaging tests.
 * **31 imaging checks passed**, including native mask equality and all physical mesh coordinates.
 * Organ source-bound checks passed. Protected male/female assets, conditions, drugs, molecules, theme and existing deep-dive components remain unchanged.
 * Production build/typecheck results are recorded at release.
