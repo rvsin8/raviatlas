@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/dev.mjs",
-    "prebuild": "npm run build:demos && node scripts/build-theme.mjs && bash scripts/verify-body && node scripts/verify-molecules.cjs && node scripts/build-relations.mjs",
+    "prebuild": "npm run build:demos && node scripts/build-theme.mjs && bash scripts/verify-body && node scripts/verify-molecules.cjs && node scripts/build-relations.mjs && npm run verify:imaging",
     "build": "next build",
     "start": "next dev --hostname 0.0.0.0 --port 4173",
     "typecheck": "tsc --noEmit",
@@ -15,7 +15,9 @@
     "verify:deep-dive": "node --test scripts/deep-dive/machine.test.cjs scripts/deep-dive/classification.test.mjs scripts/deep-dive/state.test.mjs scripts/deep-dive/wall.test.mjs && node scripts/deep-dive/verify-controls.cjs && node scripts/deep-dive/verify-placement.cjs && node scripts/deep-dive/verify-response.cjs",
     "verify:mode-heatmap": "node scripts/verify-mode-heatmap.cjs",
     "verify:clinical": "node --test scripts/clinical-deep-dives/state.test.cjs && node scripts/clinical-deep-dives/verify.cjs && node scripts/deep-dive/verify-pulse.cjs",
-    "build:demos": "node scripts/build-demos.mjs"
+    "build:demos": "node scripts/build-demos.mjs",
+    "verify:imaging": "node --test scripts/body-state.test.cjs scripts/organs/state.test.cjs scripts/imaging/state.test.cjs scripts/deep-dive/machine.test.cjs scripts/deep-dive/classification.test.mjs scripts/deep-dive/state.test.mjs scripts/deep-dive/wall.test.mjs scripts/clinical-deep-dives/state.test.cjs",
+    "verify:imaging:browser": "node scripts/imaging/browser-acceptance.cjs"
   },
   "dependencies": {
     "@rdkit/rdkit": "^2026.3.6",

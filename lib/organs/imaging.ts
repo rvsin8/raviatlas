@@ -1,3 +1,5 @@
+import manifest from '@/data/imaging/case.json';
+import {createVolumeLoader,type VolumeAsset} from './volumeLoader';
 export type Vec3=[number,number,number];
 export type Matrix=number[][];
 export type Plane='axial'|'coronal'|'sagittal';
@@ -12,5 +14,11 @@ export function clampVoxel(p:number[],d:number[]):Vec3{return p.map((n,i)=>Math.
 export function nearestLabeledVoxel(p:number[],label:number,mask:Uint8Array,d:number[]):Vec3|null{let best:Vec3|null=null,distance=Infinity;const center=clampVoxel(p,d);for(let z=Math.max(0,center[2]-1);z<=Math.min(d[2]-1,center[2]+1);z++)for(let y=Math.max(0,center[1]-1);y<=Math.min(d[1]-1,center[1]+1);y++)for(let x=Math.max(0,center[0]-1);x<=Math.min(d[0]-1,center[0]+1);x++){const v:Vec3=[x,y,z];if(mask[linearIndex(v,d)]!==label)continue;const delta=(x-p[0])**2+(y-p[1])**2+(z-p[2])**2;if(delta<distance){distance=delta;best=v}}return best}
 export function pixelVoxel(plane:Plane,u:number,v:number,slice:number,d:number[]):Vec3{const a=planeAxes[plane],p=[0,0,0];p[a.u]=d[a.u]-1-u;p[a.v]=d[a.v]-1-v;p[a.s]=slice;return p as Vec3}
 export function slicePixels(plane:Plane,slice:number,d:number[],signal:Uint16Array,mask:Uint8Array,window:number,level:number,opacity:number,visible:number[],colors:number[][]){const a=planeAxes[plane],w=d[a.u],h=d[a.v],pixels=new Uint8ClampedArray(w*h*4);for(let y=0;y<h;y++)for(let x=0;x<w;x++){const i=linearIndex(pixelVoxel(plane,x,y,slice,d),d),value=Math.max(0,Math.min(255,255*(signal[i]-level+window/2)/Math.max(1,window))),label=mask[i],t=visible.includes(label)?opacity:0,c=colors[label]||[value,value,value],o=4*(x+y*w);for(let k=0;k<3;k++)pixels[o+k]=Math.round(value*(1-t)+c[k]*t);pixels[o+3]=255}return {pixels,width:w,height:h}}
-const pending=new Map<string,Promise<ArrayBuffer>>();
-export function loadVolume(url:string){let p=pending.get(url);if(!p){p=(async()=>{const response=await fetch(url,{cache:'force-cache'});if(!response.ok)throw Error(`Could not load imaging asset (${response.status})`);if(!response.body||typeof DecompressionStream==='undefined')throw Error('This browser cannot decompress MRI volumes. Use an up-to-date browser; anatomy and explanations remain available.');return new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer()})();pending.set(url,p);p.catch(()=>pending.delete(url))}return p}
+const voxels=manifest.dimensions.reduce((a,b)=>a*b,1);
+const volumeAssets:Record<string,VolumeAsset>={};
+for(const url of [manifest.maskUrl,...manifest.sequences.map(s=>s.url)]){
+ const file=url.split('/').pop()! as keyof typeof manifest.files;
+ volumeAssets[url]={...manifest.files[file],decodedBytes:voxels*(url===manifest.maskUrl?1:2)};
+}
+// Static allowlist caps retained arrays at two signal volumes plus one mask.
+export const loadVolume=createVolumeLoader(volumeAssets);

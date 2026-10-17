@@ -1,0 +1,46 @@
+{
+  "baseline": "f594cae8db93a5a551a21c8ce603c2042d0a2b03",
+  "protectedRuntimeFilesUnchanged": true,
+  "catalog": {
+    "conditions": 123,
+    "drugs": 56,
+    "moleculeRecords": 62
+  },
+  "verifiedDeliveryAssets": [
+    {
+      "path": "public/models/rxatlas-anatomy.glb",
+      "bytes": 11197332,
+      "sha256": "23eaaf546d68ffa26fc73aac7c8303a1e2e591642e9f98904b821e6b0f6b9d0a"
+    },
+    {
+      "path": "public/models/female.glb",
+      "bytes": 9693304,
+      "sha256": "d1078f65dd32f9adbeac819b6de623e057fe2ab3702cb7f1db598ecacc3b7994"
+    },
+    {
+      "path": "public/imaging/msd-brain/labels.u8.gz",
+      "bytes": 19277,
+      "sha256": "6341e9f2afad6881b11e8dfe439048fbd9a3c11b87b902a0a5af9dc35dd001ab"
+    },
+    {
+      "path": "public/imaging/msd-brain/sequence-2.u16.gz",
+      "bytes": 2059706,
+      "sha256": "807deb41a7b0a25e2265d8b855cdca7fb26fff95000c56f8cd834d02bb0e10fe"
+    },
+    {
+      "path": "public/imaging/msd-brain/sequence-0.u16.gz",
+      "bytes": 2691472,
+      "sha256": "728837c459f1c5ae8b470e2dfabc211d459dfe4d996d20b63c7c9916b1445cad"
+    },
+    {
+      "path": "public/imaging/msd-brain/surfaces.glb",
+      "bytes": 2958468,
+      "sha256": "51a8dafc4c60a64a24893e8b91276d895a02cbedcc6d9f23fb8447f4e6f371df"
+    }
+  ],
+  "initialImagingBytes": 5037451,
+  "totalImagingBytes": 7728923,
+  "imagingTriangles": 123274,
+  "browserAcceptance": "not run: managed control-browser capability unavailable",
+  "clinicalValidation": "pending qualified review"
+}

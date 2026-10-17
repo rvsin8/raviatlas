@@ -1,0 +1,24 @@
+{
+  "scope": "Host CPU: slice-pixel generation only; excludes browser, GPU, network and React",
+  "node": "v24.19.0",
+  "architecture": "x64",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "iterations": 40,
+  "planes": {
+    "axial": {
+      "medianMs": 1.943,
+      "p95Ms": 2.153
+    },
+    "coronal": {
+      "medianMs": 1.466,
+      "p95Ms": 1.792
+    },
+    "sagittal": {
+      "medianMs": 1.477,
+      "p95Ms": 1.654
+    }
+  },
+  "decodedCacheBytes": 44640000,
+  "browserDesktopFPS": null,
+  "browserMobileFPS": null
+}

@@ -6,7 +6,7 @@
       "triangles": 90276,
       "vertices": 45213,
       "meshes": 84,
-      "hostDecodeAndAuditMs": 57,
+      "hostDecodeAndAuditMs": 52,
       "sha256": "11498a203e80812e6416e9f7cf34e95e86c19c64bf81a1ef4224fea47a204fe8"
     },
     "brain": {
@@ -14,7 +14,7 @@
       "triangles": 194024,
       "vertices": 97224,
       "meshes": 90,
-      "hostDecodeAndAuditMs": 62,
+      "hostDecodeAndAuditMs": 45,
       "sha256": "21a99555fdb33e70b77af60a86df6a90f8026c327c8fe8b02a74073d5e6f70d1"
     }
   },

@@ -1,0 +1,12 @@
+const fs=require('node:fs'),crypto=require('node:crypto'),assert=require('node:assert/strict'),{execFileSync}=require('node:child_process');
+const m=require('../../data/imaging/case.json'),registry=require('../../data/organs/registry.json'),audit=require('../../docs/organs/audit.json');
+const hashes=[];function same(path,expected){const b=fs.readFileSync(path),sha=crypto.createHash('sha256').update(b).digest('hex');assert.equal(b.length,expected.bytes,path+' size');assert.equal(sha,expected.sha256,path+' hash');hashes.push({path,bytes:b.length,sha256:sha})}
+for(const [path,meta] of Object.entries(audit.preservedBodyAssets))same(path,meta);
+for(const [name,meta] of Object.entries(m.files))same('public/imaging/msd-brain/'+name,meta);
+for(const organ of Object.values(registry)){const exported=fs.readFileSync('out'+organ.asset),source=fs.readFileSync('public'+organ.asset);assert(exported.equals(source),organ.id+' exported geometry')}
+for(const x of hashes)assert(fs.readFileSync('out/'+x.path.slice('public/'.length)).equals(fs.readFileSync(x.path)),x.path+' delivery bytes');
+const catalog={conditions:require('../../data/conditions.json').conditions.length,drugs:require('../../data/drugs.json').drugs.length,moleculeRecords:fs.readdirSync('data/molecules').filter(f=>f.endsWith('.json')).filter(f=>JSON.parse(fs.readFileSync('data/molecules/'+f)).id).length};
+assert.equal(catalog.conditions,audit.catalog.conditions);assert.equal(catalog.drugs,audit.catalog.drugs);
+const baseline='f594cae8db93a5a551a21c8ce603c2042d0a2b03';execFileSync('git',['diff','--exit-code',baseline,'--','public','data/conditions.json','data/drugs.json','data/molecules','components/canvas','app/theme.css','components/deep-dive','components/clinical-deep-dives']);
+const result={baseline,protectedRuntimeFilesUnchanged:true,catalog,verifiedDeliveryAssets:hashes,initialImagingBytes:m.files['labels.u8.gz'].bytes+m.files['sequence-2.u16.gz'].bytes+m.files['surfaces.glb'].bytes,totalImagingBytes:Object.values(m.files).reduce((n,f)=>n+f.bytes,0),imagingTriangles:Object.values(m.surfaces).reduce((n,s)=>n+s.triangles,0),browserAcceptance:'not run: managed control-browser capability unavailable',clinicalValidation:'pending qualified review'};
+fs.writeFileSync('docs/organs/delivery-verification.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({pass:true,catalog,deliveryAssets:hashes.length,initialImagingBytes:result.initialImagingBytes,totalImagingBytes:result.totalImagingBytes,imagingTriangles:result.imagingTriangles}));
