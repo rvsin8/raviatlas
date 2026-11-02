@@ -1,0 +1,9 @@
+{
+  "_review": "pending",
+  "status": "unverified",
+  "countries": [],
+  "note": "No verified drug-specific API site counts are available in this dataset. Unknown does not mean zero. FDA registration alone does not establish that a site makes carvedilol for either NDC.",
+  "sources": [
+    "registration"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "samples": [
+    {
+      "time": 26185.400000000023,
+      "engine": "three.js r179",
+      "frames": "4",
+      "lastFrame": "6076",
+      "triangles": "2533643"
+    },
+    {
+      "time": 31194.20000000007,
+      "engine": "three.js r179",
+      "frames": "4",
+      "lastFrame": "6076",
+      "triangles": "2533643"
+    },
+    {
+      "time": 36199.90000000002,
+      "engine": "three.js r179",
+      "frames": "4",
+      "lastFrame": "6076",
+      "triangles": "2533643"
+    }
+  ],
+  "idle": true,
+  "resources": [
+    {
+      "name": "http://127.0.0.1:4473/models/rxatlas-anatomy.glb",
+      "duration": 1017.9000000000233,
+      "encodedBodySize": 0
+    }
+  ]
+}

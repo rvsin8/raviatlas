@@ -1,0 +1,124 @@
+{
+  "webgl": {
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "views": [
+    {
+      "name": "front",
+      "url": "http://127.0.0.1:4273/explore/",
+      "diagnostics": {
+        "engine": "three.js r179",
+        "frames": "4",
+        "lastFrame": "6984",
+        "triangles": "2533643"
+      },
+      "marks": [
+        {
+          "name": "rxatlas-canvas-ready",
+          "ms": 5287.400000000023
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 6972
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 6976.900000000023
+        }
+      ]
+    },
+    {
+      "name": "heart",
+      "url": "http://127.0.0.1:4273/explore/?region=heart",
+      "diagnostics": {
+        "engine": "three.js r179",
+        "frames": "4",
+        "lastFrame": "3837",
+        "triangles": "1529532"
+      },
+      "marks": [
+        {
+          "name": "rxatlas-canvas-ready",
+          "ms": 1503.4000000000233
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 3833.4000000000233
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 3836.29999999993
+        }
+      ]
+    },
+    {
+      "name": "knee",
+      "url": "http://127.0.0.1:4273/explore/?region=knee",
+      "diagnostics": {
+        "engine": "three.js r179",
+        "frames": "4",
+        "lastFrame": "5063",
+        "triangles": "799766"
+      },
+      "marks": [
+        {
+          "name": "rxatlas-canvas-ready",
+          "ms": 3581
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 5053.800000000047
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 5056.099999999977
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "url": "http://127.0.0.1:4273/explore/?region=head",
+      "diagnostics": {
+        "engine": "three.js r179",
+        "frames": "2",
+        "lastFrame": "31217",
+        "triangles": "2827347"
+      },
+      "marks": [
+        {
+          "name": "rxatlas-canvas-ready",
+          "ms": 1297.8000000000466
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 25794.400000000023
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 25795.70000000007
+        },
+        {
+          "name": "rxatlas-canvas-ready",
+          "ms": 31006.300000000047
+        },
+        {
+          "name": "rxatlas-model-ready",
+          "ms": 31007
+        }
+      ]
+    }
+  ],
+  "idleBefore": "4",
+  "idleAfter": "5",
+  "errors": [
+    "Attempted to synchronously unmount a root while React was already rendering. React cannot finish unmounting the root until the current render has completed, which may lead to a race condition.",
+    "Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.",
+    "Attempted to synchronously unmount a root while React was already rendering. React cannot finish unmounting the root until the current render has completed, which may lead to a race condition.",
+    "Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.",
+    "Attempted to synchronously unmount a root while React was already rendering. React cannot finish unmounting the root until the current render has completed, which may lead to a race condition.",
+    "Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.",
+    "Attempted to synchronously unmount a root while React was already rendering. React cannot finish unmounting the root until the current render has completed, which may lead to a race condition.",
+    "Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node."
+  ]
+}

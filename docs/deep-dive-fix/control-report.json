@@ -1,0 +1,225 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "id": "segment-root",
+      "changedPixels": 0.3538900725223287
+    },
+    {
+      "id": "segment-ascending",
+      "changedPixels": 0.3612236437484913
+    },
+    {
+      "id": "segment-arch",
+      "changedPixels": 0.30474596194414416
+    },
+    {
+      "id": "segment-descending",
+      "changedPixels": 0.26095181620679886
+    },
+    {
+      "id": "segment-abdominal",
+      "changedPixels": 0.10143417890240447
+    },
+    {
+      "id": "theme",
+      "changedPixels": 0.9882872765818999
+    },
+    {
+      "id": "cross",
+      "changedPixels": 0.1962851985180676
+    },
+    {
+      "id": "slice",
+      "changedPixels": 0.21340561077234707
+    },
+    {
+      "id": "slice-handle",
+      "changedPixels": 0.1177963077633526
+    },
+    {
+      "id": "cross-off",
+      "changedPixels": 0.233134098088811
+    },
+    {
+      "id": "journey",
+      "changedPixels": 0.20028389710435449
+    },
+    {
+      "id": "pulse-load",
+      "changedPixels": 0.010440171702647957
+    },
+    {
+      "id": "pulse-load",
+      "changedPixels": 0.000506396868210871
+    },
+    {
+      "id": "pulse-load",
+      "changedPixels": 0.0047674772514982
+    },
+    {
+      "id": "pulse-load",
+      "changedPixels": 0.00024926270715042875
+    },
+    {
+      "id": "pulse-load",
+      "changedPixels": 0.007992149536633747
+    },
+    {
+      "id": "depth-detailed",
+      "changedPixels": 0.06041865639529392
+    },
+    {
+      "id": "depth-basics",
+      "changedPixels": 0.09855322677133951
+    },
+    {
+      "id": "depth-detailed",
+      "changedPixels": 0.09855322677133951
+    },
+    {
+      "id": "return-basics",
+      "changedPixels": 0.09855322677133951
+    },
+    {
+      "id": "depth-clinical",
+      "changedPixels": 0.07485752668422875
+    },
+    {
+      "id": "return-basics",
+      "changedPixels": 0.07485752668422875
+    },
+    {
+      "id": "branches",
+      "changedPixels": 0.0036287402525162415
+    },
+    {
+      "id": "sources",
+      "changedPixels": 0.07485752668422875
+    },
+    {
+      "id": "preset-a",
+      "changedPixels": 0.10121902582886409
+    },
+    {
+      "id": "preset-b",
+      "changedPixels": 0.12619777290330705
+    },
+    {
+      "id": "extent-0",
+      "changedPixels": 0.2073970676210367
+    },
+    {
+      "id": "extent-1",
+      "changedPixels": 0.0005667446815209748
+    },
+    {
+      "id": "extent-2",
+      "changedPixels": 0.000920960107471584
+    },
+    {
+      "id": "mode",
+      "changedPixels": 0.0041325133027571076
+    },
+    {
+      "id": "mode-on",
+      "changedPixels": 0.2613243983585395
+    },
+    {
+      "id": "tamponade",
+      "changedPixels": 0.15275605839569273
+    },
+    {
+      "id": "regurgitation",
+      "changedPixels": 0.00033322488219057316
+    },
+    {
+      "id": "coronary",
+      "changedPixels": 0.007472633578572853
+    },
+    {
+      "id": "clinical-link",
+      "changedPixels": 0.1241302043429435
+    },
+    {
+      "id": "next-0",
+      "changedPixels": 0.16410931875190227
+    },
+    {
+      "id": "next-1",
+      "changedPixels": 0.16439531491063275
+    },
+    {
+      "id": "next-2",
+      "changedPixels": 0.18853181641670427
+    },
+    {
+      "id": "next-3",
+      "changedPixels": 0.15757863582456103
+    },
+    {
+      "id": "previous-0",
+      "changedPixels": 0.15757863582456103
+    },
+    {
+      "id": "previous-1",
+      "changedPixels": 0.18853181641670427
+    },
+    {
+      "id": "previous-2",
+      "changedPixels": 0.16439531491063275
+    },
+    {
+      "id": "previous-3",
+      "changedPixels": 0.16410931875190227
+    },
+    {
+      "id": "reset",
+      "changedPixels": 0.008747809111995046
+    },
+    {
+      "id": "pause-all",
+      "pass": true
+    },
+    {
+      "id": "play",
+      "changedPixels": 0.004211227841857243
+    },
+    {
+      "id": "speed",
+      "changedPixels": 0.0019022680282532718
+    },
+    {
+      "id": "beat-0",
+      "changedPixels": 0.13052707255381452
+    },
+    {
+      "id": "beat-1",
+      "changedPixels": 0.08786641617951113
+    },
+    {
+      "id": "beat-2",
+      "changedPixels": 0.06563743033763289
+    },
+    {
+      "id": "beat-3",
+      "changedPixels": 0.039257564467207524
+    },
+    {
+      "id": "rupture-scrub",
+      "changedPixels": 0.039711484976018306
+    },
+    {
+      "id": "timeline-play",
+      "changedPixels": 0.042818085452503644
+    },
+    {
+      "id": "slow-motion",
+      "changedPixels": 0.00048540632445083487
+    }
+  ],
+  "errors": [],
+  "webgl2": true,
+  "desktopFPS": 7.59089093088294,
+  "mobileFPS": 8.183632734530939
+}

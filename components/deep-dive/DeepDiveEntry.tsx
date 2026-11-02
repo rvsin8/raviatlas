@@ -1,0 +1,3 @@
+import {useAtlasStore} from '@/store/useAtlasStore';
+import './deep-dive.css';
+export default function DeepDiveEntry({topic="aortic-dissection"}:{topic?:"aortic-dissection"|"dvt-pe"|"asthma"}){const theme=useAtlasStore(s=>s.theme);return <article className="deep-dive-entry" data-review="pending"><span className="eyebrow">Interactive anatomy</span><strong>{topic==="aortic-dissection"?"Aortic dissection":topic==="dvt-pe"?"DVT → pulmonary embolism":"Asthma attack"}</strong><p>{topic==="aortic-dissection"?"Explore the aorta, its wall layers, and illustrative blood flow.":topic==="dvt-pe"?"Follow a clot from the leg to the lungs.":"See how an airway narrows and treatments act."}</p><a href={'/deep-dive/'+topic+'/?theme='+theme}>Open 3D deep dive</a></article>}

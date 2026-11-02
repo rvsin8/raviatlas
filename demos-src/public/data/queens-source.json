@@ -1,0 +1,45 @@
+{
+  "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=178-02%20Hillside%20Avenue%20Jamaica%20NY%2011432&benchmark=Public_AR_Current&format=json",
+  "response": {
+    "result": {
+      "input": {
+        "address": {
+          "address": "178-02 Hillside Avenue Jamaica NY 11432"
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      },
+      "addressMatches": [
+        {
+          "tigerLine": {
+            "side": "R",
+            "tigerLineId": "59712457"
+          },
+          "coordinates": {
+            "x": -73.785243118142,
+            "y": 40.712249875548
+          },
+          "addressComponents": {
+            "zip": "11432",
+            "streetName": "HILLSIDE",
+            "preType": "",
+            "city": "JAMAICA",
+            "preDirection": "",
+            "suffixDirection": "",
+            "fromAddress": "178-00",
+            "state": "NY",
+            "suffixType": "AVE",
+            "toAddress": "178-98",
+            "suffixQualifier": "",
+            "preQualifier": ""
+          },
+          "matchedAddress": "178-02 HILLSIDE AVE, JAMAICA, NY, 11432"
+        }
+      ]
+    }
+  }
+}

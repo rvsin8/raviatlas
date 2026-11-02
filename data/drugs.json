@@ -1,0 +1,636 @@
+{
+  "_review": "// REVIEW: Educational seed content. Human clinical verification required before public launch. Not exhaustive; no diagnosis or prescribing guidance.",
+  "drugs": [
+    {
+      "id": "ibuprofen",
+      "generic": "Ibuprofen",
+      "brands": [
+        "Advil",
+        "Motrin"
+      ],
+      "drugClass": "NSAID",
+      "mechanism": "Blocks COX enzymes, reducing prostaglandins involved in pain and inflammation.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "acetaminophen",
+      "generic": "Acetaminophen",
+      "brands": [
+        "Tylenol"
+      ],
+      "drugClass": "Analgesic",
+      "mechanism": "Acts mainly in the central nervous system to reduce pain and fever; its full mechanism is not completely understood.",
+      "rxStatus": "OTC"
+    },
+    {
+      "id": "naproxen",
+      "generic": "Naproxen",
+      "brands": [
+        "Aleve",
+        "Naprosyn"
+      ],
+      "drugClass": "NSAID",
+      "mechanism": "Reduces prostaglandin production to relieve pain and inflammation.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "sumatriptan",
+      "generic": "Sumatriptan",
+      "brands": [
+        "Imitrex"
+      ],
+      "drugClass": "Triptan",
+      "mechanism": "Activates serotonin receptors that reduce migraine-related nerve signaling and constrict certain cranial blood vessels.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "latanoprost",
+      "generic": "Latanoprost ophthalmic",
+      "brands": [
+        "Xalatan"
+      ],
+      "drugClass": "Prostaglandin analog",
+      "mechanism": "Helps fluid drain from the eye to lower pressure inside it.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "cetirizine",
+      "generic": "Cetirizine",
+      "brands": [
+        "Zyrtec"
+      ],
+      "drugClass": "Antihistamine",
+      "mechanism": "Blocks H1 histamine receptors to reduce allergy symptoms.",
+      "rxStatus": "OTC"
+    },
+    {
+      "id": "fluticasone-nasal",
+      "generic": "Fluticasone propionate nasal",
+      "brands": [
+        "Flonase"
+      ],
+      "drugClass": "Intranasal corticosteroid",
+      "mechanism": "Reduces inflammation in the lining of the nose.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "amoxicillin",
+      "generic": "Amoxicillin",
+      "brands": [
+        "Amoxil"
+      ],
+      "drugClass": "Penicillin antibiotic",
+      "mechanism": "Prevents susceptible bacteria from building their protective cell walls.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "levothyroxine",
+      "generic": "Levothyroxine",
+      "brands": [
+        "Synthroid",
+        "Levoxyl"
+      ],
+      "drugClass": "Thyroid hormone",
+      "mechanism": "Replaces the thyroid hormone T4 when the body does not produce enough.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "albuterol",
+      "generic": "Albuterol inhaled",
+      "brands": [
+        "Ventolin HFA",
+        "ProAir RespiClick"
+      ],
+      "drugClass": "Short-acting beta agonist",
+      "mechanism": "Relaxes airway muscles to quickly improve airflow.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "budesonide",
+      "generic": "Budesonide inhaled",
+      "brands": [
+        "Pulmicort Flexhaler"
+      ],
+      "drugClass": "Inhaled corticosteroid",
+      "mechanism": "Suppresses inflammation in the airways to help control asthma over time.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "tiotropium",
+      "generic": "Tiotropium inhaled",
+      "brands": [
+        "Spiriva"
+      ],
+      "drugClass": "Long-acting muscarinic antagonist",
+      "mechanism": "Blocks muscarinic receptors in airway muscles to keep airways open.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "omeprazole",
+      "generic": "Omeprazole",
+      "brands": [
+        "Prilosec"
+      ],
+      "drugClass": "Proton pump inhibitor",
+      "mechanism": "Blocks acid-producing pumps in stomach cells.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "famotidine",
+      "generic": "Famotidine",
+      "brands": [
+        "Pepcid"
+      ],
+      "drugClass": "H2 receptor antagonist",
+      "mechanism": "Blocks histamine H2 receptors in the stomach to reduce acid production.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "linaclotide",
+      "generic": "Linaclotide",
+      "brands": [
+        "Linzess"
+      ],
+      "drugClass": "Guanylate cyclase-C agonist",
+      "mechanism": "Increases fluid secretion in the intestine and reduces intestinal pain signaling.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "polyethylene-glycol",
+      "generic": "Polyethylene glycol 3350",
+      "brands": [
+        "MiraLAX"
+      ],
+      "drugClass": "Osmotic laxative",
+      "mechanism": "Holds water in the stool to soften it and make bowel movements easier.",
+      "rxStatus": "OTC"
+    },
+    {
+      "id": "mesalamine",
+      "generic": "Mesalamine",
+      "brands": [
+        "Lialda",
+        "Asacol HD"
+      ],
+      "drugClass": "Aminosalicylate",
+      "mechanism": "Reduces inflammation locally in the lining of the colon.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "nitrofurantoin",
+      "generic": "Nitrofurantoin",
+      "brands": [
+        "Macrobid",
+        "Macrodantin"
+      ],
+      "drugClass": "Nitrofuran antibiotic",
+      "mechanism": "Damages several bacterial processes to kill susceptible bacteria in the urinary tract.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "mirabegron",
+      "generic": "Mirabegron",
+      "brands": [
+        "Myrbetriq"
+      ],
+      "drugClass": "Beta-3 agonist",
+      "mechanism": "Relaxes bladder muscle during storage so the bladder can hold more urine.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "tamsulosin",
+      "generic": "Tamsulosin",
+      "brands": [
+        "Flomax"
+      ],
+      "drugClass": "Alpha-1 blocker",
+      "mechanism": "Relaxes muscle in the prostate and bladder neck to improve urine flow.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "clotrimazole",
+      "generic": "Clotrimazole topical",
+      "brands": [
+        "Lotrimin AF"
+      ],
+      "drugClass": "Azole antifungal",
+      "mechanism": "Interferes with fungal cell membranes to stop fungal growth.",
+      "rxStatus": "OTC"
+    },
+    {
+      "id": "hydrocortisone",
+      "generic": "Hydrocortisone topical",
+      "brands": [
+        "Cortizone-10"
+      ],
+      "drugClass": "Topical corticosteroid",
+      "mechanism": "Reduces local immune activity to ease inflammation and itching.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "benzoyl-peroxide",
+      "generic": "Benzoyl peroxide topical",
+      "brands": [
+        "PanOxyl"
+      ],
+      "drugClass": "Topical acne treatment",
+      "mechanism": "Kills acne-associated bacteria and helps clear blocked pores.",
+      "rxStatus": "OTC"
+    },
+    {
+      "id": "adapalene",
+      "generic": "Adapalene topical",
+      "brands": [
+        "Differin"
+      ],
+      "drugClass": "Topical retinoid",
+      "mechanism": "Normalizes skin-cell turnover to prevent blocked pores and reduce inflammation.",
+      "rxStatus": "Both"
+    },
+    {
+      "id": "metformin",
+      "generic": "Metformin",
+      "brands": [
+        "Glumetza",
+        "Fortamet"
+      ],
+      "drugClass": "Biguanide",
+      "mechanism": "Reduces glucose production by the liver and improves the body\u2019s response to insulin.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "insulin-glargine",
+      "generic": "Insulin glargine",
+      "brands": [
+        "Lantus",
+        "Basaglar"
+      ],
+      "drugClass": "Long-acting insulin",
+      "mechanism": "Replaces basal insulin to help cells take up glucose and limit glucose release from the liver.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "insulin-lispro",
+      "generic": "Insulin lispro",
+      "brands": [
+        "Humalog",
+        "Admelog"
+      ],
+      "drugClass": "Rapid-acting insulin",
+      "mechanism": "Replaces mealtime insulin to help glucose enter cells after eating.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "lisinopril",
+      "generic": "Lisinopril",
+      "brands": [
+        "Zestril",
+        "Prinivil"
+      ],
+      "drugClass": "ACE inhibitor",
+      "mechanism": "Reduces production of angiotensin II so blood vessels relax.",
+      "rxStatus": "Rx",
+      "pregnancy_lactation": {
+        "pregnancy": "The FDA label warns that lisinopril can harm the fetus, particularly through effects on fetal kidney function.",
+        "lactation": "The label reports no human milk data and advises against breastfeeding during treatment because of potential serious effects in an infant.",
+        "label": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1d0caa63-9ea2-4a97-a23b-900a7c514bc6",
+        "sources": [
+          "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1d0caa63-9ea2-4a97-a23b-900a7c514bc6"
+        ],
+        "sections": [
+          "8.1",
+          "8.2"
+        ],
+        "_review": "pending"
+      }
+    },
+    {
+      "id": "amlodipine",
+      "generic": "Amlodipine",
+      "brands": [
+        "Norvasc"
+      ],
+      "drugClass": "Calcium channel blocker",
+      "mechanism": "Limits calcium entry into vascular smooth muscle to relax blood vessels.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "atorvastatin",
+      "generic": "Atorvastatin",
+      "brands": [
+        "Lipitor"
+      ],
+      "drugClass": "Statin",
+      "mechanism": "Blocks a liver enzyme involved in cholesterol production and increases LDL removal from blood.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "hydroxychloroquine",
+      "generic": "Hydroxychloroquine",
+      "brands": [
+        "Plaquenil"
+      ],
+      "drugClass": "Antimalarial / immunomodulator",
+      "mechanism": "Modifies immune-cell signaling to reduce autoimmune inflammation.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "methotrexate",
+      "generic": "Methotrexate",
+      "brands": [
+        "Trexall",
+        "Rasuvo"
+      ],
+      "drugClass": "Conventional DMARD",
+      "mechanism": "Modifies immune activity, partly through adenosine signaling, to reduce inflammatory joint damage.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "nitroglycerin",
+      "generic": "Nitroglycerin sublingual",
+      "brands": [
+        "Nitrostat"
+      ],
+      "drugClass": "Nitrate",
+      "mechanism": "Releases nitric oxide to relax blood vessels and reduce the heart\u2019s workload.",
+      "rxStatus": "Rx"
+    },
+    {
+      "id": "levetiracetam",
+      "generic": "Levetiracetam",
+      "brands": [
+        "Keppra"
+      ],
+      "drugClass": "Antiseizure medicine",
+      "mechanism": "Binds a protein involved in neurotransmitter release to reduce abnormal seizure activity.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a699059.html"
+    },
+    {
+      "id": "ofloxacin-otic",
+      "generic": "Ofloxacin otic",
+      "brands": [
+        "Floxin Otic (historical brand)"
+      ],
+      "drugClass": "Fluoroquinolone antibiotic",
+      "mechanism": "Blocks bacterial enzymes needed to copy DNA, treating susceptible ear infections.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a607011.html"
+    },
+    {
+      "id": "amoxicillin-clavulanate",
+      "generic": "Amoxicillin and clavulanate",
+      "brands": [
+        "Augmentin"
+      ],
+      "drugClass": "Penicillin antibiotic / beta-lactamase inhibitor",
+      "mechanism": "Amoxicillin disrupts bacterial cell walls while clavulanate protects it from some bacterial resistance enzymes.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a685024.html"
+    },
+    {
+      "id": "nystatin",
+      "generic": "Nystatin oral suspension",
+      "brands": [
+        "Mycostatin (historical brand)"
+      ],
+      "drugClass": "Polyene antifungal",
+      "mechanism": "Binds fungal cell membranes and makes them leak, treating Candida in the mouth.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a682758.html"
+    },
+    {
+      "id": "metronidazole-topical",
+      "generic": "Metronidazole topical",
+      "brands": [
+        "MetroGel",
+        "MetroCream"
+      ],
+      "drugClass": "Topical rosacea treatment",
+      "mechanism": "Reduces inflammatory lesions in rosacea, although its exact mechanism in this condition is not fully established.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a682244.html"
+    },
+    {
+      "id": "mupirocin",
+      "generic": "Mupirocin topical",
+      "brands": [
+        "Bactroban"
+      ],
+      "drugClass": "Topical antibiotic",
+      "mechanism": "Blocks bacterial protein production to treat susceptible superficial skin infections.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a688004.html"
+    },
+    {
+      "id": "methimazole",
+      "generic": "Methimazole",
+      "brands": [
+        "Tapazole"
+      ],
+      "drugClass": "Antithyroid medicine",
+      "mechanism": "Inhibits thyroid hormone synthesis in an overactive thyroid gland.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a682464.html"
+    },
+    {
+      "id": "apixaban",
+      "generic": "Apixaban",
+      "brands": [
+        "Eliquis"
+      ],
+      "drugClass": "Factor Xa inhibitor",
+      "mechanism": "Blocks a clotting protein called factor Xa to reduce formation of blood clots.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a613032.html"
+    },
+    {
+      "id": "dicloxacillin",
+      "generic": "Dicloxacillin",
+      "brands": [
+        "Dynapen (historical brand)"
+      ],
+      "drugClass": "Penicillin antibiotic",
+      "mechanism": "Interferes with bacterial cell-wall formation to kill susceptible bacteria.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a685017.html"
+    },
+    {
+      "id": "tamoxifen",
+      "generic": "Tamoxifen",
+      "brands": [
+        "Soltamox"
+      ],
+      "drugClass": "Selective estrogen receptor modulator",
+      "mechanism": "Blocks estrogen signaling in breast tissue to slow growth of estrogen-sensitive cancer cells.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a682414.html"
+    },
+    {
+      "id": "tenofovir-disoproxil",
+      "generic": "Tenofovir disoproxil fumarate",
+      "brands": [
+        "Viread"
+      ],
+      "drugClass": "Nucleotide antiviral",
+      "mechanism": "Inhibits a viral enzyme needed for hepatitis B virus to copy its genetic material.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a625081.html"
+    },
+    {
+      "id": "sofosbuvir-velpatasvir",
+      "generic": "Sofosbuvir and velpatasvir",
+      "brands": [
+        "Epclusa"
+      ],
+      "drugClass": "Direct-acting antiviral combination",
+      "mechanism": "Blocks two hepatitis C viral proteins needed for replication.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a616034.html"
+    },
+    {
+      "id": "pancrelipase",
+      "generic": "Pancrelipase",
+      "brands": [
+        "Creon",
+        "Zenpep"
+      ],
+      "drugClass": "Pancreatic enzyme replacement",
+      "mechanism": "Supplies digestive enzymes that help break down fats, proteins and carbohydrates.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a604035.html"
+    },
+    {
+      "id": "alendronate",
+      "generic": "Alendronate",
+      "brands": [
+        "Fosamax",
+        "Binosto"
+      ],
+      "drugClass": "Bisphosphonate",
+      "mechanism": "Slows the activity of bone-resorbing cells to reduce bone loss.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a601011.html"
+    },
+    {
+      "id": "baclofen",
+      "generic": "Baclofen",
+      "brands": [
+        "Lioresal",
+        "Fleqsuvy"
+      ],
+      "drugClass": "Antispasticity medicine",
+      "mechanism": "Activates GABA-B receptors in the spinal cord to reduce excessive muscle activity.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a682530.html"
+    },
+    {
+      "id": "colchicine",
+      "generic": "Colchicine",
+      "brands": [
+        "Colcrys",
+        "Mitigare"
+      ],
+      "drugClass": "Anti-inflammatory gout medicine",
+      "mechanism": "Disrupts microtubules in inflammatory cells to reduce the response to urate crystals.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://medlineplus.gov/druginfo/meds/a682711.html"
+    },
+    {
+      "id": "rivaroxaban",
+      "generic": "Rivaroxaban",
+      "brands": [
+        "Xarelto"
+      ],
+      "drugClass": "Direct factor Xa inhibitor",
+      "mechanism": "Blocks factor Xa, reducing the formation of fibrin clots.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=rivaroxaban"
+    },
+    {
+      "id": "warfarin",
+      "generic": "Warfarin",
+      "brands": [
+        "Jantoven"
+      ],
+      "drugClass": "Vitamin K antagonist",
+      "mechanism": "Reduces the production of vitamin K-dependent clotting factors.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=warfarin"
+    },
+    {
+      "id": "enoxaparin",
+      "generic": "Enoxaparin",
+      "brands": [
+        "Lovenox"
+      ],
+      "drugClass": "Low-molecular-weight heparin",
+      "mechanism": "Enhances antithrombin activity, mainly reducing factor Xa activity and clot formation.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=enoxaparin"
+    },
+    {
+      "id": "heparin",
+      "generic": "Heparin",
+      "brands": [],
+      "drugClass": "Unfractionated heparin",
+      "mechanism": "Enhances antithrombin activity, reducing thrombin and factor Xa activity.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=heparin"
+    },
+    {
+      "id": "alteplase",
+      "generic": "Alteplase",
+      "brands": [
+        "Activase"
+      ],
+      "drugClass": "Thrombolytic",
+      "mechanism": "Converts plasminogen to plasmin, which breaks down the fibrin framework of a clot.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=alteplase"
+    },
+    {
+      "id": "fluticasone",
+      "generic": "Fluticasone propionate (inhaled)",
+      "brands": [],
+      "drugClass": "Inhaled corticosteroid",
+      "mechanism": "Reduces inflammatory signaling in the airways over time.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=fluticasone"
+    },
+    {
+      "id": "montelukast",
+      "generic": "Montelukast",
+      "brands": [
+        "Singulair"
+      ],
+      "drugClass": "Leukotriene receptor antagonist",
+      "mechanism": "Blocks leukotriene signals that contribute to airway narrowing and inflammation.",
+      "rxStatus": "Rx",
+      "_review": "pending",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=montelukast"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": "clavulanic-acid",
+  "name": "clavulanic acid",
+  "kind": "small",
+  "cid": 5280980,
+  "formula": "C8H9NO5",
+  "molecularWeight": "199.16",
+  "iupacName": "(2R,3Z,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
+  "canonicalSmiles": "C1C2N(C1=O)C(C(=CCO)O2)C(=O)O",
+  "isomericSmiles": "C1[C@@H]2N(C1=O)[C@H](/C(=C/CO)/O2)C(=O)O",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/5280980",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/clavulanic%20acid/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 5280980,
+    "MolecularFormula": "C8H9NO5",
+    "MolecularWeight": "199.16",
+    "SMILES": "C1[C@@H]2N(C1=O)[C@H](/C(=C/CO)/O2)C(=O)O",
+    "ConnectivitySMILES": "C1C2N(C1=O)C(C(=CCO)O2)C(=O)O",
+    "IUPACName": "(2R,3Z,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+  },
+  "note": "",
+  "dimension": 3,
+  "sdfUrl": "/molecules/clavulanic-acid.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 8,
+      "position": [
+        -0.5983,
+        1.0573,
+        0.9895
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        2.7283,
+        1.1491,
+        -1.5246
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 8,
+      "position": [
+        0.6612,
+        -2.9572,
+        -0.866
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        0.4364,
+        -2.313,
+        1.309
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 8,
+      "position": [
+        -3.9649,
+        1.0938,
+        -0.9074
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 7,
+      "position": [
+        1.4226,
+        0.1365,
+        0.1606
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 6,
+      "position": [
+        0.8386,
+        1.0226,
+        1.1708
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 6,
+      "position": [
+        0.3967,
+        -0.6647,
+        -0.452
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 6,
+      "position": [
+        1.7014,
+        2.1539,
+        0.5837
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        2.124,
+        1.1207,
+        -0.4765
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        -0.8449,
+        0.0274,
+        0.0612
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        0.4947,
+        -2.041,
+        0.119
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        -2.0912,
+        -0.2406,
+        -0.3438
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        -3.3048,
+        0.4553,
+        0.1765
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 1,
+      "position": [
+        1.1073,
+        0.7279,
+        2.1915
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 1,
+      "position": [
+        0.4741,
+        -0.6323,
+        -1.5427
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 1,
+      "position": [
+        2.5197,
+        2.4991,
+        1.2204
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 1,
+      "position": [
+        1.1496,
+        3.0051,
+        0.1776
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 1,
+      "position": [
+        -2.2501,
+        -1.0248,
+        -1.0801
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 1,
+      "position": [
+        -3.079,
+        1.217,
+        0.9276
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 1,
+      "position": [
+        -3.9923,
+        -0.2673,
+        0.6274
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 1,
+      "position": [
+        0.7287,
+        -3.8691,
+        -0.5107
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 1,
+      "position": [
+        -4.2432,
+        0.4043,
+        -1.5345
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 6,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 0,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 9,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 21,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 11,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 22,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 14,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 16,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 17,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 12,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    8,
+    6,
+    5,
+    9,
+    1,
+    7,
+    10,
+    12,
+    13,
+    4,
+    0,
+    11,
+    3,
+    2
+  ],
+  "depictionMolblock": "5280980\n     RDKit          2D\n\n 23 24  0  0  1  0  0  0  0  0999 V2000\n    1.2760    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.8323    2.8576    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4057   -1.8067    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1342    0.7771    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7923   -3.2638    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0692    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4958    2.1766    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5241   -0.5932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578   -2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3250   -2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7308    1.8945    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3442   -2.2172    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5328    4.0667    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3574    3.1036    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1459   -3.7548    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6369   -1.4848    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0132   -4.4192    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.8975   -1.6499    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7960   -2.1491    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  7  1  0\n  1 11  1  0\n  2 10  2  0\n  3 12  1  0\n  3 22  1  0\n  4 12  2  0\n  5 14  1  0\n  5 23  1  0\n  6  7  1  0\n  6  8  1  0\n  6 10  1  0\n  7  9  1  0\n  7 15  1  6\n  8 11  1  0\n  8 12  1  0\n  8 16  1  1\n  9 10  1  0\n  9 17  1  0\n  9 18  1  0\n 11 13  2  0\n 13 14  1  0\n 13 19  1  0\n 14 20  1  0\n 14 21  1  0\nM  END\n"
+}

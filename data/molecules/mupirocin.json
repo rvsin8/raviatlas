@@ -1,0 +1,1416 @@
+{
+  "id": "mupirocin",
+  "name": "mupirocin",
+  "kind": "small",
+  "cid": 446596,
+  "formula": "C26H44O9",
+  "molecularWeight": "500.6",
+  "iupacName": "9-[(E)-4-[(2S,3R,4R,5S)-3,4-dihydroxy-5-[[(2S,3S)-3-[(2S,3S)-3-hydroxybutan-2-yl]oxiran-2-yl]methyl]oxan-2-yl]-3-methylbut-2-enoyl]oxynonanoic acid",
+  "canonicalSmiles": "CC(C1C(O1)CC2COC(C(C2O)O)CC(=CC(=O)OCCCCCCCCC(=O)O)C)C(C)O",
+  "isomericSmiles": "C[C@H]([C@H]1[C@@H](O1)C[C@H]2CO[C@H]([C@@H]([C@@H]2O)O)C/C(=C/C(=O)OCCCCCCCCC(=O)O)/C)[C@H](C)O",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/446596",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/mupirocin/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 446596,
+    "MolecularFormula": "C26H44O9",
+    "MolecularWeight": "500.6",
+    "SMILES": "C[C@H]([C@H]1[C@@H](O1)C[C@H]2CO[C@H]([C@@H]([C@@H]2O)O)C/C(=C/C(=O)OCCCCCCCCC(=O)O)/C)[C@H](C)O",
+    "ConnectivitySMILES": "CC(C1C(O1)CC2COC(C(C2O)O)CC(=CC(=O)OCCCCCCCCC(=O)O)C)C(C)O",
+    "IUPACName": "9-[(E)-4-[(2S,3R,4R,5S)-3,4-dihydroxy-5-[[(2S,3S)-3-[(2S,3S)-3-hydroxybutan-2-yl]oxiran-2-yl]methyl]oxan-2-yl]-3-methylbut-2-enoyl]oxynonanoic acid"
+  },
+  "note": "",
+  "dimension": 2,
+  "structureNote": "3D structure not available.",
+  "sdfUrl": "/molecules/mupirocin.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 8,
+      "position": [
+        -4.718144527036191,
+        -3.2892799501834746
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 8,
+      "position": [
+        1.5000000000000002,
+        0
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 8,
+      "position": [
+        -2.6490666646784673,
+        0.9641814145298089
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        -0.48952773349960443,
+        2.7762497351949706
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 8,
+      "position": [
+        1.1913944041426738,
+        -3.802310165171971
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 8,
+      "position": [
+        5.49956132653738,
+        5.792552009678788
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 8,
+      "position": [
+        6.3881557247154515,
+        3.351158965630667
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 8,
+      "position": [
+        18.445883973647543,
+        11.887035574093622
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 8,
+      "position": [
+        19.33447837182561,
+        9.445642530045497
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 6,
+      "position": [
+        -3.5690778623577253,
+        -2.325098535653664
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 6,
+      "position": [
+        -3.308605595857327,
+        -3.8023101651719764
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 6,
+      "position": [
+        -2.159538931178863,
+        -1.8120683206651609
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        -0.7500000000000008,
+        -1.299038105676658
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        -1.8086055958573253,
+        -3.8023101651719764
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 6,
+      "position": [
+        -1.5000000000000002,
+        1.8369701987210302e-16
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 6,
+      "position": [
+        0.7499999999999991,
+        -1.2990381056766587
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 6,
+      "position": [
+        -0.7499999999999998,
+        1.2990381056766582
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 6,
+      "position": [
+        -0.30860559585732616,
+        -3.802310165171973
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 6,
+      "position": [
+        0.7500000000000003,
+        1.299038105676658
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 6,
+      "position": [
+        -1.8086055958573275,
+        -2.302310165171975
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 6,
+      "position": [
+        2.159538931178863,
+        1.8120683206651615
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 6,
+      "position": [
+        -0.3086055958573244,
+        -5.302310165171972
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 6,
+      "position": [
+        3.5690778623577253,
+        2.325098535653665
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 23,
+      "sdfAtomIndex": 23,
+      "z": 6,
+      "position": [
+        4.718144527036193,
+        1.3609171211238567
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 24,
+      "sdfAtomIndex": 24,
+      "z": 6,
+      "position": [
+        3.8295501288581226,
+        3.8023101651719746
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 25,
+      "sdfAtomIndex": 25,
+      "z": 6,
+      "position": [
+        5.239089060036984,
+        4.315340380160476
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 26,
+      "sdfAtomIndex": 26,
+      "z": 6,
+      "position": [
+        6.9091002577162435,
+        6.30558222466729
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 27,
+      "sdfAtomIndex": 27,
+      "z": 6,
+      "position": [
+        8.318639188895107,
+        6.8186124396557934
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 28,
+      "sdfAtomIndex": 28,
+      "z": 6,
+      "position": [
+        9.72817812007397,
+        7.331642654644296
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 29,
+      "sdfAtomIndex": 29,
+      "z": 6,
+      "position": [
+        11.137717051252832,
+        7.844672869632797
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 30,
+      "sdfAtomIndex": 30,
+      "z": 6,
+      "position": [
+        12.547255982431693,
+        8.3577030846213
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 31,
+      "sdfAtomIndex": 31,
+      "z": 6,
+      "position": [
+        13.956794913610556,
+        8.870733299609801
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 32,
+      "sdfAtomIndex": 32,
+      "z": 6,
+      "position": [
+        15.36633384478942,
+        9.383763514598304
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 33,
+      "sdfAtomIndex": 33,
+      "z": 6,
+      "position": [
+        16.77587277596828,
+        9.896793729586806
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 34,
+      "sdfAtomIndex": 34,
+      "z": 6,
+      "position": [
+        18.185411707147146,
+        10.40982394457531
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 35,
+      "sdfAtomIndex": 35,
+      "z": 1,
+      "position": [
+        -4.319077862357726,
+        -1.0260604299770064
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 36,
+      "sdfAtomIndex": 36,
+      "z": 1,
+      "position": [
+        -3.5690778623577213,
+        -5.27952179469029
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 37,
+      "sdfAtomIndex": 37,
+      "z": 1,
+      "position": [
+        -1.3206825436331033,
+        -3.055579462985035
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 38,
+      "sdfAtomIndex": 38,
+      "z": 1,
+      "position": [
+        -2.840560702634269,
+        -0.4755768890413957
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 39,
+      "sdfAtomIndex": 39,
+      "z": 1,
+      "position": [
+        -0.13982116965349378,
+        -2.669323402611923
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 40,
+      "sdfAtomIndex": 40,
+      "z": 1,
+      "position": [
+        -1.9914497380910272,
+        -5.2911244650935
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 41,
+      "sdfAtomIndex": 41,
+      "z": 1,
+      "position": [
+        -2.848226512901409,
+        -0.6574840453651376
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 42,
+      "sdfAtomIndex": 42,
+      "z": 1,
+      "position": [
+        2.159538931178863,
+        -1.8120683206651627
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 43,
+      "sdfAtomIndex": 43,
+      "z": 1,
+      "position": [
+        0.48952773349960355,
+        -2.7762497351949724
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 44,
+      "sdfAtomIndex": 44,
+      "z": 1,
+      "position": [
+        -2.086491431623765,
+        1.9800598771320639
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 45,
+      "sdfAtomIndex": 45,
+      "z": 1,
+      "position": [
+        0.054355702295236674,
+        -2.346886138970877
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 46,
+      "sdfAtomIndex": 46,
+      "z": 1,
+      "position": [
+        0.6715364387987793,
+        2.7969845231307744
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 47,
+      "sdfAtomIndex": 47,
+      "z": 1,
+      "position": [
+        -0.30860559585732794,
+        -2.302310165171973
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 48,
+      "sdfAtomIndex": 48,
+      "z": 1,
+      "position": [
+        -3.2640296220584224,
+        -1.9393488670194126
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 49,
+      "sdfAtomIndex": 49,
+      "z": 1,
+      "position": [
+        -1.9914497380910334,
+        -0.8134958652504505
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 50,
+      "sdfAtomIndex": 50,
+      "z": 1,
+      "position": [
+        2.6725691461673664,
+        0.4025293894862991
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 51,
+      "sdfAtomIndex": 51,
+      "z": 1,
+      "position": [
+        1.8221517421453375,
+        3.273632511754987
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 52,
+      "sdfAtomIndex": 52,
+      "z": 1,
+      "position": [
+        1.1802087040642009,
+        -5.485154307405675
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 53,
+      "sdfAtomIndex": 53,
+      "z": 1,
+      "position": [
+        -1.7974198957788494,
+        -5.485154307405677
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 54,
+      "sdfAtomIndex": 54,
+      "z": 1,
+      "position": [
+        -0.3086055958573226,
+        -6.802310165171972
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 55,
+      "sdfAtomIndex": 55,
+      "z": 1,
+      "position": [
+        -2.5706031034772456,
+        2.462127831983925
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 56,
+      "sdfAtomIndex": 56,
+      "z": 1,
+      "position": [
+        0.7539834088202704,
+        3.6151061227407295
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 57,
+      "sdfAtomIndex": 57,
+      "z": 1,
+      "position": [
+        2.094149226211,
+        -5.000239099304704
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 58,
+      "sdfAtomIndex": 58,
+      "z": 1,
+      "position": [
+        5.682325941566001,
+        2.509983785802324
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 59,
+      "sdfAtomIndex": 59,
+      "z": 1,
+      "position": [
+        3.7539631125063853,
+        0.21185045644538825
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 60,
+      "sdfAtomIndex": 60,
+      "z": 1,
+      "position": [
+        5.867211191714661,
+        0.39673570659404866
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 61,
+      "sdfAtomIndex": 61,
+      "z": 1,
+      "position": [
+        2.680483464179657,
+        4.766491579701784
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 62,
+      "sdfAtomIndex": 62,
+      "z": 1,
+      "position": [
+        6.396070042727741,
+        7.715121155846154
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 63,
+      "sdfAtomIndex": 63,
+      "z": 1,
+      "position": [
+        7.4221304727047475,
+        4.896043293488427
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 64,
+      "sdfAtomIndex": 64,
+      "z": 1,
+      "position": [
+        8.831669403883609,
+        5.409073508476931
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 65,
+      "sdfAtomIndex": 65,
+      "z": 1,
+      "position": [
+        7.805608973906605,
+        8.228151370834656
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 66,
+      "sdfAtomIndex": 66,
+      "z": 1,
+      "position": [
+        9.215147905085468,
+        8.741181585823158
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 67,
+      "sdfAtomIndex": 67,
+      "z": 1,
+      "position": [
+        10.24120833506247,
+        5.922103723465433
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 68,
+      "sdfAtomIndex": 68,
+      "z": 1,
+      "position": [
+        11.650747266241334,
+        6.435133938453934
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 69,
+      "sdfAtomIndex": 69,
+      "z": 1,
+      "position": [
+        10.624686836264328,
+        9.254211800811659
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 70,
+      "sdfAtomIndex": 70,
+      "z": 1,
+      "position": [
+        13.060286197420195,
+        6.948164153442436
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 71,
+      "sdfAtomIndex": 71,
+      "z": 1,
+      "position": [
+        12.034225767443191,
+        9.767242015800162
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 72,
+      "sdfAtomIndex": 72,
+      "z": 1,
+      "position": [
+        13.443764698622056,
+        10.280272230788665
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 73,
+      "sdfAtomIndex": 73,
+      "z": 1,
+      "position": [
+        14.469825128599059,
+        7.461194368430938
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 74,
+      "sdfAtomIndex": 74,
+      "z": 1,
+      "position": [
+        15.879364059777922,
+        7.974224583419442
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 75,
+      "sdfAtomIndex": 75,
+      "z": 1,
+      "position": [
+        14.853303629800918,
+        10.793302445777167
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 76,
+      "sdfAtomIndex": 76,
+      "z": 1,
+      "position": [
+        16.262842560979777,
+        11.306332660765671
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 77,
+      "sdfAtomIndex": 77,
+      "z": 1,
+      "position": [
+        17.288902990956785,
+        8.487254798407943
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 78,
+      "sdfAtomIndex": 78,
+      "z": 1,
+      "position": [
+        19.855422904826405,
+        12.400065789082124
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 0,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 2,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 55,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 3,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 3,
+      "b": 56,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 17,
+      "b": 4,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 4,
+      "b": 57,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 25,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 5,
+      "b": 26,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 25,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 34,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 78,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 34,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 35,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 36,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 11,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 37,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 38,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 14,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 39,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 17,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 40,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 41,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 42,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 15,
+      "b": 43,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 44,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 17,
+      "b": 21,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 17,
+      "b": 45,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 18,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 18,
+      "b": 46,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 19,
+      "b": 47,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 19,
+      "b": 48,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 19,
+      "b": 49,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 22,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 50,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 20,
+      "b": 51,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 21,
+      "b": 52,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 21,
+      "b": 53,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 21,
+      "b": 54,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 22,
+      "b": 23,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 22,
+      "b": 24,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 23,
+      "b": 58,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 23,
+      "b": 59,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 23,
+      "b": 60,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 24,
+      "b": 25,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 24,
+      "b": 61,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 26,
+      "b": 27,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 26,
+      "b": 62,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 26,
+      "b": 63,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 27,
+      "b": 28,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 27,
+      "b": 64,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 27,
+      "b": 65,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 28,
+      "b": 29,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 28,
+      "b": 66,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 28,
+      "b": 67,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 29,
+      "b": 30,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 29,
+      "b": 68,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 29,
+      "b": 69,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 30,
+      "b": 31,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 30,
+      "b": 70,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 30,
+      "b": 71,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 31,
+      "b": 32,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 31,
+      "b": 72,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 31,
+      "b": 73,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 32,
+      "b": 33,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 32,
+      "b": 74,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 32,
+      "b": 75,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 33,
+      "b": 34,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 33,
+      "b": 76,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 33,
+      "b": 77,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    19,
+    13,
+    10,
+    9,
+    0,
+    11,
+    12,
+    15,
+    1,
+    18,
+    16,
+    14,
+    2,
+    3,
+    20,
+    22,
+    24,
+    25,
+    6,
+    5,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    8,
+    7,
+    23,
+    17,
+    21,
+    4
+  ],
+  "depictionMolblock": "446596\n     RDKit          2D\n\n 79 80  0  0  1  0  0  0  0  0999 V2000\n   -4.7181   -3.2893    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6491    0.9642    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4895    2.7762    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1914   -3.8023    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4996    5.7926    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3882    3.3512    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.4459   11.8870    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   19.3345    9.4456    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.5691   -2.3251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.3086   -3.8023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1595   -1.8121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8086   -3.8023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3086   -3.8023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.8086   -2.3023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1595    1.8121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3086   -5.3023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5691    2.3251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7181    1.3609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8296    3.8023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2391    4.3153    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9091    6.3056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3186    6.8186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7282    7.3316    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1377    7.8447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.5473    8.3577    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9568    8.8707    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3663    9.3838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.7759    9.8968    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1854   10.4098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.3191   -1.0261    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.5691   -5.2795    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3207   -3.0556    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.8406   -0.4756    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1398   -2.6693    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9914   -5.2911    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.8482   -0.6575    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1595   -1.8121    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4895   -2.7762    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.0865    1.9801    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0544   -2.3469    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6715    2.7970    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3086   -2.3023    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.2640   -1.9393    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9914   -0.8135    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6726    0.4025    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8222    3.2736    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1802   -5.4852    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7974   -5.4852    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3086   -6.8023    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.5706    2.4621    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7540    3.6151    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0941   -5.0002    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6823    2.5100    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7540    0.2119    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8672    0.3967    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6805    4.7665    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3961    7.7151    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4221    4.8960    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    8.8317    5.4091    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8056    8.2282    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    9.2151    8.7412    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   10.2412    5.9221    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   11.6507    6.4351    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   10.6247    9.2542    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   13.0603    6.9482    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   12.0342    9.7672    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4438   10.2803    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   14.4698    7.4612    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8794    7.9742    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   14.8533   10.7933    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2628   11.3063    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2889    8.4873    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   19.8554   12.4001    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1 10  1  0\n 11  1  1  0\n  2 16  1  0\n  2 19  1  0\n 15  3  1  0\n  3 56  1  0\n 17  4  1  0\n  4 57  1  0\n 18  5  1  0\n  5 58  1  0\n  6 26  1  0\n  6 27  1  0\n  7 26  2  0\n  8 35  1  0\n  8 79  1  0\n  9 35  2  0\n 10 11  1  0\n 10 12  1  0\n 10 36  1  6\n 11 14  1  0\n 11 37  1  1\n 13 12  1  0\n 12 38  1  0\n 12 39  1  0\n 13 15  1  0\n 13 16  1  0\n 13 40  1  1\n 14 18  1  0\n 14 20  1  0\n 14 41  1  6\n 15 17  1  0\n 15 42  1  6\n 16 43  1  0\n 16 44  1  0\n 17 19  1  0\n 17 45  1  6\n 18 22  1  0\n 18 46  1  6\n 19 21  1  0\n 19 47  1  1\n 20 48  1  0\n 20 49  1  0\n 20 50  1  0\n 21 23  1  0\n 21 51  1  0\n 21 52  1  0\n 22 53  1  0\n 22 54  1  0\n 22 55  1  0\n 23 24  1  0\n 23 25  2  0\n 24 59  1  0\n 24 60  1  0\n 24 61  1  0\n 25 26  1  0\n 25 62  1  0\n 27 28  1  0\n 27 63  1  0\n 27 64  1  0\n 28 29  1  0\n 28 65  1  0\n 28 66  1  0\n 29 30  1  0\n 29 67  1  0\n 29 68  1  0\n 30 31  1  0\n 30 69  1  0\n 30 70  1  0\n 31 32  1  0\n 31 71  1  0\n 31 72  1  0\n 32 33  1  0\n 32 73  1  0\n 32 74  1  0\n 33 34  1  0\n 33 75  1  0\n 33 76  1  0\n 34 35  1  0\n 34 77  1  0\n 34 78  1  0\nM  END\n"
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=279%20Princeton%20Hightstown%20Road%20East%20Windsor%20NJ%2008520&benchmark=Public_AR_Current&format=json",
+  "response": {
+    "result": {
+      "input": {
+        "address": {
+          "address": "279 Princeton Hightstown Road East Windsor NJ 08520"
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      },
+      "addressMatches": [
+        {
+          "tigerLine": {
+            "side": "R",
+            "tigerLineId": "649357497"
+          },
+          "coordinates": {
+            "x": -74.560266367265,
+            "y": 40.283872389057
+          },
+          "addressComponents": {
+            "zip": "08520",
+            "streetName": "PRINCETON HIGHTSTOWN",
+            "preType": "",
+            "city": "EAST WINDSOR",
+            "preDirection": "",
+            "suffixDirection": "",
+            "fromAddress": "279",
+            "state": "NJ",
+            "suffixType": "RD",
+            "toAddress": "275",
+            "suffixQualifier": "",
+            "preQualifier": ""
+          },
+          "matchedAddress": "279 PRINCETON HIGHTSTOWN RD, EAST WINDSOR, NJ, 08520"
+        }
+      ]
+    }
+  }
+}

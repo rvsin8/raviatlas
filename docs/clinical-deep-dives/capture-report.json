@@ -1,0 +1,83 @@
+{
+  "errors": [],
+  "videos": [
+    {
+      "name": "clot-journey",
+      "frames": 186
+    },
+    {
+      "name": "anticoagulant",
+      "frames": 256
+    },
+    {
+      "name": "thrombolytic",
+      "frames": 44
+    },
+    {
+      "name": "ivc-filter",
+      "frames": 128
+    },
+    {
+      "name": "attack-rescue",
+      "frames": 39
+    },
+    {
+      "name": "controller-time-lapse",
+      "frames": 45
+    },
+    {
+      "name": "pulse-sweep",
+      "frames": 28
+    }
+  ],
+  "screenshots": [
+    "dvt-pe-landing.png",
+    "dvt-pe-still.png",
+    "dvt-pe-form-clot.png",
+    "dvt-pe-impact.png",
+    "dvt-pe-large.png",
+    "dvt-pe-anticoagulant.png",
+    "dvt-pe-thrombolytic.png",
+    "dvt-pe-filter.png",
+    "dvt-pe-compare-on.png",
+    "asthma-zoom-0.png",
+    "asthma-zoom-1.png",
+    "asthma-zoom-2.png",
+    "asthma-zoom-3.png",
+    "asthma-trigger-pollen.png",
+    "asthma-rescue.png",
+    "asthma-controller.png",
+    "asthma-compare-on.png",
+    "dvt-pe-mobile-dark.png",
+    "dvt-pe-mobile-controls.png",
+    "asthma-mobile-dark.png",
+    "asthma-mobile-controls.png"
+  ],
+  "fps": {
+    "dvt-pe-impact-mobileEmulation": 25.455452957324685,
+    "asthma-attack-mobileEmulation": 10.48165710007487
+  },
+  "webgl2": true,
+  "crossSections": [
+    {
+      "name": "zoom-3",
+      "coloredCanvasFraction": 0.1566314697265625
+    },
+    {
+      "name": "trigger-pollen",
+      "coloredCanvasFraction": 0.0859375
+    },
+    {
+      "name": "rescue",
+      "coloredCanvasFraction": 0.1838226318359375
+    },
+    {
+      "name": "controller",
+      "coloredCanvasFraction": 0.1184844970703125
+    },
+    {
+      "name": "compare-on",
+      "coloredCanvasFraction": 0.071929931640625
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "male": {
+    "bytes": 11197332,
+    "triangles": 2553967,
+    "bounds": {
+      "min": [
+        -0.33338791131973267,
+        -0.07808320224285126,
+        -0.044699158519506454
+      ],
+      "max": [
+        0.3325939178466797,
+        1.6514099836349487,
+        0.24681545794010162
+      ]
+    },
+    "height": 1.7294931858778,
+    "sexSpecificTriangles": {
+      "testes": 422,
+      "prostate": 442
+    }
+  },
+  "female": {
+    "bytes": 9693304,
+    "triangles": 2187930,
+    "bounds": {
+      "min": [
+        -0.5023263692855835,
+        -0.07800523936748505,
+        -0.06982840597629547
+      ],
+      "max": [
+        0.5010635256767273,
+        1.6516004800796509,
+        0.2714265286922455
+      ]
+    },
+    "height": 1.729605719447136,
+    "sexSpecificTriangles": {
+      "breast": 191533,
+      "fallopian-tubes": 13673,
+      "uterus": 28798,
+      "ovaries": 2274
+    }
+  },
+  "verification": "PASS: real geometry, intact male hash, conserved triangles, valid per-body hotspot names, common height/base within 1 mm",
+  "browserVerification": "Not performed: managed browser preview capability unavailable"
+}

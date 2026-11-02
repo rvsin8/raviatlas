@@ -1,0 +1,18 @@
+{
+  "_review": "pending",
+  "kind": "Curated explanations of dataset annotations; no AI interpretation or inference",
+  "findings": {
+    "1": {"feature": "The reference mask labels this region as edema. FLAIR is useful for viewing the signal changes around the tumor; the colored boundary comes from the supplied mask, not from a brightness threshold in this viewer.", "relevance": "Edema describes tissue swelling associated with increased fluid. This label does not tell us the exact distribution of tumor cells.", "sources": ["https://www.med.upenn.edu/sbia/brats2017.html", "https://www.med.upenn.edu/sbia/brats2017/data.html"]},
+    "2": {"feature": "The MSD mask calls this region non-enhancing tumor. The corresponding BraTS core category includes necrotic and non-enhancing components; the display does not separate them or establish tissue viability.", "relevance": "An imaging label is not a microscopic tissue diagnosis. Tumor type and treatment cannot be determined from this colored region alone.", "sources": ["https://www.med.upenn.edu/sbia/brats2017/data.html", "https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"]},
+    "3": {"feature": "This is the enhancing-tumor class supplied with the dataset. Compare its boundary with the post-contrast T1 image; the overlay is a reference annotation, not a new prediction.", "relevance": "Contrast enhancement helps describe an imaging appearance. It does not independently establish a tumor's grade, molecular type, or treatment.", "sources": ["https://www.med.upenn.edu/sbia/brats2017/data.html", "https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"]}
+  },
+  "limitations": "No lobe atlas, confidence map, individual clinical history, or longitudinal follow-up is included in this demonstration. Location is reported in the dataset's coordinate system; no automated lobe localization is claimed. Mask-derived volumes depend on annotation boundaries and are not clinical measurements validated by RxAtlas.",
+  "treatment": "Brain tumor treatment depends on the tumor type, location, molecular findings, and the person's situation. Categories can include surgery, radiation, and systemic drug therapy. This MRI demonstration cannot choose a treatment.",
+  "treatmentSources": ["https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"],
+  "diseases": [
+    {"id": "brain-tumor", "name": "Brain tumors", "imaging": true, "organCondition": null},
+    {"id": "ischemic-stroke", "name": "Ischemic stroke", "imaging": false, "organCondition": "ischemic-stroke"},
+    {"id": "alzheimers", "name": "Alzheimer’s disease", "imaging": false, "organCondition": "alzheimers"},
+    {"id": "multiple-sclerosis", "name": "Multiple sclerosis", "imaging": false, "organCondition": "multiple-sclerosis"}
+  ]
+}

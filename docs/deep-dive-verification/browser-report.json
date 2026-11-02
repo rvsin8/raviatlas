@@ -1,0 +1,81 @@
+{
+  "screenshots": [
+    "desktop-light-landing.png",
+    "desktop-light-root.png",
+    "desktop-light-ascending.png",
+    "desktop-light-arch.png",
+    "desktop-light-descending.png",
+    "desktop-light-abdominal.png",
+    "desktop-light-type-a.png",
+    "desktop-light-type-b.png",
+    "desktop-light-cross-arch.png",
+    "desktop-light-cross-descending.png",
+    "desktop-light-arch-only.png",
+    "desktop-dark-landing.png",
+    "desktop-dark-root.png",
+    "desktop-dark-ascending.png",
+    "desktop-dark-arch.png",
+    "desktop-dark-descending.png",
+    "desktop-dark-abdominal.png",
+    "desktop-dark-type-a.png",
+    "desktop-dark-type-b.png",
+    "desktop-dark-cross-arch.png",
+    "desktop-dark-cross-descending.png",
+    "desktop-dark-arch-only.png",
+    "mobile-light-landing.png",
+    "mobile-light-root.png",
+    "mobile-light-ascending.png",
+    "mobile-light-arch.png",
+    "mobile-light-descending.png",
+    "mobile-light-abdominal.png",
+    "mobile-light-type-a.png",
+    "mobile-light-type-b.png",
+    "mobile-light-cross-arch.png",
+    "mobile-light-cross-descending.png",
+    "mobile-light-arch-only.png",
+    "mobile-dark-landing.png",
+    "mobile-dark-root.png",
+    "mobile-dark-ascending.png",
+    "mobile-dark-arch.png",
+    "mobile-dark-descending.png",
+    "mobile-dark-abdominal.png",
+    "mobile-dark-type-a.png",
+    "mobile-dark-type-b.png",
+    "mobile-dark-cross-arch.png",
+    "mobile-dark-cross-descending.png",
+    "mobile-dark-arch-only.png"
+  ],
+  "checks": [
+    {
+      "viewport": "desktop",
+      "pausedFrames": 0
+    },
+    {
+      "viewport": "desktop",
+      "fps": 3.798100949525237,
+      "particles": 220
+    },
+    {
+      "viewport": "desktop",
+      "urlReload": "Type B restored"
+    },
+    {
+      "viewport": "mobile",
+      "pausedFrames": 0
+    },
+    {
+      "viewport": "mobile",
+      "fps": 3.997601439136518,
+      "particles": 220
+    },
+    {
+      "viewport": "mobile",
+      "urlReload": "Type B restored"
+    }
+  ],
+  "errors": [],
+  "webgl": {
+    "available": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  }
+}

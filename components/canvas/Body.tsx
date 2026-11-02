@@ -1,0 +1,43 @@
+import {themeToken} from '@/lib/theme';
+import {useEffect,useMemo,useRef} from 'react';
+import {useGLTF,Outlines} from '@react-three/drei';
+import {useFrame,useThree} from '@react-three/fiber';
+import * as THREE from 'three';
+import {useAtlasStore} from '@/store/useAtlasStore';
+import {regionById,drugRelationsFor} from '@/lib/relations';
+import {meshIdsFor} from '@/lib/anatomy';
+import {bodyParts} from '@/lib/model/bodyParts.mjs';
+import sourceParts from '@/data/male-sex-specific-parts.json';
+import type {BodySex} from '@/lib/types';
+import {heatToken,heatIntensity,heatRegion,heatCounts} from '@/lib/modeHeatmap';
+import RegionHitArea from './RegionHitArea';
+export const MODEL_URL='/models/rxatlas-anatomy.glb';
+export default function Body({body,active,onReady}:{body:BodySex;active:boolean;onReady:(body:BodySex)=>void}){
+ const {scene}=useGLTF(body==='female'?'/models/female.glb':MODEL_URL,false,true),s=useAtlasStore(),invalidate=useThree(x=>x.invalidate);
+ const sweep=useRef({value:1}),start=useRef(0),lastMode=useRef(s.mode),gl=useThree(x=>x.gl);
+ const group=useRef<THREE.Group>(null),fade=useRef(active?1:0),fadeStart=useRef({time:0,value:active?1:0});
+ const counts=useMemo(()=>heatCounts(s.mode,body),[s.mode,body]);
+ const meshes=useMemo(()=>{scene.updateMatrixWorld(true);const result:{key:string;meshName:string;id:string;geometry:THREE.BufferGeometry;material:THREE.MeshStandardMaterial;heat:{oldColor:{value:THREE.Color};newColor:{value:THREE.Color};oldPower:{value:number};newPower:{value:number}}}[]=[];scene.traverse(obj=>{if(!(obj instanceof THREE.Mesh))return;let node:THREE.Object3D|null=obj,id='';while(node&&!id){id=node.userData.regionId||(regionById[node.name]?node.name:'');node=node.parent;}if(!id)id='unmapped';for(const part of bodyParts(obj,id,body,sourceParts)){const geometry=part.geometry,partId=part.id;const source=(Array.isArray(obj.material)?obj.material[0]:obj.material) as THREE.MeshStandardMaterial;const material=source.clone();material.roughness=.8;material.metalness=0;material.flatShading=false;const tissue=obj.userData.tissue||source.userData.tissue||source.name;const token='--anatomy-'+(tissue==='organ'?partId:tissue);const palette=themeToken(token)||themeToken('--anatomy-'+tissue)||themeToken('--anatomy-organ');material.color.set(palette);
+ const luminance=material.color.r*.2126+material.color.g*.7152+material.color.b*.0722;material.color.lerp(new THREE.Color(luminance,luminance,luminance),.7);
+ const heat={oldColor:{value:new THREE.Color()},newColor:{value:new THREE.Color()},oldPower:{value:0},newPower:{value:0}};
+ material.onBeforeCompile=shader=>{Object.assign(shader.uniforms,{heatOld:heat.oldColor,heatNew:heat.newColor,heatOldPower:heat.oldPower,heatNewPower:heat.newPower,heatSweep:sweep.current});shader.vertexShader='varying float heatY;\n'+shader.vertexShader;shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nheatY=position.y;');shader.fragmentShader='varying float heatY;uniform vec3 heatOld;uniform vec3 heatNew;uniform float heatOldPower;uniform float heatNewPower;uniform float heatSweep;\n'+shader.fragmentShader;shader.fragmentShader=shader.fragmentShader.replace('#include <emissivemap_fragment>','#include <emissivemap_fragment>\nfloat band=(1.72-heatY)/1.8;float blend=smoothstep(band-0.12,band+0.12,heatSweep*1.3-0.15);float rim=pow(1.0-abs(dot(normalize(vNormal),normalize(vViewPosition))),2.0);totalEmissiveRadiance+=mix(heatOld*heatOldPower,heatNew*heatNewPower,blend)*(0.8+0.65*rim);');};material.customProgramCacheKey=()=> 'rxatlas-mode-heatmap-v1';
+ result.push({key:obj.uuid+partId,meshName:body==='female'?obj.name:partId,id:partId,geometry,material,heat});}});return result},[scene,body]);
+ useEffect(()=>{onReady(body)},[body,onReady]);
+ useEffect(()=>{invalidate();return()=>{meshes.forEach(m=>{m.geometry.dispose();m.material.dispose()})}},[meshes,invalidate]);
+ useEffect(()=>{const changed=lastMode.current!==s.mode;const color=new THREE.Color(themeToken(heatToken(s.mode)));for(const m of meshes){const id=heatRegion(m.id,s.region),power=m.id==='skin'||m.id==='unmapped'?0:heatIntensity(counts[id]||0);m.heat.oldColor.value.copy(m.heat.newColor.value);m.heat.oldPower.value=m.heat.newPower.value;m.heat.newColor.value.copy(color);m.heat.newPower.value=power;if(!changed){m.heat.oldColor.value.copy(color);m.heat.oldPower.value=power}}lastMode.current=s.mode;start.current=performance.now();sweep.current.value=changed?0:1;if(active)gl.domElement.dataset.heatmap=JSON.stringify({body,mode:s.mode,regions:Object.fromEntries(Object.entries(counts).map(([id,count])=>[id,{count,intensity:heatIntensity(count)}])),meshes:meshes.map(m=>({id:m.id,region:heatRegion(m.id,s.region),intensity:m.heat.newPower.value}))});invalidate()},[s.mode,s.region,s.theme,counts,meshes,gl,invalidate,active,body]);
+ useEffect(()=>{fadeStart.current={time:performance.now(),value:fade.current};invalidate()},[active,invalidate]);
+ useFrame(({camera},delta)=>{const target=active?1:0;if(group.current)group.current.visible=fade.current>0||active;if(fade.current!==target){const step=matchMedia('(prefers-reduced-motion: reduce)').matches?1:Math.min(1,(performance.now()-fadeStart.current.time)/400);fade.current=fadeStart.current.value+(target-fadeStart.current.value)*step;for(const m of meshes){m.material.opacity=(m.material.userData.baseOpacity??1)*fade.current;m.material.transparent=m.material.opacity<1;m.material.depthWrite=m.material.opacity===1;}group.current?.traverse(obj=>{if(obj instanceof THREE.Mesh&&obj.material instanceof THREE.ShaderMaterial&&obj.material.uniforms.thickness&&obj.material.uniforms.opacity)obj.material.uniforms.opacity.value=.45*fade.current});invalidate()}if(sweep.current.value<1){sweep.current.value=Math.min(1,(performance.now()-start.current)/600);invalidate()}gl.domElement.dataset.heatSweep=String(sweep.current.value);gl.domElement.dataset.cameraPosition=JSON.stringify(camera.position.toArray());gl.domElement.dataset.cameraQuaternion=JSON.stringify(camera.quaternion.toArray())});
+ const root=s.region?regionById[s.region]?.parentId||s.region:null,drugRegions=s.drug?drugRelationsFor(s.drug,body).regionIds:[];
+ const includes=(region:string|null,id:string)=>meshIdsFor(region,region===s.region?s.condition:null,body).includes(id);
+ return <group ref={group}>{meshes.map(m=>{
+  const {id}=m,top=id==='pectoral-surface'?'chest':regionById[id]?.parentId||id;
+  if(id==='skin'&&!s.skin)return null;
+  const selected=includes(s.region,m.meshName)||drugRegions.some(r=>includes(r,m.meshName)),hover=includes(s.hover,m.meshName)||includes(s.preview,m.meshName);
+  const dim=id!=='unmapped'&&s.region!=='systemic'&&(s.region||s.drug)?!selected&&!hover:false;
+  const opacity=id==='skin'?.16:dim?.35:1;
+  m.material.userData.baseOpacity=opacity;m.material.opacity=opacity*fade.current;m.material.transparent=m.material.opacity<1;m.material.depthWrite=m.material.opacity===1;m.material.depthTest=true;
+  m.material.emissive.set(hover?themeToken('--tint'):themeToken('--black'));m.material.emissiveIntensity=id==='skin'?.025:hover?.08:0;
+  const hitId=id==='heart'||id==='brain'?id:root===top?(id==='pectoral-surface'?'chest':id):top;
+  return <group key={m.key}><mesh name={id} geometry={m.geometry} material={m.material} renderOrder={id==='skin'?3:dim?2:0} raycast={()=>null}>{selected&&id!=='skin'&&<Outlines thickness={.75} screenspace={false} angle={0} color={themeToken('--accent')} opacity={.45*fade.current} transparent/>}</mesh>{active&&body===s.body&&id!=='skin'&&id!=='unmapped'&&<RegionHitArea id={hitId} geometry={m.geometry}/>}</group>;
+ })}</group>;
+}

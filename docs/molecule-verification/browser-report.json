@@ -1,0 +1,72 @@
+{
+  "screenshots": [
+    {
+      "id": "ibuprofen",
+      "theme": "light",
+      "file": "ibuprofen-light.png"
+    },
+    {
+      "id": "ibuprofen",
+      "theme": "dark",
+      "file": "ibuprofen-dark.png"
+    },
+    {
+      "id": "labetalol",
+      "theme": "light",
+      "file": "labetalol-light.png"
+    },
+    {
+      "id": "labetalol",
+      "theme": "dark",
+      "file": "labetalol-dark.png"
+    },
+    {
+      "id": "esmolol",
+      "theme": "light",
+      "file": "esmolol-light.png"
+    },
+    {
+      "id": "esmolol",
+      "theme": "dark",
+      "file": "esmolol-dark.png"
+    },
+    {
+      "id": "nitroprusside",
+      "theme": "light",
+      "file": "nitroprusside-light.png"
+    },
+    {
+      "id": "nitroprusside",
+      "theme": "dark",
+      "file": "nitroprusside-dark.png"
+    },
+    {
+      "id": "insulin-glargine",
+      "theme": "light",
+      "file": "insulin-glargine-light.png"
+    },
+    {
+      "id": "insulin-glargine",
+      "theme": "dark",
+      "file": "insulin-glargine-dark.png"
+    }
+  ],
+  "interactions": [
+    "Oxygen chip highlights both O atoms in 2D and 3D",
+    "2D hover synchronizes atom 0 with 3D and tooltip",
+    "3D mouse hover synchronizes the identical atom in 2D",
+    "RDKit carboxylic-acid SMARTS highlights 3 matching atoms",
+    "Space-filling and 2D style controls work",
+    "Expand and Escape restore the card",
+    "Actual Drug view loads the card; expanded view escapes the side panel",
+    "Mobile atom tap and element-chip tap work; views stack"
+  ],
+  "errors": [
+    "Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node."
+  ],
+  "externalRequests": [],
+  "webgl": {
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "screenshots": [
+    "desktop-light-home.png",
+    "desktop-light-region.png",
+    "desktop-light-condition.png",
+    "desktop-light-drug.png",
+    "desktop-light-search.png",
+    "desktop-light-breast.png",
+    "desktop-dark-home.png",
+    "desktop-dark-region.png",
+    "desktop-dark-condition.png",
+    "desktop-dark-drug.png",
+    "desktop-dark-search.png",
+    "desktop-dark-breast.png",
+    "mobile-light-home.png",
+    "mobile-light-region.png",
+    "mobile-light-condition.png",
+    "mobile-light-drug.png",
+    "mobile-light-search.png",
+    "mobile-light-breast.png",
+    "mobile-dark-home.png",
+    "mobile-dark-region.png",
+    "mobile-dark-condition.png",
+    "mobile-dark-drug.png",
+    "mobile-dark-search.png",
+    "mobile-dark-breast.png"
+  ],
+  "checks": [
+    "desktop light: molecule element selection, atom hover, expand, close",
+    "desktop dark: molecule element selection, atom hover, expand, close",
+    "mobile light: molecule element selection, atom tap, expand, close",
+    "mobile dark: molecule element selection, atom tap, expand, close"
+  ],
+  "errors": [
+    "Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node."
+  ],
+  "webgl2": true,
+  "font": "\"DM Sans\", sans-serif"
+}

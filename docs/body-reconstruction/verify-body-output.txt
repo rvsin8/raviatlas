@@ -1,0 +1,162 @@
+{
+  "glbBytes": 11197332,
+  "centroidDefinition": "Surface-area-weighted triangle centroid",
+  "pass": true,
+  "transform": "(x,y,z) mm -> (.001*x,.001*z,-.001*y) m; no translation",
+  "wholeModel": {
+    "min": [
+      -0.33338791131973267,
+      -0.07808320224285126,
+      -0.044699158519506454
+    ],
+    "max": [
+      0.3325939178466797,
+      1.6514099836349487,
+      0.24681545794010162
+    ]
+  },
+  "dimensionsM": {
+    "width": 0.6659818291664124,
+    "height": 1.7294931858778,
+    "depth": 0.2915146164596081
+  },
+  "centroidY": {
+    "head": 1.5481037274586718,
+    "neck": 1.4206482109566123,
+    "chest": 1.1918548779225742,
+    "abdomen": 1.0071692956878453,
+    "pelvis": 0.8587902044678584,
+    "thigh": 0.6094930318000279,
+    "knee": 0.39465191811715716,
+    "foot": -0.045563508964940935
+  },
+  "sourceParts": 2237,
+  "decodedRenderedParts": 2237,
+  "maximumSourceDimensionRatio": 1.0630097052063106,
+  "armHandCentroidXRange": [
+    -0.3170795142650604,
+    0.3173903524875641
+  ],
+  "leftRightPairs": 477,
+  "maxMirrorBoundsErrorM": 0.45185333490371704,
+  "asymmetricPairs": [
+    {
+      "left": [
+        "FJ1457M",
+        "FJ2545"
+      ],
+      "right": [
+        "FJ2550"
+      ],
+      "name": "pubococcygeus",
+      "mirrorBoundsErrorM": 0.030613195151090622,
+      "sourceMirrorBoundsErrorM": 0.03141661,
+      "introducedMirrorDeviationM": 0.0008034148489093756
+    },
+    {
+      "left": [
+        "FJ1893",
+        "FJ2404"
+      ],
+      "right": [
+        "FJ1913",
+        "FJ2405"
+      ],
+      "name": "portal vein",
+      "mirrorBoundsErrorM": 0.1085585467517376,
+      "sourceMirrorBoundsErrorM": 0.10857230000000001,
+      "introducedMirrorDeviationM": 0.000054062160491946676
+    },
+    {
+      "left": [
+        "FJ2184",
+        "FJ2187"
+      ],
+      "right": [
+        "FJ2190",
+        "FJ2194",
+        "FJ2200"
+      ],
+      "name": "fibular vein",
+      "mirrorBoundsErrorM": 0.45185333490371704,
+      "sourceMirrorBoundsErrorM": 0.4518169999999999,
+      "introducedMirrorDeviationM": 0.000036334903717127887
+    },
+    {
+      "left": [
+        "FJ2415"
+      ],
+      "right": [
+        "FJ2416"
+      ],
+      "name": "hepatic vein",
+      "mirrorBoundsErrorM": 0.05636945739388466,
+      "sourceMirrorBoundsErrorM": 0.0563691,
+      "introducedMirrorDeviationM": 0.000009509544372621193
+    },
+    {
+      "left": [
+        "FJ2417"
+      ],
+      "right": [
+        "FJ2434"
+      ],
+      "name": "anterior cusp of pulmonary valve",
+      "mirrorBoundsErrorM": 0.05066579021513462,
+      "sourceMirrorBoundsErrorM": 0.0506647,
+      "introducedMirrorDeviationM": 0.000004003567881584458
+    },
+    {
+      "left": [
+        "FJ2426"
+      ],
+      "right": [
+        "FJ2431"
+      ],
+      "name": "posterior cusp of aortic valve",
+      "mirrorBoundsErrorM": 0.03983751870691776,
+      "sourceMirrorBoundsErrorM": 0.0398365,
+      "introducedMirrorDeviationM": 0.000005239524841327281
+    },
+    {
+      "left": [
+        "FJ2442",
+        "FJ2537"
+      ],
+      "right": [
+        "FJ2456",
+        "FJ2488"
+      ],
+      "name": "medial basal segmental bronchial tree",
+      "mirrorBoundsErrorM": 0.08478568494319916,
+      "sourceMirrorBoundsErrorM": 0.084799,
+      "introducedMirrorDeviationM": 0.000013589746952050175
+    },
+    {
+      "left": [
+        "FJ2447",
+        "FJ2465",
+        "FJ2466"
+      ],
+      "right": [
+        "FJ2458",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519"
+      ],
+      "name": "posterior segmental bronchial tree",
+      "mirrorBoundsErrorM": 0.03337064944207668,
+      "sourceMirrorBoundsErrorM": 0.033371,
+      "introducedMirrorDeviationM": 0.00001170379929543025
+    }
+  ],
+  "symmetryPolicy": {
+    "strictToleranceM": 0.03,
+    "approvedSourcePairs": 26,
+    "maximumIntroducedMirrorDeviationM": 0.001,
+    "sourceBoundsSha256": "8a9da37f49a71e7f86f42387ab599b948de1cf2145b7d7a60f253aa63425d4a4"
+  },
+  "failures": []
+}

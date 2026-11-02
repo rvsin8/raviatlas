@@ -1,0 +1,10 @@
+import {spawnSync} from 'node:child_process';
+import {cpSync,mkdirSync,rmSync,existsSync} from 'node:fs';
+import {resolve} from 'node:path';
+const cwd=resolve('demos-src');
+if(!existsSync(resolve(cwd,'node_modules/vite')))throw new Error('Install demo dependencies first: npm ci --prefix demos-src');
+const result=spawnSync(process.execPath,[resolve(cwd,'node_modules/vite/bin/vite.js'),'build'],{cwd,stdio:'inherit'});
+if(result.status!==0)process.exit(result.status??1);
+const routes=spawnSync(process.execPath,['scripts/routes.mjs'],{cwd,stdio:'inherit'});if(routes.status!==0)process.exit(routes.status??1);
+rmSync('public/demo-lab',{recursive:true,force:true});mkdirSync('public/demo-lab',{recursive:true});cpSync(resolve(cwd,'dist'),'public/demo-lab',{recursive:true});
+console.log('Built both demos into /demo-lab/ for same-origin RxAtlas routes.');

@@ -1,0 +1,5781 @@
+{
+  "_review": "pending",
+  "sources": [
+    "https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.10/assets/3d-vh-f-united.glb",
+    "https://apps.humanatlas.io/kg-explorer/ref-organ/united-female/v1.10",
+    "https://3d.nih.gov/entries/20992"
+  ],
+  "license": "CC BY 4.0",
+  "release": "v1.10",
+  "sourceSha256": "95f0c3d2f918582608692ca1139e8bdb18c147a16470e9ee9af8b276bd77c422",
+  "uniformScale": 1.0434094503803581,
+  "translation": [
+    0.005713067573089107,
+    0.7489084707479106,
+    0.15869325280587585
+  ],
+  "rotation": "identity: native Y-up, anterior +Z",
+  "nativeBounds": {
+    "min": [
+      -0.48694288913195866,
+      -0.7926127853705309,
+      -0.21906892532538896
+    ],
+    "max": [
+      0.4747519557054487,
+      0.8651651841211683,
+      0.10803762733444205
+    ]
+  },
+  "outputBounds": {
+    "min": [
+      -0.5023263453703727,
+      -0.07800523936748505,
+      -0.06982840664274806
+    ],
+    "max": [
+      0.5010635017615165,
+      1.6516004800796509,
+      0.27142654425985924
+    ]
+  },
+  "bytes": 9693304,
+  "triangles": 2187930,
+  "unavailable": [
+    "ears",
+    "nose-sinuses",
+    "jaw",
+    "face",
+    "thyroid",
+    "esophagus",
+    "diaphragm",
+    "stomach",
+    "arm",
+    "shoulder",
+    "upper-arm",
+    "elbow",
+    "forearm",
+    "hand",
+    "wrist",
+    "palm",
+    "fingers-thumb",
+    "calf",
+    "foot",
+    "ankle",
+    "heel",
+    "arch",
+    "toes",
+    "prostate",
+    "testes"
+  ],
+  "parts": [
+    {
+      "sourceNode": "VH_F_subcutaneous_abdominal_adipose_tissue_umbilicus_area",
+      "regionId": "unmapped",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_subcutaneous_abdominal_adipose_tissue_RUQ_area",
+      "regionId": "unmapped",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_subcutaneous_abdominal_adipose_tissue_LUQ_area",
+      "regionId": "unmapped",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_skin",
+      "regionId": "skin",
+      "tissue": "skin",
+      "ontology": "UBERON:0002097"
+    },
+    {
+      "sourceNode": "VH_F_fat_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "FMA:73166"
+    },
+    {
+      "sourceNode": "VH_F_areolar_tubercles_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0011828"
+    },
+    {
+      "sourceNode": "VH_F_nipple_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0013772"
+    },
+    {
+      "sourceNode": "VH_F_areola_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "FMA:223679"
+    },
+    {
+      "sourceNode": "VH_F_mammary_lobes_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0018140"
+    },
+    {
+      "sourceNode": "VH_F_main_lactiferous_ducts_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0015134"
+    },
+    {
+      "sourceNode": "VH_F_main_lactiferous_sinuses_L",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "FMA:58088"
+    },
+    {
+      "sourceNode": "VH_F_suspensory_ligaments_L",
+      "regionId": "breast",
+      "tissue": "cartilage",
+      "ontology": "FMA:73119"
+    },
+    {
+      "sourceNode": "VH_F_fat_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "FMA:73165"
+    },
+    {
+      "sourceNode": "VH_F_areolar_tubercles_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0011828"
+    },
+    {
+      "sourceNode": "VH_F_nipple_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0013773"
+    },
+    {
+      "sourceNode": "VH_F_areola_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "FMA:223677"
+    },
+    {
+      "sourceNode": "VH_F_main_lactiferous_sinuses_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "FMA:58088"
+    },
+    {
+      "sourceNode": "VH_F_main_lactiferous_ducts_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0015134"
+    },
+    {
+      "sourceNode": "VH_F_mammary_lobes_R",
+      "regionId": "breast",
+      "tissue": "organ",
+      "ontology": "UBERON:0018140"
+    },
+    {
+      "sourceNode": "VH_F_suspensory_ligaments_R",
+      "regionId": "breast",
+      "tissue": "cartilage",
+      "ontology": "FMA:73118"
+    },
+    {
+      "sourceNode": "VH_F_retina_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58302"
+    },
+    {
+      "sourceNode": "VH_F_fovea_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58661"
+    },
+    {
+      "sourceNode": "VH_F_macula_lutea_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58638"
+    },
+    {
+      "sourceNode": "VH_F_optic_disc_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58635"
+    },
+    {
+      "sourceNode": "VH_F_palpebral_conjunctiva_of_right_upper_eyelid",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:223076"
+    },
+    {
+      "sourceNode": "VH_F_palpebral_conjunctiva_of_right_lower_eyelid",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:223074"
+    },
+    {
+      "sourceNode": "VH_F_sclera_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58271"
+    },
+    {
+      "sourceNode": "VH_F_optic_choroid_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58299"
+    },
+    {
+      "sourceNode": "VH_F_pupil_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0010224"
+    },
+    {
+      "sourceNode": "VH_F_ciliary_processes_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0010427"
+    },
+    {
+      "sourceNode": "VH_F_suspensory_ligament_of_lens_R",
+      "regionId": "eyes",
+      "tissue": "cartilage",
+      "ontology": "FMA:58839"
+    },
+    {
+      "sourceNode": "VH_F_ora_serrata_of_retina_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58601"
+    },
+    {
+      "sourceNode": "VH_F_corneo_scleral_junction_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58343"
+    },
+    {
+      "sourceNode": "VH_F_lens_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58242"
+    },
+    {
+      "sourceNode": "VH_F_schlemms_canal_R",
+      "regionId": "rectum-anus",
+      "tissue": "nerve",
+      "ontology": "FMA:51874"
+    },
+    {
+      "sourceNode": "VH_F_aqueous_humor_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58820"
+    },
+    {
+      "sourceNode": "VH_F_ciliary_body_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58296"
+    },
+    {
+      "sourceNode": "VH_F_ciliary_muscle_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:49152"
+    },
+    {
+      "sourceNode": "VH_F_trabecular_meshwork_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0005969"
+    },
+    {
+      "sourceNode": "VH_F_iris_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58236"
+    },
+    {
+      "sourceNode": "VH_F_bulbar_conjunctiva_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:59028"
+    },
+    {
+      "sourceNode": "VH_F_cornea_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58239"
+    },
+    {
+      "sourceNode": "VH_F_vitreous_humor_R",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:261236"
+    },
+    {
+      "sourceNode": "VH_F_retina_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58303"
+    },
+    {
+      "sourceNode": "VH_F_fovea_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58663"
+    },
+    {
+      "sourceNode": "VH_F_macula_lutea_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58639"
+    },
+    {
+      "sourceNode": "VH_F_optic_disc_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58636"
+    },
+    {
+      "sourceNode": "VH_F_palpebral_conjunctiva_of_left_upper_eyelid",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:223078"
+    },
+    {
+      "sourceNode": "VH_F_palpebral_conjunctiva_of_left_lower_eyelid",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:223075"
+    },
+    {
+      "sourceNode": "VH_F_vitreous_humor_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:261238"
+    },
+    {
+      "sourceNode": "VH_F_cornea_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58240"
+    },
+    {
+      "sourceNode": "VH_F_bulbar_conjunctiva_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:59029"
+    },
+    {
+      "sourceNode": "VH_F_iris_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58237"
+    },
+    {
+      "sourceNode": "VH_F_trabecular_meshwork_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0005969"
+    },
+    {
+      "sourceNode": "VH_F_ciliary_body_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58297"
+    },
+    {
+      "sourceNode": "VH_F_ciliary_muscle_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:49153"
+    },
+    {
+      "sourceNode": "VH_F_aqueous_humor_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58821"
+    },
+    {
+      "sourceNode": "VH_F_schlemms_canal_L",
+      "regionId": "rectum-anus",
+      "tissue": "nerve",
+      "ontology": "FMA:51875"
+    },
+    {
+      "sourceNode": "VH_F_lens_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58243"
+    },
+    {
+      "sourceNode": "VH_F_corneo_scleral_junction_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58344"
+    },
+    {
+      "sourceNode": "VH_F_ora_serrata_of_retina_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58602"
+    },
+    {
+      "sourceNode": "VH_F_suspensory_ligament_of_lens_L",
+      "regionId": "eyes",
+      "tissue": "cartilage",
+      "ontology": "FMA:58840"
+    },
+    {
+      "sourceNode": "VH_F_ciliary_processes_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0010427"
+    },
+    {
+      "sourceNode": "VH_F_pupil_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0010223"
+    },
+    {
+      "sourceNode": "VH_F_optic_choroid_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58300"
+    },
+    {
+      "sourceNode": "VH_F_sclera_L",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:58272"
+    },
+    {
+      "sourceNode": "VH_F_dura_mater_right",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0002363"
+    },
+    {
+      "sourceNode": "VH_F_right_optic_nerve",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:50875"
+    },
+    {
+      "sourceNode": "VH_F_dura_mater_left",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "UBERON:0002363"
+    },
+    {
+      "sourceNode": "VH_F_left_optic_nerve",
+      "regionId": "eyes",
+      "tissue": "nerve",
+      "ontology": "FMA:50878"
+    },
+    {
+      "sourceNode": "VH_F_optic_chiasm",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0000959"
+    },
+    {
+      "sourceNode": "Allen_olfactory_bulb_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002264"
+    },
+    {
+      "sourceNode": "Allen_anterior_olfactory_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002266"
+    },
+    {
+      "sourceNode": "Allen_piriform_region_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0004725"
+    },
+    {
+      "sourceNode": "Allen_frontal_agranular_insular_cortex_area_Fl_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_temporal_agranular_insular_cortex_area_Tl_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_head_of_caudate_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_body_of_caudate_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tail_of_caudate_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_putamen_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0008884"
+    },
+    {
+      "sourceNode": "Allen_nucleus_accumbens_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_external_segment_of_globus_pallidus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_internal_segment_of_globus_pallidus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_claustrum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basal_forebrain_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_septal_nuclei_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_amygdaloid_complex_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_amygdaloid_area_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_central_nuclear_group_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basolateral_nucleus_basal_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basomedial_nucleus_accessory_basal_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_cortical_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_posterior_cortical_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_medial_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_amygdalohippocampal_area_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_bed_nucleus_of_stria_terminalis_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_nuclear_complex_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_dorsal_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_mediodorsal_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_reuniens_nucleus_medioventral_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_posterior_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_pulvinar_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_anterior_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_lateral_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_posterior_lateral_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_posterior_medial_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_dorsal_lateral_geniculate_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_medial_geniculate_nuclei_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_centromedian_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_parafascicular_nucleus_of_thalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_habenular_nuclei_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_pineal_body_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001905"
+    },
+    {
+      "sourceNode": "Allen_zona_incerta_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_supraoptic_region_of_HTH_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_preoptic_region_of_HTH_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tuberal_region_of_HTH_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_white_matter_of_forebrain_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_commissure_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0000935"
+    },
+    {
+      "sourceNode": "Allen_corpus_callosum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002336"
+    },
+    {
+      "sourceNode": "Allen_fornix_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0000052"
+    },
+    {
+      "sourceNode": "Allen_mammillothalamic_tract_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_optic_tract_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001908"
+    },
+    {
+      "sourceNode": "Allen_anterior_horn_of_lateral_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_body_of_lateral_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_posterior_horn_of_lateral_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_inferior_horn_of_lateral_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_third_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_cerebellar_vermis_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0004720"
+    },
+    {
+      "sourceNode": "Allen_cerebellar_deep_nuclei_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_white_matter_of_hindbrain_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_olfactory_tract_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_primary_motor_cortex_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002703"
+    },
+    {
+      "sourceNode": "Allen_superior_frontal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002661"
+    },
+    {
+      "sourceNode": "Allen_middle_frontal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002702"
+    },
+    {
+      "sourceNode": "Allen_inferior_frontal_gyrus_triangular_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002629"
+    },
+    {
+      "sourceNode": "Allen_inferior_frontal_gyrus_opercular_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002980"
+    },
+    {
+      "sourceNode": "Allen_gyrus_rectus_straight_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0004671"
+    },
+    {
+      "sourceNode": "Allen_medial_orbital_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002570"
+    },
+    {
+      "sourceNode": "Allen_anterior_intermediate_orbital_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002644"
+    },
+    {
+      "sourceNode": "Allen_posterior_intermediate_orbital_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002644"
+    },
+    {
+      "sourceNode": "Allen_lateral_orbital_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002564"
+    },
+    {
+      "sourceNode": "Allen_paracentral_lobule_rostral_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0035932"
+    },
+    {
+      "sourceNode": "Allen_frontal_operculum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002947"
+    },
+    {
+      "sourceNode": "Allen_postcentral_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002581"
+    },
+    {
+      "sourceNode": "Allen_supraparietal_lobule_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_supramarginal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_angular_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_precuneus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0006093"
+    },
+    {
+      "sourceNode": "Allen_paracentral_lobule_caudal_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_superior_temporal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002769"
+    },
+    {
+      "sourceNode": "Allen_middle_temporal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002771"
+    },
+    {
+      "sourceNode": "Allen_inferior_temporal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002751"
+    },
+    {
+      "sourceNode": "Allen_occipitotemporal_fusiform_gyrus_temporal_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_transverse_temporal_gyrus_Heschls_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_planum_temporale_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022268"
+    },
+    {
+      "sourceNode": "Allen_temporal_pole_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002576"
+    },
+    {
+      "sourceNode": "Allen_planum_polare_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0023861"
+    },
+    {
+      "sourceNode": "Allen_occipital_pole_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002902"
+    },
+    {
+      "sourceNode": "Allen_cuneus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0006092"
+    },
+    {
+      "sourceNode": "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002943"
+    },
+    {
+      "sourceNode": "Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022364"
+    },
+    {
+      "sourceNode": "Allen_inferior_occipital_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0014608"
+    },
+    {
+      "sourceNode": "Allen_superior_occipital_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002948"
+    },
+    {
+      "sourceNode": "Allen_cingulate_gyrus_rostral_anterior_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002756"
+    },
+    {
+      "sourceNode": "Allen_cingulate_gyrus_caudal_posterior_part_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002740"
+    },
+    {
+      "sourceNode": "Allen_ingulo_parahippocampal_isthmus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002738"
+    },
+    {
+      "sourceNode": "Allen_subcallosal_gyrus_parolfactory_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0003020"
+    },
+    {
+      "sourceNode": "Allen_anterior_parahippocampal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022383"
+    },
+    {
+      "sourceNode": "Allen_posterior_parahippocampal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002657"
+    },
+    {
+      "sourceNode": "Allen_gyrus_ambiens_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_long_insular_gyri_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_short_insular_gyri_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_limen_insula_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_pretectal_region_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_substantia_nigra_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002038"
+    },
+    {
+      "sourceNode": "Allen_superior_colliculus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001945"
+    },
+    {
+      "sourceNode": "Allen_cerebral_peduncle_crus_cerebri_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002623"
+    },
+    {
+      "sourceNode": "Allen_superior_cerebellar_peduncle_brachium_conjunctivum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_cerebral_aqueduct_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_paravermis_of_cerebellum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_hemisphere_of_cerebellum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basilar_part_of_pons_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002151"
+    },
+    {
+      "sourceNode": "Allen_pontine_tegmentum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0003023"
+    },
+    {
+      "sourceNode": "Allen_pyramidal_part_of_medulla_oblongata_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tegmentum_of_medulla_oblongata_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_inferior_olive_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_middle_cerebellar_peduncle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_fourth_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002422"
+    },
+    {
+      "sourceNode": "Allen_central_canal_of_medulla_oblongata_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_midline_nuclear_complex_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_olfactory_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_parietal_operculum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002911"
+    },
+    {
+      "sourceNode": "Allen_optic_radiation_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022264"
+    },
+    {
+      "sourceNode": "Allen_posteroventral_putamen_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_atrium_of_lateral_ventricle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_paracingulate_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_rostral_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_frontomarginal_gyrus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_frontal_pole_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_inferior_cerebellar_peduncle_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_perirhinal_gyrus_rostral_part_of_FuGt_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_head_of_hippocampus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_body_of_hippocampus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tail_of_hippocampus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_olfactory_bulb_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_olfactory_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_piriform_region_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_frontal_agranular_insular_cortex_area_Fl_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_temporal_agranular_insular_cortex_area_Tl_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_head_of_caudate_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_body_of_caudate_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tail_of_caudate_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_putamen_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0008885"
+    },
+    {
+      "sourceNode": "Allen_nucleus_accumbens_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_external_segment_of_globus_pallidus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_internal_segment_of_globus_pallidus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_claustrum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basal_forebrain_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_septal_nuclei_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_amygdaloid_complex_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_amygdaloid_area_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_central_nuclear_group_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basolateral_nucleus_basal_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basomedial_nucleus_accessory_basal_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_cortical_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_posterior_cortical_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_medial_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_amygdalohippocampal_area_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_bed_nucleus_of_stria_terminalis_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_nuclear_complex_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_dorsal_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_mediodorsal_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_reuniens_nucleus_medioventral_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_posterior_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_pulvinar_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_anterior_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_lateral_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_posterior_lateral_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_ventral_posterior_medial_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_dorsal_lateral_geniculate_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_medial_geniculate_nuclei_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_centromedian_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_parafascicular_nucleus_of_thalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_habenular_nuclei_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_pineal_body_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001905"
+    },
+    {
+      "sourceNode": "Allen_zona_incerta_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_supraoptic_region_of_HTH_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_white_matter_of_forebrain_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_anterior_commissure_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0000935"
+    },
+    {
+      "sourceNode": "Allen_corpus_callosum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002336"
+    },
+    {
+      "sourceNode": "Allen_fornix_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0000052"
+    },
+    {
+      "sourceNode": "Allen_mammillothalamic_tract_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_optic_tract_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001908"
+    },
+    {
+      "sourceNode": "Allen_anterior_horn_of_lateral_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_body_of_lateral_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_posterior_horn_of_lateral_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_inferior_horn_of_lateral_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_third_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_cerebellar_vermis_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_cerebellar_deep_nuclei_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_white_matter_of_hindbrain_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_olfactory_tract_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_primary_motor_cortex_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002703"
+    },
+    {
+      "sourceNode": "Allen_superior_frontal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002661"
+    },
+    {
+      "sourceNode": "Allen_middle_frontal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002702"
+    },
+    {
+      "sourceNode": "Allen_inferior_frontal_gyrus_triangular_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002629"
+    },
+    {
+      "sourceNode": "Allen_inferior_frontal_gyrus_opercular_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002980"
+    },
+    {
+      "sourceNode": "Allen_gyrus_rectus_straight_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0004671"
+    },
+    {
+      "sourceNode": "Allen_medial_orbital_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002570"
+    },
+    {
+      "sourceNode": "Allen_anterior_intermediate_orbital_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002644"
+    },
+    {
+      "sourceNode": "Allen_posterior_intermediate_orbital_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002644"
+    },
+    {
+      "sourceNode": "Allen_lateral_orbital_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002564"
+    },
+    {
+      "sourceNode": "Allen_paracentral_lobule_rostral_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0035932"
+    },
+    {
+      "sourceNode": "Allen_frontal_operculum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002947"
+    },
+    {
+      "sourceNode": "Allen_postcentral_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002581"
+    },
+    {
+      "sourceNode": "Allen_supraparietal_lobule_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_supramarginal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_angular_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_precuneus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0006093"
+    },
+    {
+      "sourceNode": "Allen_paracentral_lobule_caudal_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_superior_temporal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002769"
+    },
+    {
+      "sourceNode": "Allen_middle_temporal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002771"
+    },
+    {
+      "sourceNode": "Allen_inferior_temporal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002751"
+    },
+    {
+      "sourceNode": "Allen_occipitotemporal_fusiform_gyrus_temporal_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_transverse_temporal_gyrus_Heschls_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_planum_temporale_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022268"
+    },
+    {
+      "sourceNode": "Allen_temporal_pole_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002576"
+    },
+    {
+      "sourceNode": "Allen_planum_polare_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0023861"
+    },
+    {
+      "sourceNode": "Allen_occipital_pole_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002902"
+    },
+    {
+      "sourceNode": "Allen_cuneus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0006092"
+    },
+    {
+      "sourceNode": "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002943"
+    },
+    {
+      "sourceNode": "Allen_lateral_occipitotemporal_fusiform_gyrus_occipital_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022364"
+    },
+    {
+      "sourceNode": "Allen_inferior_occipital_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0014608"
+    },
+    {
+      "sourceNode": "Allen_superior_occipital_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002948"
+    },
+    {
+      "sourceNode": "Allen_cingulate_gyrus_rostral_anterior_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002756"
+    },
+    {
+      "sourceNode": "Allen_cingulate_gyrus_caudal_posterior_part_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002740"
+    },
+    {
+      "sourceNode": "Allen_ingulo_parahippocampal_isthmus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002738"
+    },
+    {
+      "sourceNode": "Allen_subcallosal_gyrus_parolfactory_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0003020"
+    },
+    {
+      "sourceNode": "Allen_anterior_parahippocampal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022383"
+    },
+    {
+      "sourceNode": "Allen_posterior_parahippocampal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002657"
+    },
+    {
+      "sourceNode": "Allen_gyrus_ambiens_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_long_insular_gyri_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_short_insular_gyri_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_limen_insula_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_pretectal_region_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_red_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001947"
+    },
+    {
+      "sourceNode": "Allen_substantia_nigra_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002038"
+    },
+    {
+      "sourceNode": "Allen_superior_colliculus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001945"
+    },
+    {
+      "sourceNode": "Allen_inferior_colliculus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001946"
+    },
+    {
+      "sourceNode": "Allen_cerebral_peduncle_crus_cerebri_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002623"
+    },
+    {
+      "sourceNode": "Allen_superior_cerebellar_peduncle_brachium_conjunctivum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_cerebral_aqueduct_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_paravermis_of_cerebellum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_hemisphere_of_cerebellum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_basilar_part_of_pons_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002151"
+    },
+    {
+      "sourceNode": "Allen_pontine_tegmentum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0003023"
+    },
+    {
+      "sourceNode": "Allen_pyramidal_part_of_medulla_oblongata_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tegmentum_of_medulla_oblongata_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_inferior_olive_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_inferior_cerebellar_peduncle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_middle_cerebellar_peduncle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_fourth_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002422"
+    },
+    {
+      "sourceNode": "Allen_central_canal_of_medulla_oblongata_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_midline_nuclear_complex_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_lateral_olfactory_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_parietal_operculum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0002911"
+    },
+    {
+      "sourceNode": "Allen_optic_radiation_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0022264"
+    },
+    {
+      "sourceNode": "Allen_posteroventral_putamen_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_atrium_of_lateral_ventricle_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_paracingulate_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_rostral_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_frontomarginal_gyrus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_frontal_pole_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_perirhinal_gyrus_rostral_part_of_FuGt_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_hypothalamus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001898"
+    },
+    {
+      "sourceNode": "Allen_hypothalamus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001898"
+    },
+    {
+      "sourceNode": "Allen_subthalamic_nucleus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_mammillary_region_of_HTH_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_midbrain_tegmentum_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tuberal_region_of_HTH_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_preoptic_region_of_HTH_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_midbrain_tegmentum_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_red_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001947"
+    },
+    {
+      "sourceNode": "Allen_inferior_colliculus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "UBERON:0001946"
+    },
+    {
+      "sourceNode": "Allen_mammillary_region_of_HTH_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_subthalamic_nucleus_L",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_head_of_hippocampus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_body_of_hippocampus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "Allen_tail_of_hippocampus_R",
+      "regionId": "brain",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_C1_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006469"
+    },
+    {
+      "sourceNode": "VH_F_C2_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006489"
+    },
+    {
+      "sourceNode": "VH_F_C3_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006488"
+    },
+    {
+      "sourceNode": "VH_F_C4_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006490"
+    },
+    {
+      "sourceNode": "VH_F_C5_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006491"
+    },
+    {
+      "sourceNode": "VH_F_C6_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006492"
+    },
+    {
+      "sourceNode": "VH_F_C7_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006493"
+    },
+    {
+      "sourceNode": "VH_F_C8_segment_of_cervical_spinal_cord",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006470"
+    },
+    {
+      "sourceNode": "VH_F_first_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006457"
+    },
+    {
+      "sourceNode": "VH_F_second_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006458"
+    },
+    {
+      "sourceNode": "VH_F_third_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006459"
+    },
+    {
+      "sourceNode": "VH_F_fourth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006452"
+    },
+    {
+      "sourceNode": "VH_F_fifth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006453"
+    },
+    {
+      "sourceNode": "VH_F_seventh_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006455"
+    },
+    {
+      "sourceNode": "VH_F_eigth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006456"
+    },
+    {
+      "sourceNode": "VH_F_sixth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006454"
+    },
+    {
+      "sourceNode": "VH_F_ninth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006465"
+    },
+    {
+      "sourceNode": "VH_F_tenth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006466"
+    },
+    {
+      "sourceNode": "VH_F_eleventh_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006467"
+    },
+    {
+      "sourceNode": "VH_F_twelfth_thoracic_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006468"
+    },
+    {
+      "sourceNode": "VH_F_first_lumbar_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006448"
+    },
+    {
+      "sourceNode": "VH_F_second_lumbar_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006450"
+    },
+    {
+      "sourceNode": "VH_F_third_lumbar_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006449"
+    },
+    {
+      "sourceNode": "VH_F_fourth_lumbar_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006451"
+    },
+    {
+      "sourceNode": "VH_F_fifth_lumbar_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006447"
+    },
+    {
+      "sourceNode": "VH_F_first_sacral_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006460"
+    },
+    {
+      "sourceNode": "VH_F_second_sacral_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006461"
+    },
+    {
+      "sourceNode": "VH_F_third_sacral_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006462"
+    },
+    {
+      "sourceNode": "VH_F_fourth_sacral_spinal_cord_segment",
+      "regionId": "spinal-cord",
+      "tissue": "nerve",
+      "ontology": "UBERON:0006463"
+    },
+    {
+      "sourceNode": "VH_F_medial_rectus_extraocular_muscle_L",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49057"
+    },
+    {
+      "sourceNode": "VH_F_inferior_rectus_extraocular_muscle_L",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49047"
+    },
+    {
+      "sourceNode": "VH_F_superior_rectus_extraocular_muscle_L",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49045"
+    },
+    {
+      "sourceNode": "VH_F_inferior_oblique_extraocular_muscle_L",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49051"
+    },
+    {
+      "sourceNode": "VH_F_lateral_rectus_extraocular_muscle_L",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49055"
+    },
+    {
+      "sourceNode": "VH_F_superior_oblique_extraocular_muscle_L",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49053"
+    },
+    {
+      "sourceNode": "VH_F_medial_rectus_extraocular_muscle_R",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49056"
+    },
+    {
+      "sourceNode": "VH_F_inferior_rectus_extraocular_muscle_R",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49046"
+    },
+    {
+      "sourceNode": "VH_F_superior_rectus_extraocular_muscle_R",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49044"
+    },
+    {
+      "sourceNode": "VH_F_inferior_oblique_extraocular_muscle_R",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49050"
+    },
+    {
+      "sourceNode": "VH_F_lateral_rectus_extraocular_muscle_R",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49054"
+    },
+    {
+      "sourceNode": "VH_F_superior_oblique_extraocular_muscle_R",
+      "regionId": "eyes",
+      "tissue": "muscle",
+      "ontology": "FMA:49052"
+    },
+    {
+      "sourceNode": "VH_F_rectus_femoris_L",
+      "regionId": "thigh",
+      "tissue": "muscle",
+      "ontology": "FMA:38929"
+    },
+    {
+      "sourceNode": "VH_F_tendon_of_quadriceps_femoris_L",
+      "regionId": "thigh",
+      "tissue": "cartilage",
+      "ontology": "FMA:46902"
+    },
+    {
+      "sourceNode": "VH_F_rectus_femoris_R",
+      "regionId": "thigh",
+      "tissue": "muscle",
+      "ontology": "FMA:38928"
+    },
+    {
+      "sourceNode": "VH_F_tendon_of_quadriceps_femoris_R",
+      "regionId": "thigh",
+      "tissue": "cartilage",
+      "ontology": "FMA:46901"
+    },
+    {
+      "sourceNode": "VH_F_vagina",
+      "regionId": "reproductive-organs",
+      "tissue": "organ",
+      "ontology": "UBERON:0000996"
+    },
+    {
+      "sourceNode": "VH_F_cervicovaginal_junction",
+      "regionId": "reproductive-organs",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_ampulla_of_uterine_tube_R",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18491"
+    },
+    {
+      "sourceNode": "VH_F_isthmus_of_fallopian_tube_R",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18493"
+    },
+    {
+      "sourceNode": "VH_F_fibria_of_uterine_tube_R",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18497"
+    },
+    {
+      "sourceNode": "VH_F_uterine_tube_infundibulum_R",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18489"
+    },
+    {
+      "sourceNode": "VH_F_uterine_tube_infundibulum_L",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18490"
+    },
+    {
+      "sourceNode": "VH_F_fibria_of_uterine_tube_L",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18498"
+    },
+    {
+      "sourceNode": "VH_F_isthmus_of_fallopian_tube_L",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18494"
+    },
+    {
+      "sourceNode": "VH_F_ampulla_of_uterine_tube_L",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:18492"
+    },
+    {
+      "sourceNode": "VH_F_uterovesical_pouch",
+      "regionId": "uterus",
+      "tissue": "cartilage",
+      "ontology": "FMA:14729"
+    },
+    {
+      "sourceNode": "VH_F_right_round_ligament_of_uterus",
+      "regionId": "uterus",
+      "tissue": "cartilage",
+      "ontology": "FMA:57789"
+    },
+    {
+      "sourceNode": "VH_F_left_round_ligament_of_uterus",
+      "regionId": "uterus",
+      "tissue": "cartilage",
+      "ontology": "FMA:57790"
+    },
+    {
+      "sourceNode": "VH_F_right_uterosacral_ligament",
+      "regionId": "sacrum-tailbone",
+      "tissue": "cartilage",
+      "ontology": "FMA:19119"
+    },
+    {
+      "sourceNode": "VH_F_left_uterosacral_ligament",
+      "regionId": "sacrum-tailbone",
+      "tissue": "cartilage",
+      "ontology": "FMA:19120"
+    },
+    {
+      "sourceNode": "VH_F_right_cardinal_ligament_of_uterus",
+      "regionId": "uterus",
+      "tissue": "cartilage",
+      "ontology": "FMA:77064"
+    },
+    {
+      "sourceNode": "VH_F_left_cardinal_ligament_of_uterus",
+      "regionId": "uterus",
+      "tissue": "cartilage",
+      "ontology": "FMA:77064"
+    },
+    {
+      "sourceNode": "VH_F_suspensory_ligament_of_ovary_R",
+      "regionId": "ovaries",
+      "tissue": "cartilage",
+      "ontology": "FMA:19823"
+    },
+    {
+      "sourceNode": "VH_F_suspensory_ligament_of_ovary_L",
+      "regionId": "ovaries",
+      "tissue": "cartilage",
+      "ontology": "FMA:19824"
+    },
+    {
+      "sourceNode": "VH_F_ovarian_ligament_L",
+      "regionId": "ovaries",
+      "tissue": "cartilage",
+      "ontology": "FMA:55424"
+    },
+    {
+      "sourceNode": "VH_F_ovarian_ligament_R",
+      "regionId": "ovaries",
+      "tissue": "cartilage",
+      "ontology": "FMA:55423"
+    },
+    {
+      "sourceNode": "VH_F_broad_ligament",
+      "regionId": "uterus",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0012332"
+    },
+    {
+      "sourceNode": "VH_F_mesosalpinx_L",
+      "regionId": "reproductive-organs",
+      "tissue": "cartilage",
+      "ontology": "FMA:19810"
+    },
+    {
+      "sourceNode": "VH_F_mesosalpinx_R",
+      "regionId": "reproductive-organs",
+      "tissue": "cartilage",
+      "ontology": "FMA:19809"
+    },
+    {
+      "sourceNode": "VH_F_mesovarium_R",
+      "regionId": "reproductive-organs",
+      "tissue": "cartilage",
+      "ontology": "FMA:19817"
+    },
+    {
+      "sourceNode": "VH_F_mesovarium_L",
+      "regionId": "reproductive-organs",
+      "tissue": "cartilage",
+      "ontology": "FMA:19818"
+    },
+    {
+      "sourceNode": "VH_F_left_ovary",
+      "regionId": "ovaries",
+      "tissue": "organ",
+      "ontology": "FMA:7214"
+    },
+    {
+      "sourceNode": "VH_F_right_ovary",
+      "regionId": "ovaries",
+      "tissue": "organ",
+      "ontology": "FMA:7213"
+    },
+    {
+      "sourceNode": "VH_F_abdominal_ostium_of_uterine_tube",
+      "regionId": "fallopian-tubes",
+      "tissue": "organ",
+      "ontology": "FMA:77049"
+    },
+    {
+      "sourceNode": "VH_F_body_of_uterus",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "UBERON:0009853"
+    },
+    {
+      "sourceNode": "VH_F_fundus_of_uterus",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "FMA:17561"
+    },
+    {
+      "sourceNode": "VH_F_cornua",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_lower_uterine_segment",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "FMA:17752"
+    },
+    {
+      "sourceNode": "VH_F_posterior_wall_of_uterus",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "FMA:224878"
+    },
+    {
+      "sourceNode": "VH_F_anterior_wall_of_uterus",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "FMA:224876"
+    },
+    {
+      "sourceNode": "VH_F_cervix",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "UBERON:0000002"
+    },
+    {
+      "sourceNode": "VH_F_internal_cervical_os",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "UBERON:0013759"
+    },
+    {
+      "sourceNode": "VH_F_external_cervical_os",
+      "regionId": "uterus",
+      "tissue": "organ",
+      "ontology": "UBERON:0013760"
+    },
+    {
+      "sourceNode": "VH_F_omentum",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0003688"
+    },
+    {
+      "sourceNode": "VH_F_epiploic_appendage_of_transverse_colon",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:15046"
+    },
+    {
+      "sourceNode": "VH_F_submandibular_gland_L",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "FMA:59803"
+    },
+    {
+      "sourceNode": "VH_F_submandibular_gland_R",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "FMA:59802"
+    },
+    {
+      "sourceNode": "VH_F_parotid_gland_R",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "FMA:59797"
+    },
+    {
+      "sourceNode": "VH_F_parotid_gland_L",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "FMA:59798"
+    },
+    {
+      "sourceNode": "VH_F_sublingual_gland_R",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "FMA:59804"
+    },
+    {
+      "sourceNode": "VH_F_sublingual_gland_L",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "FMA:59805"
+    },
+    {
+      "sourceNode": "VH_F_buccal_mucosa",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0006956"
+    },
+    {
+      "sourceNode": "VH_F_frenulum_of_upper_lip",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0016912"
+    },
+    {
+      "sourceNode": "VH_F_frenulum_of_lower_lip",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0016913"
+    },
+    {
+      "sourceNode": "VH_F_mouth_floor",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0003679"
+    },
+    {
+      "sourceNode": "VH_F_ginviva_of_upper_jaw",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0011601"
+    },
+    {
+      "sourceNode": "VH_F_gingiva_of_lower_jaw",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0011602"
+    },
+    {
+      "sourceNode": "VH_F_posterior_part_of_tongue",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0010033"
+    },
+    {
+      "sourceNode": "VH_F_dorsal_tongue",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0007371"
+    },
+    {
+      "sourceNode": "VH_F_ventral_tongue",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0007373"
+    },
+    {
+      "sourceNode": "VH_F_fungiform_papillae",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0002448"
+    },
+    {
+      "sourceNode": "VH_F_circumvallate_papillae",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0000396"
+    },
+    {
+      "sourceNode": "VH_F_hard_palate",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0003216"
+    },
+    {
+      "sourceNode": "VH_F_mucosa_of_soft_palate",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0005024"
+    },
+    {
+      "sourceNode": "VH_F_set_of_lower_jaw_teeth",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0009679"
+    },
+    {
+      "sourceNode": "VH_F_set_of_upper_jaw_teeth",
+      "regionId": "mouth-teeth",
+      "tissue": "organ",
+      "ontology": "UBERON:0009680"
+    },
+    {
+      "sourceNode": "VH_F_gastric_impression_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:14487"
+    },
+    {
+      "sourceNode": "VH_F_suprarenal_impression_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:14489"
+    },
+    {
+      "sourceNode": "VH_F_renal_impression_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:14488"
+    },
+    {
+      "sourceNode": "VH_F_duodenal_impression_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:14485"
+    },
+    {
+      "sourceNode": "VH_F_esophageal_impression_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:14486"
+    },
+    {
+      "sourceNode": "VH_F_porta_hepatis",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:15758"
+    },
+    {
+      "sourceNode": "VH_F_colic_impression_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:14484"
+    },
+    {
+      "sourceNode": "VH_F_capsule_of_the_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0016479"
+    },
+    {
+      "sourceNode": "VH_F_bare_area_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001149"
+    },
+    {
+      "sourceNode": "VH_F_diaphragmatic_surface_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "FMA:15729"
+    },
+    {
+      "sourceNode": "VH_F_left_anterolateral_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_left_superomedial_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_left_superomedial_segment1",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_left_inferomedial_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_quadrate_lobe",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001116"
+    },
+    {
+      "sourceNode": "VH_F_right_anterosuperior_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_right_posteroinferior_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_right_posterosuperior_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_right_anteroinferior_segment",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_caudate_lobe",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001117"
+    },
+    {
+      "sourceNode": "VH_F_coronary_ligament_of_liver",
+      "regionId": "heart",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0013138"
+    },
+    {
+      "sourceNode": "VH_F_falciform_ligament",
+      "regionId": "liver-gallbladder",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0001247"
+    },
+    {
+      "sourceNode": "VH_F_triangular_ligament_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0035444"
+    },
+    {
+      "sourceNode": "VH_F_ligamentum_venosum",
+      "regionId": "liver-gallbladder",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0006587"
+    },
+    {
+      "sourceNode": "VH_F_round_ligament_of_liver",
+      "regionId": "liver-gallbladder",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0006588"
+    },
+    {
+      "sourceNode": "VH_F_hepataduodenal_ligament",
+      "regionId": "intestines",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0012472"
+    },
+    {
+      "sourceNode": "VH_F_tail_of_pancreas",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0001151"
+    },
+    {
+      "sourceNode": "VH_F_body_of_pancreas",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0001150"
+    },
+    {
+      "sourceNode": "VH_F_ucinate_process1",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0010373"
+    },
+    {
+      "sourceNode": "VH_F_head_of_pancreas",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0001069"
+    },
+    {
+      "sourceNode": "VH_F_neck_of_pancreas",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "FMA:14517"
+    },
+    {
+      "sourceNode": "VH_F_right_hepatic_duct",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001176"
+    },
+    {
+      "sourceNode": "VH_F_left_hepatic_duct",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001177"
+    },
+    {
+      "sourceNode": "VH_F_common_hepatic_duct",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001175"
+    },
+    {
+      "sourceNode": "VH_F_hepatopancreatic_ampulla",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0004913"
+    },
+    {
+      "sourceNode": "VH_F_dorsal_pancreatic_duct",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0005429"
+    },
+    {
+      "sourceNode": "VH_F_common_bile_duct",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001174"
+    },
+    {
+      "sourceNode": "VH_F_ventral_pancreatic_duct",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "UBERON:0001064"
+    },
+    {
+      "sourceNode": "VH_F_cystic_duct",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001152"
+    },
+    {
+      "sourceNode": "VH_F_duodenum_superior",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:7206"
+    },
+    {
+      "sourceNode": "VH_F_duodenal_ampulla",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0013644"
+    },
+    {
+      "sourceNode": "VH_F_duodenum_descending",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:14928"
+    },
+    {
+      "sourceNode": "VH_F_sphincter_of_heptopancreatic_ampulla",
+      "regionId": "pancreas",
+      "tissue": "organ",
+      "ontology": "FMA:15077"
+    },
+    {
+      "sourceNode": "VH_F_duodenum_ascending",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:14930"
+    },
+    {
+      "sourceNode": "VH_F_duodenum_horizontal",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:14929"
+    },
+    {
+      "sourceNode": "VH_F_jejenum",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0002115"
+    },
+    {
+      "sourceNode": "VH_F_ileum",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0002116"
+    },
+    {
+      "sourceNode": "VH_F_ileum_terminal",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:14966"
+    },
+    {
+      "sourceNode": "VH_F_palatine_tonsil_L",
+      "regionId": "throat",
+      "tissue": "organ",
+      "ontology": "FMA:54974"
+    },
+    {
+      "sourceNode": "VH_F_palatine_tonsil_R",
+      "regionId": "throat",
+      "tissue": "organ",
+      "ontology": "FMA:54973"
+    },
+    {
+      "sourceNode": "VH_F_hepatic_flexure_of_colon",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0022277"
+    },
+    {
+      "sourceNode": "VH_F_transverse_colon",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0001157"
+    },
+    {
+      "sourceNode": "VH_F_ascending_colon",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0001156"
+    },
+    {
+      "sourceNode": "VH_F_vermiform_appendix",
+      "regionId": "appendix",
+      "tissue": "organ",
+      "ontology": "UBERON:0001154"
+    },
+    {
+      "sourceNode": "VH_F_descending_colon",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0001158"
+    },
+    {
+      "sourceNode": "VH_F_ileocecal_valve",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0000569"
+    },
+    {
+      "sourceNode": "VH_F_caecum",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0001153"
+    },
+    {
+      "sourceNode": "VH_F_rectum",
+      "regionId": "rectum-anus",
+      "tissue": "organ",
+      "ontology": "UBERON:0001052"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_colon",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "UBERON:0001159"
+    },
+    {
+      "sourceNode": "VH_F_splenic_flexure_of_colon",
+      "regionId": "spleen",
+      "tissue": "organ",
+      "ontology": "UBERON:0022276"
+    },
+    {
+      "sourceNode": "VH_F_gallbladder",
+      "regionId": "liver-gallbladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0002110"
+    },
+    {
+      "sourceNode": "VH_F_kidney_capsule_L",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0002015"
+    },
+    {
+      "sourceNode": "VH_F_hilum_of_kidney_L",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0008716"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_e",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_f",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_g",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_h",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_i",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_j",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_L_k",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_e",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_f",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_g",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_h",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_i",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_j",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_L_k",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_column_L",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001284"
+    },
+    {
+      "sourceNode": "VH_F_outer_cortex_of_kidney_L",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0002189"
+    },
+    {
+      "sourceNode": "VH_F_kidney_capsule_R",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0002015"
+    },
+    {
+      "sourceNode": "VH_F_hilum_of_kidney_R",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0008716"
+    },
+    {
+      "sourceNode": "VH_F_outer_cortex_of_kidney_R",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0002189"
+    },
+    {
+      "sourceNode": "VH_F_renal_column_R",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001284"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_e",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_f",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_g",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_h",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_i",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_papilla_R_j",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001228"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_e",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_f",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_g",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_h",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_i",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_renal_pyramid_R_j",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0004200"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_e",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_f",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_g",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_h",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_i",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_R_j",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_R_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_R_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_R_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_renal_pelvis_R",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001224"
+    },
+    {
+      "sourceNode": "VH_F_right_ureter",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001222"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_e",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_f",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_g",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_h",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_i",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_minor_calyx_L_j",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001227"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_L_a",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_L_b",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_L_c",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_major_calyx_L_d",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001226"
+    },
+    {
+      "sourceNode": "VH_F_renal_pelvis_L",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "UBERON:0001224"
+    },
+    {
+      "sourceNode": "VH_F_left_ureter",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001223"
+    },
+    {
+      "sourceNode": "VH_F_fundus_of_urinary_bladder_dome",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0006082"
+    },
+    {
+      "sourceNode": "VH_F_urinary_bladder_neck_smooth_muscle",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0004230"
+    },
+    {
+      "sourceNode": "VH_F_fundus_of_urinary_bladder_base",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0006082"
+    },
+    {
+      "sourceNode": "VH_F_trigone_of_urinary_bladder",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "UBERON:0001257"
+    },
+    {
+      "sourceNode": "VH_F_ureteral_orifice_R",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "FMA:15939"
+    },
+    {
+      "sourceNode": "VH_F_ureteral_orifice_L",
+      "regionId": "bladder",
+      "tissue": "organ",
+      "ontology": "FMA:15940"
+    },
+    {
+      "sourceNode": "VH_F_interventricular_septum",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002094"
+    },
+    {
+      "sourceNode": "VH_F_left_cardiac_atrium",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002079"
+    },
+    {
+      "sourceNode": "VH_F_left_ventricle",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002084"
+    },
+    {
+      "sourceNode": "VH_F_right_cardiac_atrium",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002078"
+    },
+    {
+      "sourceNode": "VH_F_right_ventricle",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002080"
+    },
+    {
+      "sourceNode": "VH_F_papillary_muscle_of_heart_ant",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:7264"
+    },
+    {
+      "sourceNode": "VH_F_papillary_muscle_of_heart_antlat",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:7265"
+    },
+    {
+      "sourceNode": "VH_F_papillary_muscle_of_heart_med",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:7262"
+    },
+    {
+      "sourceNode": "VH_F_papillary_muscle_of_heart_pos",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:7261"
+    },
+    {
+      "sourceNode": "VH_F_papillary_muscle_of_heart_posmed",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:7267"
+    },
+    {
+      "sourceNode": "VH_F_aortic_valve",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002137"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_valve",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002146"
+    },
+    {
+      "sourceNode": "VH_F_mitral_valve",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002135"
+    },
+    {
+      "sourceNode": "VH_F_tricuspid_valve",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "UBERON:0002134"
+    },
+    {
+      "sourceNode": "VH_F_left_uterine_artery",
+      "regionId": "uterus",
+      "tissue": "artery",
+      "ontology": "FMA:18831"
+    },
+    {
+      "sourceNode": "VH_F_right_uterine_artery",
+      "regionId": "uterus",
+      "tissue": "artery",
+      "ontology": "FMA:18830"
+    },
+    {
+      "sourceNode": "VH_F_left_uterine_vein",
+      "regionId": "uterus",
+      "tissue": "vein",
+      "ontology": "FMA:18898"
+    },
+    {
+      "sourceNode": "VH_F_right_uterine_vein",
+      "regionId": "uterus",
+      "tissue": "vein",
+      "ontology": "FMA:18897"
+    },
+    {
+      "sourceNode": "VH_F_ophthalmic_vein_L",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "UBERON:0011191"
+    },
+    {
+      "sourceNode": "VH_F_superior_ophthalmic_vein_L",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "FMA:51249"
+    },
+    {
+      "sourceNode": "VH_F_inferior_ophthalmic_vein_L",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "FMA:51251"
+    },
+    {
+      "sourceNode": "VH_F_central_retinal_vein_L",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "FMA:51885"
+    },
+    {
+      "sourceNode": "VH_F_ophthalmic_vein_R",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "UBERON:0011191"
+    },
+    {
+      "sourceNode": "VH_F_superior_ophthalmic_vein_R",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "FMA:51248"
+    },
+    {
+      "sourceNode": "VH_F_inferior_ophthalmic_vein_R",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "FMA:51250"
+    },
+    {
+      "sourceNode": "VH_F_central_retinal_vein_R",
+      "regionId": "eyes",
+      "tissue": "vein",
+      "ontology": "FMA:51884"
+    },
+    {
+      "sourceNode": "VH_F_long_posterior_ciliary_artery_L",
+      "regionId": "eyes",
+      "tissue": "artery",
+      "ontology": "FMA:49958"
+    },
+    {
+      "sourceNode": "VH_F_opthalmic_artery_L",
+      "regionId": "eyes",
+      "tissue": "artery",
+      "ontology": "UBERON:0001619"
+    },
+    {
+      "sourceNode": "VH_F_central_retinal_artery_L",
+      "regionId": "eyes",
+      "tissue": "artery",
+      "ontology": "FMA:49881"
+    },
+    {
+      "sourceNode": "VH_F_long_posterior_ciliary_artery_R",
+      "regionId": "eyes",
+      "tissue": "artery",
+      "ontology": "FMA:49957"
+    },
+    {
+      "sourceNode": "VH_F_opthalmic_artery_R",
+      "regionId": "eyes",
+      "tissue": "artery",
+      "ontology": "UBERON:0001619"
+    },
+    {
+      "sourceNode": "VH_F_central_retinal_artery_R",
+      "regionId": "eyes",
+      "tissue": "artery",
+      "ontology": "FMA:49880"
+    },
+    {
+      "sourceNode": "VH_F_right_renal_artery",
+      "regionId": "kidneys",
+      "tissue": "artery",
+      "ontology": "UBERON:0001185"
+    },
+    {
+      "sourceNode": "VH_F_left_renal_artery",
+      "regionId": "kidneys",
+      "tissue": "artery",
+      "ontology": "UBERON:0001186"
+    },
+    {
+      "sourceNode": "VH_F_left_renal_vein",
+      "regionId": "kidneys",
+      "tissue": "vein",
+      "ontology": "UBERON:0001142"
+    },
+    {
+      "sourceNode": "VH_F_right_renal_vein",
+      "regionId": "kidneys",
+      "tissue": "vein",
+      "ontology": "UBERON:0001141"
+    },
+    {
+      "sourceNode": "VH_F_superior_mesenteric_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0001138"
+    },
+    {
+      "sourceNode": "VH_F_superior_rectal_vein",
+      "regionId": "rectum-anus",
+      "tissue": "vein",
+      "ontology": "UBERON:0035040"
+    },
+    {
+      "sourceNode": "VH_F_left_common_iliac_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:21388"
+    },
+    {
+      "sourceNode": "VH_F_right_common_iliac_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:21387"
+    },
+    {
+      "sourceNode": "VH_F_left_colic_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:15394"
+    },
+    {
+      "sourceNode": "VH_F_right_colic_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:15407"
+    },
+    {
+      "sourceNode": "VH_F_ileocolic_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0001219"
+    },
+    {
+      "sourceNode": "VH_F_middle_colic_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0001218"
+    },
+    {
+      "sourceNode": "VH_F_inferior_rectal_vein_L",
+      "regionId": "rectum-anus",
+      "tissue": "vein",
+      "ontology": "FMA:21242"
+    },
+    {
+      "sourceNode": "VH_F_inferior_rectal_vein_R",
+      "regionId": "rectum-anus",
+      "tissue": "vein",
+      "ontology": "FMA:21242"
+    },
+    {
+      "sourceNode": "VH_F_internal_iliac_vein_L",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0001317"
+    },
+    {
+      "sourceNode": "VH_F_internal_iliac_vein_R",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0001317"
+    },
+    {
+      "sourceNode": "VH_F_internal_pudendal_vein_L",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0018252"
+    },
+    {
+      "sourceNode": "VH_F_internal_pudendal_vein_R",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0018252"
+    },
+    {
+      "sourceNode": "VH_F_middle_rectal_vein_L",
+      "regionId": "rectum-anus",
+      "tissue": "vein",
+      "ontology": "FMA:18895"
+    },
+    {
+      "sourceNode": "VH_F_middle_rectal_vein_R",
+      "regionId": "rectum-anus",
+      "tissue": "vein",
+      "ontology": "FMA:18894"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_vein_a",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:15395"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_vein_c",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:15395"
+    },
+    {
+      "sourceNode": "VH_F_median_sacral_vein",
+      "regionId": "sacrum-tailbone",
+      "tissue": "vein",
+      "ontology": "UBERON:0006687"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_vein_b",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "FMA:15395"
+    },
+    {
+      "sourceNode": "VH_F_inferior_pancreaticoduodenal_vein",
+      "regionId": "pancreas",
+      "tissue": "vein",
+      "ontology": "FMA:0329299"
+    },
+    {
+      "sourceNode": "VH_F_inferior_mesenteric_vein",
+      "regionId": "intestines",
+      "tissue": "vein",
+      "ontology": "UBERON:0001182"
+    },
+    {
+      "sourceNode": "VH_F_left_colic_artery",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "FMA:14826"
+    },
+    {
+      "sourceNode": "VH_F_right_colic_artery",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "FMA:14811"
+    },
+    {
+      "sourceNode": "VH_F_ileocolic_artery",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0035548"
+    },
+    {
+      "sourceNode": "VH_F_middle_colic_artery",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0001196"
+    },
+    {
+      "sourceNode": "VH_F_celiac_trunk",
+      "regionId": "intestines",
+      "tissue": "organ",
+      "ontology": "FMA:14812"
+    },
+    {
+      "sourceNode": "VH_F_superior_rectal_artery",
+      "regionId": "rectum-anus",
+      "tissue": "artery",
+      "ontology": "UBERON:0035040"
+    },
+    {
+      "sourceNode": "VH_F_superior_mesenteric_artery",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0001182"
+    },
+    {
+      "sourceNode": "VH_F_inferior_mesenteric_artery",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0001183"
+    },
+    {
+      "sourceNode": "VH_F_marginal_artery_of_Drummond",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "FMA:14824"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_artery_c",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0035180"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_artery_b",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0035180"
+    },
+    {
+      "sourceNode": "VH_F_sigmoid_artery_a",
+      "regionId": "intestines",
+      "tissue": "artery",
+      "ontology": "UBERON:0035180"
+    },
+    {
+      "sourceNode": "VH_F_splenic_artery",
+      "regionId": "spleen",
+      "tissue": "artery",
+      "ontology": "UBERON:0001194"
+    },
+    {
+      "sourceNode": "VH_F_splenic_vein",
+      "regionId": "spleen",
+      "tissue": "vein",
+      "ontology": "UBERON:0003713"
+    },
+    {
+      "sourceNode": "VH_F_cystic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "UBERON:0039222"
+    },
+    {
+      "sourceNode": "VH_F_cystic_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "UBERON:0035392"
+    },
+    {
+      "sourceNode": "VH_F_middle_hepatic_artery_branch_of_left_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_proper_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "FMA:14772"
+    },
+    {
+      "sourceNode": "VH_F_right_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "FMA:14778"
+    },
+    {
+      "sourceNode": "VH_F_common_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "UBERON:0005436"
+    },
+    {
+      "sourceNode": "VH_F_posterior_segmental_right_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_anterior_segmental_right_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_left_hepatic_artery",
+      "regionId": "liver-gallbladder",
+      "tissue": "artery",
+      "ontology": "FMA:14779"
+    },
+    {
+      "sourceNode": "VH_F_hepatic_portal_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "UBERON:0001639"
+    },
+    {
+      "sourceNode": "VH_F_middle_hepatic_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "FMA:14340"
+    },
+    {
+      "sourceNode": "VH_F_left_hepatic_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "FMA:14339"
+    },
+    {
+      "sourceNode": "VH_F_right_hepatic_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "FMA:14338"
+    },
+    {
+      "sourceNode": "VH_F_right_branch_of_portal_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_left_branch_of_portal_vein",
+      "regionId": "liver-gallbladder",
+      "tissue": "vein",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_vein_L_sup",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:49916"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_vein_R_inf",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:49913"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_vein_R_sup",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:49914"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_vein_L_inf",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:49911"
+    },
+    {
+      "sourceNode": "VH_F_coronary_sinus",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "UBERON:0005438"
+    },
+    {
+      "sourceNode": "VH_F_great_cardiac_vein",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "UBERON:0006958"
+    },
+    {
+      "sourceNode": "VH_F_middle_cardiac_vein",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "UBERON:0009687"
+    },
+    {
+      "sourceNode": "VH_F_oblique_vein_of_left_atrium",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:4715"
+    },
+    {
+      "sourceNode": "VH_F_left_marginal_vein",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:4708"
+    },
+    {
+      "sourceNode": "VH_F_posterior_vein_of_left_ventricle",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:4712"
+    },
+    {
+      "sourceNode": "VH_F_anterior_cardiac_vein",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:76767"
+    },
+    {
+      "sourceNode": "VH_F_small_cardiac_vein",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "UBERON:0035374"
+    },
+    {
+      "sourceNode": "VH_F_superior_vena_cava",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:4720"
+    },
+    {
+      "sourceNode": "VH_F_inferior_vena_cava_a",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:10951"
+    },
+    {
+      "sourceNode": "VH_F_inferior_vena_cava_b",
+      "regionId": "heart",
+      "tissue": "vein",
+      "ontology": "FMA:10951"
+    },
+    {
+      "sourceNode": "VH_F_left_anterior_descending_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "FMA:8636"
+    },
+    {
+      "sourceNode": "VH_F_left_circumflex_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0035422"
+    },
+    {
+      "sourceNode": "VH_F_diagonal_branch_of_left_anterior_descending_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "FMA:3860"
+    },
+    {
+      "sourceNode": "VH_F_left_coronary_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001626"
+    },
+    {
+      "sourceNode": "VH_F_left_marginal_branch",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:3902"
+    },
+    {
+      "sourceNode": "VH_F_left_posterior_descending_branch_of_circumflex_branch_of_left_coronary_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "FMA:322904"
+    },
+    {
+      "sourceNode": "VH_F_posterior_left_ventricular_branch",
+      "regionId": "heart",
+      "tissue": "organ",
+      "ontology": "FMA:13905"
+    },
+    {
+      "sourceNode": "VH_F_right_coronary_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001625"
+    },
+    {
+      "sourceNode": "VH_F_right_marginal_artery",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "FMA:3818"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_artery_L",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001652"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_trunk",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0002333"
+    },
+    {
+      "sourceNode": "VH_F_pulmonary_artery_R",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001651"
+    },
+    {
+      "sourceNode": "VH_F_aortic_arch",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001508"
+    },
+    {
+      "sourceNode": "VH_F_ascending_aorta",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001496"
+    },
+    {
+      "sourceNode": "VH_F_descending_aorta_a",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001514"
+    },
+    {
+      "sourceNode": "VH_F_descending_aorta_b",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001514"
+    },
+    {
+      "sourceNode": "VH_F_left_common_carotid_artery_a",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001536"
+    },
+    {
+      "sourceNode": "VH_F_left_common_carotid_artery_b",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001536"
+    },
+    {
+      "sourceNode": "VH_F_left_subclavian_artery_a",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001584"
+    },
+    {
+      "sourceNode": "VH_F_left_subclavian_artery_b",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001584"
+    },
+    {
+      "sourceNode": "VH_F_brachiocephalic_artery_b",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001529"
+    },
+    {
+      "sourceNode": "VH_F_brachiocephalic_artery_a",
+      "regionId": "heart",
+      "tissue": "artery",
+      "ontology": "UBERON:0001529"
+    },
+    {
+      "sourceNode": "VH_F_hilum_L",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004887"
+    },
+    {
+      "sourceNode": "VH_F_hilum_upper_L",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004887"
+    },
+    {
+      "sourceNode": "VH_F_lingula_superior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7374"
+    },
+    {
+      "sourceNode": "VH_F_left_anterior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7373"
+    },
+    {
+      "sourceNode": "VH_F_left_apical_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7385"
+    },
+    {
+      "sourceNode": "VH_F_left_posterior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7386"
+    },
+    {
+      "sourceNode": "VH_F_lingula_inferior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7375"
+    },
+    {
+      "sourceNode": "VH_F_left_superior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7376"
+    },
+    {
+      "sourceNode": "VH_F_left_posterior_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7380"
+    },
+    {
+      "sourceNode": "VH_F_left_anterior_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7378"
+    },
+    {
+      "sourceNode": "VH_F_left_lateral_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7379"
+    },
+    {
+      "sourceNode": "VH_F_left_medial_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7377"
+    },
+    {
+      "sourceNode": "VH_F_hilum_lower_L",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004887"
+    },
+    {
+      "sourceNode": "VH_F_hilum_R",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004888"
+    },
+    {
+      "sourceNode": "VH_F_right_medial_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7365"
+    },
+    {
+      "sourceNode": "VH_F_right_posterior_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7362"
+    },
+    {
+      "sourceNode": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7364"
+    },
+    {
+      "sourceNode": "VH_F_right_lateral_basal_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7363"
+    },
+    {
+      "sourceNode": "VH_F_right_superior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7366"
+    },
+    {
+      "sourceNode": "VH_F_hilum_lower_R",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004888"
+    },
+    {
+      "sourceNode": "VH_F_right_medial_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7360"
+    },
+    {
+      "sourceNode": "VH_F_right_lateral_bronchopulmonary_segmennt",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7361"
+    },
+    {
+      "sourceNode": "VH_F_hilum_middle_R",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004888"
+    },
+    {
+      "sourceNode": "VH_F_right_anterior_bronchopulmonary_segm",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7359"
+    },
+    {
+      "sourceNode": "VH_F_right_apical_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7338"
+    },
+    {
+      "sourceNode": "VH_F_right_posterior_bronchopulmonary_segment",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7339"
+    },
+    {
+      "sourceNode": "VH_F_hilum_upper_R",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0004888"
+    },
+    {
+      "sourceNode": "VH_F_arytenoid_cartilage_R",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "FMA:55113"
+    },
+    {
+      "sourceNode": "VH_F_arytenoid_cartilage_L",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "FMA:55114"
+    },
+    {
+      "sourceNode": "VH_F_epiglotic_cartilage",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0001742"
+    },
+    {
+      "sourceNode": "VH_F_cricoid_cartilage",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0002375"
+    },
+    {
+      "sourceNode": "VH_F_thyroid_cartilage",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0001738"
+    },
+    {
+      "sourceNode": "VH_F_corniculate_cartilage_L",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "FMA:55116"
+    },
+    {
+      "sourceNode": "VH_F_corniculate_cartilage_R",
+      "regionId": "larynx",
+      "tissue": "cartilage",
+      "ontology": "FMA:55115"
+    },
+    {
+      "sourceNode": "VH_F_trachea",
+      "regionId": "throat",
+      "tissue": "organ",
+      "ontology": "UBERON:0003126"
+    },
+    {
+      "sourceNode": "VH_F_tracheal_cartilage",
+      "regionId": "throat",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0003604"
+    },
+    {
+      "sourceNode": "VH_F_carina",
+      "regionId": "throat",
+      "tissue": "organ",
+      "ontology": "UBERON:0006679"
+    },
+    {
+      "sourceNode": "VH_F_right_main_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0002177"
+    },
+    {
+      "sourceNode": "VH_F_cartilage_of_main_bronchus_R",
+      "regionId": "lungs",
+      "tissue": "cartilage",
+      "ontology": "FMA:13143"
+    },
+    {
+      "sourceNode": "VH_F_left_main_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0002178"
+    },
+    {
+      "sourceNode": "VH_F_cartilage_of_main_bronchus_L",
+      "regionId": "lungs",
+      "tissue": "cartilage",
+      "ontology": "FMA:13144"
+    },
+    {
+      "sourceNode": "VH_F_cartilage_of_lobar_bronchus_L",
+      "regionId": "lungs",
+      "tissue": "cartilage",
+      "ontology": "FMA:62659"
+    },
+    {
+      "sourceNode": "VH_F_cartilage_of_tertiary_bronchus_L",
+      "regionId": "lungs",
+      "tissue": "cartilage",
+      "ontology": "FMA:62662"
+    },
+    {
+      "sourceNode": "VH_F_left_superior_lobar_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0012065"
+    },
+    {
+      "sourceNode": "VH_F_left_inferior_lobar_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "UBERON:0012066"
+    },
+    {
+      "sourceNode": "VH_F_left_anterior_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7506"
+    },
+    {
+      "sourceNode": "VH_F_left_lingula_superior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7430"
+    },
+    {
+      "sourceNode": "VH_F_left_apical_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7426"
+    },
+    {
+      "sourceNode": "VH_F_left_posterior_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7508"
+    },
+    {
+      "sourceNode": "VH_F_left_medial_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7505"
+    },
+    {
+      "sourceNode": "VH_F_left_superior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7504"
+    },
+    {
+      "sourceNode": "VH_F_left_anterior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7428"
+    },
+    {
+      "sourceNode": "VH_F_left_posterior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7427"
+    },
+    {
+      "sourceNode": "VH_F_left_lateral_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7507"
+    },
+    {
+      "sourceNode": "VH_F_left_lingula_inferior_bronchi",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7431"
+    },
+    {
+      "sourceNode": "VH_F_cartilage_of_lobar_bronchus_R",
+      "regionId": "lungs",
+      "tissue": "cartilage",
+      "ontology": "FMA:62659"
+    },
+    {
+      "sourceNode": "VH_F_cartilage_of_tertiary_bronchus_R",
+      "regionId": "lungs",
+      "tissue": "cartilage",
+      "ontology": "FMA:62662"
+    },
+    {
+      "sourceNode": "VH_F_right_middle_lobar_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7401"
+    },
+    {
+      "sourceNode": "VH_F_right_superior_lobar_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7397"
+    },
+    {
+      "sourceNode": "VH_F_right_inferior_lobar_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7404"
+    },
+    {
+      "sourceNode": "VH_F_right_anterior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7400"
+    },
+    {
+      "sourceNode": "VH_F_right_lateral_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7419"
+    },
+    {
+      "sourceNode": "VH_F_right_lateral_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7402"
+    },
+    {
+      "sourceNode": "VH_F_right_medial_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7403"
+    },
+    {
+      "sourceNode": "VH_F_right_medial_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7417"
+    },
+    {
+      "sourceNode": "VH_F_right_posterior_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7420"
+    },
+    {
+      "sourceNode": "VH_F_right_posterior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7399"
+    },
+    {
+      "sourceNode": "VH_F_right_superior_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7416"
+    },
+    {
+      "sourceNode": "VH_F_right_apical_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7398"
+    },
+    {
+      "sourceNode": "VH_F_right_anterior_basal_bronchus",
+      "regionId": "lungs",
+      "tissue": "organ",
+      "ontology": "FMA:7418"
+    },
+    {
+      "sourceNode": "VH_F_gastric_surface_of_spleen",
+      "regionId": "spleen",
+      "tissue": "organ",
+      "ontology": "FMA:15837"
+    },
+    {
+      "sourceNode": "VH_F_diaphragmatic_surface_of_spleen",
+      "regionId": "spleen",
+      "tissue": "organ",
+      "ontology": "FMA:15828"
+    },
+    {
+      "sourceNode": "VH_F_colic_surface_of_spleen",
+      "regionId": "spleen",
+      "tissue": "organ",
+      "ontology": "FMA:15838"
+    },
+    {
+      "sourceNode": "VH_F_hilum_of_spleen",
+      "regionId": "spleen",
+      "tissue": "organ",
+      "ontology": "UBERON:0001248"
+    },
+    {
+      "sourceNode": "VH_F_renal_surface_of_spleen",
+      "regionId": "kidneys",
+      "tissue": "organ",
+      "ontology": "FMA:15839"
+    },
+    {
+      "sourceNode": "VH_F_thymus_lobe_L",
+      "regionId": "unmapped",
+      "tissue": "organ",
+      "ontology": "UBERON:0005457"
+    },
+    {
+      "sourceNode": "VH_F_thymus_lobe_R",
+      "regionId": "unmapped",
+      "tissue": "organ",
+      "ontology": "UBERON:0005469"
+    },
+    {
+      "sourceNode": "VH_F_sternum",
+      "regionId": "ribs-sternum",
+      "tissue": "bone",
+      "ontology": "UBERON:0000975"
+    },
+    {
+      "sourceNode": "VH_F_manubrium",
+      "regionId": "ribs-sternum",
+      "tissue": "bone",
+      "ontology": "UBERON:2001553"
+    },
+    {
+      "sourceNode": "VH_F_sacrum",
+      "regionId": "sacrum-tailbone",
+      "tissue": "bone",
+      "ontology": "UBERON:0003690"
+    },
+    {
+      "sourceNode": "VH_F_coccyx",
+      "regionId": "sacrum-tailbone",
+      "tissue": "bone",
+      "ontology": "UBERON:0001350"
+    },
+    {
+      "sourceNode": "VH_F_ilium_compact_bone_R",
+      "regionId": "hip",
+      "tissue": "bone",
+      "ontology": "UBERON:0001439"
+    },
+    {
+      "sourceNode": "VH_F_ilium_compact_bone_L",
+      "regionId": "hip",
+      "tissue": "bone",
+      "ontology": "UBERON:0001439"
+    },
+    {
+      "sourceNode": "VH_F_ilium_spongy_bone_L",
+      "regionId": "hip",
+      "tissue": "bone",
+      "ontology": "UBERON:0002483"
+    },
+    {
+      "sourceNode": "VH_F_ilium_spongy_bone_R",
+      "regionId": "hip",
+      "tissue": "bone",
+      "ontology": "UBERON:0002483"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_1",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004626"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_2",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004627"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_3",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004628"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_4",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004629"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_5",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004630"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_6",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004631"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_7",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004632"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_8",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0011050"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_9",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004633"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_10",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004634"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_11",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004635"
+    },
+    {
+      "sourceNode": "VH_F_thoracic_vertebra_12",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004636"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_1",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0001092"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_2",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0001093"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_3",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004612"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_4",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004613"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_5",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004614"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_6",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004615"
+    },
+    {
+      "sourceNode": "VH_F_cervical_vertebra_7",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004616"
+    },
+    {
+      "sourceNode": "VH_F_lumbar_vertebra_6",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_lumbar_vertebra_5",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004621"
+    },
+    {
+      "sourceNode": "VH_F_lumbar_vertebra_4",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004620"
+    },
+    {
+      "sourceNode": "VH_F_lumbar_vertebra_3",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004619"
+    },
+    {
+      "sourceNode": "VH_F_lumbar_vertebra_2",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004618"
+    },
+    {
+      "sourceNode": "VH_F_lumbar_vertebra_1",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0004617"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_axis",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007265"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_third_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007260"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_fourth_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007261"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_fifth_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007262"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_sixth_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007263"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_seventh_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007264"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_axis",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "FMA:24926"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "FMA:24927"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "FMA:24928"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "FMA:24929"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "FMA:24930"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_seventh_cervical_vertebra",
+      "regionId": "cervical-spine",
+      "tissue": "bone",
+      "ontology": "FMA:24931"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_first_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:10459"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_second_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13497"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13510"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13511"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13512"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13513"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_seventh_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13514"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_eighth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13515"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_ninth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13516"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_tenth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13517"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_eleventh_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13518"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_twelfth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13519"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_first_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:10458"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_second_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13495"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_third_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13500"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_fourth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13501"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_fifth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13502"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_sixth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13503"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_seventh_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13504"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_eighth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13505"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_ninth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13506"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_tenth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13507"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_eleventh_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13508"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_twelfth_thoracic_vertebra",
+      "regionId": "thoracic-spine",
+      "tissue": "bone",
+      "ontology": "FMA:13509"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_first_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16063"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_second_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16064"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_third_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16065"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fourth_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16066"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_fifth_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16067"
+    },
+    {
+      "sourceNode": "VH_F_nucleus_pulposus_of_intervertebral_disk_of_sixth_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_first_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16033"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_second_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16034"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_third_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16035"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_fourth_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16036"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_fifth_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "FMA:16037"
+    },
+    {
+      "sourceNode": "VH_F_intervertebral_disk_of_sixth_lumbar_vertebra",
+      "regionId": "lumbar-spine",
+      "tissue": "bone",
+      "ontology": "UBERON:0007255"
+    },
+    {
+      "sourceNode": "VH_F_right_tibial_collateral_ligament",
+      "regionId": "shin",
+      "tissue": "cartilage",
+      "ontology": "FMA:44601"
+    },
+    {
+      "sourceNode": "VH_F_anterior_cruciate_ligament_of_knee_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:44615"
+    },
+    {
+      "sourceNode": "VH_F_posterior_cruciate_ligament_of_knee_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:44618"
+    },
+    {
+      "sourceNode": "VH_F_anterolateral_ligament_of_knee_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0014899"
+    },
+    {
+      "sourceNode": "VH_F_fibular_collateral_ligament_R",
+      "regionId": "shin",
+      "tissue": "cartilage",
+      "ontology": "FMA:44609"
+    },
+    {
+      "sourceNode": "VH_F_patellar_ligament_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:44585"
+    },
+    {
+      "sourceNode": "VH_F_meniscus_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:64019"
+    },
+    {
+      "sourceNode": "VH_F_femur_R",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "FMA:24474"
+    },
+    {
+      "sourceNode": "VH_F_trochlear_groove_R",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "FMA:43746"
+    },
+    {
+      "sourceNode": "VH_F_medial_perichondular_surface_R",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_articular_cartilage_of_knee_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:33189"
+    },
+    {
+      "sourceNode": "VH_F_medial_condyle_of_right_femur_sup",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32862"
+    },
+    {
+      "sourceNode": "VH_F_lateral_condyle_of_femur_sup_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32860"
+    },
+    {
+      "sourceNode": "VH_F_medial_condyle_of_right_femur_inf",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32862"
+    },
+    {
+      "sourceNode": "VH_F_lateral_condyle_of_femur_inf_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32860"
+    },
+    {
+      "sourceNode": "VH_F_lateral_condyle_of_femur_frontal_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32860"
+    },
+    {
+      "sourceNode": "VH_F_distal_most_point_of_medial_condyle_R",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "UBERON:7500033"
+    },
+    {
+      "sourceNode": "VH_F_intercondylar_fossa_R",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "FMA:43749"
+    },
+    {
+      "sourceNode": "VH_F_posterior_cruciate_enthesis_R",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_anterior_cruciate_enthesis_R",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_lateral_perichondular_surface_R",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_lateral_epicondylar_enthesis_R",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_medial_epicondylar_enthesis_R",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_tibia_R",
+      "regionId": "shin",
+      "tissue": "organ",
+      "ontology": "FMA:24477"
+    },
+    {
+      "sourceNode": "VH_F_fibula_R",
+      "regionId": "shin",
+      "tissue": "organ",
+      "ontology": "FMA:24480"
+    },
+    {
+      "sourceNode": "VH_F_patella_R",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "FMA:24486"
+    },
+    {
+      "sourceNode": "VH_F_anterolateral_ligament_of_knee_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "UBERON:0014899"
+    },
+    {
+      "sourceNode": "VH_F_fibular_collateral_ligament_L",
+      "regionId": "shin",
+      "tissue": "cartilage",
+      "ontology": "FMA:44610"
+    },
+    {
+      "sourceNode": "VH_F_patellar_ligament_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:44586"
+    },
+    {
+      "sourceNode": "VH_F_left_tibial_collateral_ligament",
+      "regionId": "shin",
+      "tissue": "cartilage",
+      "ontology": "FMA:44602"
+    },
+    {
+      "sourceNode": "VH_F_anterior_cruciate_ligament_of_knee_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:44616"
+    },
+    {
+      "sourceNode": "VH_F_posterior_cruciate_ligament_of_knee_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:44619"
+    },
+    {
+      "sourceNode": "VH_F_meniscus_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:64019"
+    },
+    {
+      "sourceNode": "VH_F_femur_L",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "FMA:24475"
+    },
+    {
+      "sourceNode": "VH_F_intercondylar_fossa_L",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "FMA:43750"
+    },
+    {
+      "sourceNode": "VH_F_anterior_cruciate_enthesis_L",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_posterior_cruciate_enthesis_L",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_lateral_perichondular_surface_L",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_lateral_epicondylar_enthesis_L",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_medial_epicondylar_enthesis_L",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_trochlear_groove_L",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "FMA:43747"
+    },
+    {
+      "sourceNode": "VH_F_medial_perichondular_surface_L",
+      "regionId": "thigh",
+      "tissue": "organ",
+      "ontology": "-"
+    },
+    {
+      "sourceNode": "VH_F_articular_cartilage_of_knee_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:33190"
+    },
+    {
+      "sourceNode": "VH_F_medial_condyle_of_left_femur_inf",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32863"
+    },
+    {
+      "sourceNode": "VH_F_lateral_condyle_of_femur_inf_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32861"
+    },
+    {
+      "sourceNode": "VH_F_lateral_condyle_of_femur_frontal_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32861"
+    },
+    {
+      "sourceNode": "VH_F_distal_most_point_of_medial_condyle_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "UBERON:7500033"
+    },
+    {
+      "sourceNode": "VH_F_lateral_condyle_of_femur_sup_L",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32861"
+    },
+    {
+      "sourceNode": "VH_F_medial_condyle_of_left_femur_sup",
+      "regionId": "knee",
+      "tissue": "cartilage",
+      "ontology": "FMA:32863"
+    },
+    {
+      "sourceNode": "VH_F_patella_L",
+      "regionId": "knee",
+      "tissue": "organ",
+      "ontology": "FMA:24487"
+    },
+    {
+      "sourceNode": "VH_F_tibia_L",
+      "regionId": "shin",
+      "tissue": "organ",
+      "ontology": "FMA:24478"
+    },
+    {
+      "sourceNode": "VH_F_fibula_L",
+      "regionId": "shin",
+      "tissue": "organ",
+      "ontology": "FMA:24481"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "VH_F_basal_plate",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_chorionic_plate",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_placenta_vessels",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_amnion",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_umbilical_cord",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_umbilical_artery_1",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_umbilical_artery_2",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "VH_F_umbilical_vein",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_afferent_lymphatic_vessel",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_capsule_of_lymph_node",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_follicles",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_efferent_lymph_node",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_medulla_of_lymph_node",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_paracortex",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    },
+    {
+      "name": "Yao_blood_vasculature",
+      "reason": "Separate pregnancy or lymph-node reference, not normal body context"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "ibuprofen": {
+    "conditionIds": [
+      "migraine",
+      "tension-headache",
+      "tmj-disorder",
+      "dental-caries",
+      "neck-strain",
+      "rib-fracture",
+      "dysmenorrhea",
+      "low-back-strain",
+      "rotator-cuff-tear",
+      "tennis-elbow",
+      "hand-osteoarthritis",
+      "wrist-sprain",
+      "knee-osteoarthritis",
+      "acl-tear",
+      "shin-splints",
+      "ankle-sprain",
+      "plantar-fasciitis",
+      "minor-burn",
+      "subacute-thyroiditis",
+      "costochondritis",
+      "kidney-stones",
+      "lumbar-disc-herniation",
+      "coccydynia",
+      "shoulder-bursitis",
+      "biceps-strain",
+      "olecranon-bursitis",
+      "forearm-muscle-strain",
+      "quadriceps-strain",
+      "achilles-tendinopathy"
+    ],
+    "regionIds": [
+      "brain",
+      "jaw",
+      "mouth-teeth",
+      "cervical-spine",
+      "ribs-sternum",
+      "uterus",
+      "lumbar-spine",
+      "shoulder",
+      "elbow",
+      "fingers-thumb",
+      "wrist",
+      "knee",
+      "shin",
+      "ankle",
+      "heel",
+      "arch",
+      "skin",
+      "thyroid",
+      "kidneys",
+      "sacrum-tailbone",
+      "upper-arm",
+      "forearm",
+      "thigh",
+      "calf"
+    ]
+  },
+  "acetaminophen": {
+    "conditionIds": [
+      "tension-headache",
+      "otitis-media",
+      "dental-caries",
+      "strep-throat",
+      "neck-strain",
+      "rib-fracture",
+      "rotator-cuff-tear",
+      "forearm-fracture",
+      "wrist-sprain",
+      "acl-tear",
+      "hamstring-strain",
+      "ankle-sprain",
+      "minor-burn",
+      "jaw-fracture",
+      "jaw-dislocation",
+      "viral-pharyngitis",
+      "acute-laryngitis",
+      "cervical-spondylosis",
+      "thoracic-vertebral-compression-fracture",
+      "sacral-fracture",
+      "adhesive-capsulitis",
+      "humeral-fracture",
+      "hand-contusion",
+      "hip-osteoarthritis",
+      "hip-fracture",
+      "patellofemoral-pain-syndrome",
+      "tibial-stress-fracture",
+      "calf-strain",
+      "ankle-fracture",
+      "heel-contusion",
+      "metatarsal-stress-fracture"
+    ],
+    "regionIds": [
+      "brain",
+      "ears",
+      "mouth-teeth",
+      "throat",
+      "cervical-spine",
+      "ribs-sternum",
+      "shoulder",
+      "forearm",
+      "wrist",
+      "knee",
+      "thigh",
+      "ankle",
+      "skin",
+      "jaw",
+      "larynx",
+      "thoracic-spine",
+      "sacrum-tailbone",
+      "upper-arm",
+      "palm",
+      "hip",
+      "shin",
+      "calf",
+      "heel",
+      "arch"
+    ]
+  },
+  "naproxen": {
+    "conditionIds": [
+      "dysmenorrhea",
+      "low-back-strain",
+      "hand-osteoarthritis",
+      "knee-osteoarthritis"
+    ],
+    "regionIds": [
+      "uterus",
+      "lumbar-spine",
+      "fingers-thumb",
+      "knee"
+    ]
+  },
+  "sumatriptan": {
+    "conditionIds": [
+      "migraine"
+    ],
+    "regionIds": [
+      "brain"
+    ]
+  },
+  "latanoprost": {
+    "conditionIds": [
+      "glaucoma"
+    ],
+    "regionIds": [
+      "eyes"
+    ]
+  },
+  "cetirizine": {
+    "conditionIds": [
+      "allergic-rhinitis",
+      "urticaria"
+    ],
+    "regionIds": [
+      "nose-sinuses",
+      "skin"
+    ]
+  },
+  "fluticasone-nasal": {
+    "conditionIds": [
+      "allergic-rhinitis"
+    ],
+    "regionIds": [
+      "nose-sinuses"
+    ]
+  },
+  "amoxicillin": {
+    "conditionIds": [
+      "otitis-media",
+      "strep-throat",
+      "community-acquired-pneumonia"
+    ],
+    "regionIds": [
+      "ears",
+      "throat",
+      "lungs"
+    ]
+  },
+  "levothyroxine": {
+    "conditionIds": [
+      "hypothyroidism"
+    ],
+    "regionIds": [
+      "thyroid"
+    ]
+  },
+  "albuterol": {
+    "conditionIds": [
+      "asthma",
+      "copd"
+    ],
+    "regionIds": [
+      "lungs"
+    ]
+  },
+  "budesonide": {
+    "conditionIds": [
+      "asthma"
+    ],
+    "regionIds": [
+      "lungs"
+    ]
+  },
+  "tiotropium": {
+    "conditionIds": [
+      "copd"
+    ],
+    "regionIds": [
+      "lungs"
+    ]
+  },
+  "omeprazole": {
+    "conditionIds": [
+      "gerd",
+      "hiatal-hernia",
+      "peptic-ulcer-disease",
+      "gastritis"
+    ],
+    "regionIds": [
+      "esophagus",
+      "stomach",
+      "diaphragm"
+    ]
+  },
+  "famotidine": {
+    "conditionIds": [
+      "gerd"
+    ],
+    "regionIds": [
+      "esophagus",
+      "stomach"
+    ]
+  },
+  "linaclotide": {
+    "conditionIds": [
+      "ibs-c"
+    ],
+    "regionIds": [
+      "intestines"
+    ]
+  },
+  "polyethylene-glycol": {
+    "conditionIds": [
+      "constipation"
+    ],
+    "regionIds": [
+      "intestines"
+    ]
+  },
+  "mesalamine": {
+    "conditionIds": [
+      "ulcerative-colitis"
+    ],
+    "regionIds": [
+      "intestines",
+      "rectum-anus"
+    ]
+  },
+  "nitrofurantoin": {
+    "conditionIds": [
+      "cystitis"
+    ],
+    "regionIds": [
+      "bladder"
+    ]
+  },
+  "mirabegron": {
+    "conditionIds": [
+      "overactive-bladder"
+    ],
+    "regionIds": [
+      "bladder"
+    ]
+  },
+  "tamsulosin": {
+    "conditionIds": [
+      "bph"
+    ],
+    "regionIds": [
+      "prostate"
+    ]
+  },
+  "clotrimazole": {
+    "conditionIds": [
+      "athletes-foot"
+    ],
+    "regionIds": [
+      "toes",
+      "skin"
+    ]
+  },
+  "hydrocortisone": {
+    "conditionIds": [
+      "atopic-dermatitis",
+      "psoriasis"
+    ],
+    "regionIds": [
+      "skin"
+    ]
+  },
+  "benzoyl-peroxide": {
+    "conditionIds": [
+      "acne"
+    ],
+    "regionIds": [
+      "face",
+      "skin"
+    ]
+  },
+  "adapalene": {
+    "conditionIds": [
+      "acne"
+    ],
+    "regionIds": [
+      "face",
+      "skin"
+    ]
+  },
+  "metformin": {
+    "conditionIds": [
+      "type-2-diabetes"
+    ],
+    "regionIds": [
+      "systemic"
+    ]
+  },
+  "insulin-glargine": {
+    "conditionIds": [
+      "type-1-diabetes"
+    ],
+    "regionIds": [
+      "systemic",
+      "pancreas"
+    ]
+  },
+  "insulin-lispro": {
+    "conditionIds": [
+      "type-1-diabetes"
+    ],
+    "regionIds": [
+      "systemic",
+      "pancreas"
+    ]
+  },
+  "lisinopril": {
+    "conditionIds": [
+      "hypertension",
+      "heart-failure",
+      "chronic-kidney-disease"
+    ],
+    "regionIds": [
+      "systemic",
+      "heart",
+      "kidneys"
+    ]
+  },
+  "amlodipine": {
+    "conditionIds": [
+      "stable-angina",
+      "hypertension"
+    ],
+    "regionIds": [
+      "heart",
+      "systemic"
+    ]
+  },
+  "atorvastatin": {
+    "conditionIds": [
+      "hyperlipidemia"
+    ],
+    "regionIds": [
+      "systemic"
+    ]
+  },
+  "hydroxychloroquine": {
+    "conditionIds": [
+      "lupus",
+      "rheumatoid-arthritis"
+    ],
+    "regionIds": [
+      "systemic"
+    ]
+  },
+  "methotrexate": {
+    "conditionIds": [
+      "rheumatoid-arthritis"
+    ],
+    "regionIds": [
+      "systemic"
+    ]
+  },
+  "nitroglycerin": {
+    "conditionIds": [
+      "stable-angina"
+    ],
+    "regionIds": [
+      "heart"
+    ]
+  },
+  "levetiracetam": {
+    "conditionIds": [
+      "epilepsy"
+    ],
+    "regionIds": [
+      "brain"
+    ]
+  },
+  "ofloxacin-otic": {
+    "conditionIds": [
+      "otitis-externa"
+    ],
+    "regionIds": [
+      "ears"
+    ]
+  },
+  "amoxicillin-clavulanate": {
+    "conditionIds": [
+      "acute-bacterial-sinusitis"
+    ],
+    "regionIds": [
+      "nose-sinuses"
+    ]
+  },
+  "nystatin": {
+    "conditionIds": [
+      "oral-thrush"
+    ],
+    "regionIds": [
+      "mouth-teeth"
+    ]
+  },
+  "metronidazole-topical": {
+    "conditionIds": [
+      "rosacea"
+    ],
+    "regionIds": [
+      "face"
+    ]
+  },
+  "mupirocin": {
+    "conditionIds": [
+      "impetigo"
+    ],
+    "regionIds": [
+      "face",
+      "skin"
+    ]
+  },
+  "methimazole": {
+    "conditionIds": [
+      "hyperthyroidism"
+    ],
+    "regionIds": [
+      "thyroid"
+    ]
+  },
+  "apixaban": {
+    "conditionIds": [
+      "atrial-fibrillation",
+      "deep-vein-thrombosis",
+      "pulmonary-embolism"
+    ],
+    "regionIds": [
+      "heart",
+      "calf",
+      "thigh",
+      "lungs"
+    ]
+  },
+  "dicloxacillin": {
+    "conditionIds": [
+      "lactational-mastitis"
+    ],
+    "regionIds": [
+      "breast"
+    ]
+  },
+  "tamoxifen": {
+    "conditionIds": [
+      "hormone-receptor-positive-breast-cancer"
+    ],
+    "regionIds": [
+      "breast"
+    ]
+  },
+  "tenofovir-disoproxil": {
+    "conditionIds": [
+      "chronic-hepatitis-b"
+    ],
+    "regionIds": [
+      "liver-gallbladder"
+    ]
+  },
+  "sofosbuvir-velpatasvir": {
+    "conditionIds": [
+      "chronic-hepatitis-c"
+    ],
+    "regionIds": [
+      "liver-gallbladder"
+    ]
+  },
+  "pancrelipase": {
+    "conditionIds": [
+      "chronic-pancreatitis"
+    ],
+    "regionIds": [
+      "pancreas"
+    ]
+  },
+  "alendronate": {
+    "conditionIds": [
+      "osteoporosis"
+    ],
+    "regionIds": [
+      "thoracic-spine",
+      "lumbar-spine",
+      "hip"
+    ]
+  },
+  "baclofen": {
+    "conditionIds": [
+      "multiple-sclerosis"
+    ],
+    "regionIds": [
+      "spinal-cord",
+      "brain"
+    ]
+  },
+  "colchicine": {
+    "conditionIds": [
+      "gout"
+    ],
+    "regionIds": [
+      "toes",
+      "knee"
+    ]
+  },
+  "rivaroxaban": {
+    "conditionIds": [
+      "deep-vein-thrombosis",
+      "pulmonary-embolism"
+    ],
+    "regionIds": [
+      "calf",
+      "thigh",
+      "lungs"
+    ]
+  },
+  "warfarin": {
+    "conditionIds": [
+      "deep-vein-thrombosis",
+      "pulmonary-embolism"
+    ],
+    "regionIds": [
+      "calf",
+      "thigh",
+      "lungs"
+    ]
+  },
+  "enoxaparin": {
+    "conditionIds": [
+      "deep-vein-thrombosis",
+      "pulmonary-embolism"
+    ],
+    "regionIds": [
+      "calf",
+      "thigh",
+      "lungs"
+    ]
+  },
+  "heparin": {
+    "conditionIds": [
+      "deep-vein-thrombosis",
+      "pulmonary-embolism"
+    ],
+    "regionIds": [
+      "calf",
+      "thigh",
+      "lungs"
+    ]
+  },
+  "alteplase": {
+    "conditionIds": [
+      "pulmonary-embolism"
+    ],
+    "regionIds": [
+      "lungs"
+    ]
+  },
+  "fluticasone": {
+    "conditionIds": [
+      "asthma"
+    ],
+    "regionIds": [
+      "lungs"
+    ]
+  },
+  "montelukast": {
+    "conditionIds": [
+      "asthma"
+    ],
+    "regionIds": [
+      "lungs"
+    ]
+  }
+}

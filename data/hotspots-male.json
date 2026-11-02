@@ -1,0 +1,231 @@
+{
+  "head": [
+    "mouth-teeth",
+    "eyes",
+    "nose-sinuses",
+    "face",
+    "brain",
+    "ears",
+    "head",
+    "jaw"
+  ],
+  "brain": [
+    "brain"
+  ],
+  "eyes": [
+    "eyes"
+  ],
+  "ears": [
+    "ears"
+  ],
+  "nose-sinuses": [
+    "nose-sinuses"
+  ],
+  "mouth-teeth": [
+    "mouth-teeth"
+  ],
+  "jaw": [
+    "jaw"
+  ],
+  "face": [
+    "face"
+  ],
+  "neck": [
+    "neck",
+    "larynx",
+    "throat",
+    "cervical-spine",
+    "thyroid"
+  ],
+  "throat": [
+    "throat"
+  ],
+  "larynx": [
+    "larynx"
+  ],
+  "thyroid": [
+    "thyroid"
+  ],
+  "cervical-spine": [
+    "cervical-spine"
+  ],
+  "chest": [
+    "pectoral-surface",
+    "chest",
+    "lungs",
+    "heart",
+    "esophagus",
+    "diaphragm",
+    "ribs-sternum"
+  ],
+  "heart": [
+    "heart"
+  ],
+  "lungs": [
+    "lungs"
+  ],
+  "breast": [
+    "pectoral-surface"
+  ],
+  "ribs-sternum": [
+    "ribs-sternum"
+  ],
+  "esophagus": [
+    "esophagus"
+  ],
+  "diaphragm": [
+    "diaphragm"
+  ],
+  "abdomen": [
+    "abdomen",
+    "stomach",
+    "liver-gallbladder",
+    "pancreas",
+    "intestines",
+    "kidneys",
+    "spleen",
+    "appendix"
+  ],
+  "stomach": [
+    "stomach"
+  ],
+  "liver-gallbladder": [
+    "liver-gallbladder"
+  ],
+  "pancreas": [
+    "pancreas"
+  ],
+  "intestines": [
+    "intestines"
+  ],
+  "kidneys": [
+    "kidneys"
+  ],
+  "spleen": [
+    "spleen"
+  ],
+  "appendix": [
+    "appendix"
+  ],
+  "pelvis": [
+    "pelvis",
+    "rectum-anus",
+    "prostate",
+    "bladder",
+    "testes"
+  ],
+  "bladder": [
+    "bladder"
+  ],
+  "reproductive-organs": [
+    "prostate",
+    "testes"
+  ],
+  "rectum-anus": [
+    "rectum-anus"
+  ],
+  "back": [
+    "spinal-cord",
+    "thoracic-spine",
+    "lumbar-spine",
+    "sacrum-tailbone"
+  ],
+  "thoracic-spine": [
+    "thoracic-spine"
+  ],
+  "lumbar-spine": [
+    "lumbar-spine"
+  ],
+  "spinal-cord": [
+    "spinal-cord"
+  ],
+  "sacrum-tailbone": [
+    "sacrum-tailbone"
+  ],
+  "arm": [
+    "shoulder",
+    "forearm",
+    "elbow",
+    "upper-arm"
+  ],
+  "shoulder": [
+    "shoulder"
+  ],
+  "upper-arm": [
+    "upper-arm"
+  ],
+  "elbow": [
+    "elbow"
+  ],
+  "forearm": [
+    "forearm"
+  ],
+  "hand": [
+    "palm",
+    "wrist",
+    "fingers-thumb"
+  ],
+  "wrist": [
+    "wrist"
+  ],
+  "palm": [
+    "palm"
+  ],
+  "fingers-thumb": [
+    "fingers-thumb"
+  ],
+  "leg": [
+    "thigh",
+    "shin",
+    "calf",
+    "hip",
+    "leg",
+    "knee"
+  ],
+  "hip": [
+    "hip"
+  ],
+  "thigh": [
+    "thigh"
+  ],
+  "knee": [
+    "knee"
+  ],
+  "shin": [
+    "shin"
+  ],
+  "calf": [
+    "calf"
+  ],
+  "foot": [
+    "arch",
+    "toes",
+    "heel",
+    "ankle"
+  ],
+  "ankle": [
+    "ankle"
+  ],
+  "heel": [
+    "heel"
+  ],
+  "arch": [
+    "arch"
+  ],
+  "toes": [
+    "toes"
+  ],
+  "skin": [
+    "skin"
+  ],
+  "systemic": [],
+  "uterus": [],
+  "ovaries": [],
+  "fallopian-tubes": [],
+  "prostate": [
+    "prostate"
+  ],
+  "testes": [
+    "testes"
+  ]
+}

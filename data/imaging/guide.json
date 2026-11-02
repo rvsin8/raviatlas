@@ -1,0 +1,11 @@
+{
+  "_review": "pending",
+  "explanationType": "Curated, annotation-grounded education",
+  "steps": [
+    {"id":"locate","name":"Locate","title":"Find the annotated region","text":"The crosshairs mark a voxel inside the selected reference label. The same location appears in all three slices and in the registered 3D view. This is a dataset annotation, not a diagnosis made by RxAtlas.","sources":["https://www.med.upenn.edu/sbia/brats2017/data.html"]},
+    {"id":"compare","name":"Compare","title":"Separate image signal from the label","text":"Each slice shows the original MRI signal on the left and the supplied annotation overlay on the right. Changing display brightness or color does not change the underlying segmentation.","sources":["https://medicaldecathlon.com/","https://www.med.upenn.edu/sbia/brats2017/data.html"]},
+    {"id":"measure","name":"Measure","title":"Inspect the mask and its volume","text":"Only the selected class is shown in 3D. Volume is calculated by counting its native labeled voxels and multiplying by calibrated voxel volume. The surface is a visualization of the mask, not the source of the measurement.","sources":["https://nipy.org/nibabel/coordinate_systems.html","https://medicaldecathlon.com/"]},
+    {"id":"context","name":"Context","title":"Return to the whole case","text":"The surrounding MRI and other supplied labels help place this finding in context. These colors describe annotation classes; they do not establish tumor grade or select a treatment.","sources":["https://www.med.upenn.edu/sbia/brats2017/data.html","https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"]},
+    {"id":"limits","name":"Limits","title":"Know what this case cannot tell us","text":"The overlay is removed so you can inspect the signal alone. No confidence map, lobe localization, clinical history, or AI interpretation is supplied. Reference annotations can have uncertainty; no numerical confidence is invented.","sources":["https://medicaldecathlon.com/","https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq"]}
+  ]
+}

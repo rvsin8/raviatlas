@@ -1,0 +1,1528 @@
+{
+  "_review": "// REVIEW: Educational seed content. Human clinical verification required before public launch. Not exhaustive; no diagnosis or prescribing guidance.",
+  "regions": [
+    {
+      "id": "head",
+      "name": "Head",
+      "parentId": null,
+      "cameraPosition": [
+        0.021220049999999997,
+        1.44360821,
+        0.8140335000000001
+      ],
+      "cameraTarget": [
+        0.021220049999999997,
+        1.41845,
+        0.09522749999999999
+      ],
+      "meshIds": [
+        "mouth-teeth",
+        "eyes",
+        "nose-sinuses",
+        "face",
+        "brain",
+        "ears",
+        "head",
+        "jaw"
+      ],
+      "position": [
+        0.021220049999999997,
+        1.41845,
+        0.09522749999999999
+      ]
+    },
+    {
+      "id": "brain",
+      "name": "Brain",
+      "parentId": "head",
+      "cameraPosition": [
+        -0.0005234999999999962,
+        1.56848,
+        0.6796738499999999
+      ],
+      "cameraTarget": [
+        -0.0005234999999999962,
+        1.5474800000000002,
+        0.07967384999999999
+      ],
+      "meshIds": [
+        "brain"
+      ],
+      "position": [
+        -0.0005234999999999962,
+        1.5474800000000002,
+        0.07967384999999999
+      ]
+    },
+    {
+      "id": "eyes",
+      "name": "Eyes",
+      "parentId": "head",
+      "cameraPosition": [
+        -0.0006535499999999993,
+        1.5537549999999998,
+        0.7285824
+      ],
+      "cameraTarget": [
+        -0.0006535499999999993,
+        1.5327549999999999,
+        0.12858239999999999
+      ],
+      "meshIds": [
+        "eyes"
+      ],
+      "position": [
+        -0.0006535499999999993,
+        1.5327549999999999,
+        0.12858239999999999
+      ]
+    },
+    {
+      "id": "ears",
+      "name": "Ears",
+      "parentId": "head",
+      "cameraPosition": [
+        -0.0006747000000000003,
+        1.52922,
+        0.6851979
+      ],
+      "cameraTarget": [
+        -0.0006747000000000003,
+        1.5082200000000001,
+        0.08519790000000001
+      ],
+      "meshIds": [
+        "ears"
+      ],
+      "position": [
+        -0.0006747000000000003,
+        1.5082200000000001,
+        0.08519790000000001
+      ]
+    },
+    {
+      "id": "nose-sinuses",
+      "name": "Nose & sinuses",
+      "parentId": "head",
+      "cameraPosition": [
+        -0.0006481999999999981,
+        1.5250399999999997,
+        0.7596015
+      ],
+      "cameraTarget": [
+        -0.0006481999999999981,
+        1.5040399999999998,
+        0.1596015
+      ],
+      "meshIds": [
+        "nose-sinuses"
+      ],
+      "position": [
+        -0.0006481999999999981,
+        1.5040399999999998,
+        0.1596015
+      ]
+    },
+    {
+      "id": "mouth-teeth",
+      "name": "Mouth & teeth",
+      "parentId": "head",
+      "cameraPosition": [
+        0.02786905,
+        1.40831379,
+        0.7127416
+      ],
+      "cameraTarget": [
+        0.02786905,
+        1.38681,
+        0.0983476
+      ],
+      "meshIds": [
+        "mouth-teeth"
+      ],
+      "position": [
+        0.02786905,
+        1.38681,
+        0.0983476
+      ]
+    },
+    {
+      "id": "jaw",
+      "name": "Jaw (TMJ)",
+      "parentId": "head",
+      "cameraPosition": [
+        -0.0006459000000000013,
+        1.484865,
+        0.73184285
+      ],
+      "cameraTarget": [
+        -0.0006459000000000013,
+        1.4638650000000002,
+        0.13184285
+      ],
+      "meshIds": [
+        "jaw"
+      ],
+      "position": [
+        -0.0006459000000000013,
+        1.4638650000000002,
+        0.13184285
+      ]
+    },
+    {
+      "id": "face",
+      "name": "Face",
+      "parentId": "head",
+      "cameraPosition": [
+        -0.0007020500000000027,
+        1.50795,
+        0.7095208
+      ],
+      "cameraTarget": [
+        -0.0007020500000000027,
+        1.48695,
+        0.1095208
+      ],
+      "meshIds": [
+        "face"
+      ],
+      "position": [
+        -0.0007020500000000027,
+        1.48695,
+        0.1095208
+      ]
+    },
+    {
+      "id": "neck",
+      "name": "Neck",
+      "parentId": null,
+      "cameraPosition": [
+        0.01013735,
+        1.43991,
+        0.6745217
+      ],
+      "cameraTarget": [
+        0.01013735,
+        1.4189100000000001,
+        0.0745217
+      ],
+      "meshIds": [
+        "neck",
+        "larynx",
+        "throat",
+        "cervical-spine",
+        "thyroid"
+      ],
+      "position": [
+        0.01013735,
+        1.4189100000000001,
+        0.0745217
+      ]
+    },
+    {
+      "id": "throat",
+      "name": "Throat",
+      "parentId": "neck",
+      "cameraPosition": [
+        -0.0006480999999999987,
+        1.4638499999999999,
+        0.70591175
+      ],
+      "cameraTarget": [
+        -0.0006480999999999987,
+        1.44285,
+        0.10591175
+      ],
+      "meshIds": [
+        "throat"
+      ],
+      "position": [
+        -0.0006480999999999987,
+        1.44285,
+        0.10591175
+      ]
+    },
+    {
+      "id": "larynx",
+      "name": "Larynx",
+      "parentId": "neck",
+      "cameraPosition": [
+        -0.0006488999999999991,
+        1.430065,
+        0.70697605
+      ],
+      "cameraTarget": [
+        -0.0006488999999999991,
+        1.409065,
+        0.10697605
+      ],
+      "meshIds": [
+        "larynx"
+      ],
+      "position": [
+        -0.0006488999999999991,
+        1.409065,
+        0.10697605
+      ]
+    },
+    {
+      "id": "thyroid",
+      "name": "Thyroid",
+      "parentId": "neck",
+      "cameraPosition": [
+        -0.0006748500000000011,
+        1.4162499999999998,
+        0.7020115499999999
+      ],
+      "cameraTarget": [
+        -0.0006748500000000011,
+        1.3952499999999999,
+        0.10201155
+      ],
+      "meshIds": [
+        "thyroid"
+      ],
+      "position": [
+        -0.0006748500000000011,
+        1.3952499999999999,
+        0.10201155
+      ]
+    },
+    {
+      "id": "cervical-spine",
+      "name": "Cervical spine",
+      "parentId": "neck",
+      "cameraPosition": [
+        -0.0005669500000000001,
+        1.4417149999999999,
+        -0.5433768999999999
+      ],
+      "cameraTarget": [
+        -0.0005669500000000001,
+        1.420715,
+        0.0566231
+      ],
+      "meshIds": [
+        "cervical-spine"
+      ],
+      "position": [
+        -0.0005669500000000001,
+        1.420715,
+        0.0566231
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "parentId": null,
+      "cameraPosition": [
+        -0.04262549999999997,
+        1.23046058375,
+        1.42777689
+      ],
+      "cameraTarget": [
+        -0.04262549999999997,
+        1.1841575,
+        0.10483164
+      ],
+      "meshIds": [
+        "pectoral-surface",
+        "chest",
+        "lungs",
+        "heart",
+        "esophagus",
+        "diaphragm",
+        "ribs-sternum"
+      ],
+      "position": [
+        -0.04262549999999997,
+        1.1841575,
+        0.10483164
+      ]
+    },
+    {
+      "id": "heart",
+      "name": "Heart",
+      "parentId": "chest",
+      "cameraPosition": [
+        0.0215438,
+        1.2480099999999998,
+        0.7233952
+      ],
+      "cameraTarget": [
+        0.0215438,
+        1.22701,
+        0.12339520000000001
+      ],
+      "meshIds": [
+        "heart"
+      ],
+      "position": [
+        0.0215438,
+        1.22701,
+        0.12339520000000001
+      ]
+    },
+    {
+      "id": "lungs",
+      "name": "Lungs",
+      "parentId": "chest",
+      "cameraPosition": [
+        0.0044460000000000055,
+        1.2270090875,
+        0.7274949499999999
+      ],
+      "cameraTarget": [
+        0.0044460000000000055,
+        1.205015,
+        0.09909245
+      ],
+      "meshIds": [
+        "lungs"
+      ],
+      "position": [
+        0.0044460000000000055,
+        1.205015,
+        0.09909245
+      ]
+    },
+    {
+      "id": "breast",
+      "name": "Breast",
+      "parentId": "chest",
+      "cameraPosition": [
+        0,
+        1.2427772610000003,
+        0.7912411
+      ],
+      "cameraTarget": [
+        0,
+        1.2203400000000002,
+        0.15017650000000002
+      ],
+      "meshIds": [
+        "pectoral-surface"
+      ],
+      "position": [
+        0,
+        1.2203400000000002,
+        0.15017650000000002
+      ]
+    },
+    {
+      "id": "ribs-sternum",
+      "name": "Ribs & sternum",
+      "parentId": "chest",
+      "cameraPosition": [
+        -0.0006535000000000152,
+        1.21027,
+        0.708736705
+      ],
+      "cameraTarget": [
+        -0.0006535000000000152,
+        1.18927,
+        0.108736705
+      ],
+      "meshIds": [
+        "ribs-sternum"
+      ],
+      "position": [
+        -0.0006535000000000152,
+        1.18927,
+        0.108736705
+      ]
+    },
+    {
+      "id": "esophagus",
+      "name": "Esophagus",
+      "parentId": "chest",
+      "cameraPosition": [
+        0.007396285000000001,
+        1.27419,
+        0.69532565
+      ],
+      "cameraTarget": [
+        0.007396285000000001,
+        1.25319,
+        0.09532565
+      ],
+      "meshIds": [
+        "esophagus"
+      ],
+      "position": [
+        0.007396285000000001,
+        1.25319,
+        0.09532565
+      ]
+    },
+    {
+      "id": "diaphragm",
+      "name": "Diaphragm",
+      "parentId": "chest",
+      "cameraPosition": [
+        -0.0007329999999999975,
+        1.1102159999999999,
+        0.7156194
+      ],
+      "cameraTarget": [
+        -0.0007329999999999975,
+        1.089216,
+        0.11561940000000001
+      ],
+      "meshIds": [
+        "diaphragm"
+      ],
+      "position": [
+        -0.0007329999999999975,
+        1.089216,
+        0.11561940000000001
+      ]
+    },
+    {
+      "id": "abdomen",
+      "name": "Abdomen",
+      "parentId": null,
+      "cameraPosition": [
+        0,
+        1.15903528125,
+        1.3692178499999998
+      ],
+      "cameraTarget": [
+        0,
+        1.1151525,
+        0.1154241
+      ],
+      "meshIds": [
+        "abdomen",
+        "stomach",
+        "liver-gallbladder",
+        "pancreas",
+        "intestines",
+        "kidneys",
+        "spleen",
+        "appendix"
+      ],
+      "position": [
+        0,
+        1.1151525,
+        0.1154241
+      ]
+    },
+    {
+      "id": "stomach",
+      "name": "Stomach",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        0.0196727,
+        1.1899688997500002,
+        1.27309705
+      ],
+      "cameraTarget": [
+        0.0196727,
+        1.1501255000000001,
+        0.1347142
+      ],
+      "meshIds": [
+        "stomach"
+      ],
+      "position": [
+        0.0196727,
+        1.1501255000000001,
+        0.1347142
+      ]
+    },
+    {
+      "id": "liver-gallbladder",
+      "name": "Liver & gallbladder",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        -0.0103486,
+        1.12236,
+        0.72287085
+      ],
+      "cameraTarget": [
+        -0.0103486,
+        1.1013600000000001,
+        0.12287085
+      ],
+      "meshIds": [
+        "liver-gallbladder"
+      ],
+      "position": [
+        -0.0103486,
+        1.1013600000000001,
+        0.12287085
+      ]
+    },
+    {
+      "id": "pancreas",
+      "name": "Pancreas",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        0.007983750000000008,
+        1.06223,
+        0.7208954999999999
+      ],
+      "cameraTarget": [
+        0.007983750000000008,
+        1.04123,
+        0.12089549999999999
+      ],
+      "meshIds": [
+        "pancreas"
+      ],
+      "position": [
+        0.007983750000000008,
+        1.04123,
+        0.12089549999999999
+      ]
+    },
+    {
+      "id": "intestines",
+      "name": "Intestines",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        -0.004650500000000002,
+        0.967645,
+        0.7236061
+      ],
+      "cameraTarget": [
+        -0.004650500000000002,
+        0.946645,
+        0.12360610000000001
+      ],
+      "meshIds": [
+        "intestines"
+      ],
+      "position": [
+        -0.004650500000000002,
+        0.946645,
+        0.12360610000000001
+      ]
+    },
+    {
+      "id": "kidneys",
+      "name": "Kidneys",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        -0.0087208,
+        1.058516,
+        0.6913241
+      ],
+      "cameraTarget": [
+        -0.0087208,
+        1.037516,
+        0.09132409999999999
+      ],
+      "meshIds": [
+        "kidneys"
+      ],
+      "position": [
+        -0.0087208,
+        1.037516,
+        0.09132409999999999
+      ]
+    },
+    {
+      "id": "spleen",
+      "name": "Spleen",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        0.08475105,
+        1.1077249999999998,
+        0.69372905
+      ],
+      "cameraTarget": [
+        0.08475105,
+        1.086725,
+        0.09372905000000001
+      ],
+      "meshIds": [
+        "spleen"
+      ],
+      "position": [
+        0.08475105,
+        1.086725,
+        0.09372905000000001
+      ]
+    },
+    {
+      "id": "appendix",
+      "name": "Appendix",
+      "parentId": "abdomen",
+      "cameraPosition": [
+        -0.05364334999999999,
+        0.8956215,
+        0.70128735
+      ],
+      "cameraTarget": [
+        -0.05364334999999999,
+        0.8746214999999999,
+        0.10128735
+      ],
+      "meshIds": [
+        "appendix"
+      ],
+      "position": [
+        -0.05364334999999999,
+        0.8746214999999999,
+        0.10128735
+      ]
+    },
+    {
+      "id": "pelvis",
+      "name": "Pelvis",
+      "parentId": null,
+      "cameraPosition": [
+        0,
+        0.860677,
+        0.68833335
+      ],
+      "cameraTarget": [
+        0,
+        0.839677,
+        0.08833335
+      ],
+      "meshIds": [
+        "pelvis",
+        "rectum-anus",
+        "reproductive-organs",
+        "bladder"
+      ],
+      "position": [
+        0,
+        0.839677,
+        0.08833335
+      ]
+    },
+    {
+      "id": "bladder",
+      "name": "Bladder",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.0007613999999999989,
+        0.8308605000000001,
+        0.69238265
+      ],
+      "cameraTarget": [
+        -0.0007613999999999989,
+        0.8098605000000001,
+        0.09238265000000001
+      ],
+      "meshIds": [
+        "bladder"
+      ],
+      "position": [
+        -0.0007613999999999989,
+        0.8098605000000001,
+        0.09238265000000001
+      ]
+    },
+    {
+      "id": "reproductive-organs",
+      "name": "Reproductive organs",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.0006842000000000011,
+        0.803261,
+        0.68048285
+      ],
+      "cameraTarget": [
+        -0.0006842000000000011,
+        0.782261,
+        0.08048285000000001
+      ],
+      "meshIds": [
+        "reproductive-organs"
+      ],
+      "position": [
+        -0.0006842000000000011,
+        0.782261,
+        0.08048285000000001
+      ]
+    },
+    {
+      "id": "rectum-anus",
+      "name": "Rectum & anus",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        0.004608450000000002,
+        0.8366220000000001,
+        0.6424297999999999
+      ],
+      "cameraTarget": [
+        0.004608450000000002,
+        0.8156220000000001,
+        0.0424298
+      ],
+      "meshIds": [
+        "rectum-anus"
+      ],
+      "position": [
+        0.004608450000000002,
+        0.8156220000000001,
+        0.0424298
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "parentId": null,
+      "cameraPosition": [
+        -0.000694150000000001,
+        1.1795941357500002,
+        -1.1193638250000002
+      ],
+      "cameraTarget": [
+        -0.000694150000000001,
+        1.1385135000000002,
+        0.054368625
+      ],
+      "meshIds": [
+        "spinal-cord",
+        "thoracic-spine",
+        "lumbar-spine",
+        "sacrum-tailbone"
+      ],
+      "position": [
+        -0.000694150000000001,
+        1.1385135000000002,
+        0.054368625
+      ]
+    },
+    {
+      "id": "thoracic-spine",
+      "name": "Thoracic spine",
+      "parentId": "back",
+      "cameraPosition": [
+        -0.0005312000000000025,
+        1.23443,
+        -0.54931677495
+      ],
+      "cameraTarget": [
+        -0.0005312000000000025,
+        1.21343,
+        0.05068322505
+      ],
+      "meshIds": [
+        "thoracic-spine"
+      ],
+      "position": [
+        -0.0005312000000000025,
+        1.21343,
+        0.05068322505
+      ]
+    },
+    {
+      "id": "lumbar-spine",
+      "name": "Lumbar spine",
+      "parentId": "back",
+      "cameraPosition": [
+        -0.0007135500000000003,
+        1.004403,
+        -0.532882
+      ],
+      "cameraTarget": [
+        -0.0007135500000000003,
+        0.983403,
+        0.067118
+      ],
+      "meshIds": [
+        "lumbar-spine"
+      ],
+      "position": [
+        -0.0007135500000000003,
+        0.983403,
+        0.067118
+      ]
+    },
+    {
+      "id": "spinal-cord",
+      "name": "Spinal cord",
+      "parentId": "back",
+      "cameraPosition": [
+        -0.0006531045,
+        1.497395,
+        -0.5415692
+      ],
+      "cameraTarget": [
+        -0.0006531045,
+        1.4763950000000001,
+        0.058430800000000005
+      ],
+      "meshIds": [
+        "spinal-cord"
+      ],
+      "position": [
+        -0.0006531045,
+        1.4763950000000001,
+        0.058430800000000005
+      ]
+    },
+    {
+      "id": "sacrum-tailbone",
+      "name": "Sacrum & tailbone",
+      "parentId": "back",
+      "cameraPosition": [
+        -0.000694150000000001,
+        0.8760185,
+        -0.562928675
+      ],
+      "cameraTarget": [
+        -0.000694150000000001,
+        0.8550185,
+        0.037071325
+      ],
+      "meshIds": [
+        "sacrum-tailbone"
+      ],
+      "position": [
+        -0.000694150000000001,
+        0.8550185,
+        0.037071325
+      ]
+    },
+    {
+      "id": "arm",
+      "name": "Arm",
+      "parentId": null,
+      "cameraPosition": [
+        0,
+        1.1131254439999998,
+        1.4164912949999997
+      ],
+      "cameraTarget": [
+        0,
+        1.0667119999999999,
+        0.090392895
+      ],
+      "meshIds": [
+        "shoulder",
+        "forearm",
+        "elbow",
+        "upper-arm"
+      ],
+      "position": [
+        0,
+        1.0667119999999999,
+        0.090392895
+      ]
+    },
+    {
+      "id": "shoulder",
+      "name": "Shoulder",
+      "parentId": "arm",
+      "cameraPosition": [
+        5.000000000005e-07,
+        1.2959055999999998,
+        0.7276373949999997
+      ],
+      "cameraTarget": [
+        5.000000000005e-07,
+        1.2733599999999998,
+        0.08347739500000001
+      ],
+      "meshIds": [
+        "shoulder"
+      ],
+      "position": [
+        5.000000000005e-07,
+        1.2733599999999998,
+        0.08347739500000001
+      ]
+    },
+    {
+      "id": "upper-arm",
+      "name": "Upper arm",
+      "parentId": "arm",
+      "cameraPosition": [
+        -2.9999999999752447e-06,
+        1.08796233125,
+        1.0201254
+      ],
+      "cameraTarget": [
+        -2.9999999999752447e-06,
+        1.0555025,
+        0.09270165
+      ],
+      "meshIds": [
+        "upper-arm"
+      ],
+      "position": [
+        -2.9999999999752447e-06,
+        1.0555025,
+        0.09270165
+      ]
+    },
+    {
+      "id": "elbow",
+      "name": "Elbow",
+      "parentId": "arm",
+      "cameraPosition": [
+        0,
+        1.036696574,
+        0.81113645
+      ],
+      "cameraTarget": [
+        0,
+        1.0102115,
+        0.054420050000000005
+      ],
+      "meshIds": [
+        "elbow"
+      ],
+      "position": [
+        0,
+        1.0102115,
+        0.054420050000000005
+      ]
+    },
+    {
+      "id": "forearm",
+      "name": "Forearm",
+      "parentId": "arm",
+      "cameraPosition": [
+        0,
+        0.9431252744999999,
+        1.1696658500000001
+      ],
+      "cameraTarget": [
+        0,
+        0.906237,
+        0.11571514999999999
+      ],
+      "meshIds": [
+        "forearm"
+      ],
+      "position": [
+        0,
+        0.906237,
+        0.11571514999999999
+      ]
+    },
+    {
+      "id": "hand",
+      "name": "Hand",
+      "parentId": null,
+      "cameraPosition": [
+        0,
+        0.7784162029999999,
+        1.2235867999999999
+      ],
+      "cameraTarget": [
+        0,
+        0.740945,
+        0.152981
+      ],
+      "meshIds": [
+        "palm",
+        "wrist",
+        "fingers-thumb"
+      ],
+      "position": [
+        0,
+        0.740945,
+        0.152981
+      ]
+    },
+    {
+      "id": "wrist",
+      "name": "Wrist",
+      "parentId": "hand",
+      "cameraPosition": [
+        3.6500000000022625e-05,
+        0.8281776067500001,
+        1.05547305
+      ],
+      "cameraTarget": [
+        3.6500000000022625e-05,
+        0.7956345,
+        0.12567
+      ],
+      "meshIds": [
+        "wrist"
+      ],
+      "position": [
+        3.6500000000022625e-05,
+        0.7956345,
+        0.12567
+      ]
+    },
+    {
+      "id": "palm",
+      "name": "Palm",
+      "parentId": "hand",
+      "cameraPosition": [
+        -5.000000000421334e-07,
+        0.77933755875,
+        1.2237552499999997
+      ],
+      "cameraTarget": [
+        -5.000000000421334e-07,
+        0.741876,
+        0.153425
+      ],
+      "meshIds": [
+        "palm"
+      ],
+      "position": [
+        -5.000000000421334e-07,
+        0.741876,
+        0.153425
+      ]
+    },
+    {
+      "id": "fingers-thumb",
+      "name": "Fingers & thumb",
+      "parentId": "hand",
+      "cameraPosition": [
+        0,
+        0.772496203,
+        1.2299007999999998
+      ],
+      "cameraTarget": [
+        0,
+        0.735025,
+        0.159295
+      ],
+      "meshIds": [
+        "fingers-thumb"
+      ],
+      "position": [
+        0,
+        0.735025,
+        0.159295
+      ]
+    },
+    {
+      "id": "leg",
+      "name": "Leg",
+      "parentId": null,
+      "cameraPosition": [
+        0,
+        0.50254074645,
+        1.80291232
+      ],
+      "cameraTarget": [
+        0,
+        0.4430541,
+        0.10329385
+      ],
+      "meshIds": [
+        "thigh",
+        "shin",
+        "calf",
+        "hip",
+        "leg",
+        "knee"
+      ],
+      "position": [
+        0,
+        0.4430541,
+        0.10329385
+      ]
+    },
+    {
+      "id": "hip",
+      "name": "Hip",
+      "parentId": "leg",
+      "cameraPosition": [
+        -4.999999999866223e-07,
+        0.8339175,
+        0.65961435
+      ],
+      "cameraTarget": [
+        -4.999999999866223e-07,
+        0.8129175,
+        0.059614349999999997
+      ],
+      "meshIds": [
+        "hip"
+      ],
+      "position": [
+        -4.999999999866223e-07,
+        0.8129175,
+        0.059614349999999997
+      ]
+    },
+    {
+      "id": "thigh",
+      "name": "Thigh",
+      "parentId": "leg",
+      "cameraPosition": [
+        5.150000000000987e-05,
+        0.6242350155,
+        1.12534045
+      ],
+      "cameraTarget": [
+        5.150000000000987e-05,
+        0.587991,
+        0.08979715
+      ],
+      "meshIds": [
+        "thigh"
+      ],
+      "position": [
+        5.150000000000987e-05,
+        0.587991,
+        0.08979715
+      ]
+    },
+    {
+      "id": "knee",
+      "name": "Knee",
+      "parentId": "leg",
+      "cameraPosition": [
+        -3.199999999999731e-05,
+        0.41070950000000006,
+        0.6877232
+      ],
+      "cameraTarget": [
+        -3.199999999999731e-05,
+        0.38970950000000004,
+        0.0877232
+      ],
+      "meshIds": [
+        "knee"
+      ],
+      "position": [
+        -3.199999999999731e-05,
+        0.38970950000000004,
+        0.0877232
+      ]
+    },
+    {
+      "id": "shin",
+      "name": "Shin",
+      "parentId": "leg",
+      "cameraPosition": [
+        0,
+        0.43674773215,
+        1.62650419
+      ],
+      "cameraTarget": [
+        0,
+        0.3845827,
+        0.1360747
+      ],
+      "meshIds": [
+        "shin"
+      ],
+      "position": [
+        0,
+        0.3845827,
+        0.1360747
+      ]
+    },
+    {
+      "id": "calf",
+      "name": "Calf",
+      "parentId": "leg",
+      "cameraPosition": [
+        0,
+        0.22244204295,
+        1.00032467
+      ],
+      "cameraTarget": [
+        0,
+        0.1919571,
+        0.1293263
+      ],
+      "meshIds": [
+        "calf"
+      ],
+      "position": [
+        0,
+        0.1919571,
+        0.1293263
+      ]
+    },
+    {
+      "id": "foot",
+      "name": "Foot",
+      "parentId": null,
+      "cameraPosition": [
+        -9.5000000000095e-06,
+        -0.016057735,
+        0.73002455
+      ],
+      "cameraTarget": [
+        -9.5000000000095e-06,
+        -0.037057735,
+        0.13002455
+      ],
+      "meshIds": [
+        "arch",
+        "toes",
+        "heel",
+        "ankle"
+      ],
+      "position": [
+        -9.5000000000095e-06,
+        -0.037057735,
+        0.13002455
+      ]
+    },
+    {
+      "id": "ankle",
+      "name": "Ankle",
+      "parentId": "foot",
+      "cameraPosition": [
+        3.239999999999493e-05,
+        0.006902665000000004,
+        0.6772155
+      ],
+      "cameraTarget": [
+        3.239999999999493e-05,
+        -0.014097334999999997,
+        0.0772155
+      ],
+      "meshIds": [
+        "ankle"
+      ],
+      "position": [
+        3.239999999999493e-05,
+        -0.014097334999999997,
+        0.0772155
+      ]
+    },
+    {
+      "id": "heel",
+      "name": "Heel",
+      "parentId": "foot",
+      "cameraPosition": [
+        -6.500000000006501e-06,
+        -0.022780949999999998,
+        0.6590768
+      ],
+      "cameraTarget": [
+        -6.500000000006501e-06,
+        -0.04378095,
+        0.0590768
+      ],
+      "meshIds": [
+        "heel"
+      ],
+      "position": [
+        -6.500000000006501e-06,
+        -0.04378095,
+        0.0590768
+      ]
+    },
+    {
+      "id": "arch",
+      "name": "Arch",
+      "parentId": "foot",
+      "cameraPosition": [
+        -2.000000000002e-06,
+        -0.0206911,
+        0.74043415
+      ],
+      "cameraTarget": [
+        -2.000000000002e-06,
+        -0.0416911,
+        0.14043414999999998
+      ],
+      "meshIds": [
+        "arch"
+      ],
+      "position": [
+        -2.000000000002e-06,
+        -0.0416911,
+        0.14043414999999998
+      ]
+    },
+    {
+      "id": "toes",
+      "name": "Toes",
+      "parentId": "foot",
+      "cameraPosition": [
+        -9.5000000000095e-06,
+        -0.018241920000000005,
+        0.7466197
+      ],
+      "cameraTarget": [
+        -9.5000000000095e-06,
+        -0.039241920000000007,
+        0.1466197
+      ],
+      "meshIds": [
+        "toes"
+      ],
+      "position": [
+        -9.5000000000095e-06,
+        -0.039241920000000007,
+        0.1466197
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "Skin",
+      "parentId": null,
+      "cameraPosition": [
+        -0.0006470000000000364,
+        0.8809238617999999,
+        2.9378951799999995
+      ],
+      "cameraTarget": [
+        -0.0006470000000000364,
+        0.7816244,
+        0.1007677
+      ],
+      "meshIds": [
+        "skin"
+      ],
+      "position": [
+        -0.0006470000000000364,
+        0.7816244,
+        0.1007677
+      ]
+    },
+    {
+      "id": "systemic",
+      "name": "Whole body / Systemic",
+      "parentId": null,
+      "cameraPosition": [
+        0,
+        0.4,
+        9
+      ],
+      "cameraTarget": [
+        0,
+        0,
+        0
+      ],
+      "meshIds": [],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "uterus",
+      "name": "Uterus",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.01297006756067276,
+        0.7820485830307007,
+        0.4004734791815281
+      ],
+      "cameraTarget": [
+        -0.01297006756067276,
+        0.7820485830307007,
+        0.09362346306443214
+      ],
+      "position": [
+        -0.01297006756067276,
+        0.7820485830307007,
+        0.09362346306443214
+      ],
+      "meshIds": [],
+      "sex": "female",
+      "sources": [
+        "https://apps.humanatlas.io/kg-explorer/ref-organ/united-female/v1.10"
+      ]
+    },
+    {
+      "id": "ovaries",
+      "name": "Ovaries",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.009218137711286545,
+        0.8243571817874908,
+        0.3722197642153605
+      ],
+      "cameraTarget": [
+        -0.009218137711286545,
+        0.8243571817874908,
+        0.10175252757729134
+      ],
+      "position": [
+        -0.009218137711286545,
+        0.8243571817874908,
+        0.10175252757729134
+      ],
+      "meshIds": [],
+      "sex": "female",
+      "sources": [
+        "https://apps.humanatlas.io/kg-explorer/ref-organ/united-female/v1.10"
+      ]
+    },
+    {
+      "id": "fallopian-tubes",
+      "name": "Fallopian tubes",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.006309838965535164,
+        0.8140306770801544,
+        0.3706212043762207
+      ],
+      "cameraTarget": [
+        -0.006309838965535164,
+        0.8140306770801544,
+        0.11097503453493118
+      ],
+      "position": [
+        -0.006309838965535164,
+        0.8140306770801544,
+        0.11097503453493118
+      ],
+      "meshIds": [],
+      "sex": "female",
+      "sources": [
+        "https://apps.humanatlas.io/kg-explorer/ref-organ/united-female/v1.10"
+      ]
+    },
+    {
+      "id": "prostate",
+      "name": "Prostate",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.0006842000000000011,
+        0.782261,
+        0.14905085
+      ],
+      "cameraTarget": [
+        -0.0006842000000000011,
+        0.782261,
+        0.08048285000000001
+      ],
+      "position": [
+        -0.0006842000000000011,
+        0.782261,
+        0.08048285000000001
+      ],
+      "meshIds": [],
+      "sex": "male",
+      "sources": [
+        "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/"
+      ]
+    },
+    {
+      "id": "testes",
+      "name": "Testes",
+      "parentId": "pelvis",
+      "cameraPosition": [
+        -0.0016439500000000017,
+        0.7043705,
+        0.2691602
+      ],
+      "cameraTarget": [
+        -0.0016439500000000017,
+        0.7043705,
+        0.15235200000000002
+      ],
+      "position": [
+        -0.0016439500000000017,
+        0.7043705,
+        0.15235200000000002
+      ],
+      "meshIds": [],
+      "sex": "male",
+      "sources": [
+        "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/"
+      ]
+    }
+  ]
+}

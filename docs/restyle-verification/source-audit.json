@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "theme": "app/theme.css",
+  "auditedSourceDirectories": [
+    "app",
+    "components",
+    "lib",
+    "scripts"
+  ],
+  "hardcodedColorsAndLegacyFonts": 0,
+  "unchangedDataAndInteractionPaths": [
+    "data",
+    "public/models",
+    "public/molecules",
+    "store",
+    "lib/urlState.ts",
+    "lib/model",
+    "components/canvas/CameraRig.tsx",
+    "components/canvas/RegionHitArea.tsx"
+  ],
+  "generatedAndVendorAssetsExcluded": true
+}

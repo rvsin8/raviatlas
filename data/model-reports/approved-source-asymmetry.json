@@ -1,0 +1,324 @@
+{
+  "approval": "User approved documented source asymmetry on 2026-09-28; no geometry changes authorized by this exception.",
+  "sourceBoundsSha256": "8a9da37f49a71e7f86f42387ab599b948de1cf2145b7d7a60f253aa63425d4a4",
+  "maximumIntroducedMirrorDeviationM": 0.001,
+  "pairs": [
+    {
+      "name": "pubococcygeus",
+      "left": [
+        "FJ1457M",
+        "FJ2545"
+      ],
+      "right": [
+        "FJ2550"
+      ],
+      "sourceMirrorBoundsErrorM": 0.03141661
+    },
+    {
+      "name": "portal vein",
+      "left": [
+        "FJ1893",
+        "FJ2404"
+      ],
+      "right": [
+        "FJ1913",
+        "FJ2405"
+      ],
+      "sourceMirrorBoundsErrorM": 0.10857230000000001
+    },
+    {
+      "name": "fibular vein",
+      "left": [
+        "FJ2184",
+        "FJ2187"
+      ],
+      "right": [
+        "FJ2190",
+        "FJ2194",
+        "FJ2200"
+      ],
+      "sourceMirrorBoundsErrorM": 0.4518169999999999
+    },
+    {
+      "name": "hepatic vein",
+      "left": [
+        "FJ2415"
+      ],
+      "right": [
+        "FJ2416"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0563691
+    },
+    {
+      "name": "anterior cusp of pulmonary valve",
+      "left": [
+        "FJ2417"
+      ],
+      "right": [
+        "FJ2434"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0506647
+    },
+    {
+      "name": "posterior cusp of aortic valve",
+      "left": [
+        "FJ2426"
+      ],
+      "right": [
+        "FJ2431"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0398365
+    },
+    {
+      "name": "medial basal segmental bronchial tree",
+      "left": [
+        "FJ2442",
+        "FJ2537"
+      ],
+      "right": [
+        "FJ2456",
+        "FJ2488"
+      ],
+      "sourceMirrorBoundsErrorM": 0.084799
+    },
+    {
+      "name": "posterior segmental bronchial tree",
+      "left": [
+        "FJ2447",
+        "FJ2465",
+        "FJ2466"
+      ],
+      "right": [
+        "FJ2458",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519"
+      ],
+      "sourceMirrorBoundsErrorM": 0.033371
+    },
+    {
+      "name": "anterior basal segmental bronchial tree",
+      "left": [
+        "FJ2535",
+        "FJ2536",
+        "FJ2538"
+      ],
+      "right": [
+        "FJ2452",
+        "FJ2493",
+        "FJ2494"
+      ],
+      "sourceMirrorBoundsErrorM": 0.04682610000000002
+    },
+    {
+      "name": "marginal vein",
+      "left": [
+        "FJ2703",
+        "FJ2704",
+        "FJ2705"
+      ],
+      "right": [
+        "FJ2727",
+        "FJ2728",
+        "FJ2729"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0951168
+    },
+    {
+      "name": "anterior segmental artery",
+      "left": [
+        "FJ2902",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910"
+      ],
+      "right": [
+        "FJ2041",
+        "FJ2044"
+      ],
+      "sourceMirrorBoundsErrorM": 0.24048999999999987
+    },
+    {
+      "name": "pulmonary artery",
+      "left": [
+        "FJ2924"
+      ],
+      "right": [
+        "FJ3019"
+      ],
+      "sourceMirrorBoundsErrorM": 0.051689500000000006
+    },
+    {
+      "name": "superior pulmonary vein",
+      "left": [
+        "FJ2925",
+        "FJ2933"
+      ],
+      "right": [
+        "FJ3020"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0446753
+    },
+    {
+      "name": "inferior pulmonary vein",
+      "left": [
+        "FJ2944",
+        "FJ2950",
+        "FJ2955"
+      ],
+      "right": [
+        "FJ3040"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0391674
+    },
+    {
+      "name": "posterior basal segmental vein",
+      "left": [
+        "FJ2945",
+        "FJ2946",
+        "FJ2948",
+        "FJ2949"
+      ],
+      "right": [
+        "FJ3041",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3057",
+        "FJ3058"
+      ],
+      "sourceMirrorBoundsErrorM": 0.03431620000000002
+    },
+    {
+      "name": "lateral basal segmental vein",
+      "left": [
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954"
+      ],
+      "right": [
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062"
+      ],
+      "sourceMirrorBoundsErrorM": 0.035720000000000196
+    },
+    {
+      "name": "anterior basal segmental vein",
+      "left": [
+        "FJ2956",
+        "FJ2957",
+        "FJ2959",
+        "FJ2960"
+      ],
+      "right": [
+        "FJ3049",
+        "FJ3056"
+      ],
+      "sourceMirrorBoundsErrorM": 0.051582400000000014
+    },
+    {
+      "name": "hepatic duct",
+      "left": [
+        "FJ3096"
+      ],
+      "right": [
+        "FJ3123"
+      ],
+      "sourceMirrorBoundsErrorM": 0.047539200000000004
+    },
+    {
+      "name": "colic vein",
+      "left": [
+        "FJ3400",
+        "FJ3429",
+        "FJ3495"
+      ],
+      "right": [
+        "FJ3591"
+      ],
+      "sourceMirrorBoundsErrorM": 0.04320500000000005
+    },
+    {
+      "name": "superficial dorsal vein of penis",
+      "left": [
+        "FJ3426"
+      ],
+      "right": [
+        "FJ3637"
+      ],
+      "sourceMirrorBoundsErrorM": 0.040073000000000025
+    },
+    {
+      "name": "brachiocephalic vein",
+      "left": [
+        "FJ3482"
+      ],
+      "right": [
+        "FJ3583"
+      ],
+      "sourceMirrorBoundsErrorM": 0.0340857
+    },
+    {
+      "name": "colic artery",
+      "left": [
+        "FJ3494"
+      ],
+      "right": [
+        "FJ3590"
+      ],
+      "sourceMirrorBoundsErrorM": 0.06004900000000002
+    },
+    {
+      "name": "gastric artery",
+      "left": [
+        "FJ3499"
+      ],
+      "right": [
+        "FJ3594"
+      ],
+      "sourceMirrorBoundsErrorM": 0.036699999999999955
+    },
+    {
+      "name": "gastric vein",
+      "left": [
+        "FJ3500"
+      ],
+      "right": [
+        "FJ3595"
+      ],
+      "sourceMirrorBoundsErrorM": 0.037739999999999885
+    },
+    {
+      "name": "gastro-epiploic artery",
+      "left": [
+        "FJ3501"
+      ],
+      "right": [
+        "FJ3596"
+      ],
+      "sourceMirrorBoundsErrorM": 0.1159428
+    },
+    {
+      "name": "gastroepiploic vein",
+      "left": [
+        "FJ3502"
+      ],
+      "right": [
+        "FJ3597"
+      ],
+      "sourceMirrorBoundsErrorM": 0.1207463
+    }
+  ]
+}

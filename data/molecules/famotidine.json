@@ -1,0 +1,681 @@
+{
+  "id": "famotidine",
+  "name": "Famotidine",
+  "kind": "small",
+  "cid": 5702160,
+  "formula": "C8H15N7O2S3",
+  "molecularWeight": "337.5",
+  "iupacName": "3-[[2-(diaminomethylideneamino)-1,3-thiazol-4-yl]methylsulfanyl]-N'-sulfamoylpropanimidamide",
+  "canonicalSmiles": "C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N",
+  "isomericSmiles": "C1=C(N=C(S1)N=C(N)N)CSCC/C(=N/S(=O)(=O)N)/N",
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/5702160",
+  "propertyUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Famotidine/property/MolecularFormula,MolecularWeight,IUPACName,CanonicalSMILES,IsomericSMILES/JSON",
+  "pubchemProperties": {
+    "CID": 5702160,
+    "MolecularFormula": "C8H15N7O2S3",
+    "MolecularWeight": "337.5",
+    "SMILES": "C1=C(N=C(S1)N=C(N)N)CSCC/C(=N/S(=O)(=O)N)/N",
+    "ConnectivitySMILES": "C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N",
+    "IUPACName": "3-[[2-(diaminomethylideneamino)-1,3-thiazol-4-yl]methylsulfanyl]-N'-sulfamoylpropanimidamide"
+  },
+  "note": "",
+  "dimension": 3,
+  "sdfUrl": "/molecules/famotidine.sdf",
+  "atoms": [
+    {
+      "index": 0,
+      "sdfAtomIndex": 0,
+      "z": 16,
+      "position": [
+        0.9743,
+        -2.046,
+        1.1294
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 1,
+      "sdfAtomIndex": 1,
+      "z": 16,
+      "position": [
+        2.495,
+        2.042,
+        -0.1265
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 2,
+      "sdfAtomIndex": 2,
+      "z": 16,
+      "position": [
+        -3.8047,
+        -1.7708,
+        -0.0591
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 3,
+      "sdfAtomIndex": 3,
+      "z": 8,
+      "position": [
+        3.5842,
+        2.6356,
+        -0.885
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 4,
+      "sdfAtomIndex": 4,
+      "z": 8,
+      "position": [
+        2.4554,
+        2.2199,
+        1.3161
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 5,
+      "sdfAtomIndex": 5,
+      "z": 7,
+      "position": [
+        2.4327,
+        0.4437,
+        -0.461
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 6,
+      "sdfAtomIndex": 6,
+      "z": 7,
+      "position": [
+        -1.6063,
+        -0.5556,
+        -0.6697
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 7,
+      "sdfAtomIndex": 7,
+      "z": 7,
+      "position": [
+        4.5649,
+        -0.0455,
+        0.5428
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 8,
+      "sdfAtomIndex": 8,
+      "z": 7,
+      "position": [
+        -3.5831,
+        0.7639,
+        -0.7522
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 9,
+      "sdfAtomIndex": 9,
+      "z": 7,
+      "position": [
+        1.0427,
+        2.7352,
+        -0.7407
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 10,
+      "sdfAtomIndex": 10,
+      "z": 7,
+      "position": [
+        -4.3883,
+        2.7925,
+        0.2889
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 11,
+      "sdfAtomIndex": 11,
+      "z": 7,
+      "position": [
+        -3.2268,
+        1.2488,
+        1.5015
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 12,
+      "sdfAtomIndex": 12,
+      "z": 6,
+      "position": [
+        3.219,
+        -1.823,
+        -0.4981
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 13,
+      "sdfAtomIndex": 13,
+      "z": 6,
+      "position": [
+        2.6166,
+        -2.649,
+        0.6343
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 14,
+      "sdfAtomIndex": 14,
+      "z": 6,
+      "position": [
+        0.1247,
+        -2.2817,
+        -0.448
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 15,
+      "sdfAtomIndex": 15,
+      "z": 6,
+      "position": [
+        3.3984,
+        -0.3562,
+        -0.1167
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 16,
+      "sdfAtomIndex": 16,
+      "z": 6,
+      "position": [
+        -1.3063,
+        -1.8612,
+        -0.3678
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 17,
+      "sdfAtomIndex": 17,
+      "z": 6,
+      "position": [
+        -2.3487,
+        -2.6761,
+        -0.0157
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 18,
+      "sdfAtomIndex": 18,
+      "z": 6,
+      "position": [
+        -2.904,
+        -0.3916,
+        -0.54
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 19,
+      "sdfAtomIndex": 19,
+      "z": 6,
+      "position": [
+        -3.7398,
+        1.575,
+        0.2675
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 20,
+      "sdfAtomIndex": 20,
+      "z": 1,
+      "position": [
+        2.6517,
+        -1.9001,
+        -1.4297
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 21,
+      "sdfAtomIndex": 21,
+      "z": 1,
+      "position": [
+        4.2114,
+        -2.2316,
+        -0.7295
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 22,
+      "sdfAtomIndex": 22,
+      "z": 1,
+      "position": [
+        2.5401,
+        -3.7009,
+        0.3411
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 23,
+      "sdfAtomIndex": 23,
+      "z": 1,
+      "position": [
+        3.2615,
+        -2.6014,
+        1.5181
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 24,
+      "sdfAtomIndex": 24,
+      "z": 1,
+      "position": [
+        0.1888,
+        -3.3353,
+        -0.7415
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 25,
+      "sdfAtomIndex": 25,
+      "z": 1,
+      "position": [
+        0.5931,
+        -1.6841,
+        -1.2338
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 26,
+      "sdfAtomIndex": 26,
+      "z": 1,
+      "position": [
+        -2.3387,
+        -3.7218,
+        0.257
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 27,
+      "sdfAtomIndex": 27,
+      "z": 1,
+      "position": [
+        5.255,
+        -0.7547,
+        0.7671
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 28,
+      "sdfAtomIndex": 28,
+      "z": 1,
+      "position": [
+        4.7748,
+        0.9027,
+        0.8348
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 29,
+      "sdfAtomIndex": 29,
+      "z": 1,
+      "position": [
+        0.1716,
+        2.4619,
+        -0.2678
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 30,
+      "sdfAtomIndex": 30,
+      "z": 1,
+      "position": [
+        0.9432,
+        2.753,
+        -1.7638
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 31,
+      "sdfAtomIndex": 31,
+      "z": 1,
+      "position": [
+        -4.8196,
+        3.17,
+        -0.5478
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 32,
+      "sdfAtomIndex": 32,
+      "z": 1,
+      "position": [
+        -4.4517,
+        3.3444,
+        1.1373
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 33,
+      "sdfAtomIndex": 33,
+      "z": 1,
+      "position": [
+        -3.3465,
+        1.8754,
+        2.2905
+      ],
+      "implicitH": 0,
+      "charge": 0
+    },
+    {
+      "index": 34,
+      "sdfAtomIndex": 34,
+      "z": 1,
+      "position": [
+        -2.7157,
+        0.3935,
+        1.6873
+      ],
+      "implicitH": 0,
+      "charge": 0
+    }
+  ],
+  "bonds": [
+    {
+      "a": 0,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 0,
+      "b": 14,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 1,
+      "b": 9,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 2,
+      "b": 17,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 2,
+      "b": 18,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 5,
+      "b": 15,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 6,
+      "b": 16,
+      "order": 1,
+      "aromatic": true
+    },
+    {
+      "a": 6,
+      "b": 18,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 7,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 27,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 7,
+      "b": 28,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 18,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 8,
+      "b": 19,
+      "order": 2,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 29,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 9,
+      "b": 30,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 31,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 10,
+      "b": 32,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 19,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 33,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 11,
+      "b": 34,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 15,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 20,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 12,
+      "b": 21,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 22,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 13,
+      "b": 23,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 24,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 14,
+      "b": 25,
+      "order": 1,
+      "aromatic": false
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "order": 2,
+      "aromatic": true
+    },
+    {
+      "a": 17,
+      "b": 26,
+      "order": 1,
+      "aromatic": false
+    }
+  ],
+  "smilesToSdfAtomIndices": [
+    17,
+    16,
+    6,
+    18,
+    2,
+    8,
+    19,
+    10,
+    11,
+    14,
+    0,
+    13,
+    12,
+    15,
+    5,
+    1,
+    3,
+    4,
+    9,
+    7
+  ],
+  "depictionMolblock": "5702160\n     RDKit          2D\n\n 35 35  0  0  0  0  0  0  0  0999 V2000\n   -3.4593    2.5134    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.1541    0.9546    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2760    0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.5440   -0.4157    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  -10.7642    2.3249    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -8.7838    1.5647    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323   -0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.7271   -0.8087    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578   -2.6401    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.5245    0.3445    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3177   -5.1814    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6131   -3.4430    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.2000    1.2931    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.8297    1.9033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2458    1.6317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -7.5703    0.6830    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1459   -3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.5899   -0.0772    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.8101    2.6635    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.4398    3.2736    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.2196    0.5329    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1275    0.4182    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3641    2.8452    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8578    2.6401    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -9.0974   -1.4188    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.5136   -1.6904    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -12.7380    1.2262    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  -11.6812   -1.1473    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6860   -6.2961    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7849   -5.4933    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6168   -4.5577    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.0766   -2.0164    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1 14  1  0\n  1 15  1  0\n  2  4  2  0\n  2  5  2  0\n  2  6  1  0\n  2 10  1  0\n  3 18  1  0\n  3 19  1  0\n  6 16  2  0\n  7 17  1  0\n  7 19  2  0\n  8 16  1  0\n  8 28  1  0\n  8 29  1  0\n  9 19  1  0\n  9 20  2  0\n 10 30  1  0\n 10 31  1  0\n 11 20  1  0\n 11 32  1  0\n 11 33  1  0\n 12 20  1  0\n 12 34  1  0\n 12 35  1  0\n 13 14  1  0\n 13 16  1  0\n 13 21  1  0\n 13 22  1  0\n 14 23  1  0\n 14 24  1  0\n 15 17  1  0\n 15 25  1  0\n 15 26  1  0\n 17 18  2  0\n 18 27  1  0\nM  END\n"
+}

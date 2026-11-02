@@ -1,0 +1,12 @@
+export type ImagingState={imageVoxel:[number,number,number]|null;imageSequence:number;imageFinding:number;imageClasses:number[];imageOpacity:number;imageCompare:boolean;imagePlanes:boolean;imageContext:boolean;image2DOnly:boolean;imageCamera:'context'|'finding'|'cursor';imageGuideStep:number};
+export const imagingDefaults:ImagingState={imageVoxel:null,imageSequence:0,imageFinding:3,imageClasses:[1,2,3],imageOpacity:.55,imageCompare:false,imagePlanes:true,imageContext:true,image2DOnly:false,imageCamera:'context',imageGuideStep:-1};
+export function parseImaging(p:URLSearchParams):ImagingState{
+ const v={...imagingDefaults,imageClasses:[...imagingDefaults.imageClasses]};
+ const coordinateParts=p.get('voxel')?.split(',');const xyz=coordinateParts?.map(Number);if(coordinateParts?.length===3&&coordinateParts.every(part=>part.trim()!=='')&&xyz?.every(n=>Number.isInteger(n)&&n>=0&&n<2048))v.imageVoxel=xyz as [number,number,number];
+ v.imageSequence=p.get('sequence')==='flair'?1:0;
+ const f=Number(p.get('finding'));if([1,2,3].includes(f))v.imageFinding=f;
+ if(p.has('classes'))v.imageClasses=(p.get('classes')||'').split(',').map(Number).filter((n,i,a)=>[1,2,3].includes(n)&&a.indexOf(n)===i);
+ const a=Number(p.get('overlay'));if(p.has('overlay')&&Number.isFinite(a))v.imageOpacity=Math.max(0,Math.min(1,a));
+ v.image2DOnly=p.get('image2d')==='1';v.imageCompare=p.get('compare')==='1';v.imagePlanes=p.get('planes')!=='0';v.imageContext=p.get('context')!=='0';const frame=p.get('frame');if(frame==='finding'||frame==='cursor')v.imageCamera=frame;const step=Number(p.get('guide'));if(p.has('guide')&&Number.isInteger(step)&&step>=0&&step<5)v.imageGuideStep=step;return v;
+}
+export function writeImaging(p:URLSearchParams,v:ImagingState){if(v.imageVoxel)p.set('voxel',v.imageVoxel.join(','));if(v.imageSequence===1)p.set('sequence','flair');p.set('finding',String(v.imageFinding));if(v.imageClasses.join(',')!=='1,2,3')p.set('classes',v.imageClasses.join(','));if(v.imageOpacity!==.55)p.set('overlay',String(v.imageOpacity));if(v.image2DOnly)p.set('image2d','1');if(v.imageCompare)p.set('compare','1');if(!v.imagePlanes)p.set('planes','0');if(!v.imageContext)p.set('context','0');if(v.imageCamera!=='context')p.set('frame',v.imageCamera);if(v.imageGuideStep>=0)p.set('guide',String(v.imageGuideStep));}

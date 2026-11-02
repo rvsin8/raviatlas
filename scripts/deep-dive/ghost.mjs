@@ -1,0 +1,14 @@
+import {NodeIO} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {dedup,weld,simplify,meshopt} from '@gltf-transform/functions';
+import {MeshoptDecoder,MeshoptEncoder,MeshoptSimplifier} from 'meshoptimizer';
+import fs from 'node:fs';
+await Promise.all([MeshoptDecoder.ready,MeshoptEncoder.ready,MeshoptSimplifier.ready]);
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.encoder':MeshoptEncoder,'meshopt.decoder':MeshoptDecoder});
+const doc=await io.read('public/models/rxatlas-anatomy.glb');
+for(const mesh of doc.getRoot().listMeshes())for(const p of mesh.listPrimitives())p.setAttribute('_SOURCE_PART',null);
+for(const mesh of doc.getRoot().listMeshes())for(const p of mesh.listPrimitives())p.setAttribute('_source_part',null);
+await doc.transform(dedup(),weld(),simplify({simplifier:MeshoptSimplifier,ratio:.08,error:.002}),meshopt({encoder:MeshoptEncoder}));
+await io.write('public/models/deep-dive/context.glb',doc);
+const triangles=doc.getRoot().listMeshes().reduce((n,m)=>n+m.listPrimitives().reduce((n,p)=>n+(p.getIndices()?.getCount()||p.getAttribute('POSITION').getCount())/3,0),0);
+const report={source:'public/models/rxatlas-anatomy.glb',purpose:'Ghost context only; the original body viewer is unchanged',transform:'Original registered node transforms preserved; no centering or rescaling',triangles,bytes:fs.statSync('public/models/deep-dive/context.glb').size};fs.writeFileSync('docs/deep-dive-verification/context-build.json',JSON.stringify(report,null,2));console.log(report);

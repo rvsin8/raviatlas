@@ -1,0 +1,66 @@
+{
+  "pass": true,
+  "errors": [],
+  "checks": [
+    {
+      "theme": "light",
+      "mode": "disorder",
+      "pixelFraction": 0.02880701161358862,
+      "regions": 58,
+      "cameraHeld": true
+    },
+    {
+      "theme": "light",
+      "mode": "injury",
+      "pixelFraction": 0.02359900523939445,
+      "regions": 58,
+      "cameraHeld": true
+    },
+    {
+      "theme": "light",
+      "mode": "disease",
+      "pixelFraction": 0.03283675785305551,
+      "regions": 58,
+      "cameraHeld": true
+    },
+    {
+      "theme": "dark",
+      "mode": "disorder",
+      "pixelFraction": 0.02880701161358862,
+      "regions": 58,
+      "cameraHeld": true
+    },
+    {
+      "theme": "dark",
+      "mode": "injury",
+      "pixelFraction": 0.02359900523939445,
+      "regions": 58,
+      "cameraHeld": true
+    },
+    {
+      "theme": "dark",
+      "mode": "disease",
+      "pixelFraction": 0.03283675785305551,
+      "regions": 58,
+      "cameraHeld": true
+    },
+    {
+      "region": "leg",
+      "subregions": true
+    },
+    {
+      "deepLink": "head/disorder",
+      "cameraMoved": true
+    }
+  ],
+  "screenshots": [
+    "full-body-light-disorder.png",
+    "full-body-light-injury.png",
+    "full-body-light-disease.png",
+    "full-body-dark-disorder.png",
+    "full-body-dark-injury.png",
+    "full-body-dark-disease.png"
+  ],
+  "webgl2": true,
+  "idleFrames": 1
+}

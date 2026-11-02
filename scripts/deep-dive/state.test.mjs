@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import ts from 'typescript';
+const src=fs.readFileSync('lib/deep-dive/state.ts','utf8');const js=ts.transpileModule(src,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;const {parseDive,diveURL,initialDive}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+test('all visible controls survive a URL round trip',()=>{const s={...initialDive,segment:'arch',entry:.16,extent:.8,slice:.3,cross:true,playing:false,dissection:true,depth:'clinical',theme:'dark',rate:2,pressure:0,speed:.5,step:3,sheet:true,tamponade:true,regurgitation:true,coronary:true,tool:'tear',journey:true};assert.deepEqual(parseDive(diveURL(s).split('?')[1]),s)});
+test('untrusted URL values are bounded',()=>{const s=parseDive('?tear=.8&extent=.2&slice=99&rate=99&pressure=-5&speed=Infinity&segment=bogus&step=99');assert.equal(s.extent,.8);assert.equal(s.slice,1);assert.equal(s.rate,2);assert.equal(s.pressure,0);assert.equal(s.speed,1);assert.equal(s.segment,null);assert.equal(s.step,4)});
+test('no tear means no active dissection',()=>assert.equal(parseDive('?dissection=1').dissection,false));
+test('normal defaults are reproducible',()=>assert.deepEqual(parseDive(''),initialDive));

@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {MeshoptDecoder,MeshoptEncoder} from 'meshoptimizer';
+import {Document,NodeIO} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {meshopt} from '@gltf-transform/functions';
+import {worldGeometry} from '../../lib/model/worldGeometry.mjs';
+await Promise.all([MeshoptDecoder.ready,MeshoptEncoder.ready]);
+const sources=JSON.parse(fs.readFileSync('data/model-reports/source-part-bounds.json'));
+const patterns={calfVein:/^Left posterior tibial vein$/,popliteal:/^Left popliteal vein$/,femoral:/^Left femoral vein$/,iliac:/^Left (external|common) iliac vein$/,ivc:/^Inferior vena cava$/,rightAtrium:/^Wall of right atrium$/,rightVentricle:/^Cavity of right ventricle$/,pulmonaryTrunk:/^Pulmonary trunk$/,leftPulmonary:/^Left pulmonary artery$/,rightPulmonary:/^Right pulmonary artery$/,trachea:/^Trachea$/,leftBronchus:/^Left main bronchus$/,rightBronchus:/^Right main bronchus proper$/};
+const ids=Object.fromEntries(Object.entries(patterns).map(([k,pattern])=>[k,sources.filter(s=>pattern.test(s.sourceName||'')).map(s=>s.fileId)]));
+for(const part of sources)if(/bronchial tree$/.test(part.sourceName||''))ids['airway_'+part.fileId]=[part.fileId];
+const reverse=Object.fromEntries(Object.entries(ids).flatMap(([k,v])=>v.map(id=>[id,k]))),parts={};
+const bytes=fs.readFileSync('public/models/rxatlas-anatomy.glb');const gltf=await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),'');gltf.scene.updateMatrixWorld(true);
+gltf.scene.traverse(o=>{if(!o.isMesh)return;const g=worldGeometry(o),pos=g.getAttribute('position'),norm=g.getAttribute('normal'),source=o.geometry.getAttribute('_source_part'),ix=g.index;for(let i=0;i<ix.count;i+=3){const indices=[ix.getX(i),ix.getX(i+1),ix.getX(i+2)],sid=Math.round(source.getX(indices[0])),meta=sources[sid],key=reverse[meta.fileId];if(!key||indices.some(j=>Math.round(source.getX(j))!==sid))continue;const p=parts[key]??={positions:[],normals:[],sourceIds:ids[key],sourceNames:ids[key].map(id=>sources.find(s=>s.fileId===id)?.sourceName)};for(const j of indices){p.positions.push(pos.getX(j),pos.getY(j),pos.getZ(j));p.normals.push(norm.getX(j),norm.getY(j),norm.getZ(j))}}g.dispose()});
+for(const k of Object.keys(ids))if(ids[k].length&&!parts[k])throw Error('Missing real anatomy: '+k);
+fs.writeFileSync('scripts/clinical-deep-dives/extracted-parts.json',JSON.stringify(parts));
+const doc=new Document(),buf=doc.createBuffer(),scene=doc.createScene('BodyParts3D registered veins, right heart, pulmonary vessels and airways');const material=doc.createMaterial('artery').setBaseColorFactor([.46,.059,.051,1]).setRoughnessFactor(.7);
+for(const [k,p] of Object.entries(parts)){const attr=(a)=>doc.createAccessor().setType('VEC3').setArray(new Float32Array(a)).setBuffer(buf);const primitive=doc.createPrimitive().setAttribute('POSITION',attr(p.positions)).setAttribute('NORMAL',attr(p.normals)).setMaterial(material);scene.addChild(doc.createNode(k).setMesh(doc.createMesh(k).addPrimitive(primitive)).setExtras({sourceIds:p.sourceIds}));}
+await doc.transform(meshopt({encoder:MeshoptEncoder}));const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.encoder':MeshoptEncoder,'meshopt.decoder':MeshoptDecoder});await io.write('public/models/deep-dive/clinical-anatomy.glb',doc);
+console.log(Object.fromEntries(Object.entries(parts).map(([k,p])=>[k,{triangles:p.positions.length/9,sourceIds:p.sourceIds}])));

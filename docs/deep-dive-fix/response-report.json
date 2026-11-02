@@ -1,0 +1,432 @@
+{
+  "pass": true,
+  "threshold": 0.001,
+  "deadlineMs": 300,
+  "checks": [
+    {
+      "id": "preset-a",
+      "ms": 247.40000000596046,
+      "pixelFraction": 0.058990478515625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "preset-a",
+      "ms": 51,
+      "pixelFraction": 0.0280914306640625,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "preset-b",
+      "ms": 29.599999994039536,
+      "pixelFraction": 0.058349609375,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "preset-b",
+      "ms": 39.399999998509884,
+      "pixelFraction": 0.0122222900390625,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "compare",
+      "ms": 131.09999999403954,
+      "pixelFraction": 0.090240478515625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "compare",
+      "ms": 192.70000000298023,
+      "pixelFraction": 0.0903778076171875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "mode",
+      "ms": 28.5,
+      "pixelFraction": 0.00238037109375,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "segment-root",
+      "ms": 30,
+      "pixelFraction": 0.0698394775390625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "segment-ascending",
+      "ms": 30.600000001490116,
+      "pixelFraction": 0.0699615478515625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "segment-arch",
+      "ms": 30.200000002980232,
+      "pixelFraction": 0.069854736328125,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "segment-descending",
+      "ms": 29.600000001490116,
+      "pixelFraction": 0.0703582763671875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "segment-abdominal",
+      "ms": 28.899999998509884,
+      "pixelFraction": 0.0702056884765625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "place-tear",
+      "ms": 30,
+      "pixelFraction": 0.0040130615234375,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "cross",
+      "ms": 29.799999997019768,
+      "pixelFraction": 0.0542144775390625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "journey",
+      "ms": 30.600000001490116,
+      "pixelFraction": 0.0917205810546875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "reset",
+      "ms": 30.5,
+      "pixelFraction": 0.3995208740234375,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "depth-detailed",
+      "ms": 29.700000002980232,
+      "pixelFraction": 0.0542144775390625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "depth-clinical",
+      "ms": 30.600000001490116,
+      "pixelFraction": 0.0917205810546875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "theme",
+      "ms": 29.799999997019768,
+      "pixelFraction": 0.9907379150390625,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "mode",
+      "ms": 29.19999999552965,
+      "pixelFraction": 0.0586395263671875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "place-rupture",
+      "ms": 30.200000002980232,
+      "pixelFraction": 0.003997802734375,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "segment-tear",
+      "ms": 29.700000002980232,
+      "pixelFraction": 0.1439971923828125,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "reset-icon",
+      "ms": 30.100000001490116,
+      "pixelFraction": 0.5561981201171875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "branches",
+      "ms": 43.400000005960464,
+      "pixelFraction": 0.0047760009765625,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "sources",
+      "ms": 31.600000001490116,
+      "pixelFraction": 0.152679443359375,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "return-basics",
+      "ms": 30.600000001490116,
+      "pixelFraction": 0.39166259765625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "depth-basics",
+      "ms": 29.700000002980232,
+      "pixelFraction": 0.00909423828125,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "clinical-link",
+      "ms": 29.899999998509884,
+      "pixelFraction": 0.0917205810546875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "next",
+      "ms": 32.5,
+      "pixelFraction": 0.0586395263671875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "previous",
+      "ms": 29.69999999552965,
+      "pixelFraction": 0.0565338134765625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": false,
+      "pass": true
+    },
+    {
+      "id": "play",
+      "ms": 12.299999997019768,
+      "pixelFraction": 0.15948486328125,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "play",
+      "ms": 30,
+      "pixelFraction": 0.00103759765625,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "tamponade",
+      "ms": 11.299999997019768,
+      "pixelFraction": 0.0536346435546875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "regurgitation",
+      "ms": 9.5,
+      "pixelFraction": 0.053680419921875,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "coronary",
+      "ms": 8.800000004470348,
+      "pixelFraction": 0.053802490234375,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "timeline-play",
+      "ms": 29.5,
+      "pixelFraction": 0.004241943359375,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "slow-motion",
+      "ms": 13.899999998509884,
+      "pixelFraction": 0.08148193359375,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "beat-0",
+      "ms": 29,
+      "pixelFraction": 0.0050201416015625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "beat-1",
+      "ms": 29.399999998509884,
+      "pixelFraction": 0.007080078125,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "beat-2",
+      "ms": 29.200000002980232,
+      "pixelFraction": 0.0338897705078125,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "beat-3",
+      "ms": 29.599999994039536,
+      "pixelFraction": 0.426025390625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "extent",
+      "ms": 21,
+      "pixelFraction": 0.0039825439453125,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "slice",
+      "ms": 26.100000001490116,
+      "pixelFraction": 0.02301025390625,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "pulse-load",
+      "ms": 7,
+      "pixelFraction": 0.05694580078125,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "pulse-load",
+      "ms": 12.100000001490116,
+      "pixelFraction": 0.003753662109375,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "rupture-scrub",
+      "ms": 26.599999994039536,
+      "pixelFraction": 0.0338897705078125,
+      "stateChanged": true,
+      "cameraChanged": true,
+      "geometryChanged": true,
+      "pass": true
+    },
+    {
+      "id": "speed",
+      "ms": 14,
+      "pixelFraction": 0.03955078125,
+      "stateChanged": true,
+      "cameraChanged": false,
+      "geometryChanged": true,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "webgl2": true
+}
